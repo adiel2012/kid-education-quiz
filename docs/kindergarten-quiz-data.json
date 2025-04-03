@@ -7170,6 +7170,1794 @@
             "options": ["Hearing", "Sight", "Smell", "Taste"],
             "correct": 3,
             "explanation": "You use your sense of taste to taste food."
+          },
+          {
+            "question": "Which word rhymes with 'blue'?",
+            "options": ["blow", "black", "shoe", "bring"],
+            "correct": 2,
+            "explanation": "Shoe rhymes with blue because they both end with the 'oo' sound."
+          },
+          {
+            "question": "What is the last sound in the word 'cup'?",
+            "options": ["/c/", "/u/", "/p/", "/k/"],
+            "correct": 2,
+            "explanation": "The last sound in 'cup' is /p/."
+          },
+          {
+            "question": "Which word begins with the same sound as 'jam'?",
+            "options": ["gem", "ham", "gum", "kit"],
+            "correct": 0,
+            "explanation": "Gem begins with the /j/ sound, just like jam."
+          },
+          {
+            "question": "What happens when you add 's' to the beginning of 'top'?",
+            "options": ["stop", "spot", "step", "snap"],
+            "correct": 0,
+            "explanation": "When you add 's' to the beginning of 'top', you get the word 'stop'."
+          },
+          {
+            "question": "How many syllables are in the word 'watermelon'?",
+            "options": ["2", "3", "4", "5"],
+            "correct": 2,
+            "explanation": "The word 'watermelon' has 4 syllables: wa-ter-mel-on."
+          },
+          {
+            "question": "Which word has the short 'a' sound?",
+            "options": ["ape", "ace", "cat", "cake"],
+            "correct": 2,
+            "explanation": "The word 'cat' has the short 'a' sound, like in 'bat'."
+          },
+          {
+            "question": "What is the first sound in the word 'dog'?",
+            "options": ["/o/", "/g/", "/d/", "/p/"],
+            "correct": 2,
+            "explanation": "The first sound in 'dog' is /d/."
+          },
+          {
+            "question": "Which word ends with a blend?",
+            "options": ["cat", "fox", "milk", "sun"],
+            "correct": 2,
+            "explanation": "Milk ends with the consonant blend 'lk'."
+          },
+          {
+            "question": "What word do you get when you change the 'p' in 'pin' to 'w'?",
+            "options": ["win", "tin", "fin", "bin"],
+            "correct": 0,
+            "explanation": "When you change the 'p' in 'pin' to 'w', you get the word 'win'."
+          },
+          {
+            "question": "Which word has the same beginning sound as 'think'?",
+            "options": ["take", "them", "ship", "tap"],
+            "correct": 1,
+            "explanation": "Them begins with the /th/ sound, just like think."
+          },
+          {
+            "question": "What is an author?",
+            "options": ["The person who writes a book", "The person who reads a book", "The person who buys a book", "The person who draws the pictures in a book"],
+            "correct": 0,
+            "explanation": "An author is the person who writes a book or story."
+          },
+          {
+            "question": "What is a title?",
+            "options": ["The first page of a book", "The name of a book or story", "The pictures in a book", "The last page of a book"],
+            "correct": 1,
+            "explanation": "The title is the name of a book or story."
+          },
+          {
+            "question": "What is the purpose of reading?",
+            "options": ["To look at pictures", "To count pages", "To get information and enjoy stories", "To make the teacher happy"],
+            "correct": 2,
+            "explanation": "The purpose of reading is to get information and enjoy stories."
+          },
+          {
+            "question": "What is a detail in a story?",
+            "options": ["The title", "The author", "A small piece of information", "The cover"],
+            "correct": 2,
+            "explanation": "A detail is a small piece of information that helps describe something in a story."
+          },
+          {
+            "question": "What is a character?",
+            "options": ["The title of a book", "A person or animal in a story", "The pages of a book", "The words in a book"],
+            "correct": 1,
+            "explanation": "A character is a person or animal in a story."
+          },
+          {
+            "question": "What is a nonfiction book?",
+            "options": ["A book that is not real", "A book without pictures", "A book about real things", "A book without words"],
+            "correct": 2,
+            "explanation": "A nonfiction book is about real things, people, places, or events."
+          },
+          {
+            "question": "What is 3 + 3?",
+            "options": ["3", "5", "6", "9"],
+            "correct": 2,
+            "explanation": "3 + 3 = 6. When you add 3 and 3 together, you get 6."
+          },
+          {
+            "question": "What is 9 - 3?",
+            "options": ["3", "6", "9", "12"],
+            "correct": 1,
+            "explanation": "9 - 3 = 6. When you take 3 away from 9, you have 6 left."
+          },
+          {
+            "question": "Which number comes after 14?",
+            "options": ["13", "14", "15", "16"],
+            "correct": 2,
+            "explanation": "15 comes after 14 in the number sequence."
+          },
+          {
+            "question": "If you have 2 apples and find 3 more, how many apples do you have all together?",
+            "options": ["2", "3", "5", "8"],
+            "correct": 2,
+            "explanation": "2 + 3 = 5. If you have 2 apples and find 3 more, you have 5 apples all together."
+          },
+          {
+            "question": "What shape is like a playing card?",
+            "options": ["Circle", "Triangle", "Rectangle", "Oval"],
+            "correct": 2,
+            "explanation": "A playing card is shaped like a rectangle."
+          },
+          {
+            "question": "How many corners does a triangle have?",
+            "options": ["1", "2", "3", "4"],
+            "correct": 2,
+            "explanation": "A triangle has 3 corners (vertices)."
+          },
+          {
+            "question": "What day comes after Sunday?",
+            "options": ["Saturday", "Monday", "Tuesday", "Friday"],
+            "correct": 1,
+            "explanation": "Monday comes after Sunday in the days of the week."
+          },
+          {
+            "question": "What season comes after spring?",
+            "options": ["Winter", "Fall", "Summer", "Another spring"],
+            "correct": 2,
+            "explanation": "Summer comes after spring in the seasons of the year."
+          },
+          {
+            "question": "If you have 7 crayons and lose 3, how many crayons do you have left?",
+            "options": ["3", "4", "7", "10"],
+            "correct": 1,
+            "explanation": "7 - 3 = 4. If you have 7 crayons and lose 3, you have 4 crayons left."
+          },
+          {
+            "question": "Which tool would you use to measure how tall you are?",
+            "options": ["Scale", "Clock", "Ruler", "Thermometer"],
+            "correct": 2,
+            "explanation": "You would use a ruler or measuring tape to measure how tall you are."
+          },
+          {
+            "question": "What is the weather like when you see lightning and hear thunder?",
+            "options": ["Sunny", "Cloudy", "Stormy", "Windy"],
+            "correct": 2,
+            "explanation": "When you see lightning and hear thunder, the weather is stormy."
+          },
+          {
+            "question": "How should you behave in a library?",
+            "options": ["Run around", "Speak loudly", "Be quiet", "Play ball"],
+            "correct": 2,
+            "explanation": "In a library, you should be quiet so that others can read and concentrate."
+          },
+          {
+            "question": "What should you do when you want a toy that someone else is playing with?",
+            "options": ["Take it", "Cry", "Wait and ask for a turn", "Tell the teacher"],
+            "correct": 2,
+            "explanation": "When you want a toy that someone else is playing with, you should wait and politely ask for a turn."
+          },
+          {
+            "question": "What is the right way to ask for something?",
+            "options": ["Say 'Give me that!'", "Grab it", "Say 'May I have that, please?'", "Cry until you get it"],
+            "correct": 2,
+            "explanation": "The right way to ask for something is to say 'May I have that, please?' politely."
+          },
+          {
+            "question": "What should you do if you spill something?",
+            "options": ["Run away", "Blame someone else", "Hide it", "Clean it up"],
+            "correct": 3,
+            "explanation": "If you spill something, you should clean it up."
+          },
+          {
+            "question": "What does it mean to be kind?",
+            "options": ["To be mean", "To be nice and helpful", "To be loud", "To be first"],
+            "correct": 1,
+            "explanation": "Being kind means being nice and helpful to others."
+          },
+          {
+            "question": "Which word describes a temperature?",
+            "options": ["Hot", "Small", "Purple", "Slow"],
+            "correct": 0,
+            "explanation": "'Hot' describes a temperature."
+          },
+          {
+            "question": "Which word tells about time?",
+            "options": ["Red", "Big", "Yesterday", "Loud"],
+            "correct": 2,
+            "explanation": "'Yesterday' tells about time - it refers to the day before today."
+          },
+          {
+            "question": "Which word means the same as 'large'?",
+            "options": ["Small", "Big", "Tiny", "Little"],
+            "correct": 1,
+            "explanation": "'Big' means the same as 'large'."
+          },
+          {
+            "question": "Which is the opposite of 'in'?",
+            "options": ["Out", "On", "Under", "Above"],
+            "correct": 0,
+            "explanation": "'Out' is the opposite of 'in'."
+          },
+          {
+            "question": "Which of these would you find in a kitchen?",
+            "options": ["Bed", "Sink", "Desk", "Couch"],
+            "correct": 1,
+            "explanation": "You would find a sink in a kitchen."
+          },
+          {
+            "question": "What do you wear on a rainy day?",
+            "options": ["Swimsuit", "Raincoat", "Pajamas", "Scarf"],
+            "correct": 1,
+            "explanation": "On a rainy day, you would wear a raincoat to stay dry."
+          },
+          {
+            "question": "What do you use to call someone who is far away?",
+            "options": ["Book", "Car", "Phone", "Clock"],
+            "correct": 2,
+            "explanation": "You use a phone to call someone who is far away."
+          },
+          {
+            "question": "Which of these is used to stay warm?",
+            "options": ["Fan", "Ice", "Blanket", "Pool"],
+            "correct": 2,
+            "explanation": "A blanket is used to stay warm."
+          },
+          {
+            "question": "Which animal lives in the jungle?",
+            "options": ["Penguin", "Camel", "Monkey", "Shark"],
+            "correct": 2,
+            "explanation": "Monkeys live in the jungle."
+          },
+          {
+            "question": "What do plants need to grow besides water?",
+            "options": ["Darkness", "Ice", "Sunlight", "Books"],
+            "correct": 2,
+            "explanation": "Plants need sunlight to grow, along with water and soil."
+          },
+          {
+            "question": "What do we call people who help when there's a fire?",
+            "options": ["Doctors", "Teachers", "Firefighters", "Police officers"],
+            "correct": 2,
+            "explanation": "Firefighters help when there's a fire."
+          },
+          {
+            "question": "Which of these is a way to travel on water?",
+            "options": ["Car", "Train", "Boat", "Bicycle"],
+            "correct": 2,
+            "explanation": "A boat is a way to travel on water."
+          },
+          {
+            "question": "What gives us milk?",
+            "options": ["Chicken", "Pig", "Cow", "Horse"],
+            "correct": 2,
+            "explanation": "Cows give us milk."
+          },
+          {
+            "question": "What color is the sky on a clear day?",
+            "options": ["Green", "Red", "Blue", "Yellow"],
+            "correct": 2,
+            "explanation": "The sky is blue on a clear day."
+          },
+          {
+            "question": "What do people use to carry money?",
+            "options": ["Box", "Wallet", "Cup", "Pillow"],
+            "correct": 1,
+            "explanation": "People use a wallet to carry money."
+          },
+          {
+            "question": "What do you use to dry yourself after a bath?",
+            "options": ["Paper", "Towel", "Blanket", "Shirt"],
+            "correct": 1,
+            "explanation": "You use a towel to dry yourself after a bath."
+          },
+          {
+            "question": "Which animal can swim underwater?",
+            "options": ["Dog", "Cat", "Fish", "Bird"],
+            "correct": 2,
+            "explanation": "Fish can swim underwater."
+          },
+          {
+            "question": "What room in a house is for cooking?",
+            "options": ["Bedroom", "Kitchen", "Bathroom", "Living room"],
+            "correct": 1,
+            "explanation": "The kitchen is the room in a house for cooking."
+          },
+          {
+            "question": "Which word rhymes with 'hill'?",
+            "options": ["hall", "help", "fill", "hole"],
+            "correct": 2,
+            "explanation": "Fill rhymes with hill because they both end with the 'ill' sound."
+          },
+          {
+            "question": "What is the first sound in the word 'boat'?",
+            "options": ["/b/", "/o/", "/t/", "/a/"],
+            "correct": 0,
+            "explanation": "The first sound in 'boat' is /b/."
+          },
+          {
+            "question": "Which word has the long 'e' sound?",
+            "options": ["bed", "hen", "feet", "beg"],
+            "correct": 2,
+            "explanation": "The word 'feet' has the long 'e' sound, like in 'see'."
+          },
+          {
+            "question": "What happens when you change the 'f' in 'fish' to 'd'?",
+            "options": ["wish", "dish", "kiss", "miss"],
+            "correct": 1,
+            "explanation": "When you change the 'f' in 'fish' to 'd', you get the word 'dish'."
+          },
+          {
+            "question": "How many syllables are in the word 'celebration'?",
+            "options": ["2", "3", "4", "5"],
+            "correct": 3,
+            "explanation": "The word 'celebration' has 5 syllables: cel-e-bra-tion."
+          },
+          {
+            "question": "Which word has the short 'i' sound?",
+            "options": ["bike", "high", "kite", "big"],
+            "correct": 3,
+            "explanation": "The word 'big' has the short 'i' sound, like in 'pig'."
+          },
+          {
+            "question": "What is the middle sound in the word 'hop'?",
+            "options": ["/h/", "/o/", "/p/", "/t/"],
+            "correct": 1,
+            "explanation": "The middle sound in 'hop' is the short /o/ sound."
+          },
+          {
+            "question": "Which word has a digraph in it?",
+            "options": ["cat", "fish", "bug", "ten"],
+            "correct": 1,
+            "explanation": "Fish has the digraph 'sh', where two letters make one sound."
+          },
+          {
+            "question": "What word is made when you change the 'm' in 'mat' to 'r'?",
+            "options": ["rat", "pat", "bat", "cat"],
+            "correct": 0,
+            "explanation": "When you change the 'm' in 'mat' to 'r', you get the word 'rat'."
+          },
+          {
+            "question": "Which word has the same ending sound as 'hand'?",
+            "options": ["ham", "hat", "sand", "hug"],
+            "correct": 2,
+            "explanation": "Sand ends with the same 'and' sound as hand."
+          },
+          {
+            "question": "What is the main idea of a story?",
+            "options": ["The title", "The author", "The most important message", "The pictures"],
+            "correct": 2,
+            "explanation": "The main idea is the most important message or point of the story."
+          },
+          {
+            "question": "What do we call the person who draws the pictures in a book?",
+            "options": ["Author", "Reader", "Illustrator", "Editor"],
+            "correct": 2,
+            "explanation": "The person who draws the pictures in a book is called the illustrator."
+          },
+          {
+            "question": "What is a synonym?",
+            "options": ["A word that means the opposite", "A word that means the same", "A word that rhymes", "A made-up word"],
+            "correct": 1,
+            "explanation": "A synonym is a word that means the same or nearly the same as another word, like 'big' and 'large'."
+          },
+          {
+            "question": "What does it mean to make a prediction?",
+            "options": ["To make a mistake", "To read quickly", "To guess what might happen next", "To retell a story"],
+            "correct": 2,
+            "explanation": "Making a prediction means guessing what might happen next based on what you know."
+          },
+          {
+            "question": "What is a setting in a story?",
+            "options": ["The characters", "The place and time where the story happens", "The problem", "The title"],
+            "correct": 1,
+            "explanation": "The setting is the place and time where the story happens."
+          },
+          {
+            "question": "What is an antonym?",
+            "options": ["A word that means the same", "A word that rhymes", "A word that means the opposite", "A word with many syllables"],
+            "correct": 2,
+            "explanation": "An antonym is a word that means the opposite of another word, like 'hot' and 'cold'."
+          },
+          {
+            "question": "What is 1 + 5?",
+            "options": ["5", "6", "7", "8"],
+            "correct": 1,
+            "explanation": "1 + 5 = 6. When you add 1 and 5 together, you get 6."
+          },
+          {
+            "question": "What is 8 - 4?",
+            "options": ["2", "3", "4", "12"],
+            "correct": 2,
+            "explanation": "8 - 4 = 4. When you take 4 away from 8, you have 4 left."
+          },
+          {
+            "question": "Which number is more: 6 or 10?",
+            "options": ["6", "10", "They are the same", "Cannot tell"],
+            "correct": 1,
+            "explanation": "10 is more than 6 because it represents more objects."
+          },
+          {
+            "question": "If you have 3 books and your friend gives you 6 more, how many books do you have now?",
+            "options": ["3", "6", "9", "12"],
+            "correct": 2,
+            "explanation": "3 + 6 = 9. If you have 3 books and get 6 more, you now have 9 books."
+          },
+          {
+            "question": "What shape is a pizza slice most like?",
+            "options": ["Circle", "Square", "Triangle", "Rectangle"],
+            "correct": 2,
+            "explanation": "A pizza slice is most like a triangle in shape."
+          },
+          {
+            "question": "How many sides does a circle have?",
+            "options": ["0", "1", "2", "4"],
+            "correct": 0,
+            "explanation": "A circle has 0 sides - it's a curved shape with no straight sides or corners."
+          },
+          {
+            "question": "What day comes between Wednesday and Friday?",
+            "options": ["Monday", "Tuesday", "Thursday", "Saturday"],
+            "correct": 2,
+            "explanation": "Thursday comes between Wednesday and Friday."
+          },
+          {
+            "question": "Which month comes after December?",
+            "options": ["November", "January", "February", "October"],
+            "correct": 1,
+            "explanation": "January comes after December in the calendar."
+          },
+          {
+            "question": "If you had 10 balloons and 3 popped, how many balloons do you have left?",
+            "options": ["3", "7", "10", "13"],
+            "correct": 1,
+            "explanation": "10 - 3 = 7. If you had 10 balloons and 3 popped, you have 7 balloons left."
+          },
+          {
+            "question": "Which would you use to measure temperature?",
+            "options": ["Scale", "Ruler", "Clock", "Thermometer"],
+            "correct": 3,
+            "explanation": "You would use a thermometer to measure temperature."
+          },
+          {
+            "question": "What do we call the water that falls from clouds?",
+            "options": ["Fog", "Stars", "Rain", "Wind"],
+            "correct": 2,
+            "explanation": "Water that falls from clouds is called rain."
+          },
+          {
+            "question": "What should you do when you bump into someone by accident?",
+            "options": ["Run away", "Laugh", "Say 'I'm sorry'", "Ignore them"],
+            "correct": 2,
+            "explanation": "When you bump into someone by accident, you should say 'I'm sorry' to apologize."
+          },
+          {
+            "question": "What should you do when the teacher is giving directions?",
+            "options": ["Talk to your friend", "Play with toys", "Look and listen", "Read a book"],
+            "correct": 2,
+            "explanation": "When the teacher is giving directions, you should look and listen carefully."
+          },
+          {
+            "question": "What is the right way to line up?",
+            "options": ["Push to the front", "Run around", "Stand one behind the other", "Sit down"],
+            "correct": 2,
+            "explanation": "The right way to line up is to stand one behind the other, quietly and patiently."
+          },
+          {
+            "question": "What should you do when you're done with your work?",
+            "options": ["Disturb others", "Ask the teacher what to do next", "Leave the classroom", "Take a nap"],
+            "correct": 1,
+            "explanation": "When you're done with your work, you should ask the teacher what to do next."
+          },
+          {
+            "question": "How can you be a good friend?",
+            "options": ["Take other people's things", "Be kind and share", "Always go first", "Never talk to anyone"],
+            "correct": 1,
+            "explanation": "You can be a good friend by being kind and sharing with others."
+          },
+          {
+            "question": "Which word describes how something feels to touch?",
+            "options": ["Loud", "Blue", "Sour", "Smooth"],
+            "correct": 3,
+            "explanation": "'Smooth' describes how something feels to touch."
+          },
+          {
+            "question": "Which of these is a position word?",
+            "options": ["Fast", "Under", "Blue", "Happy"],
+            "correct": 1,
+            "explanation": "'Under' is a position word that tells where something is located."
+          },
+          {
+            "question": "Which word means the same as 'happy'?",
+            "options": ["Sad", "Angry", "Glad", "Tired"],
+            "correct": 2,
+            "explanation": "'Glad' means the same as 'happy'."
+          },
+          {
+            "question": "Which is the opposite of 'tall'?",
+            "options": ["Big", "High", "Short", "Wide"],
+            "correct": 2,
+            "explanation": "'Short' is the opposite of 'tall'."
+          },
+          {
+            "question": "Which of these is something you can eat?",
+            "options": ["Shoe", "Table", "Pizza", "Book"],
+            "correct": 2,
+            "explanation": "Pizza is something you can eat."
+          },
+          {
+            "question": "What do you need to make a sandwich?",
+            "options": ["Hammer", "Bread", "Scissors", "Book"],
+            "correct": 1,
+            "explanation": "You need bread to make a sandwich."
+          },
+          {
+            "question": "What do we wear when swimming?",
+            "options": ["Pajamas", "Winter coat", "Swimsuit", "Shoes"],
+            "correct": 2,
+            "explanation": "We wear a swimsuit when swimming."
+          },
+          {
+            "question": "What do we use to clean our teeth?",
+            "options": ["Fork", "Toothbrush", "Spoon", "Cup"],
+            "correct": 1,
+            "explanation": "We use a toothbrush to clean our teeth."
+          },
+          {
+            "question": "Which animal has a trunk?",
+            "options": ["Lion", "Elephant", "Monkey", "Zebra"],
+            "correct": 1,
+            "explanation": "An elephant has a trunk."
+          },
+          {
+            "question": "What part of a plant do we often eat as a vegetable?",
+            "options": ["Flower", "Leaf", "Root", "All of these"],
+            "correct": 3,
+            "explanation": "We eat all of these parts of plants as vegetables: flowers (like broccoli), leaves (like lettuce), and roots (like carrots)."
+          },
+          {
+            "question": "What job does a police officer have?",
+            "options": ["Teaches children", "Helps keep people safe", "Cooks food", "Fixes cars"],
+            "correct": 1,
+            "explanation": "A police officer's job is to help keep people safe and enforce laws."
+          },
+          {
+            "question": "What vehicle do firefighters use?",
+            "options": ["Ambulance", "Police car", "Fire truck", "Bicycle"],
+            "correct": 2,
+            "explanation": "Firefighters use a fire truck to get to fires and carry equipment."
+          },
+          {
+            "question": "What is water that freezes in the clouds called when it falls?",
+            "options": ["Rain", "Fog", "Snow", "Wind"],
+            "correct": 2,
+            "explanation": "Water that freezes in the clouds and falls to the ground is called snow."
+          },
+          {
+            "question": "What room in a house has a bathtub?",
+            "options": ["Kitchen", "Bedroom", "Living room", "Bathroom"],
+            "correct": 3,
+            "explanation": "A bathroom has a bathtub."
+          },
+          {
+            "question": "What do you use to open a door?",
+            "options": ["Window", "Key", "Chair", "Table"],
+            "correct": 1,
+            "explanation": "You use a key to open a locked door."
+          },
+          {
+            "question": "What do people use to keep time?",
+            "options": ["Book", "Clock", "Shoe", "Ball"],
+            "correct": 1,
+            "explanation": "People use a clock to keep time."
+          },
+          {
+            "question": "Which of these is a pet?",
+            "options": ["Lion", "Tiger", "Dog", "Bear"],
+            "correct": 2,
+            "explanation": "A dog is a common pet. Lions, tigers, and bears are wild animals."
+          },
+          {
+            "question": "What sense do you use with your tongue?",
+            "options": ["Sight", "Hearing", "Smell", "Taste"],
+            "correct": 3,
+            "explanation": "You use your sense of taste with your tongue."
+          },
+          {
+            "question": "Which word rhymes with 'pay'?",
+            "options": ["pie", "pet", "day", "put"],
+            "correct": 2,
+            "explanation": "Day rhymes with pay because they both end with the 'ay' sound."
+          },
+          {
+            "question": "What is the last sound in the word 'bag'?",
+            "options": ["/b/", "/a/", "/g/", "/j/"],
+            "correct": 2,
+            "explanation": "The last sound in 'bag' is /g/."
+          },
+          {
+            "question": "Which word begins with the same sound as 'funny'?",
+            "options": ["very", "phone", "face", "sun"],
+            "correct": 2,
+            "explanation": "Face begins with the /f/ sound, just like funny."
+          },
+          {
+            "question": "What happens when you add 'tr' to the beginning of 'uck'?",
+            "options": ["truck", "stuck", "luck", "duck"],
+            "correct": 0,
+            "explanation": "When you add 'tr' to the beginning of 'uck', you get the word 'truck'."
+          },
+          {
+            "question": "How many syllables are in the word 'December'?",
+            "options": ["2", "3", "4", "5"],
+            "correct": 1,
+            "explanation": "The word 'December' has 3 syllables: De-cem-ber."
+          },
+          {
+            "question": "Which word has the long 'o' sound?",
+            "options": ["not", "hot", "top", "rope"],
+            "correct": 3,
+            "explanation": "The word 'rope' has the long 'o' sound, like in 'boat'."
+          },
+          {
+            "question": "What is the middle sound in the word 'dig'?",
+            "options": ["/d/", "/i/", "/g/", "/j/"],
+            "correct": 1,
+            "explanation": "The middle sound in 'dig' is the short /i/ sound."
+          },
+          {
+            "question": "Which word has a blend at the beginning?",
+            "options": ["bat", "dog", "frog", "cat"],
+            "correct": 2,
+            "explanation": "Frog begins with the consonant blend 'fr'."
+          },
+          {
+            "question": "What word do you make when you change the 'h' in 'hen' to 'p'?",
+            "options": ["pen", "ten", "men", "den"],
+            "correct": 0,
+            "explanation": "When you change the 'h' in 'hen' to 'p', you get the word 'pen'."
+          },
+          {
+            "question": "Which word has the same beginning sound as 'shoe'?",
+            "options": ["sun", "ship", "can", "top"],
+            "correct": 1,
+            "explanation": "Ship begins with the /sh/ sound, just like shoe."
+          },
+          {
+            "question": "What is a fiction book?",
+            "options": ["A book about real events", "A book that tells a made-up story", "A book with no pictures", "A book about animals"],
+            "correct": 1,
+            "explanation": "A fiction book tells a made-up or imaginary story."
+          },
+          {
+            "question": "What is an informational text?",
+            "options": ["A story about make-believe characters", "A book with only pictures", "A text that gives facts and information", "A poem"],
+            "correct": 2,
+            "explanation": "An informational text gives facts and information about real things, people, places, or events."
+          },
+          {
+            "question": "What is the purpose of a glossary in a book?",
+            "options": ["To show pictures", "To list the characters", "To explain what words mean", "To show the title"],
+            "correct": 2,
+            "explanation": "A glossary explains what words mean, like a small dictionary at the end of a book."
+          },
+          {
+            "question": "What are the characters in a story?",
+            "options": ["The places where the story happens", "The people or animals in the story", "The problems in the story", "The pages of the book"],
+            "correct": 1,
+            "explanation": "The characters are the people or animals in the story."
+          },
+          {
+            "question": "What is an adjective?",
+            "options": ["A word that names a person, place, or thing", "A word that shows action", "A word that describes something", "A connecting word"],
+            "correct": 2,
+            "explanation": "An adjective is a word that describes something, like 'big', 'small', 'red', or 'happy'."
+          },
+          {
+            "question": "What is a fairy tale?",
+            "options": ["A true story", "A story about animals", "A make-believe story with magic and 'once upon a time'", "A scary story"],
+            "correct": 2,
+            "explanation": "A fairy tale is a make-believe story that often has magic, princes, princesses, and begins with 'once upon a time'."
+          },
+          {
+            "question": "What is 8 + 2?",
+            "options": ["8", "9", "10", "12"],
+            "correct": 2,
+            "explanation": "8 + 2 = 10. When you add 8 and 2 together, you get 10."
+          },
+          {
+            "question": "What is 6 - 3?",
+            "options": ["2", "3", "6", "9"],
+            "correct": 1,
+            "explanation": "6 - 3 = 3. When you take 3 away from 6, you have 3 left."
+          },
+          {
+            "question": "Which number comes before 7?",
+            "options": ["5", "6", "7", "8"],
+            "correct": 1,
+            "explanation": "6 comes before 7 in the number sequence."
+          },
+          {
+            "question": "If you have 4 balls and your friend gives you 5 more, how many balls do you have now?",
+            "options": ["4", "5", "8", "9"],
+            "correct": 3,
+            "explanation": "4 + 5 = 9. If you have 4 balls and get 5 more, you now have 9 balls."
+          },
+          {
+            "question": "What shape is a stop sign?",
+            "options": ["Circle", "Square", "Triangle", "Octagon"],
+            "correct": 3,
+            "explanation": "A stop sign is shaped like an octagon, which has 8 sides."
+          },
+          {
+            "question": "How many sides does a square have?",
+            "options": ["3", "4", "5", "6"],
+            "correct": 1,
+            "explanation": "A square has 4 sides."
+          },
+          {
+            "question": "What day comes before Monday?",
+            "options": ["Tuesday", "Wednesday", "Sunday", "Saturday"],
+            "correct": 2,
+            "explanation": "Sunday comes before Monday in the days of the week."
+          },
+          {
+            "question": "What is the second month of the year?",
+            "options": ["January", "February", "March", "April"],
+            "correct": 1,
+            "explanation": "February is the second month of the year."
+          },
+          {
+            "question": "If you have 9 pencils and break 2, how many whole pencils do you have left?",
+            "options": ["2", "7", "9", "11"],
+            "correct": 1,
+            "explanation": "9 - 2 = 7. If you have 9 pencils and break 2, you have 7 whole pencils left."
+          },
+          {
+            "question": "Which would you use to find out how much you weigh?",
+            "options": ["Ruler", "Scale", "Clock", "Thermometer"],
+            "correct": 1,
+            "explanation": "You would use a scale to find out how much you weigh."
+          },
+          {
+            "question": "What season do leaves change color and fall from trees?",
+            "options": ["Spring", "Summer", "Fall", "Winter"],
+            "correct": 2,
+            "explanation": "Leaves change color and fall from trees during the fall season (autumn)."
+          },
+          {
+            "question": "How should you ask to use something that belongs to someone else?",
+            "options": ["Take it when they're not looking", "Say 'Give me that'", "Say 'May I please use that?'", "Cry until they give it to you"],
+            "correct": 2,
+            "explanation": "You should politely ask 'May I please use that?' when you want to use something that belongs to someone else."
+          },
+          {
+            "question": "What should you do if you need to speak in class?",
+            "options": ["Shout out", "Talk to your friend", "Raise your hand", "Leave the room"],
+            "correct": 2,
+            "explanation": "If you need to speak in class, you should raise your hand and wait to be called on."
+          },
+          {
+            "question": "What is the right thing to do when someone gives you a compliment?",
+            "options": ["Ignore them", "Say 'I know'", "Say something mean back", "Say 'Thank you'"],
+            "correct": 3,
+            "explanation": "When someone gives you a compliment, the right thing to do is say 'Thank you'."
+          },
+          {
+            "question": "Why should you walk, not run, in the classroom?",
+            "options": ["To waste time", "To make the teacher happy", "To stay safe", "To get exercise"],
+            "correct": 2,
+            "explanation": "You should walk, not run, in the classroom to stay safe and prevent accidents."
+          },
+          {
+            "question": "What does it mean to take turns?",
+            "options": ["To always go first", "To let others have a chance", "To never share", "To take things from others"],
+            "correct": 1,
+            "explanation": "Taking turns means letting others have a chance to participate or use something before you get another turn."
+          },
+          {
+            "question": "Which word describes how something tastes?",
+            "options": ["Loud", "Sweet", "Round", "Soft"],
+            "correct": 1,
+            "explanation": "'Sweet' describes how something tastes."
+          },
+          {
+            "question": "Which of these tells where something is?",
+            "options": ["Very", "Happy", "Inside", "Yellow"],
+            "correct": 2,
+            "explanation": "'Inside' tells where something is - it's a position word."
+          },
+          {
+            "question": "Which word means the same as 'small'?",
+            "options": ["Big", "Tiny", "Large", "Huge"],
+            "correct": 1,
+            "explanation": "'Tiny' means the same as 'small'."
+          },
+          {
+            "question": "Which is the opposite of 'full'?",
+            "options": ["Half", "Empty", "Partly", "Almost"],
+            "correct": 1,
+            "explanation": "'Empty' is the opposite of 'full'."
+          },
+          {
+            "question": "Which of these can you ride?",
+            "options": ["Plate", "Table", "Bicycle", "Book"],
+            "correct": 2,
+            "explanation": "You can ride a bicycle."
+          },
+          {
+            "question": "What room do people sleep in?",
+            "options": ["Kitchen", "Bathroom", "Bedroom", "Living room"],
+            "correct": 2,
+            "explanation": "People sleep in a bedroom."
+          },
+          {
+            "question": "What do you need to make a cake?",
+            "options": ["Rocks", "Flour", "Crayons", "Books"],
+            "correct": 1,
+            "explanation": "You need flour to make a cake, along with other ingredients like eggs, sugar, and butter."
+          },
+          {
+            "question": "What do you use to see things far away?",
+            "options": ["Microscope", "Telescope", "Glasses", "Mirror"],
+            "correct": 1,
+            "explanation": "You use a telescope to see things that are far away, like stars and planets."
+          },
+          {
+            "question": "Which animal lives on a farm?",
+            "options": ["Lion", "Dolphin", "Cow", "Penguin"],
+            "correct": 2,
+            "explanation": "A cow lives on a farm."
+          },
+          {
+            "question": "What gives us warmth and light during the day?",
+            "options": ["Moon", "Stars", "Sun", "Clouds"],
+            "correct": 2,
+            "explanation": "The sun gives us warmth and light during the day."
+          },
+          {
+            "question": "What job does a teacher have?",
+            "options": ["Helps sick people", "Fights fires", "Helps children learn", "Fixes cars"],
+            "correct": 2,
+            "explanation": "A teacher's job is to help children learn."
+          },
+          {
+            "question": "Which vehicle flies in the sky?",
+            "options": ["Car", "Boat", "Train", "Airplane"],
+            "correct": 3,
+            "explanation": "An airplane flies in the sky."
+          },
+          {
+            "question": "Where do fish live?",
+            "options": ["In trees", "In water", "In the sky", "Underground"],
+            "correct": 1,
+            "explanation": "Fish live in water, either in oceans, lakes, or rivers."
+          },
+          {
+            "question": "What do we call frozen water?",
+            "options": ["Steam", "Ice", "Smoke", "Fire"],
+            "correct": 1,
+            "explanation": "Frozen water is called ice."
+          },
+          {
+            "question": "What do plants get from the sun?",
+            "options": ["Water", "Energy", "Soil", "Seeds"],
+            "correct": 1,
+            "explanation": "Plants get energy from the sun to make their own food through photosynthesis."
+          },
+          {
+            "question": "What is the opposite of day?",
+            "options": ["Year", "Month", "Night", "Week"],
+            "correct": 2,
+            "explanation": "Night is the opposite of day."
+          },
+          {
+            "question": "Where do letters get mailed from?",
+            "options": ["Library", "School", "Hospital", "Post office"],
+            "correct": 3,
+            "explanation": "Letters get mailed from a post office."
+          },
+          {
+            "question": "What do we use to wash clothes?",
+            "options": ["Oven", "Refrigerator", "Washing machine", "Dishwasher"],
+            "correct": 2,
+            "explanation": "We use a washing machine to wash clothes."
+          },
+          {
+            "question": "What number comes after 5?",
+            "options": ["4", "5", "6", "7"],
+            "correct": 2,
+            "explanation": "When counting up, 6 comes right after 5."
+          },
+          {
+            "question": "What number comes before 10?",
+            "options": ["8", "9", "10", "11"],
+            "correct": 1,
+            "explanation": "When counting up, 9 comes right before 10."
+          },
+          {
+            "question": "What is 3 + 2?",
+            "options": ["4", "5", "6", "7"],
+            "correct": 1,
+            "explanation": "3 + 2 = 5. When you add 3 and 2, you get 5."
+          },
+          {
+            "question": "What is 7 - 3?",
+            "options": ["3", "4", "5", "7"],
+            "correct": 1,
+            "explanation": "7 - 3 = 4. When you take away 3 from 7, you have 4 left."
+          },
+          {
+            "question": "Which number is greater: 8 or 4?",
+            "options": ["4", "8", "They are the same", "Cannot tell"],
+            "correct": 1,
+            "explanation": "8 is greater than 4 because it represents more objects."
+          },
+          {
+            "question": "Which number is less: 2 or 9?",
+            "options": ["2", "9", "They are the same", "Cannot tell"],
+            "correct": 0,
+            "explanation": "2 is less than 9 because it represents fewer objects."
+          },
+          {
+            "question": "If you have 5 apples and eat 2, how many apples do you have left?",
+            "options": ["2", "3", "5", "7"],
+            "correct": 1,
+            "explanation": "5 - 2 = 3. If you have 5 apples and eat 2, you have 3 apples left."
+          },
+          {
+            "question": "If you have 4 toys and get 3 more, how many toys do you have altogether?",
+            "options": ["4", "3", "7", "8"],
+            "correct": 2,
+            "explanation": "4 + 3 = 7. If you have 4 toys and get 3 more, you have 7 toys altogether."
+          },
+          {
+            "question": "What is 1 + 6?",
+            "options": ["5", "6", "7", "8"],
+            "correct": 2,
+            "explanation": "1 + 6 = 7. When you add 1 and 6, you get 7."
+          },
+          {
+            "question": "What is 8 - 2?",
+            "options": ["4", "5", "6", "10"],
+            "correct": 2,
+            "explanation": "8 - 2 = 6. When you take away 2 from 8, you have 6 left."
+          },
+          {
+            "question": "What number is between 3 and 5?",
+            "options": ["2", "3", "4", "6"],
+            "correct": 2,
+            "explanation": "4 is between 3 and 5."
+          },
+          {
+            "question": "How many corners does a triangle have?",
+            "options": ["2", "3", "4", "5"],
+            "correct": 1,
+            "explanation": "A triangle has 3 corners (vertices)."
+          },
+          {
+            "question": "How many sides does a square have?",
+            "options": ["3", "4", "5", "6"],
+            "correct": 1,
+            "explanation": "A square has 4 sides."
+          },
+          {
+            "question": "Which shape has 3 sides?",
+            "options": ["Circle", "Square", "Triangle", "Rectangle"],
+            "correct": 2,
+            "explanation": "A triangle has 3 sides."
+          },
+          {
+            "question": "Which shape is round?",
+            "options": ["Square", "Triangle", "Rectangle", "Circle"],
+            "correct": 3,
+            "explanation": "A circle is round."
+          },
+          {
+            "question": "If you have 3 red balls and 2 blue balls, how many balls do you have in all?",
+            "options": ["3", "2", "5", "6"],
+            "correct": 2,
+            "explanation": "3 + 2 = 5. If you have 3 red balls and 2 blue balls, you have 5 balls in all."
+          },
+          {
+            "question": "What is 2 + 5?",
+            "options": ["5", "6", "7", "8"],
+            "correct": 2,
+            "explanation": "2 + 5 = 7. When you add 2 and 5, you get 7."
+          },
+          {
+            "question": "What is 9 - 4?",
+            "options": ["3", "4", "5", "6"],
+            "correct": 2,
+            "explanation": "9 - 4 = 5. When you take away 4 from 9, you have 5 left."
+          },
+          {
+            "question": "Which is fewer: 7 crayons or 3 crayons?",
+            "options": ["7 crayons", "3 crayons", "They are the same", "Cannot tell"],
+            "correct": 1,
+            "explanation": "3 crayons is fewer than 7 crayons."
+          },
+          {
+            "question": "Which group has more stars: ★★★ or ★★★★★?",
+            "options": ["★★★", "★★★★★", "They have the same", "Cannot tell"],
+            "correct": 1,
+            "explanation": "★★★★★ has 5 stars, which is more than the 3 stars in ★★★."
+          },
+          {
+            "question": "What is 0 + 5?",
+            "options": ["0", "4", "5", "6"],
+            "correct": 2,
+            "explanation": "0 + 5 = 5. When you add 0 to any number, the number stays the same."
+          },
+          {
+            "question": "What is 6 - 0?",
+            "options": ["0", "5", "6", "7"],
+            "correct": 2,
+            "explanation": "6 - 0 = 6. When you subtract 0 from any number, the number stays the same."
+          },
+          {
+            "question": "If there are 8 children and 4 leave, how many children are left?",
+            "options": ["4", "8", "12", "16"],
+            "correct": 0,
+            "explanation": "8 - 4 = 4. If there are 8 children and 4 leave, there are 4 children left."
+          },
+          {
+            "question": "What is 4 + 4?",
+            "options": ["4", "6", "8", "10"],
+            "correct": 2,
+            "explanation": "4 + 4 = 8. When you add 4 and 4, you get 8."
+          },
+          {
+            "question": "What number is 1 more than 7?",
+            "options": ["6", "7", "8", "9"],
+            "correct": 2,
+            "explanation": "8 is 1 more than 7. When you add 1 to 7, you get 8."
+          },
+          {
+            "question": "What number is 1 less than 5?",
+            "options": ["3", "4", "5", "6"],
+            "correct": 1,
+            "explanation": "4 is 1 less than 5. When you subtract 1 from 5, you get 4."
+          },
+          {
+            "question": "Which shape has 4 equal sides?",
+            "options": ["Rectangle", "Circle", "Triangle", "Square"],
+            "correct": 3,
+            "explanation": "A square has 4 equal sides."
+          },
+          {
+            "question": "What 3D shape is like a ball?",
+            "options": ["Cube", "Cylinder", "Cone", "Sphere"],
+            "correct": 3,
+            "explanation": "A sphere is a 3D shape that is like a ball."
+          },
+          {
+            "question": "What is 3 + 3?",
+            "options": ["3", "5", "6", "9"],
+            "correct": 2,
+            "explanation": "3 + 3 = 6. When you add 3 and 3, you get 6."
+          },
+          {
+            "question": "What is 7 - 5?",
+            "options": ["1", "2", "3", "7"],
+            "correct": 1,
+            "explanation": "7 - 5 = 2. When you take away 5 from 7, you have 2 left."
+          },
+          {
+            "question": "If you have 2 cookies and your friend gives you 5 more, how many cookies do you have now?",
+            "options": ["2", "5", "7", "9"],
+            "correct": 2,
+            "explanation": "2 + 5 = 7. If you have 2 cookies and get 5 more, you now have 7 cookies."
+          },
+          {
+            "question": "If there are 10 birds in a tree and 3 fly away, how many birds are left in the tree?",
+            "options": ["3", "7", "10", "13"],
+            "correct": 1,
+            "explanation": "10 - 3 = 7. If there are 10 birds and 3 fly away, there are 7 birds left."
+          },
+          {
+            "question": "What number comes between 8 and 10?",
+            "options": ["7", "8", "9", "11"],
+            "correct": 2,
+            "explanation": "9 comes between 8 and 10."
+          },
+          {
+            "question": "How many sides does a rectangle have?",
+            "options": ["2", "3", "4", "5"],
+            "correct": 2,
+            "explanation": "A rectangle has 4 sides."
+          },
+          {
+            "question": "Which is heavier: a feather or a book?",
+            "options": ["Feather", "Book", "They weigh the same", "Cannot tell"],
+            "correct": 1,
+            "explanation": "A book is typically heavier than a feather."
+          },
+          {
+            "question": "What is 5 + 5?",
+            "options": ["5", "8", "10", "15"],
+            "correct": 2,
+            "explanation": "5 + 5 = 10. When you add 5 and 5, you get 10."
+          },
+          {
+            "question": "What is 10 - 7?",
+            "options": ["2", "3", "7", "17"],
+            "correct": 1,
+            "explanation": "10 - 7 = 3. When you take away 7 from 10, you have 3 left."
+          },
+          {
+            "question": "Which number is larger: 6 or 2?",
+            "options": ["2", "6", "They are the same", "Cannot tell"],
+            "correct": 1,
+            "explanation": "6 is larger than 2."
+          },
+          {
+            "question": "If you have 9 stickers and give 4 to your friend, how many stickers do you have left?",
+            "options": ["4", "5", "9", "13"],
+            "correct": 1,
+            "explanation": "9 - 4 = 5. If you have 9 stickers and give away 4, you have 5 stickers left."
+          },
+          {
+            "question": "Which shape has no corners?",
+            "options": ["Square", "Triangle", "Rectangle", "Circle"],
+            "correct": 3,
+            "explanation": "A circle has no corners - it is round all the way around."
+          },
+          {
+            "question": "What is 1 + 4?",
+            "options": ["1", "4", "5", "6"],
+            "correct": 2,
+            "explanation": "1 + 4 = 5. When you add 1 and 4, you get 5."
+          },
+          {
+            "question": "What is 6 - 3?",
+            "options": ["2", "3", "6", "9"],
+            "correct": 1,
+            "explanation": "6 - 3 = 3. When you take away 3 from 6, you have 3 left."
+          },
+          {
+            "question": "Which is shorter: a pencil or a crayon?",
+            "options": ["Pencil", "Crayon", "They are the same length", "Cannot tell"],
+            "correct": 1,
+            "explanation": "A crayon is typically shorter than a pencil."
+          },
+          {
+            "question": "If you put 2 triangles together, how many sides would there be in total?",
+            "options": ["3", "5", "6", "9"],
+            "correct": 2,
+            "explanation": "Each triangle has 3 sides, so 2 triangles would have 6 sides in total (3 + 3 = 6)."
+          },
+          {
+            "question": "What number is 2 more than 5?",
+            "options": ["3", "5", "6", "7"],
+            "correct": 3,
+            "explanation": "7 is 2 more than 5. When you add 2 to 5, you get 7."
+          },
+          {
+            "question": "What number is 2 less than 8?",
+            "options": ["4", "6", "8", "10"],
+            "correct": 1,
+            "explanation": "6 is 2 less than 8. When you subtract 2 from 8, you get 6."
+          },
+          {
+            "question": "What is 0 + 8?",
+            "options": ["0", "7", "8", "9"],
+            "correct": 2,
+            "explanation": "0 + 8 = 8. When you add 0 to any number, the number stays the same."
+          },
+          {
+            "question": "What is 4 - 0?",
+            "options": ["0", "3", "4", "5"],
+            "correct": 2,
+            "explanation": "4 - 0 = 4. When you subtract 0 from any number, the number stays the same."
+          },
+          {
+            "question": "What number comes after 12?",
+            "options": ["11", "12", "13", "14"],
+            "correct": 2,
+            "explanation": "When counting up, 13 comes right after 12."
+          },
+          {
+            "question": "What number comes before 7?",
+            "options": ["5", "6", "7", "8"],
+            "correct": 1,
+            "explanation": "When counting up, 6 comes right before 7."
+          },
+          {
+            "question": "What is 2 + 4?",
+            "options": ["4", "5", "6", "7"],
+            "correct": 2,
+            "explanation": "2 + 4 = 6. When you add 2 and 4, you get 6."
+          },
+          {
+            "question": "What is 6 - 4?",
+            "options": ["1", "2", "3", "4"],
+            "correct": 1,
+            "explanation": "6 - 4 = 2. When you take away 4 from 6, you have 2 left."
+          },
+          {
+            "question": "Which number is greater: 15 or 9?",
+            "options": ["9", "15", "They are the same", "Cannot tell"],
+            "correct": 1,
+            "explanation": "15 is greater than 9 because it represents more objects."
+          },
+          {
+            "question": "Which number is less: 11 or 7?",
+            "options": ["7", "11", "They are the same", "Cannot tell"],
+            "correct": 0,
+            "explanation": "7 is less than 11 because it represents fewer objects."
+          },
+          {
+            "question": "If you have 8 crayons and break 3, how many unbroken crayons do you have left?",
+            "options": ["3", "5", "8", "11"],
+            "correct": 1,
+            "explanation": "8 - 3 = 5. If you have 8 crayons and break 3, you have 5 unbroken crayons left."
+          },
+          {
+            "question": "If you have 6 blocks and find 6 more, how many blocks do you have altogether?",
+            "options": ["6", "10", "12", "18"],
+            "correct": 2,
+            "explanation": "6 + 6 = 12. If you have 6 blocks and find 6 more, you have 12 blocks altogether."
+          },
+          {
+            "question": "What is 7 + 2?",
+            "options": ["7", "8", "9", "10"],
+            "correct": 2,
+            "explanation": "7 + 2 = 9. When you add 7 and 2, you get 9."
+          },
+          {
+            "question": "What is 10 - 5?",
+            "options": ["3", "4", "5", "15"],
+            "correct": 2,
+            "explanation": "10 - 5 = 5. When you take away 5 from 10, you have 5 left."
+          },
+          {
+            "question": "What number is between 15 and 17?",
+            "options": ["14", "15", "16", "18"],
+            "correct": 2,
+            "explanation": "16 is between 15 and 17."
+          },
+          {
+            "question": "How many corners does a rectangle have?",
+            "options": ["2", "3", "4", "5"],
+            "correct": 2,
+            "explanation": "A rectangle has 4 corners (vertices)."
+          },
+          {
+            "question": "How many sides does a triangle have?",
+            "options": ["2", "3", "4", "5"],
+            "correct": 1,
+            "explanation": "A triangle has 3 sides."
+          },
+          {
+            "question": "Which shape has 4 sides of equal length?",
+            "options": ["Circle", "Rectangle", "Triangle", "Square"],
+            "correct": 3,
+            "explanation": "A square has 4 sides of equal length."
+          },
+          {
+            "question": "Which shape has no straight sides?",
+            "options": ["Square", "Triangle", "Rectangle", "Circle"],
+            "correct": 3,
+            "explanation": "A circle has no straight sides - it is curved all the way around."
+          },
+          {
+            "question": "If you have 4 green apples and 5 red apples, how many apples do you have in all?",
+            "options": ["4", "5", "9", "10"],
+            "correct": 2,
+            "explanation": "4 + 5 = 9. If you have 4 green apples and 5 red apples, you have 9 apples in all."
+          },
+          {
+            "question": "What is 8 + 3?",
+            "options": ["8", "10", "11", "12"],
+            "correct": 2,
+            "explanation": "8 + 3 = 11. When you add 8 and 3, you get 11."
+          },
+          {
+            "question": "What is 12 - 2?",
+            "options": ["8", "9", "10", "14"],
+            "correct": 2,
+            "explanation": "12 - 2 = 10. When you take away 2 from 12, you have 10 left."
+          },
+          {
+            "question": "Which is more: 14 pennies or 8 pennies?",
+            "options": ["8 pennies", "14 pennies", "They are the same", "Cannot tell"],
+            "correct": 1,
+            "explanation": "14 pennies is more than 8 pennies."
+          },
+          {
+            "question": "Which group has fewer dots: ••••• or •••?",
+            "options": ["•••••", "•••", "They have the same", "Cannot tell"],
+            "correct": 1,
+            "explanation": "••• has 3 dots, which is fewer than the 5 dots in •••••."
+          },
+          {
+            "question": "What is 3 + 0?",
+            "options": ["0", "1", "2", "3"],
+            "correct": 3,
+            "explanation": "3 + 0 = 3. When you add 0 to any number, the number stays the same."
+          },
+          {
+            "question": "What is 9 - 0?",
+            "options": ["0", "8", "9", "10"],
+            "correct": 2,
+            "explanation": "9 - 0 = 9. When you subtract 0 from any number, the number stays the same."
+          },
+          {
+            "question": "If there are 15 students and 7 go to lunch, how many students are still in the classroom?",
+            "options": ["7", "8", "15", "22"],
+            "correct": 1,
+            "explanation": "15 - 7 = 8. If there are 15 students and 7 leave, there are 8 students still in the classroom."
+          },
+          {
+            "question": "What is 5 + 6?",
+            "options": ["10", "11", "12", "13"],
+            "correct": 1,
+            "explanation": "5 + 6 = 11. When you add 5 and 6, you get 11."
+          },
+          {
+            "question": "What number is 1 more than 16?",
+            "options": ["15", "16", "17", "18"],
+            "correct": 2,
+            "explanation": "17 is 1 more than 16. When you add 1 to 16, you get 17."
+          },
+          {
+            "question": "What number is 1 less than 13?",
+            "options": ["11", "12", "13", "14"],
+            "correct": 1,
+            "explanation": "12 is 1 less than 13. When you subtract 1 from 13, you get 12."
+          },
+          {
+            "question": "Which shape is like a slice of pizza?",
+            "options": ["Circle", "Square", "Triangle", "Rectangle"],
+            "correct": 2,
+            "explanation": "A slice of pizza is shaped like a triangle."
+          },
+          {
+            "question": "What 3D shape is like a can?",
+            "options": ["Cube", "Sphere", "Cylinder", "Cone"],
+            "correct": 2,
+            "explanation": "A can is shaped like a cylinder - it has circular ends and a curved side."
+          },
+          {
+            "question": "What is 9 + 1?",
+            "options": ["8", "9", "10", "11"],
+            "correct": 2,
+            "explanation": "9 + 1 = 10. When you add 9 and 1, you get 10."
+          },
+          {
+            "question": "What is 8 - 5?",
+            "options": ["2", "3", "4", "8"],
+            "correct": 1,
+            "explanation": "8 - 5 = 3. When you take away 5 from 8, you have 3 left."
+          },
+          {
+            "question": "If you have 7 marbles and your friend gives you 4 more, how many marbles do you have now?",
+            "options": ["4", "7", "11", "15"],
+            "correct": 2,
+            "explanation": "7 + 4 = 11. If you have 7 marbles and get 4 more, you now have 11 marbles."
+          },
+          {
+            "question": "If there are 14 fish in a pond and 6 swim away, how many fish are left in the pond?",
+            "options": ["6", "8", "14", "20"],
+            "correct": 1,
+            "explanation": "14 - 6 = 8. If there are 14 fish and 6 swim away, there are 8 fish left."
+          },
+          {
+            "question": "What number comes between 19 and 21?",
+            "options": ["18", "19", "20", "22"],
+            "correct": 2,
+            "explanation": "20 comes between 19 and 21."
+          },
+          {
+            "question": "How many corners does a square have?",
+            "options": ["2", "3", "4", "5"],
+            "correct": 2,
+            "explanation": "A square has 4 corners (vertices)."
+          },
+          {
+            "question": "Which is taller: a tree or a flower?",
+            "options": ["Tree", "Flower", "They are the same height", "Cannot tell"],
+            "correct": 0,
+            "explanation": "A tree is typically taller than a flower."
+          },
+          {
+            "question": "What is 10 + 2?",
+            "options": ["10", "11", "12", "13"],
+            "correct": 2,
+            "explanation": "10 + 2 = 12. When you add 10 and 2, you get 12."
+          },
+          {
+            "question": "What is 11 - 3?",
+            "options": ["7", "8", "9", "14"],
+            "correct": 1,
+            "explanation": "11 - 3 = 8. When you take away 3 from 11, you have 8 left."
+          },
+          {
+            "question": "Which number is smaller: 13 or 7?",
+            "options": ["7", "13", "They are the same", "Cannot tell"],
+            "correct": 0,
+            "explanation": "7 is smaller than 13."
+          },
+          {
+            "question": "If you have 12 stickers and give 5 to your friend, how many stickers do you have left?",
+            "options": ["5", "7", "12", "17"],
+            "correct": 1,
+            "explanation": "12 - 5 = 7. If you have 12 stickers and give away 5, you have 7 stickers left."
+          },
+          {
+            "question": "Which shape has exactly 5 sides?",
+            "options": ["Triangle", "Square", "Pentagon", "Hexagon"],
+            "correct": 2,
+            "explanation": "A pentagon has exactly 5 sides."
+          },
+          {
+            "question": "What is 6 + 5?",
+            "options": ["10", "11", "12", "13"],
+            "correct": 1,
+            "explanation": "6 + 5 = 11. When you add 6 and 5, you get 11."
+          },
+          {
+            "question": "What is 13 - 5?",
+            "options": ["7", "8", "9", "18"],
+            "correct": 1,
+            "explanation": "13 - 5 = 8. When you take away 5 from 13, you have 8 left."
+          },
+          {
+            "question": "Which container holds more: a cup or a bucket?",
+            "options": ["Cup", "Bucket", "They hold the same amount", "Cannot tell"],
+            "correct": 1,
+            "explanation": "A bucket typically holds more than a cup."
+          },
+          {
+            "question": "If you put 3 squares together, how many corners would there be in total?",
+            "options": ["3", "9", "12", "15"],
+            "correct": 2,
+            "explanation": "Each square has 4 corners, so 3 squares would have 12 corners in total (4 + 4 + 4 = 12)."
+          },
+          {
+            "question": "What number is 2 more than 9?",
+            "options": ["7", "9", "10", "11"],
+            "correct": 3,
+            "explanation": "11 is 2 more than 9. When you add 2 to 9, you get 11."
+          },
+          {
+            "question": "What number is 2 less than 10?",
+            "options": ["6", "7", "8", "12"],
+            "correct": 2,
+            "explanation": "8 is 2 less than 10. When you subtract 2 from 10, you get 8."
+          },
+          {
+            "question": "What is 2 + 9?",
+            "options": ["7", "9", "11", "13"],
+            "correct": 2,
+            "explanation": "2 + 9 = 11. When you add 2 and 9, you get 11."
+          },
+          {
+            "question": "What is 15 - 5?",
+            "options": ["5", "10", "15", "20"],
+            "correct": 1,
+            "explanation": "15 - 5 = 10. When you take away 5 from 15, you have 10 left."
+          },
+          {
+            "question": "What comes next in this pattern: 2, 4, 6, 8, ___?",
+            "options": ["9", "10", "11", "12"],
+            "correct": 1,
+            "explanation": "The pattern is counting by 2s, so after 8 comes 10."
+          },
+          {
+            "question": "What comes next in this pattern: 5, 10, 15, ___?",
+            "options": ["16", "18", "20", "25"],
+            "correct": 2,
+            "explanation": "The pattern is counting by 5s, so after 15 comes 20."
+          },
+          {
+            "question": "What number comes after 18?",
+            "options": ["17", "18", "19", "20"],
+            "correct": 2,
+            "explanation": "When counting up, 19 comes right after 18."
+          },
+          {
+            "question": "What number comes before 15?",
+            "options": ["13", "14", "15", "16"],
+            "correct": 1,
+            "explanation": "When counting up, 14 comes right before 15."
+          },
+          {
+            "question": "What is 7 + 3?",
+            "options": ["9", "10", "11", "12"],
+            "correct": 1,
+            "explanation": "7 + 3 = 10. When you add 7 and 3, you get 10."
+          },
+          {
+            "question": "What is 12 - 6?",
+            "options": ["4", "5", "6", "7"],
+            "correct": 2,
+            "explanation": "12 - 6 = 6. When you take away 6 from 12, you have 6 left."
+          },
+          {
+            "question": "Which number is greater: 17 or 12?",
+            "options": ["12", "17", "They are the same", "Cannot tell"],
+            "correct": 1,
+            "explanation": "17 is greater than 12 because it represents more objects."
+          },
+          {
+            "question": "Which number is less: 20 or 14?",
+            "options": ["14", "20", "They are the same", "Cannot tell"],
+            "correct": 0,
+            "explanation": "14 is less than 20 because it represents fewer objects."
+          },
+          {
+            "question": "If you have 10 flowers and 3 die, how many flowers are still alive?",
+            "options": ["3", "7", "10", "13"],
+            "correct": 1,
+            "explanation": "10 - 3 = 7. If you have 10 flowers and 3 die, you have 7 flowers still alive."
+          },
+          {
+            "question": "If you have 5 pennies and find 7 more, how many pennies do you have altogether?",
+            "options": ["5", "7", "12", "15"],
+            "correct": 2,
+            "explanation": "5 + 7 = 12. If you have 5 pennies and find 7 more, you have 12 pennies altogether."
+          },
+          {
+            "question": "What is 4 + 8?",
+            "options": ["10", "11", "12", "13"],
+            "correct": 2,
+            "explanation": "4 + 8 = 12. When you add 4 and 8, you get 12."
+          },
+          {
+            "question": "What is 14 - 8?",
+            "options": ["4", "5", "6", "7"],
+            "correct": 2,
+            "explanation": "14 - 8 = 6. When you take away 8 from 14, you have 6 left."
+          },
+          {
+            "question": "What number is between 7 and 9?",
+            "options": ["6", "7", "8", "10"],
+            "correct": 2,
+            "explanation": "8 is between 7 and 9."
+          },
+          {
+            "question": "How many sides does a hexagon have?",
+            "options": ["4", "5", "6", "7"],
+            "correct": 2,
+            "explanation": "A hexagon has 6 sides."
+          },
+          {
+            "question": "How many corners does a pentagon have?",
+            "options": ["3", "4", "5", "6"],
+            "correct": 2,
+            "explanation": "A pentagon has 5 corners (vertices)."
+          },
+          {
+            "question": "Which shape has exactly 3 sides?",
+            "options": ["Circle", "Square", "Triangle", "Rectangle"],
+            "correct": 2,
+            "explanation": "A triangle has exactly 3 sides."
+          },
+          {
+            "question": "Which shape is used for a stop sign?",
+            "options": ["Circle", "Square", "Triangle", "Octagon"],
+            "correct": 3,
+            "explanation": "A stop sign is shaped like an octagon, which has 8 sides."
+          },
+          {
+            "question": "If you have 6 blue marbles and 8 red marbles, how many marbles do you have in all?",
+            "options": ["8", "12", "14", "16"],
+            "correct": 2,
+            "explanation": "6 + 8 = 14. If you have 6 blue marbles and 8 red marbles, you have 14 marbles in all."
+          },
+          {
+            "question": "What is 9 + 4?",
+            "options": ["11", "12", "13", "14"],
+            "correct": 2,
+            "explanation": "9 + 4 = 13. When you add 9 and 4, you get 13."
+          },
+          {
+            "question": "What is 16 - 7?",
+            "options": ["7", "8", "9", "10"],
+            "correct": 2,
+            "explanation": "16 - 7 = 9. When you take away 7 from 16, you have 9 left."
+          },
+          {
+            "question": "Which is fewer: 18 toys or 12 toys?",
+            "options": ["18 toys", "12 toys", "They are the same", "Cannot tell"],
+            "correct": 1,
+            "explanation": "12 toys is fewer than 18 toys."
+          },
+          {
+            "question": "Which group has more triangles: △△△△ or △△△?",
+            "options": ["△△△△", "△△△", "They have the same", "Cannot tell"],
+            "correct": 0,
+            "explanation": "△△△△ has 4 triangles, which is more than the 3 triangles in △△△."
+          },
+          {
+            "question": "What is 7 + 0?",
+            "options": ["0", "6", "7", "8"],
+            "correct": 2,
+            "explanation": "7 + 0 = 7. When you add 0 to any number, the number stays the same."
+          },
+          {
+            "question": "What is 11 - 0?",
+            "options": ["0", "10", "11", "12"],
+            "correct": 2,
+            "explanation": "11 - 0 = 11. When you subtract 0 from any number, the number stays the same."
+          },
+          {
+            "question": "If there are 20 books on a shelf and 9 are taken, how many books remain on the shelf?",
+            "options": ["9", "11", "20", "29"],
+            "correct": 1,
+            "explanation": "20 - 9 = 11. If there are 20 books and 9 are taken, there are 11 books remaining."
+          },
+          {
+            "question": "What is 8 + 7?",
+            "options": ["13", "14", "15", "16"],
+            "correct": 2,
+            "explanation": "8 + 7 = 15. When you add 8 and 7, you get 15."
+          },
+          {
+            "question": "What number is 1 more than 19?",
+            "options": ["18", "19", "20", "21"],
+            "correct": 2,
+            "explanation": "20 is 1 more than 19. When you add 1 to 19, you get 20."
+          },
+          {
+            "question": "What number is 1 less than 10?",
+            "options": ["8", "9", "10", "11"],
+            "correct": 1,
+            "explanation": "9 is 1 less than 10. When you subtract 1 from 10, you get 9."
+          },
+          {
+            "question": "Which 3D shape is like a box?",
+            "options": ["Sphere", "Cone", "Cylinder", "Cube"],
+            "correct": 3,
+            "explanation": "A box is shaped like a cube or rectangular prism - it has flat faces, straight edges, and corners."
+          },
+          {
+            "question": "What 3D shape is like an ice cream cone?",
+            "options": ["Sphere", "Cone", "Cylinder", "Cube"],
+            "correct": 1,
+            "explanation": "An ice cream cone is shaped like a cone - it has a circular base that tapers to a point."
+          },
+          {
+            "question": "What is 6 + 6?",
+            "options": ["10", "11", "12", "13"],
+            "correct": 2,
+            "explanation": "6 + 6 = 12. When you add 6 and 6, you get 12."
+          },
+          {
+            "question": "What is 13 - 6?",
+            "options": ["5", "6", "7", "8"],
+            "correct": 2,
+            "explanation": "13 - 6 = 7. When you take away 6 from 13, you have 7 left."
+          },
+          {
+            "question": "If you have 9 stickers and your friend gives you 6 more, how many stickers do you have now?",
+            "options": ["9", "12", "15", "16"],
+            "correct": 2,
+            "explanation": "9 + 6 = 15. If you have 9 stickers and get 6 more, you now have 15 stickers."
+          },
+          {
+            "question": "If there are 17 children on a bus and 8 get off, how many children are left on the bus?",
+            "options": ["8", "9", "17", "25"],
+            "correct": 1,
+            "explanation": "17 - 8 = 9. If there are 17 children and 8 get off, there are 9 children left."
+          },
+          {
+            "question": "What number comes between 10 and 12?",
+            "options": ["9", "10", "11", "13"],
+            "correct": 2,
+            "explanation": "11 comes between 10 and 12."
+          },
+          {
+            "question": "How many sides does an octagon have?",
+            "options": ["6", "7", "8", "9"],
+            "correct": 2,
+            "explanation": "An octagon has 8 sides."
+          },
+          {
+            "question": "Which holds more liquid: a bathtub or a cup?",
+            "options": ["Cup", "Bathtub", "They hold the same amount", "Cannot tell"],
+            "correct": 1,
+            "explanation": "A bathtub holds more liquid than a cup."
+          },
+          {
+            "question": "What is 10 + 10?",
+            "options": ["10", "15", "20", "30"],
+            "correct": 2,
+            "explanation": "10 + 10 = 20. When you add 10 and 10, you get 20."
+          },
+          {
+            "question": "What is 18 - 9?",
+            "options": ["7", "8", "9", "10"],
+            "correct": 2,
+            "explanation": "18 - 9 = 9. When you take away 9 from 18, you have 9 left."
+          },
+          {
+            "question": "Which number is larger: 15 or 20?",
+            "options": ["15", "20", "They are the same", "Cannot tell"],
+            "correct": 1,
+            "explanation": "20 is larger than 15."
+          },
+          {
+            "question": "If you have 14 candies and eat 6, how many candies do you have left?",
+            "options": ["6", "8", "14", "20"],
+            "correct": 1,
+            "explanation": "14 - 6 = 8. If you have 14 candies and eat 6, you have 8 candies left."
+          },
+          {
+            "question": "Which shape has the most sides: a triangle, a square, or a pentagon?",
+            "options": ["Triangle", "Square", "Pentagon", "They all have the same number of sides"],
+            "correct": 2,
+            "explanation": "A pentagon has 5 sides, which is more than a triangle (3 sides) or a square (4 sides)."
+          },
+          {
+            "question": "What is 5 + 8?",
+            "options": ["11", "12", "13", "14"],
+            "correct": 2,
+            "explanation": "5 + 8 = 13. When you add 5 and 8, you get 13."
+          },
+          {
+            "question": "What is 15 - 8?",
+            "options": ["5", "6", "7", "8"],
+            "correct": 2,
+            "explanation": "15 - 8 = 7. When you take away 8 from 15, you have 7 left."
+          },
+          {
+            "question": "Which is heavier: a pencil or a book?",
+            "options": ["Pencil", "Book", "They weigh the same", "Cannot tell"],
+            "correct": 1,
+            "explanation": "A book is typically heavier than a pencil."
+          },
+          {
+            "question": "If you have 2 triangles and 3 squares, how many shapes do you have altogether?",
+            "options": ["2", "3", "5", "6"],
+            "correct": 2,
+            "explanation": "2 + 3 = 5. If you have 2 triangles and 3 squares, you have 5 shapes altogether."
+          },
+          {
+            "question": "What number is 3 more than 12?",
+            "options": ["9", "12", "14", "15"],
+            "correct": 3,
+            "explanation": "15 is 3 more than 12. When you add 3 to 12, you get 15."
+          },
+          {
+            "question": "What number is 3 less than 10?",
+            "options": ["6", "7", "10", "13"],
+            "correct": 1,
+            "explanation": "7 is 3 less than 10. When you subtract 3 from 10, you get 7."
+          },
+          {
+            "question": "What is 10 + 5?",
+            "options": ["10", "13", "15", "20"],
+            "correct": 2,
+            "explanation": "10 + 5 = 15. When you add 10 and 5, you get 15."
+          },
+          {
+            "question": "What is 17 - 7?",
+            "options": ["7", "9", "10", "17"],
+            "correct": 2,
+            "explanation": "17 - 7 = 10. When you take away 7 from 17, you have 10 left."
+          },
+          {
+            "question": "What comes next in this pattern: 10, 20, 30, ___?",
+            "options": ["35", "40", "45", "50"],
+            "correct": 1,
+            "explanation": "The pattern is counting by 10s, so after 30 comes 40."
+          },
+          {
+            "question": "What comes next in this pattern: 2, 4, 6, 8, 10, ___?",
+            "options": ["11", "12", "13", "14"],
+            "correct": 1,
+            "explanation": "The pattern is counting by 2s, so after 10 comes 12."
           }
         ]
       }
