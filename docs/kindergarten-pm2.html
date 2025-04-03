@@ -146,7 +146,7 @@
         // Function to load quiz data from JSON file
         function loadQuizData() {
             // Using the full URL
-            fetch('https://adiel2012.github.io/kid-education-quiz/kindergarten-quiz-data.json')
+            fetch('./kindergarten-quiz-data.json')
                 .then(response => {
                     if (!response.ok) {
                         throw new Error('Network response was not ok: ' + response.status);
