@@ -5,8 +5,7 @@ A collection of educational quizzes and learning materials for kindergarten and 
 ## Live Site
 
 You can access the live site here:
-- Main site: [https://adiel2012.github.io](https://adiel2012.github.io)
-- Kindergarten PM2 Quiz: [https://adiel2012.github.io/kindergarten-pm2.html](https://adiel2012.github.io/kindergarten-pm2.html)
+- Kindergarten PM2 Quiz: [https://adiel2012.github.io/kid-education-quiz/kindergarten-pm2.html](https://adiel2012.github.io/kid-education-quiz/kindergarten-pm2.html)
 
 ## About
 
