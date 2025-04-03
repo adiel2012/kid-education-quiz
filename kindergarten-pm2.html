@@ -1,0 +1,2329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kindergarten Learning Quiz</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+            line-height: 1.6;
+        }
+        #quiz-container {
+            background-color: #f4f4f4;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        #question {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+        .options {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .option {
+            padding: 10px;
+            border: 2px solid #ddd;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        .option:hover {
+            background-color: #f0f0f0;
+        }
+        .option.selected {
+            background-color: #e0e0e0;
+            border-color: #888;
+        }
+        .option.correct {
+            background-color: #4CAF50;
+            color: white;
+        }
+        .option.incorrect {
+            background-color: #f44336;
+            color: white;
+        }
+        #submit-btn, #next-btn {
+            margin-top: 15px;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        #submit-btn:disabled, #next-btn:disabled {
+            background-color: #cccccc;
+            cursor: not-allowed;
+        }
+        #points-display {
+            font-size: 1.1em;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+        #feedback {
+            margin-top: 15px;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <div id="quiz-container">
+        <div id="points-display">Points: 0</div>
+        <div id="question-container">
+            <div id="question"></div>
+            <div id="options" class="options"></div>
+        </div>
+        <button id="submit-btn">Submit Answer</button>
+        <button id="next-btn" style="display:none;">Next Question</button>
+        <div id="feedback"></div>
+    </div>
+
+    <script>
+	
+	function selectRandomElements(array, n = 20) {
+  // Handle edge cases
+  if (!Array.isArray(array)) {
+    throw new TypeError('Input must be an array');
+  }
+  
+  // If array is smaller than requested number, return a copy of the whole array
+  if (array.length <= n) {
+    return [...array];
+  }
+  
+  // Create a copy of the original array to avoid modifying it
+  const arrayCopy = [...array];
+  const result = [];
+  
+  // Select n random elements using Fisher-Yates partial shuffle
+  // This is more efficient than selecting one random element at a time
+  for (let i = 0; i < n; i++) {
+    // Generate a random index between i and array length - 1
+    const randomIndex = i + Math.floor(Math.random() * (arrayCopy.length - i));
+    
+    // Swap the elements at positions i and randomIndex
+    [arrayCopy[i], arrayCopy[randomIndex]] = [arrayCopy[randomIndex], arrayCopy[i]];
+    
+    // Add the selected element to the result array
+    result.push(arrayCopy[i]);
+  }
+  
+  return result;
+}
+        // Quiz data with questions
+        const quizData = {
+  "questions": selectRandomElements([
+    {
+      "question": "What letter comes after 'A'?",
+      "options": ["C", "B", "D", "E"],
+      "correct": 1,
+      "explanation": "B comes right after A in the alphabet!"
+    },
+    {
+      "question": "How many sides does a triangle have?",
+      "options": ["2", "4", "3", "5"],
+      "correct": 2,
+      "explanation": "A triangle always has 3 sides."
+    },
+    {
+      "question": "Which of these is a fruit?",
+      "options": ["Carrot", "Apple", "Broccoli", "Potato"],
+      "correct": 1,
+      "explanation": "An apple is a delicious fruit that grows on trees!"
+    },
+    {
+      "question": "What color do you get when you mix blue and yellow?",
+      "options": ["Red", "Green", "Purple", "Orange"],
+      "correct": 1,
+      "explanation": "When blue and yellow mix, they create green!"
+    },
+    {
+      "question": "How many fingers are on one hand?",
+      "options": ["4", "6", "5", "7"],
+      "correct": 2,
+      "explanation": "Most people have 5 fingers on each hand."
+    },
+    {
+      "question": "Which animal says 'meow'?",
+      "options": ["Dog", "Cow", "Cat", "Horse"],
+      "correct": 2,
+      "explanation": "Cats are known for saying 'meow'!"
+    },
+    {
+      "question": "What comes after the number 5?",
+      "options": ["4", "6", "7", "3"],
+      "correct": 1,
+      "explanation": "6 comes right after 5 when counting."
+    },
+    {
+      "question": "Which season comes after winter?",
+      "options": ["Fall", "Summer", "Winter", "Spring"],
+      "correct": 3,
+      "explanation": "Spring follows winter and brings new flowers!"
+    },
+    {
+      "question": "What shape is a circle?",
+      "options": ["Square", "Triangle", "Rectangle", "Round"],
+      "correct": 3,
+      "explanation": "A circle is round with no corners."
+    },
+    {
+      "question": "How many wheels does a bicycle have?",
+      "options": ["1", "3", "2", "4"],
+      "correct": 2,
+      "explanation": "A bicycle has 2 wheels to ride around!"
+    },
+    {
+      "question": "Which letter makes the 'sss' sound?",
+      "options": ["M", "S", "P", "T"],
+      "correct": 1,
+      "explanation": "The letter S makes the 'sss' sound like a snake!"
+    },
+    {
+      "question": "What color is grass?",
+      "options": ["Blue", "Red", "Green", "Yellow"],
+      "correct": 2,
+      "explanation": "Grass is green because it has something called chlorophyll!"
+    },
+    {
+      "question": "Which number comes before 10?",
+      "options": ["8", "9", "11", "12"],
+      "correct": 1,
+      "explanation": "9 comes right before 10 when counting up!"
+    },
+    {
+      "question": "Which of these animals can fly?",
+      "options": ["Fish", "Bird", "Snake", "Frog"],
+      "correct": 1,
+      "explanation": "Birds have wings that help them fly in the sky!"
+    },
+    {
+      "question": "What shape has 4 equal sides?",
+      "options": ["Rectangle", "Square", "Triangle", "Circle"],
+      "correct": 1,
+      "explanation": "A square has 4 sides that are all the same length!"
+    },
+    {
+      "question": "Which word rhymes with 'cat'?",
+      "options": ["Dog", "Hat", "Fish", "Ball"],
+      "correct": 1,
+      "explanation": "Hat rhymes with cat because they both end with the 'at' sound!"
+    },
+    {
+      "question": "How many days are in a week?",
+      "options": ["5", "6", "7", "8"],
+      "correct": 2,
+      "explanation": "There are 7 days in a week: Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, and Saturday!"
+    },
+    {
+      "question": "What do plants need to grow?",
+      "options": ["Cookies", "Water", "Toys", "Books"],
+      "correct": 1,
+      "explanation": "Plants need water, sunlight, and soil to grow big and strong!"
+    },
+    {
+      "question": "Which of these is a vegetable?",
+      "options": ["Banana", "Orange", "Carrot", "Grape"],
+      "correct": 2,
+      "explanation": "A carrot is a vegetable that grows underground and is good for your eyes!"
+    },
+    {
+      "question": "What color is the sky on a sunny day?",
+      "options": ["Green", "Blue", "Pink", "Brown"],
+      "correct": 1,
+      "explanation": "On a sunny day, the sky appears blue!"
+    },
+    {
+      "question": "Which animal has a very long neck?",
+      "options": ["Elephant", "Giraffe", "Lion", "Monkey"],
+      "correct": 1,
+      "explanation": "Giraffes have very long necks to reach leaves high up in trees!"
+    },
+    {
+      "question": "What do you use to write on paper?",
+      "options": ["Fork", "Pencil", "Shoe", "Hat"],
+      "correct": 1,
+      "explanation": "We use pencils, pens, or crayons to write and draw on paper!"
+    },
+    {
+      "question": "Which month comes after December?",
+      "options": ["November", "February", "January", "August"],
+      "correct": 2,
+      "explanation": "January is the first month of the year, right after December ends!"
+    },
+    {
+      "question": "What do you wear on your feet?",
+      "options": ["Hat", "Gloves", "Shoes", "Shirt"],
+      "correct": 2,
+      "explanation": "We wear shoes or socks on our feet to keep them warm and protected!"
+    },
+    {
+      "question": "Which of these is a color of the rainbow?",
+      "options": ["Brown", "Black", "White", "Purple"],
+      "correct": 3,
+      "explanation": "Purple is one of the seven colors of the rainbow: red, orange, yellow, green, blue, indigo, and violet (purple)!"
+    },
+    {
+      "question": "What do we use to see things?",
+      "options": ["Ears", "Eyes", "Nose", "Hands"],
+      "correct": 1,
+      "explanation": "We use our eyes to see the world around us!"
+    },
+    {
+      "question": "Which of these animals lives in the ocean?",
+      "options": ["Chicken", "Fish", "Cat", "Elephant"],
+      "correct": 1,
+      "explanation": "Fish live in water and use their fins and tails to swim!"
+    },
+    {
+      "question": "What letter does the word 'dog' start with?",
+      "options": ["B", "C", "D", "A"],
+      "correct": 2,
+      "explanation": "Dog starts with the letter D!"
+    },
+    {
+      "question": "How many sides does a square have?",
+      "options": ["3", "4", "5", "6"],
+      "correct": 1,
+      "explanation": "A square has 4 sides that are all equal in length!"
+    },
+    {
+      "question": "Which meal do we usually eat in the morning?",
+      "options": ["Lunch", "Dinner", "Snack", "Breakfast"],
+      "correct": 3,
+      "explanation": "Breakfast is the meal we eat in the morning to start our day!"
+    },
+    {
+      "question": "What is the opposite of 'hot'?",
+      "options": ["Warm", "Cool", "Cold", "Wet"],
+      "correct": 2,
+      "explanation": "Cold is the opposite of hot!"
+    },
+    {
+      "question": "Which animal has a trunk?",
+      "options": ["Lion", "Elephant", "Giraffe", "Zebra"],
+      "correct": 1,
+      "explanation": "Elephants have long trunks they use to grab food and drink water!"
+    },
+    {
+      "question": "What do we use to hear sounds?",
+      "options": ["Eyes", "Nose", "Ears", "Hands"],
+      "correct": 2,
+      "explanation": "We use our ears to hear sounds around us!"
+    },
+    {
+      "question": "What shape has three sides?",
+      "options": ["Circle", "Square", "Triangle", "Rectangle"],
+      "correct": 2,
+      "explanation": "A triangle has exactly three sides and three corners!"
+    },
+    {
+      "question": "What number is one more than 7?",
+      "options": ["6", "7", "8", "9"],
+      "correct": 2,
+      "explanation": "8 is one more than 7 when counting up!"
+    },
+    {
+      "question": "Which of these helps plants grow?",
+      "options": ["Moon", "Stars", "Sun", "Clouds"],
+      "correct": 2,
+      "explanation": "The sun gives plants light energy they need to grow!"
+    },
+    {
+      "question": "What vehicle do firefighters use?",
+      "options": ["Boat", "Fire truck", "Airplane", "Bicycle"],
+      "correct": 1,
+      "explanation": "Firefighters use fire trucks to get to fires quickly and carry water and equipment!"
+    },
+    {
+      "question": "Which of these is not a color?",
+      "options": ["Blue", "Seven", "Green", "Red"],
+      "correct": 1,
+      "explanation": "Seven is a number, not a color!"
+    },
+    {
+      "question": "Where do fish live?",
+      "options": ["Trees", "Water", "Sky", "Desert"],
+      "correct": 1,
+      "explanation": "Fish live in water where they can swim and breathe through their gills!"
+    },
+    {
+      "question": "What do you use to cut paper?",
+      "options": ["Ruler", "Scissors", "Glue", "Crayon"],
+      "correct": 1,
+      "explanation": "Scissors are used to cut paper into different shapes!"
+    },
+    {
+      "question": "Which animal says 'woof'?",
+      "options": ["Dog", "Duck", "Cow", "Sheep"],
+      "correct": 0,
+      "explanation": "Dogs say 'woof' or 'bark' to communicate!"
+    },
+    {
+      "question": "Which is not a fruit?",
+      "options": ["Apple", "Banana", "Carrot", "Orange"],
+      "correct": 2,
+      "explanation": "A carrot is a vegetable, not a fruit!"
+    },
+    {
+      "question": "What comes after Thursday?",
+      "options": ["Wednesday", "Saturday", "Friday", "Monday"],
+      "correct": 2,
+      "explanation": "Friday comes after Thursday in the days of the week!"
+    },
+    {
+      "question": "What color is a school bus?",
+      "options": ["Green", "Red", "Blue", "Yellow"],
+      "correct": 3,
+      "explanation": "School buses are usually bright yellow so they're easy to see!"
+    },
+    {
+      "question": "Which of these is a shape?",
+      "options": ["Blue", "Seven", "Circle", "Monday"],
+      "correct": 2,
+      "explanation": "A circle is a round shape with no corners!"
+    },
+    {
+      "question": "What letter does 'zebra' start with?",
+      "options": ["X", "Y", "Z", "W"],
+      "correct": 2,
+      "explanation": "Zebra starts with the letter Z, which is the last letter of the alphabet!"
+    },
+    {
+      "question": "How many corners does a triangle have?",
+      "options": ["2", "3", "4", "5"],
+      "correct": 1,
+      "explanation": "A triangle has 3 corners where the sides meet!"
+    },
+    {
+      "question": "What do we breathe?",
+      "options": ["Water", "Food", "Air", "Soil"],
+      "correct": 2,
+      "explanation": "We breathe air in through our nose and mouth!"
+    },
+    {
+      "question": "Which of these animals has spots?",
+      "options": ["Leopard", "Wolf", "Bear", "Rabbit"],
+      "correct": 0,
+      "explanation": "Leopards have beautiful spotted coats!"
+    },
+    {
+      "question": "What do we use to brush our teeth?",
+      "options": ["Fork", "Toothbrush", "Spoon", "Pencil"],
+      "correct": 1,
+      "explanation": "We use a toothbrush to clean our teeth and keep them healthy!"
+    },
+    {
+      "question": "Which is the smallest number?",
+      "options": ["5", "10", "1", "3"],
+      "correct": 2,
+      "explanation": "1 is the smallest number among these choices!"
+    },
+    {
+      "question": "What covers the outside of a tree?",
+      "options": ["Leaves", "Bark", "Flowers", "Rocks"],
+      "correct": 1,
+      "explanation": "Bark is the outer covering of a tree that protects it!"
+    },
+    {
+      "question": "What do you sleep on?",
+      "options": ["Table", "Chair", "Bed", "Floor"],
+      "correct": 2,
+      "explanation": "We sleep on a bed to be comfortable at night!"
+    },
+    {
+      "question": "What is the first letter of the alphabet?",
+      "options": ["Z", "B", "C", "A"],
+      "correct": 3,
+      "explanation": "A is the first letter of the alphabet!"
+    },
+    {
+      "question": "Which animal has a shell?",
+      "options": ["Dog", "Cat", "Turtle", "Bear"],
+      "correct": 2,
+      "explanation": "Turtles have a hard shell that protects their body!"
+    },
+    {
+      "question": "What do we use to stay dry in the rain?",
+      "options": ["Sunglasses", "Umbrella", "Hat", "Gloves"],
+      "correct": 1,
+      "explanation": "We use an umbrella to keep the rain off us and stay dry!"
+    },
+    {
+      "question": "Which number comes between 4 and 6?",
+      "options": ["3", "7", "5", "8"],
+      "correct": 2,
+      "explanation": "5 comes between 4 and 6 when counting!"
+    },
+    {
+      "question": "What do we use to tell time?",
+      "options": ["Book", "Clock", "Ball", "Shoe"],
+      "correct": 1,
+      "explanation": "We use clocks and watches to tell what time it is!"
+    },
+    {
+      "question": "Which of these is not an animal?",
+      "options": ["Cat", "Dog", "Tree", "Fish"],
+      "correct": 2,
+      "explanation": "A tree is a plant, not an animal!"
+    },
+    {
+      "question": "What color is a carrot?",
+      "options": ["Green", "Blue", "Orange", "Purple"],
+      "correct": 2,
+      "explanation": "Carrots are usually orange in color!"
+    },
+    {
+      "question": "What do you wear when it's cold?",
+      "options": ["Coat", "Shorts", "Sandals", "T-shirt"],
+      "correct": 0,
+      "explanation": "We wear a coat to keep warm when it's cold outside!"
+    },
+    {
+      "question": "Which of these can fly?",
+      "options": ["Fish", "Dog", "Cat", "Bird"],
+      "correct": 3,
+      "explanation": "Birds have wings that help them fly in the air!"
+    },
+    {
+      "question": "What do you use to write on a chalkboard?",
+      "options": ["Pen", "Pencil", "Chalk", "Marker"],
+      "correct": 2,
+      "explanation": "We use chalk to write on a chalkboard!"
+    },
+	{
+      "question": "How many sides does a square have?",
+      "options": ["3", "4", "5", "6"],
+      "correct": 1,
+      "explanation": "A square has exactly 4 sides, and all the sides are the same length. If you trace a square with your finger, you'll move in 4 different directions!"
+    },
+    {
+      "question": "Which number comes right after 7?",
+      "options": ["6", "7", "8", "9"],
+      "correct": 2,
+      "explanation": "8 comes right after 7 when counting up: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10..."
+    },
+    {
+      "question": "What is 3 + 2?",
+      "options": ["4", "5", "6", "7"],
+      "correct": 1,
+      "explanation": "3 + 2 = 5. If you have 3 blocks and add 2 more blocks, you will have 5 blocks altogether!"
+    },
+    {
+      "question": "Which shape has 3 sides?",
+      "options": ["Square", "Circle", "Triangle", "Rectangle"],
+      "correct": 2,
+      "explanation": "A triangle has exactly 3 sides and 3 corners. Its name even has 'tri' at the beginning, which means 'three'!"
+    },
+    {
+      "question": "If you have 5 cookies and eat 2, how many cookies do you have left?",
+      "options": ["2", "3", "5", "7"],
+      "correct": 1,
+      "explanation": "If you start with 5 cookies and eat 2 of them, you will have 3 cookies left. This is subtraction: 5 - 2 = 3."
+    },
+    {
+      "question": "What is 1 more than 10?",
+      "options": ["9", "10", "11", "12"],
+      "correct": 2,
+      "explanation": "11 is 1 more than 10. When we add 1 to any number, we get the next number when counting up!"
+    },
+    {
+      "question": "How many corners does a triangle have?",
+      "options": ["2", "3", "4", "5"],
+      "correct": 1,
+      "explanation": "A triangle has 3 corners where its 3 sides meet. Each corner is called a 'vertex'!"
+    },
+    {
+      "question": "What is 4 + 1?",
+      "options": ["3", "4", "5", "6"],
+      "correct": 2,
+      "explanation": "4 + 1 = 5. If you have 4 fingers up and put up 1 more finger, you'll have 5 fingers up!"
+    },
+    {
+      "question": "Which number is bigger: 8 or 3?",
+      "options": ["3", "8", "They are the same", "Neither"],
+      "correct": 1,
+      "explanation": "8 is bigger than 3. When counting, 8 comes after 3, which means it's a larger number!"
+    },
+    {
+      "question": "What is 5 + 0?",
+      "options": ["0", "4", "5", "6"],
+      "correct": 2,
+      "explanation": "5 + 0 = 5. When you add zero to any number, the number stays the same. Zero means 'nothing added'!"
+    },
+    {
+      "question": "What number is 1 less than 6?",
+      "options": ["4", "5", "6", "7"],
+      "correct": 1,
+      "explanation": "5 is 1 less than 6. When we take away 1 (or subtract 1) from 6, we get 5."
+    },
+    {
+      "question": "How many sides does a circle have?",
+      "options": ["0", "1", "2", "4"],
+      "correct": 0,
+      "explanation": "A circle has 0 sides! It's a smooth, round shape with no straight edges or corners."
+    },
+    {
+      "question": "Which number comes before 5?",
+      "options": ["3", "4", "5", "6"],
+      "correct": 1,
+      "explanation": "4 comes right before 5 when counting up: 1, 2, 3, 4, 5..."
+    },
+    {
+      "question": "What is 2 + 2?",
+      "options": ["2", "3", "4", "5"],
+      "correct": 2,
+      "explanation": "2 + 2 = 4. If you have 2 apples and someone gives you 2 more apples, you'll have 4 apples altogether!"
+    },
+    {
+      "question": "Which shape has the most sides?",
+      "options": ["Triangle", "Circle", "Rectangle", "Square"],
+      "correct": 1,
+      "explanation": "A circle doesn't have any straight sides - it's a continuous curved line, which means it has the most 'side' of all these shapes!"
+    },
+    {
+      "question": "If you have 3 pencils and get 2 more, how many pencils do you have?",
+      "options": ["3", "4", "5", "6"],
+      "correct": 2,
+      "explanation": "If you have 3 pencils and get 2 more, you'll have 5 pencils altogether. This is addition: 3 + 2 = 5."
+    },
+    {
+      "question": "What number comes between 9 and 11?",
+      "options": ["8", "9", "10", "12"],
+      "correct": 2,
+      "explanation": "10 comes between 9 and 11 when counting in order: 9, 10, 11."
+    },
+    {
+      "question": "What is half of 8?",
+      "options": ["2", "4", "6", "8"],
+      "correct": 1,
+      "explanation": "Half of 8 is 4. When we split 8 things into two equal groups, we get 4 in each group!"
+    },
+    {
+      "question": "How many fingers do you have on one hand?",
+      "options": ["4", "5", "6", "10"],
+      "correct": 1,
+      "explanation": "You have 5 fingers on one hand - a thumb and four fingers. Count them: 1, 2, 3, 4, 5!"
+    },
+    {
+      "question": "What is 6 - 3?",
+      "options": ["2", "3", "4", "9"],
+      "correct": 1,
+      "explanation": "6 - 3 = 3. If you have 6 toys and give away 3 of them, you will have 3 toys left."
+    },
+    {
+      "question": "Which is the smallest number?",
+      "options": ["0", "1", "2", "3"],
+      "correct": 0,
+      "explanation": "0 is the smallest number among these choices. It represents nothing or none of something!"
+    },
+    {
+      "question": "If I have 4 balloons and 1 pops, how many balloons do I have left?",
+      "options": ["1", "3", "4", "5"],
+      "correct": 1,
+      "explanation": "If you start with 4 balloons and 1 pops, you will have 3 balloons left. This is 4 - 1 = 3."
+    },
+    {
+      "question": "What is double 2?",
+      "options": ["2", "3", "4", "6"],
+      "correct": 2,
+      "explanation": "Double 2 is 4. When we double a number, we add it to itself: 2 + 2 = 4."
+    },
+    {
+      "question": "What shape does a stop sign have?",
+      "options": ["Triangle", "Square", "Circle", "Octagon"],
+      "correct": 3,
+      "explanation": "A stop sign is shaped like an octagon, which has 8 sides and 8 corners!"
+    },
+    {
+      "question": "What is 5 + 5?",
+      "options": ["5", "10", "15", "20"],
+      "correct": 1,
+      "explanation": "5 + 5 = 10. It's like counting all your fingers: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10!"
+    },
+    {
+      "question": "How many tens are in the number 30?",
+      "options": ["0", "3", "10", "30"],
+      "correct": 1,
+      "explanation": "There are 3 tens in the number 30. We can think of 30 as 10 + 10 + 10, which is 3 groups of 10!"
+    },
+    {
+      "question": "Which number is less: 2 or 7?",
+      "options": ["2", "7", "They are the same", "Neither"],
+      "correct": 0,
+      "explanation": "2 is less than 7. When counting up, 2 comes before 7, which means it's a smaller number!"
+    },
+    {
+      "question": "What is 4 + 4?",
+      "options": ["4", "6", "8", "10"],
+      "correct": 2,
+      "explanation": "4 + 4 = 8. This is also called 'double 4' - when you add a number to itself!"
+    },
+    {
+      "question": "How many corners does a square have?",
+      "options": ["2", "3", "4", "5"],
+      "correct": 2,
+      "explanation": "A square has exactly 4 corners where its 4 sides meet. Each corner is called a 'vertex'!"
+    },
+    {
+      "question": "What is 8 - 4?",
+      "options": ["2", "3", "4", "6"],
+      "correct": 2,
+      "explanation": "8 - 4 = 4. If you have 8 stickers and give away 4 stickers, you will have 4 stickers left."
+    },
+    {
+      "question": "What number is 2 more than A?",
+      "options": ["7", "8", "9", "10"],
+      "correct": 2,
+      "explanation": "9 is 2 more than 7. When we add 2 to 7, we count up two numbers: 8, 9."
+    },
+    {
+      "question": "How many days are in one week?",
+      "options": ["5", "6", "7", "8"],
+      "correct": 2,
+      "explanation": "There are 7 days in one week: Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, and Saturday!"
+    },
+    {
+      "question": "If there are 2 birds in a nest and 3 more fly in, how many birds are in the nest now?",
+      "options": ["2", "3", "5", "6"],
+      "correct": 2,
+      "explanation": "If 2 birds are already in the nest and 3 more fly in, there will be 5 birds altogether. This is 2 + 3 = 5."
+    },
+    {
+      "question": "What number comes right after 13?",
+      "options": ["12", "13", "14", "15"],
+      "correct": 2,
+      "explanation": "14 comes right after 13 when counting up: 11, 12, 13, 14, 15..."
+    },
+    {
+      "question": "Which is heavier: a feather or a rock?",
+      "options": ["Feather", "Rock", "They weigh the same", "Depends on the size"],
+      "correct": 1,
+      "explanation": "A rock is heavier than a feather. If you held one in each hand, the rock would feel much heavier!"
+    },
+    {
+      "question": "What is 3 + 3?",
+      "options": ["3", "6", "9", "12"],
+      "correct": 1,
+      "explanation": "3 + 3 = 6. This is also called 'double 3' - when you add a number to itself!"
+    },
+    {
+      "question": "How many hours are in one day?",
+      "options": ["12", "18", "24", "36"],
+      "correct": 2,
+      "explanation": "There are 24 hours in a full day and night. The clock goes around twice to make one whole day!"
+    },
+    {
+      "question": "If you have 10 candies and share them equally with a friend, how many will each person get?",
+      "options": ["2", "5", "10", "20"],
+      "correct": 1,
+      "explanation": "If you share 10 candies equally between 2 people, each person will get 5 candies. This is 10 ÷ 2 = 5."
+    },
+    {
+      "question": "What is 7 - 2?",
+      "options": ["3", "4", "5", "7"],
+      "correct": 2,
+      "explanation": "7 - 2 = 5. If you have 7 marbles and lose 2 of them, you will have 5 marbles left."
+    },
+    {
+      "question": "Which number is even: 5 or 6?",
+      "options": ["5", "6", "Both", "Neither"],
+      "correct": 1,
+      "explanation": "6 is an even number. Even numbers can be split into pairs with none left over. The even numbers are 2, 4, 6, 8, 10, and so on!"
+    },
+    {
+      "question": "What is the name of a shape with 5 sides?",
+      "options": ["Triangle", "Square", "Pentagon", "Hexagon"],
+      "correct": 2,
+      "explanation": "A shape with 5 sides is called a pentagon. 'Penta' means five, just like a pentagon has 5 sides and 5 corners!"
+    },
+    {
+      "question": "What number is 2 less than 9?",
+      "options": ["5", "6", "7", "11"],
+      "correct": 2,
+      "explanation": "7 is 2 less than 9. When we subtract 2 from 9, we count back two numbers: 8, 7."
+    },
+    {
+      "question": "If I put 3 red balls and 2 blue balls in a bag, how many balls are in the bag?",
+      "options": ["2", "3", "5", "6"],
+      "correct": 2,
+      "explanation": "If you put 3 red balls and 2 blue balls in a bag, there will be 5 balls altogether. This is 3 + 2 = 5."
+    },
+    {
+      "question": "What is half of 10?",
+      "options": ["2", "5", "10", "15"],
+      "correct": 1,
+      "explanation": "Half of 10 is 5. When we split 10 things into two equal groups, we get 5 in each group!"
+    },
+    {
+      "question": "What 3D shape is like a ball?",
+      "options": ["Cube", "Cone", "Cylinder", "Sphere"],
+      "correct": 3,
+      "explanation": "A sphere is the 3D shape that looks like a ball. It is perfectly round in all directions!"
+    },
+    {
+      "question": "If today is Monday, what day will tomorrow be?",
+      "options": ["Sunday", "Monday", "Tuesday", "Wednesday"],
+      "correct": 2,
+      "explanation": "If today is Monday, tomorrow will be Tuesday. The days of the week go in order: Sunday, Monday, Tuesday..."
+    },
+    {
+      "question": "What is 9 - 5?",
+      "options": ["3", "4", "5", "14"],
+      "correct": 1,
+      "explanation": "9 - 5 = 4. If you have 9 crayons and your friend takes 5, you will have 4 crayons left."
+    },
+    {
+      "question": "Which is longer: a pencil or a school bus?",
+      "options": ["Pencil", "School bus", "They are the same", "Depends on the pencil"],
+      "correct": 1,
+      "explanation": "A school bus is much longer than a pencil! A school bus can be about 35 feet long, while a pencil is only a few inches long."
+    },
+    {
+      "question": "What is 2 + 3 + 1?",
+      "options": ["3", "5", "6", "7"],
+      "correct": 2,
+      "explanation": "2 + 3 + 1 = 6. You can add these numbers in any order: first 2 + 3 = 5, then 5 + 1 = 6."
+    },
+    {
+      "question": "How many sides does a rectangle have?",
+      "options": ["2", "3", "4", "5"],
+      "correct": 2,
+      "explanation": "A rectangle has 4 sides - 2 long sides and 2 short sides, with 4 corners where the sides meet!"
+    },
+    {
+      "question": "What comes after 29?",
+      "options": ["28", "29", "30", "31"],
+      "correct": 2,
+      "explanation": "30 comes right after 29 when counting. After 29, we reach a new group of ten numbers that start with 3."
+    },
+    {
+      "question": "If I have 6 fish and buy 2 more, how many fish do I have now?",
+      "options": ["6", "7", "8", "10"],
+      "correct": 2,
+      "explanation": "If you have 6 fish and buy 2 more, you will have 8 fish altogether. This is 6 + 2 = 8."
+    },
+    {
+      "question": "What number is between 4 and 6?",
+      "options": ["3", "4", "5", "7"],
+      "correct": 2,
+      "explanation": "5 is the number between 4 and 6 when counting in order: 4, 5, 6."
+    },
+    {
+      "question": "If I cut a sandwich into 4 equal pieces and eat 1 piece, how many pieces are left?",
+      "options": ["1", "2", "3", "4"],
+      "correct": 2,
+      "explanation": "If you cut a sandwich into 4 equal pieces and eat 1 piece, you will have 3 pieces left. This is 4 - 1 = 3."
+    },
+    {
+      "question": "Which number is odd: 8 or 9?",
+      "options": ["8", "9", "Both", "Neither"],
+      "correct": 1,
+      "explanation": "9 is an odd number. Odd numbers have one left over when you try to put them in pairs. The odd numbers are 1, 3, 5, 7, 9, and so on!"
+    },
+    {
+      "question": "What is 10 + 5?",
+      "options": ["5", "10", "15", "20"],
+      "correct": 2,
+      "explanation": "10 + 5 = 15. You can start with 10 and count up 5 more: 11, 12, 13, 14, 15!"
+    },
+    {
+      "question": "How many corners does a triangle have?",
+      "options": ["0", "2", "3", "4"],
+      "correct": 2,
+      "explanation": "A triangle has exactly 3 corners where its 3 sides meet. These corners are also called 'vertices'!"
+    },
+    {
+      "question": "What is 7 + 3?",
+      "options": ["3", "7", "10", "13"],
+      "correct": 2,
+      "explanation": "7 + 3 = 10. Another way to think of it is that 7 needs 3 more to make 10. This is called making a 'ten'!"
+    },
+    {
+      "question": "What is the name of a solid shape with 6 square faces?",
+      "options": ["Sphere", "Cylinder", "Pyramid", "Cube"],
+      "correct": 3,
+      "explanation": "A cube is a 3D shape with 6 square faces, 8 corners, and 12 edges. A dice is shaped like a cube!"
+    },
+    {
+      "question": "If there are 8 legs on 2 cats, how many legs would 3 cats have?",
+      "options": ["8", "10", "12", "16"],
+      "correct": 2,
+      "explanation": "Each cat has 4 legs, so 3 cats would have 12 legs altogether. We can calculate this as 3 × 4 = 12."
+    },
+	{
+      "question": "What do we call a person who flies in a spaceship?",
+      "options": ["Pilot", "Driver", "Astronaut", "Captain"],
+      "correct": 2,
+      "explanation": "An astronaut is a person who is specially trained to travel in a spaceship to explore space!"
+    },
+    {
+      "question": "Which of these is a vehicle that flies in the sky?",
+      "options": ["Car", "Boat", "Train", "Airplane"],
+      "correct": 3,
+      "explanation": "An airplane is a vehicle with wings that flies through the sky, carrying people from place to place!"
+    },
+    {
+      "question": "What does a thermometer measure?",
+      "options": ["Time", "Weight", "Temperature", "Distance"],
+      "correct": 2,
+      "explanation": "A thermometer measures temperature - how hot or cold something is!"
+    },
+    {
+      "question": "What kind of animal has eight legs?",
+      "options": ["Spider", "Butterfly", "Dog", "Chicken"],
+      "correct": 0,
+      "explanation": "Spiders have eight legs, which they use to walk and to build webs!"
+    },
+    {
+      "question": "Which of these can melt and become water?",
+      "options": ["Wood", "Paper", "Ice", "Sand"],
+      "correct": 2,
+      "explanation": "Ice can melt when it gets warm and turn into liquid water!"
+    },
+    {
+      "question": "What do you call a doctor who takes care of teeth?",
+      "options": ["Scientist", "Chef", "Teacher", "Dentist"],
+      "correct": 3,
+      "explanation": "A dentist is a special doctor who helps keep your teeth healthy and fixes teeth problems!"
+    },
+    {
+      "question": "Which of these animals can change its color?",
+      "options": ["Dog", "Chameleon", "Rabbit", "Horse"],
+      "correct": 1,
+      "explanation": "Chameleons can change their skin color to blend in with their surroundings or to show how they feel!"
+    },
+    {
+      "question": "What is a baby rabbit called?",
+      "options": ["Calf", "Foal", "Bunny", "Cub"],
+      "correct": 2,
+      "explanation": "A baby rabbit is often called a bunny or a kit!"
+    },
+    {
+      "question": "What does a plant need to make its own food?",
+      "options": ["Moon", "Sunlight", "Stars", "Television"],
+      "correct": 1,
+      "explanation": "Plants need sunlight to make their own food through a process called photosynthesis!"
+    },
+    {
+      "question": "Which object floats in water?",
+      "options": ["Nail", "Penny", "Cork", "Paper clip"],
+      "correct": 2,
+      "explanation": "Cork floats in water because it is lighter than water - that's why it's used in life jackets and fishing bobbers!"
+    },
+    {
+      "question": "What is 6 + 2?",
+      "options": ["4", "7", "8", "10"],
+      "correct": 2,
+      "explanation": "6 plus 2 equals 8! You can count: 6, then add 2 more: 7, 8."
+    },
+    {
+      "question": "What is a young goat called?",
+      "options": ["Calf", "Kid", "Lamb", "Foal"],
+      "correct": 1,
+      "explanation": "A young goat is called a kid!"
+    },
+    {
+      "question": "What is the main color of most lemons?",
+      "options": ["Green", "Orange", "Red", "Yellow"],
+      "correct": 3,
+      "explanation": "Most ripe lemons are yellow, though they start out green when they're growing!"
+    },
+    {
+      "question": "What grows on trees and is red, yellow, or green?",
+      "options": ["Eggs", "Shoes", "Apples", "Books"],
+      "correct": 2,
+      "explanation": "Apples grow on trees and can be red, yellow, or green depending on the type!"
+    },
+    {
+      "question": "Which of these tells us which way is north?",
+      "options": ["Ruler", "Compass", "Clock", "Telephone"],
+      "correct": 1,
+      "explanation": "A compass has a special needle that always points north, helping us find our way!"
+    },
+    {
+      "question": "What do zebras have that make them special?",
+      "options": ["Horns", "Stripes", "Wings", "Spots"],
+      "correct": 1,
+      "explanation": "Zebras have black and white stripes that make each zebra unique - no two zebras have exactly the same pattern!"
+    },
+    {
+      "question": "What do most birds have that helps them fly?",
+      "options": ["Scales", "Fur", "Feathers", "Hair"],
+      "correct": 2,
+      "explanation": "Birds have feathers that help them fly by creating lift and allowing them to steer in the air!"
+    },
+    {
+      "question": "Which of these is not a fruit?",
+      "options": ["Apple", "Banana", "Carrot", "Orange"],
+      "correct": 2,
+      "explanation": "A carrot is a vegetable that grows underground, not a fruit that grows from a flower!"
+    },
+    {
+      "question": "What is 10 - 2?",
+      "options": ["8", "12", "7", "9"],
+      "correct": 0,
+      "explanation": "10 minus 2 equals 8. If you have 10 things and take away 2, you have 8 left!"
+    },
+    {
+      "question": "What do butterflies drink from flowers?",
+      "options": ["Water", "Nectar", "Juice", "Milk"],
+      "correct": 1,
+      "explanation": "Butterflies use their long straw-like tongues to drink sweet nectar from flowers!"
+    },
+    {
+      "question": "What is a large body of saltwater called?",
+      "options": ["Lake", "River", "Pond", "Ocean"],
+      "correct": 3,
+      "explanation": "An ocean is a vast body of saltwater that covers most of our planet!"
+    },
+    {
+      "question": "What part of the plant grows into a flower?",
+      "options": ["Root", "Leaf", "Bud", "Stem"],
+      "correct": 2,
+      "explanation": "A bud is the part of a plant that grows and opens into a beautiful flower!"
+    },
+    {
+      "question": "Which hand would most people use to write?",
+      "options": ["Right hand", "Left hand", "Both hands", "Neither hand"],
+      "correct": 0,
+      "explanation": "Most people use their right hand to write, though some people use their left hand!"
+    },
+    {
+      "question": "What time of day do most people eat breakfast?",
+      "options": ["Morning", "Afternoon", "Evening", "Night"],
+      "correct": 0,
+      "explanation": "Most people eat breakfast in the morning after they wake up to start their day with energy!"
+    },
+    {
+      "question": "Where would you find a librarian working?",
+      "options": ["Hospital", "Library", "Restaurant", "Fire station"],
+      "correct": 1,
+      "explanation": "A librarian works in a library where they help people find books and information!"
+    },
+    {
+      "question": "Which letter makes the sound 'zzzz'?",
+      "options": ["X", "Y", "Z", "W"],
+      "correct": 2,
+      "explanation": "The letter Z makes the 'zzzz' sound like in zebra, zipper, and zoo!"
+    },
+    {
+      "question": "What sticks to a magnet?",
+      "options": ["Paper", "Plastic", "Metal", "Wood"],
+      "correct": 2,
+      "explanation": "Many metals like iron stick to magnets because of a special force called magnetism!"
+    },
+    {
+      "question": "What do we call the area where ducks and fish live in a park?",
+      "options": ["Pond", "Desert", "Mountain", "Forest"],
+      "correct": 0,
+      "explanation": "A pond is a small body of water where ducks might swim and fish might live!"
+    },
+    {
+      "question": "Which word means the opposite of 'empty'?",
+      "options": ["Broken", "Full", "Clean", "Quiet"],
+      "correct": 1,
+      "explanation": "Full is the opposite of empty - a full container has something in it while an empty one has nothing!"
+    },
+    {
+      "question": "What shape is a stop sign?",
+      "options": ["Circle", "Triangle", "Square", "Octagon"],
+      "correct": 3,
+      "explanation": "A stop sign is an octagon, which is a shape with eight sides and eight angles!"
+    },
+    {
+      "question": "What should you do before crossing a street?",
+      "options": ["Close your eyes", "Run quickly", "Look both ways", "Jump up and down"],
+      "correct": 2,
+      "explanation": "You should always look both ways before crossing a street to make sure no cars are coming!"
+    },
+    {
+      "question": "What kind of weather might need an umbrella?",
+      "options": ["Sunny", "Windy", "Rainy", "Snowy"],
+      "correct": 2,
+      "explanation": "Rainy weather is when we need umbrellas to stay dry when we go outside!"
+    },
+    {
+      "question": "What planet do we live on?",
+      "options": ["Mars", "Jupiter", "Earth", "Venus"],
+      "correct": 2,
+      "explanation": "We live on planet Earth, which is the third planet from the Sun in our solar system!"
+    },
+    {
+      "question": "What number is one more than nine?",
+      "options": ["8", "10", "11", "12"],
+      "correct": 1,
+      "explanation": "10 is one more than 9 - it comes right after 9 when counting up!"
+    },
+    {
+      "question": "Which of these is a musical instrument you blow into?",
+      "options": ["Drum", "Violin", "Flute", "Piano"],
+      "correct": 2,
+      "explanation": "A flute is a musical instrument that you blow across or into to make beautiful sounds!"
+    },
+    {
+      "question": "What do you call a picture of the world?",
+      "options": ["Globe", "Television", "Computer", "Telephone"],
+      "correct": 0,
+      "explanation": "A globe is a round model or picture of the Earth that shows all the continents and oceans!"
+    },
+    {
+      "question": "What covers the outside of birds?",
+      "options": ["Scales", "Skin", "Feathers", "Fur"],
+      "correct": 2,
+      "explanation": "Birds are covered with feathers that keep them warm, help them fly, and often have beautiful colors!"
+    },
+    {
+      "question": "Which of these is a tool for measuring how long something is?",
+      "options": ["Scale", "Clock", "Ruler", "Thermometer"],
+      "correct": 2,
+      "explanation": "A ruler is used to measure the length or width of objects!"
+    },
+    {
+      "question": "What do bees collect from flowers to make honey?",
+      "options": ["Water", "Leaves", "Nectar", "Seeds"],
+      "correct": 2,
+      "explanation": "Bees collect sweet nectar from flowers and bring it back to their hive to make honey!"
+    },
+    {
+      "question": "Which of these animals lives in the desert and has humps?",
+      "options": ["Camel", "Elephant", "Lion", "Penguin"],
+      "correct": 0,
+      "explanation": "Camels live in deserts and have humps on their backs that store fat for energy when food is scarce!"
+    },
+    {
+      "question": "What are the three primary colors?",
+      "options": ["Red, yellow, blue", "Green, orange, purple", "Black, white, gray", "Pink, brown, teal"],
+      "correct": 0,
+      "explanation": "The three primary colors are red, yellow, and blue - they can be mixed together to make other colors!"
+    },
+    {
+      "question": "What is special about nocturnal animals?",
+      "options": ["They can fly", "They live in water", "They are awake at night", "They have no legs"],
+      "correct": 2,
+      "explanation": "Nocturnal animals are awake and active at night and sleep during the day, like owls and bats!"
+    },
+    {
+      "question": "Which month has the fewest days?",
+      "options": ["January", "February", "March", "April"],
+      "correct": 1,
+      "explanation": "February has the fewest days with 28 days (or 29 in a leap year)!"
+    },
+    {
+      "question": "What are baby pigs called?",
+      "options": ["Calves", "Foals", "Kittens", "Piglets"],
+      "correct": 3,
+      "explanation": "Baby pigs are called piglets!"
+    },
+    {
+      "question": "What is 7 + 3?",
+      "options": ["9", "10", "8", "11"],
+      "correct": 1,
+      "explanation": "7 plus 3 equals 10! You can count: 7, then add 3 more: 8, 9, 10."
+    },
+    {
+      "question": "Which of these belongs in the kitchen?",
+      "options": ["Bed", "Stove", "Bathtub", "Desk"],
+      "correct": 1,
+      "explanation": "A stove belongs in the kitchen - it's used for cooking food!"
+    },
+    {
+      "question": "What do you call a pattern that repeats over and over?",
+      "options": ["Group", "Stack", "Pattern", "Sequence"],
+      "correct": 2,
+      "explanation": "A pattern is a design or sequence that repeats in a predictable way, like red-blue-red-blue-red-blue!"
+    },
+    {
+      "question": "What kind of shoes are best for running fast?",
+      "options": ["Sandals", "Sneakers", "Boots", "Slippers"],
+      "correct": 1,
+      "explanation": "Sneakers (or running shoes) are designed to help people run fast and comfortably!"
+    },
+    {
+      "question": "Where do you go to mail a letter?",
+      "options": ["Bank", "Library", "Post office", "Hospital"],
+      "correct": 2,
+      "explanation": "You go to the post office to mail letters and packages to people in other places!"
+    },
+    {
+      "question": "What does a baker make?",
+      "options": ["Toys", "Bread", "Cars", "Houses"],
+      "correct": 1,
+      "explanation": "A baker makes bread, cakes, cookies, and other baked goods in a bakery!"
+    },
+    {
+      "question": "Which of these animals hatches from an egg?",
+      "options": ["Dog", "Cat", "Bird", "Cow"],
+      "correct": 2,
+      "explanation": "Birds hatch from eggs - the mother bird sits on the eggs to keep them warm until they're ready to hatch!"
+    },
+    {
+      "question": "What is a circle with lines showing different countries called?",
+      "options": ["Television", "Radio", "Telephone", "Globe"],
+      "correct": 3,
+      "explanation": "A globe is a round model of Earth that shows all the different countries and oceans!"
+    },
+    {
+      "question": "What are very tiny living things that can sometimes make you sick?",
+      "options": ["Germs", "Leaves", "Rocks", "Clouds"],
+      "correct": 0,
+      "explanation": "Germs are tiny living things that can sometimes make you sick, which is why it's important to wash your hands!"
+    },
+    {
+      "question": "Which of these vehicles has two wheels?",
+      "options": ["Car", "Bus", "Bicycle", "Truck"],
+      "correct": 2,
+      "explanation": "A bicycle has two wheels and is powered by pedaling with your feet!"
+    },
+    {
+      "question": "What colors make purple when mixed?",
+      "options": ["Red and yellow", "Blue and yellow", "Red and blue", "Green and orange"],
+      "correct": 2,
+      "explanation": "When you mix red and blue paint together, you get purple!"
+    },
+    {
+      "question": "Which of these should you not touch?",
+      "options": ["Toys", "Books", "Hot stove", "Pillows"],
+      "correct": 2,
+      "explanation": "You should never touch a hot stove because it can burn you and hurt your skin!"
+    },
+    {
+      "question": "What animal delivers mail in the popular children's TV show?",
+      "options": ["Dog", "Cat", "Postman Pat", "Turtle"],
+      "correct": 0,
+      "explanation": "In many children's shows, a dog helps deliver mail, like Jess the cat helps Postman Pat!"
+    },
+    {
+      "question": "What is the hard outer covering of a turtle?",
+      "options": ["Fur", "Feathers", "Shell", "Scales"],
+      "correct": 2,
+      "explanation": "A turtle has a hard shell that protects its body and acts like a shield!"
+    },
+    {
+      "question": "Which of these places would have the most books?",
+      "options": ["Beach", "Library", "Playground", "Forest"],
+      "correct": 1,
+      "explanation": "A library is filled with books that you can borrow and read!"
+    },
+    {
+      "question": "What does a doctor use to listen to your heart?",
+      "options": ["Microscope", "Telescope", "Stethoscope", "Periscope"],
+      "correct": 2,
+      "explanation": "A doctor uses a stethoscope to listen to your heart beating in your chest!"
+    },
+	{
+      "question": "What sound does the letter 'P' make?",
+      "options": ["Mmm", "Sss", "Puh", "Tuh"],
+      "correct": 2,
+      "explanation": "The letter P makes the 'puh' sound like in pig, pencil, and purple!"
+    },
+    {
+      "question": "Which of these animals lives in the Arctic?",
+      "options": ["Giraffe", "Penguin", "Polar bear", "Monkey"],
+      "correct": 2,
+      "explanation": "Polar bears live in the cold Arctic region where there's lots of ice and snow!"
+    },
+    {
+      "question": "What do we call it when water falls from clouds as frozen crystals?",
+      "options": ["Rain", "Snow", "Hail", "Fog"],
+      "correct": 1,
+      "explanation": "Snow is frozen water that falls as beautiful white flakes from clouds when it's very cold!"
+    },
+    {
+      "question": "Which of these would you use to draw a straight line?",
+      "options": ["Ruler", "Scissors", "Glue", "Eraser"],
+      "correct": 0,
+      "explanation": "A ruler helps you draw perfectly straight lines by placing it on paper and tracing along its edge!"
+    },
+    {
+      "question": "What comes after summer?",
+      "options": ["Winter", "Spring", "Fall", "Monday"],
+      "correct": 2,
+      "explanation": "Fall (also called autumn) comes after summer in the cycle of seasons!"
+    },
+    {
+      "question": "Which of these means 'not happy'?",
+      "options": ["Glad", "Sad", "Excited", "Sleepy"],
+      "correct": 1,
+      "explanation": "Sad is how we feel when we're not happy, like when something disappointing happens."
+    },
+    {
+      "question": "What is 5 + 0?",
+      "options": ["0", "5", "50", "10"],
+      "correct": 1,
+      "explanation": "5 plus 0 equals 5! When you add zero to any number, the number stays the same."
+    },
+    {
+      "question": "Which of these grows underground?",
+      "options": ["Apple", "Carrot", "Banana", "Grape"],
+      "correct": 1,
+      "explanation": "Carrots grow underground with just their green leaves showing above the soil!"
+    },
+    {
+      "question": "What do caterpillars turn into?",
+      "options": ["Birds", "Frogs", "Butterflies", "Fish"],
+      "correct": 2,
+      "explanation": "Caterpillars change into beautiful butterflies in a process called metamorphosis!"
+    },
+    {
+      "question": "What do you put in a piggy bank?",
+      "options": ["Food", "Books", "Money", "Toys"],
+      "correct": 2,
+      "explanation": "We put coins and money in piggy banks to save for things we might want later!"
+    },
+    {
+      "question": "What letter does 'umbrella' start with?",
+      "options": ["A", "O", "E", "U"],
+      "correct": 3,
+      "explanation": "Umbrella starts with the letter U!"
+    },
+    {
+      "question": "Which of these is not a toy?",
+      "options": ["Doll", "Pillow", "Ball", "Blocks"],
+      "correct": 1,
+      "explanation": "A pillow is something we use to rest our head on when sleeping, not a toy!"
+    },
+    {
+      "question": "What is 3 - 2?",
+      "options": ["1", "2", "3", "5"],
+      "correct": 0,
+      "explanation": "3 minus 2 equals 1! When you take away 2 from 3, you have 1 left."
+    },
+    {
+      "question": "What do you wear to keep your feet dry in rain puddles?",
+      "options": ["Sandals", "Sneakers", "Rain boots", "Slippers"],
+      "correct": 2,
+      "explanation": "Rain boots (also called galoshes) are waterproof boots that keep your feet dry when walking through puddles!"
+    },
+    {
+      "question": "What holiday comes at the end of October?",
+      "options": ["Valentine's Day", "Halloween", "Christmas", "Easter"],
+      "correct": 1,
+      "explanation": "Halloween comes at the end of October, on the 31st day of the month!"
+    },
+    {
+      "question": "What do you use to look at tiny things up close?",
+      "options": ["Telescope", "Microscope", "Binoculars", "Camera"],
+      "correct": 1,
+      "explanation": "A microscope helps you see very tiny things that are too small to see with just your eyes!"
+    },
+    {
+      "question": "Which of these lights up the daytime sky?",
+      "options": ["Moon", "Stars", "Sun", "Clouds"],
+      "correct": 2,
+      "explanation": "The Sun lights up our daytime sky and gives us warmth and energy!"
+    },
+    {
+      "question": "What animal says 'baa'?",
+      "options": ["Dog", "Sheep", "Cat", "Cow"],
+      "correct": 1,
+      "explanation": "Sheep say 'baa' as their special sound!"
+    },
+    {
+      "question": "What do we call a baby cow?",
+      "options": ["Kitten", "Puppy", "Calf", "Chick"],
+      "correct": 2,
+      "explanation": "A baby cow is called a calf!"
+    },
+    {
+      "question": "What has a dial or numbers that tells the temperature?",
+      "options": ["Clock", "Thermometer", "Radio", "Television"],
+      "correct": 1,
+      "explanation": "A thermometer has numbers that show how hot or cold something is!"
+    },
+    {
+      "question": "Which of these is a fruit with a red inside and black seeds?",
+      "options": ["Apple", "Orange", "Watermelon", "Banana"],
+      "correct": 2,
+      "explanation": "A watermelon has a green outside, juicy red inside, and black seeds scattered throughout!"
+    },
+    {
+      "question": "What number is less than 3?",
+      "options": ["3", "4", "5", "2"],
+      "correct": 3,
+      "explanation": "2 is less than 3 when counting up from smallest to largest!"
+    },
+    {
+      "question": "What body part helps you walk?",
+      "options": ["Arms", "Ears", "Legs", "Nose"],
+      "correct": 2,
+      "explanation": "Your legs help you walk, run, jump, and move around!"
+    },
+    {
+      "question": "What do you add to cereal besides milk?",
+      "options": ["Salt", "Pepper", "Sugar", "Nothing"],
+      "correct": 3,
+      "explanation": "Many cereals are already sweet, so we usually don't need to add anything besides milk!"
+    },
+    {
+      "question": "Which of these is a circle?",
+      "options": ["●", "▲", "■", "▬"],
+      "correct": 0,
+      "explanation": "The first symbol is a circle - it's perfectly round with no corners or edges!"
+    },
+    {
+      "question": "What letter makes the same sound as 'Kite'?",
+      "options": ["T", "J", "C", "P"],
+      "correct": 2,
+      "explanation": "The letter C sometimes makes the same 'kuh' sound as in kite, especially in words like 'cat' and 'cut'!"
+    },
+    {
+      "question": "Which animal has black and white stripes?",
+      "options": ["Giraffe", "Zebra", "Tiger", "Panda"],
+      "correct": 1,
+      "explanation": "Zebras have black and white stripes all over their bodies!"
+    },
+    {
+      "question": "What do you wear on a cold winter day?",
+      "options": ["Swimsuit", "Shorts", "Winter coat", "T-shirt"],
+      "correct": 2,
+      "explanation": "A winter coat keeps you warm when it's cold outside in winter!"
+    },
+    {
+      "question": "Which of these is not a color?",
+      "options": ["Red", "Cat", "Blue", "Green"],
+      "correct": 1,
+      "explanation": "Cat is an animal, not a color! Red, blue, and green are all colors."
+    },
+    {
+      "question": "How many eyes do most people have?",
+      "options": ["1", "2", "3", "4"],
+      "correct": 1,
+      "explanation": "Most people have 2 eyes that help them see the world around them!"
+    },
+    {
+      "question": "What does a chef do?",
+      "options": ["Teaches", "Cooks", "Drives", "Builds"],
+      "correct": 1,
+      "explanation": "A chef cooks food in restaurants or other places where people eat!"
+    },
+    {
+      "question": "What has strings and makes music when you pluck them?",
+      "options": ["Drum", "Flute", "Guitar", "Piano"],
+      "correct": 2,
+      "explanation": "A guitar has strings that make different musical notes when you pluck or strum them!"
+    },
+    {
+      "question": "Which of these helps you see in the dark?",
+      "options": ["Flashlight", "Book", "Ball", "Crayon"],
+      "correct": 0,
+      "explanation": "A flashlight provides light so you can see when it's dark!"
+    },
+    {
+      "question": "What month comes after June?",
+      "options": ["May", "August", "July", "September"],
+      "correct": 2,
+      "explanation": "July comes right after June in the calendar year!"
+    },
+    {
+      "question": "Which of these is not an insect?",
+      "options": ["Ant", "Butterfly", "Spider", "Ladybug"],
+      "correct": 2,
+      "explanation": "A spider is not an insect! Spiders have 8 legs, while insects have 6 legs."
+    },
+    {
+      "question": "What do you do with a key?",
+      "options": ["Eat it", "Wear it", "Unlock things", "Read it"],
+      "correct": 2,
+      "explanation": "Keys are used to unlock doors, boxes, and other things that are locked!"
+    },
+    {
+      "question": "What shape has 5 sides?",
+      "options": ["Triangle", "Rectangle", "Pentagon", "Hexagon"],
+      "correct": 2,
+      "explanation": "A pentagon has exactly 5 sides and 5 corners!"
+    },
+    {
+      "question": "Which of these do birds build for their eggs?",
+      "options": ["Desk", "Nest", "Chair", "Table"],
+      "correct": 1,
+      "explanation": "Birds build nests to hold their eggs and keep their babies safe until they grow up!"
+    },
+    {
+      "question": "What color is broccoli?",
+      "options": ["Red", "Blue", "Green", "Yellow"],
+      "correct": 2,
+      "explanation": "Broccoli is green and looks like little trees you can eat!"
+    },
+    {
+      "question": "What do we call frozen rain that falls in small balls?",
+      "options": ["Snow", "Sleet", "Hail", "Fog"],
+      "correct": 2,
+      "explanation": "Hail is frozen rain that falls as small, hard balls of ice!"
+    },
+    {
+      "question": "What do pencils have on the end to fix mistakes?",
+      "options": ["Brush", "Eraser", "Clip", "Button"],
+      "correct": 1,
+      "explanation": "Pencils often have erasers on the end to rub out mistakes when you're writing or drawing!"
+    },
+    {
+      "question": "What moves a sailboat across water?",
+      "options": ["Fire", "Wind", "Rocks", "Sand"],
+      "correct": 1,
+      "explanation": "Wind pushes against the sails to move a sailboat across the water!"
+    },
+    {
+      "question": "What do you call a giant wave in the ocean?",
+      "options": ["Mountain", "Tsunami", "Highway", "Desert"],
+      "correct": 1,
+      "explanation": "A tsunami is a giant ocean wave that can be very powerful!"
+    },
+    {
+      "question": "Which of these is inside an apple?",
+      "options": ["Bones", "Seeds", "Shells", "Rocks"],
+      "correct": 1,
+      "explanation": "Apples have seeds inside them that could grow into new apple trees if planted!"
+    },
+    {
+      "question": "What helps plants grow straight up?",
+      "options": ["Clouds", "Moon", "Gravity", "Sunlight"],
+      "correct": 3,
+      "explanation": "Plants grow toward sunlight, which helps them grow straight up toward the sky!"
+    },
+    {
+      "question": "What do you use to dig a hole in the garden?",
+      "options": ["Shovel", "Pencil", "Cup", "Plate"],
+      "correct": 0,
+      "explanation": "A shovel is a tool with a handle and a flat blade used for digging in soil or sand!"
+    },
+    {
+      "question": "Which of these is a dairy food?",
+      "options": ["Apple", "Bread", "Cheese", "Chicken"],
+      "correct": 2,
+      "explanation": "Cheese is a dairy food made from milk that comes from cows, goats, or sheep!"
+    },
+    {
+      "question": "What do we call 'little drops of water' that form on grass in the morning?",
+      "options": ["Rain", "Hail", "Snow", "Dew"],
+      "correct": 3,
+      "explanation": "Dew is the name for small water drops that form on cool surfaces like grass in the morning!"
+    },
+    {
+      "question": "Which of these would you find in a bathroom?",
+      "options": ["Stove", "Sink", "Couch", "Television"],
+      "correct": 1,
+      "explanation": "A sink is found in bathrooms for washing hands and brushing teeth!"
+    },
+    {
+      "question": "What word means the same as 'quick'?",
+      "options": ["Slow", "Fast", "Big", "Small"],
+      "correct": 1,
+      "explanation": "Fast means the same as quick - both describe something that moves or happens in a short time!"
+    },
+    {
+      "question": "What tells you the streets and roads in a city?",
+      "options": ["Book", "Dictionary", "Map", "Calendar"],
+      "correct": 2,
+      "explanation": "A map shows streets, roads, and places in a city or area to help you find your way!"
+    },
+    {
+      "question": "What do bees make that is sweet?",
+      "options": ["Salt", "Sugar", "Honey", "Sand"],
+      "correct": 2,
+      "explanation": "Bees make honey, which is sweet and delicious, from the nectar they collect from flowers!"
+    },
+    {
+      "question": "What number comes after 40?",
+      "options": ["39", "41", "42", "50"],
+      "correct": 1,
+      "explanation": "41 comes right after 40 when counting up!"
+    },
+    {
+      "question": "Which of these is a tool for cutting grass?",
+      "options": ["Broom", "Lawnmower", "Dishwasher", "Television"],
+      "correct": 1,
+      "explanation": "A lawnmower is a machine used to cut grass in yards and parks!"
+    },
+    {
+      "question": "What are baby chicks covered with?",
+      "options": ["Fur", "Scales", "Skin", "Feathers"],
+      "correct": 3,
+      "explanation": "Baby chicks are covered with soft, fluffy feathers that help keep them warm!"
+    },
+    {
+      "question": "What number is 9 - 5?",
+      "options": ["3", "4", "14", "5"],
+      "correct": 1,
+      "explanation": "9 minus 5 equals 4! You can count backward from 9: 8, 7, 6, 5, 4."
+    },
+    {
+      "question": "What do we call the science of studying plants?",
+      "options": ["Zoology", "Botany", "Chemistry", "Geology"],
+      "correct": 1,
+      "explanation": "Botany is the science of studying plants - botanists learn about how plants grow and live!"
+    },
+    {
+      "question": "Which of these animals has a pouch for its baby?",
+      "options": ["Dog", "Cat", "Kangaroo", "Elephant"],
+      "correct": 2,
+      "explanation": "Kangaroos have special pouches where their babies, called joeys, grow and develop!"
+    },
+    {
+      "question": "What do we call a big rock in space that circles around the sun?",
+      "options": ["Star", "Moon", "Planet", "Cloud"],
+      "correct": 2,
+      "explanation": "A planet is a large rocky or gaseous body that orbits (moves around) the sun!"
+    },
+    {
+      "question": "What is used to put out fires?",
+      "options": ["Water", "Paper", "Wood", "Oil"],
+      "correct": 0,
+      "explanation": "Water is often used to put out fires because it cools the fire and stops it from burning!"
+    },
+    {
+      "question": "What type of clothes do you wear for swimming?",
+      "options": ["Pajamas", "Winter coat", "Swimsuit", "Raincoat"],
+      "correct": 2,
+      "explanation": "A swimsuit is special clothing designed for swimming and playing in water!"
+    },
+	{
+      "question": "Which word rhymes with 'cat'?",
+      "options": ["dog", "hat", "pig", "sun"],
+      "correct": 1,
+      "explanation": "Hat rhymes with cat because they both end with the 'at' sound."
+    },
+    {
+      "question": "What sound does the word 'sun' start with?",
+      "options": ["m", "t", "s", "p"],
+      "correct": 2,
+      "explanation": "Sun starts with the 's' sound."
+    },
+    {
+      "question": "How many syllables are in the word 'elephant'?",
+      "options": ["2", "3", "4", "1"],
+      "correct": 1,
+      "explanation": "The word elephant has 3 syllables: el-e-phant."
+    },
+    {
+      "question": "Which word has the same beginning sound as 'moon'?",
+      "options": ["sun", "map", "nose", "kite"],
+      "correct": 1,
+      "explanation": "Map begins with the 'm' sound, just like moon."
+    },
+    {
+      "question": "What sound do you hear at the end of 'dog'?",
+      "options": ["d", "o", "g", "t"],
+      "correct": 2,
+      "explanation": "The last sound in dog is the 'g' sound."
+    },
+    {
+      "question": "If you take away the 's' from 'star', what word do you have?",
+      "options": ["car", "tar", "ar", "sat"],
+      "correct": 1,
+      "explanation": "When you remove the 's' from 'star', you get the word 'tar'."
+    },
+    {
+      "question": "Which word can be made by adding 'b' to the beginning of 'at'?",
+      "options": ["cat", "bat", "hat", "rat"],
+      "correct": 1,
+      "explanation": "Adding 'b' to 'at' makes the word 'bat'."
+    },
+    {
+      "question": "Which letter makes the 'k' sound?",
+      "options": ["c", "t", "p", "m"],
+      "correct": 0,
+      "explanation": "The letter 'c' can make the 'k' sound, like in 'cat'."
+    },
+    {
+      "question": "Which letter comes after 'D' in the alphabet?",
+      "options": ["C", "E", "F", "B"],
+      "correct": 1,
+      "explanation": "E comes after D in the alphabet."
+    },
+    {
+      "question": "What sound does 'th' make in the word 'this'?",
+      "options": ["t sound", "h sound", "th sound like in 'thumb'", "s sound"],
+      "correct": 2,
+      "explanation": "The 'th' in 'this' makes the 'th' sound, like in 'thumb'."
+    },
+    {
+      "question": "Which word has the short 'a' sound?",
+      "options": ["cake", "cat", "train", "ape"],
+      "correct": 1,
+      "explanation": "Cat has the short 'a' sound, like in 'apple'."
+    },
+    {
+      "question": "Which letter makes the 'j' sound in the word 'giraffe'?",
+      "options": ["g", "i", "r", "f"],
+      "correct": 0,
+      "explanation": "The letter 'g' makes the 'j' sound in the word 'giraffe'."
+    },
+    {
+      "question": "If a story is about a boy who finds a lost puppy, what is the main idea?",
+      "options": ["The puppy was brown", "The boy helps a lost puppy", "It was raining outside", "The boy has a blue shirt"],
+      "correct": 1,
+      "explanation": "The main idea is that the boy helps a lost puppy, as this captures what the story is mostly about."
+    },
+    {
+      "question": "If the book shows a picture of a sad puppy, how might the puppy be feeling?",
+      "options": ["Happy", "Excited", "Sad", "Angry"],
+      "correct": 2,
+      "explanation": "The puppy is feeling sad as shown in the picture."
+    },
+    {
+      "question": "Who answers the 'who' question in a story?",
+      "options": ["The place", "The time", "The person or character", "The reason"],
+      "correct": 2,
+      "explanation": "'Who' questions are asking about a person or character in the story."
+    },
+    {
+      "question": "What does the word 'first' tell you in a story?",
+      "options": ["Something happened at the end", "Something happened at the beginning", "Something happened in the middle", "Something happened yesterday"],
+      "correct": 1,
+      "explanation": "The word 'first' tells you that something happened at the beginning."
+    },
+    {
+      "question": "If a character in a story is crying, how do they probably feel?",
+      "options": ["Happy", "Sad", "Excited", "Tired"],
+      "correct": 1,
+      "explanation": "If a character is crying, they probably feel sad."
+    },
+    {
+      "question": "What happens after you read the title of a book?",
+      "options": ["You close the book", "You read the author's name", "You read the story", "You look at the cover"],
+      "correct": 2,
+      "explanation": "After reading the title of a book, you would typically start reading the story."
+    },
+    {
+      "question": "Which number is greater: 7 or 5?",
+      "options": ["5", "7", "They are the same", "Neither"],
+      "correct": 1,
+      "explanation": "7 is greater than 5 because it represents more objects."
+    },
+    {
+      "question": "If you have 3 apples and get 2 more, how many do you have?",
+      "options": ["3", "2", "5", "6"],
+      "correct": 2,
+      "explanation": "3 + 2 = 5. This is an addition problem where you combine 3 apples with 2 more apples."
+    },
+    {
+      "question": "If you have 5 cookies and eat 2, how many are left?",
+      "options": ["7", "3", "2", "5"],
+      "correct": 1,
+      "explanation": "5 - 2 = 3. This is a subtraction problem where you take away 2 cookies from 5 cookies."
+    },
+    {
+      "question": "Which number comes between 8 and 10?",
+      "options": ["7", "9", "11", "6"],
+      "correct": 1,
+      "explanation": "9 comes between 8 and 10 in the number sequence."
+    },
+    {
+      "question": "Which group has more stars: ★★★ or ★★★★?",
+      "options": ["First group", "Second group", "They are equal", "Cannot tell"],
+      "correct": 1,
+      "explanation": "The second group has 4 stars, which is more than the 3 stars in the first group."
+    },
+    {
+      "question": "What number is one less than 7?",
+      "options": ["8", "6", "7", "5"],
+      "correct": 1,
+      "explanation": "6 is one less than 7. When you count backward from 7, you get 6."
+    },
+    {
+      "question": "If you put together 4 blocks and 1 block, how many blocks do you have?",
+      "options": ["3", "4", "5", "6"],
+      "correct": 2,
+      "explanation": "4 + 1 = 5. When you put together 4 blocks and 1 block, you have 5 blocks total."
+    },
+    {
+      "question": "How many fingers do you have on one hand?",
+      "options": ["4", "5", "6", "10"],
+      "correct": 1,
+      "explanation": "There are 5 fingers on one hand."
+    },
+    {
+      "question": "Which is heavier: a feather or a rock?",
+      "options": ["A feather", "A rock", "They weigh the same", "Cannot tell"],
+      "correct": 1,
+      "explanation": "A rock is heavier than a feather."
+    },
+    {
+      "question": "Which is taller: a tree or a flower?",
+      "options": ["A tree", "A flower", "They are the same height", "Cannot tell"],
+      "correct": 0,
+      "explanation": "A tree is typically taller than a flower."
+    },
+    {
+      "question": "How would you measure how long a pencil is?",
+      "options": ["With a clock", "With a ruler", "With a scale", "With a cup"],
+      "correct": 1,
+      "explanation": "You would measure how long a pencil is with a ruler."
+    },
+    {
+      "question": "If I say 'Touch your head, then your toes', what should you touch first?",
+      "options": ["Toes", "Head", "Fingers", "Knees"],
+      "correct": 1,
+      "explanation": "You should touch your head first, then your toes."
+    },
+    {
+      "question": "If I ask 'What is your favorite color?', what type of question is this?",
+      "options": ["A 'where' question", "A 'what' question", "A 'who' question", "A 'when' question"],
+      "correct": 1,
+      "explanation": "This is a 'what' question because it asks about a thing (your favorite color)."
+    },
+    {
+      "question": "What does it mean to 'listen carefully'?",
+      "options": ["To talk loudly", "To pay close attention with your ears", "To run around", "To close your eyes"],
+      "correct": 1,
+      "explanation": "Listening carefully means to pay close attention with your ears to what someone is saying."
+    },
+    {
+      "question": "What sound does the word 'fish' end with?",
+      "options": ["f", "i", "sh", "s"],
+      "correct": 2,
+      "explanation": "The word 'fish' ends with the 'sh' sound."
+    },
+    {
+      "question": "Which word starts with the same sound as 'dog'?",
+      "options": ["cat", "ball", "day", "fish"],
+      "correct": 2,
+      "explanation": "Day starts with the 'd' sound, just like dog."
+    },
+    {
+      "question": "If you change the first letter in 'cat' to 'h', what word do you get?",
+      "options": ["bat", "mat", "hat", "rat"],
+      "correct": 2,
+      "explanation": "Changing the 'c' in 'cat' to 'h' gives you the word 'hat'."
+    },
+    {
+      "question": "Which word has the long 'e' sound?",
+      "options": ["bed", "she", "get", "let"],
+      "correct": 1,
+      "explanation": "The word 'she' has the long 'e' sound, like in 'me'."
+    },
+    {
+      "question": "Which word has 3 letters?",
+      "options": ["stop", "run", "cat", "jump"],
+      "correct": 2,
+      "explanation": "The word 'cat' has 3 letters: c-a-t."
+    },
+    {
+      "question": "If there are 6 birds and 2 fly away, how many birds are left?",
+      "options": ["4", "8", "6", "2"],
+      "correct": 0,
+      "explanation": "6 - 2 = 4. This is a subtraction problem where 2 birds fly away from a group of 6."
+    },
+    {
+      "question": "Which shape has 4 equal sides?",
+      "options": ["Triangle", "Circle", "Square", "Rectangle"],
+      "correct": 2,
+      "explanation": "A square has 4 equal sides."
+    },
+    {
+      "question": "If you have 2 red balls and 3 blue balls, how many balls do you have altogether?",
+      "options": ["2", "3", "5", "6"],
+      "correct": 2,
+      "explanation": "2 + 3 = 5. You have 5 balls altogether."
+    },
+    {
+      "question": "What number comes just before 10?",
+      "options": ["8", "9", "11", "12"],
+      "correct": 1,
+      "explanation": "9 comes just before 10 in the number sequence."
+    },
+    {
+      "question": "How many corners does a triangle have?",
+      "options": ["2", "3", "4", "5"],
+      "correct": 1,
+      "explanation": "A triangle has 3 corners (or vertices)."
+    },
+    {
+      "question": "Which animal lives in the ocean?",
+      "options": ["Lion", "Fish", "Elephant", "Eagle"],
+      "correct": 1,
+      "explanation": "Fish live in the ocean."
+    },
+    {
+      "question": "What do plants need to grow?",
+      "options": ["Chocolate", "Water", "Toys", "Cars"],
+      "correct": 1,
+      "explanation": "Plants need water to grow."
+    },
+    {
+      "question": "What do we use to keep time?",
+      "options": ["Clock", "Chair", "Ball", "Book"],
+      "correct": 0,
+      "explanation": "We use a clock to keep time."
+    },
+    {
+      "question": "Which helps keep us dry in the rain?",
+      "options": ["Sunglasses", "Umbrella", "Sandals", "T-shirt"],
+      "correct": 1,
+      "explanation": "An umbrella helps keep us dry in the rain."
+    },
+    {
+      "question": "What season comes after winter?",
+      "options": ["Fall", "Summer", "Spring", "Another winter"],
+      "correct": 2,
+      "explanation": "Spring comes after winter."
+    },
+    {
+      "question": "What question word would you use to ask about time?",
+      "options": ["Who", "What", "Where", "When"],
+      "correct": 3,
+      "explanation": "'When' is used to ask questions about time."
+    },
+    {
+      "question": "What question word would you use to ask about a place?",
+      "options": ["Who", "What", "Where", "Why"],
+      "correct": 2,
+      "explanation": "'Where' is used to ask questions about a place."
+    },
+    {
+      "question": "What question word would you use to ask about a reason?",
+      "options": ["Who", "What", "When", "Why"],
+      "correct": 3,
+      "explanation": "'Why' is used to ask questions about a reason."
+    },
+    {
+      "question": "Which is a complete sentence?",
+      "options": ["Running fast", "The dog", "She jumped", "Big tree"],
+      "correct": 2,
+      "explanation": "'She jumped' is a complete sentence with a subject and verb."
+    },
+    {
+      "question": "Which words tell about size?",
+      "options": ["Happy, sad", "Big, small", "Fast, slow", "Hot, cold"],
+      "correct": 1,
+      "explanation": "'Big' and 'small' are words that tell about size."
+    },
+	{
+      "question": "Which of these words rhymes with 'cake'?",
+      "options": ["cat", "lake", "can", "cut"],
+      "correct": 1,
+      "explanation": "Lake rhymes with cake because they both end with the same 'ake' sound."
+    },
+    {
+      "question": "Which letter makes the first sound in 'yellow'?",
+      "options": ["w", "y", "e", "j"],
+      "correct": 1,
+      "explanation": "The letter 'y' makes the first sound in 'yellow'."
+    },
+    {
+      "question": "How many syllables do you hear in the word 'butterfly'?",
+      "options": ["1", "2", "3", "4"],
+      "correct": 2,
+      "explanation": "The word 'butterfly' has 3 syllables: but-ter-fly."
+    },
+    {
+      "question": "What would happen if you take away the 'c' from 'cup'?",
+      "options": ["Nothing would happen", "It would spell 'up'", "It would spell 'cap'", "It would spell 'cut'"],
+      "correct": 1,
+      "explanation": "If you take away the 'c' from 'cup', you're left with 'up'."
+    },
+    {
+      "question": "Which pair of words start with the same sound?",
+      "options": ["cat and dog", "fish and foot", "sun and moon", "ball and bird"],
+      "correct": 3,
+      "explanation": "Ball and bird both start with the 'b' sound."
+    },
+    {
+      "question": "What sound do you hear at the beginning of 'top'?",
+      "options": ["s", "t", "p", "d"],
+      "correct": 1,
+      "explanation": "The word 'top' begins with the 't' sound."
+    },
+    {
+      "question": "Which word has the short 'i' sound?",
+      "options": ["like", "find", "pin", "five"],
+      "correct": 2,
+      "explanation": "The word 'pin' has the short 'i' sound, like in 'sit'."
+    },
+    {
+      "question": "Which two letters make the 'ch' sound in 'chair'?",
+      "options": ["sh", "ch", "th", "wh"],
+      "correct": 1,
+      "explanation": "The letters 'ch' make the 'ch' sound in 'chair'."
+    },
+    {
+      "question": "What sound do the letters 'ow' make in the word 'cow'?",
+      "options": ["o sound like in 'go'", "ow sound like in 'grow'", "ow sound like in 'now'", "w sound"],
+      "correct": 2,
+      "explanation": "The letters 'ow' in 'cow' make the 'ow' sound like in 'now'."
+    },
+    {
+      "question": "Which word has the same vowel sound as 'bed'?",
+      "options": ["seed", "bad", "red", "road"],
+      "correct": 2,
+      "explanation": "The word 'red' has the same short 'e' vowel sound as 'bed'."
+    },
+    {
+      "question": "What are the small marks at the end of sentences called?",
+      "options": ["Letters", "Words", "Punctuation marks", "Sentences"],
+      "correct": 2,
+      "explanation": "The small marks like periods and question marks at the end of sentences are called punctuation marks."
+    },
+    {
+      "question": "What is the title of a book?",
+      "options": ["The first word", "The name of the book", "The last page", "The picture on the cover"],
+      "correct": 1,
+      "explanation": "The title is the name of the book."
+    },
+    {
+      "question": "Where would you find the author's name in a book?",
+      "options": ["On the cover", "In the middle of the story", "At the end of every page", "Only inside the book"],
+      "correct": 0,
+      "explanation": "The author's name is typically found on the cover of a book."
+    },
+    {
+      "question": "Which question word asks about a place?",
+      "options": ["What", "When", "Where", "Who"],
+      "correct": 2,
+      "explanation": "'Where' asks about a place."
+    },
+    {
+      "question": "What comes at the end of a question?",
+      "options": ["Period (.)", "Question mark (?)", "Exclamation point (!)", "Comma (,)"],
+      "correct": 1,
+      "explanation": "A question mark (?) comes at the end of a question."
+    },
+    {
+      "question": "If a story happens 'long ago', when did it take place?",
+      "options": ["In the future", "Right now", "In the past", "Tomorrow"],
+      "correct": 2,
+      "explanation": "If a story happens 'long ago', it took place in the past."
+    },
+    {
+      "question": "Which number is smaller: 3 or 8?",
+      "options": ["3", "8", "They are the same", "Cannot tell"],
+      "correct": 0,
+      "explanation": "3 is smaller than 8 because it represents fewer objects."
+    },
+    {
+      "question": "What number is 1 more than 9?",
+      "options": ["8", "9", "10", "11"],
+      "correct": 2,
+      "explanation": "10 is 1 more than 9. When counting forward from 9, you get 10."
+    },
+    {
+      "question": "If you have 4 toys and your friend has 7 toys, who has more toys?",
+      "options": ["You have more", "Your friend has more", "You have the same amount", "Cannot tell"],
+      "correct": 1,
+      "explanation": "Your friend has more toys because 7 is greater than 4."
+    },
+    {
+      "question": "Which group has fewer apples: 🍎🍎 or 🍎🍎🍎?",
+      "options": ["First group", "Second group", "They have the same", "Cannot tell"],
+      "correct": 0,
+      "explanation": "The first group has 2 apples, which is fewer than the 3 apples in the second group."
+    },
+    {
+      "question": "What is 3 + 2?",
+      "options": ["4", "5", "6", "3"],
+      "correct": 1,
+      "explanation": "3 + 2 = 5. When you add 3 and 2 together, you get 5."
+    },
+    {
+      "question": "What is 5 - 3?",
+      "options": ["2", "3", "5", "8"],
+      "correct": 0,
+      "explanation": "5 - 3 = 2. When you take 3 away from 5, you have 2 left."
+    },
+    {
+      "question": "How many sides does a square have?",
+      "options": ["3", "4", "5", "6"],
+      "correct": 1,
+      "explanation": "A square has 4 sides."
+    },
+    {
+      "question": "Which is a circle?",
+      "options": ["▲", "■", "●", "▬"],
+      "correct": 2,
+      "explanation": "The third symbol (●) is a circle."
+    },
+    {
+      "question": "How many days are in a week?",
+      "options": ["5", "6", "7", "10"],
+      "correct": 2,
+      "explanation": "There are 7 days in a week."
+    },
+    {
+      "question": "Which is longer: a pencil or a paper clip?",
+      "options": ["A pencil", "A paper clip", "They are the same length", "Cannot tell"],
+      "correct": 0,
+      "explanation": "A pencil is typically longer than a paper clip."
+    },
+    {
+      "question": "Which holds more: a cup or a bathtub?",
+      "options": ["A cup", "A bathtub", "They hold the same amount", "Cannot tell"],
+      "correct": 1,
+      "explanation": "A bathtub holds more water than a cup."
+    },
+    {
+      "question": "If you're following directions, what should you do first?",
+      "options": ["Ask questions", "Listen carefully", "Start working right away", "Talk to your friend"],
+      "correct": 1,
+      "explanation": "When following directions, you should listen carefully first."
+    },
+    {
+      "question": "What does it mean when someone raises their hand in class?",
+      "options": ["They want to leave", "They want to speak", "They are stretching", "They are voting"],
+      "correct": 1,
+      "explanation": "When someone raises their hand in class, it usually means they want to speak or ask a question."
+    },
+    {
+      "question": "What should you do when the teacher is talking?",
+      "options": ["Talk to your friends", "Play with toys", "Look and listen", "Walk around"],
+      "correct": 2,
+      "explanation": "When the teacher is talking, you should look and listen."
+    },
+    {
+      "question": "Which word tells us how someone feels?",
+      "options": ["Running", "Happy", "Pencil", "Today"],
+      "correct": 1,
+      "explanation": "'Happy' tells us how someone feels."
+    },
+    {
+      "question": "What do we call the people in a story?",
+      "options": ["Settings", "Problems", "Characters", "Words"],
+      "correct": 2,
+      "explanation": "The people in a story are called characters."
+    },
+    {
+      "question": "What happens at the beginning of most stories?",
+      "options": ["The problem is solved", "The story ends", "We meet the characters", "Everyone is happy"],
+      "correct": 2,
+      "explanation": "At the beginning of most stories, we meet the characters and learn about the setting."
+    },
+    {
+      "question": "What is the setting of a story?",
+      "options": ["The main character", "Where and when the story happens", "The problem in the story", "The title of the story"],
+      "correct": 1,
+      "explanation": "The setting is where and when the story happens."
+    },
+    {
+      "question": "Which word means the opposite of 'hot'?",
+      "options": ["Warm", "Cold", "Wet", "Dry"],
+      "correct": 1,
+      "explanation": "'Cold' is the opposite of 'hot'."
+    },
+    {
+      "question": "Which word means the opposite of 'big'?",
+      "options": ["Large", "Small", "Tall", "Long"],
+      "correct": 1,
+      "explanation": "'Small' is the opposite of 'big'."
+    },
+    {
+      "question": "Which of these is a color?",
+      "options": ["Desk", "Blue", "Fast", "Today"],
+      "correct": 1,
+      "explanation": "'Blue' is a color."
+    },
+    {
+      "question": "Which of these is a feeling?",
+      "options": ["Running", "Brown", "Chair", "Sad"],
+      "correct": 3,
+      "explanation": "'Sad' is a feeling."
+    },
+    {
+      "question": "Which of these is alive?",
+      "options": ["Rock", "Car", "Bird", "Chair"],
+      "correct": 2,
+      "explanation": "A bird is alive. Rocks, cars, and chairs are not living things."
+    },
+    {
+      "question": "What is the weather like when it's raining?",
+      "options": ["Sunny", "Snowy", "Rainy", "Windy"],
+      "correct": 2,
+      "explanation": "When it's raining, the weather is rainy."
+    },
+    {
+      "question": "Which season is usually the coldest?",
+      "options": ["Spring", "Summer", "Fall", "Winter"],
+      "correct": 3,
+      "explanation": "Winter is usually the coldest season."
+    },
+    {
+      "question": "Which of these helps plants grow?",
+      "options": ["Darkness", "Water", "Ice", "Rocks"],
+      "correct": 1,
+      "explanation": "Water helps plants grow."
+    },
+    {
+      "question": "What do we need to breathe?",
+      "options": ["Water", "Food", "Air", "Sleep"],
+      "correct": 2,
+      "explanation": "We need air to breathe."
+    },
+    {
+      "question": "Which of these is a fruit?",
+      "options": ["Carrot", "Broccoli", "Apple", "Potato"],
+      "correct": 2,
+      "explanation": "An apple is a fruit."
+    },
+    {
+      "question": "When do most people sleep?",
+      "options": ["Morning", "Afternoon", "Night", "Lunchtime"],
+      "correct": 2,
+      "explanation": "Most people sleep at night."
+    },
+    {
+      "question": "What comes after Monday?",
+      "options": ["Sunday", "Tuesday", "Wednesday", "Thursday"],
+      "correct": 1,
+      "explanation": "Tuesday comes after Monday in the days of the week."
+    },
+    {
+      "question": "What are the words that come at the beginning of a question called?",
+      "options": ["Answer words", "Question words", "Name words", "Color words"],
+      "correct": 1,
+      "explanation": "Words like who, what, when, where, why, and how that begin questions are called question words."
+    },
+    {
+      "question": "When someone asks you to 'predict' what might happen next in a story, what are they asking you to do?",
+      "options": ["Remember what already happened", "Make a good guess about what might happen", "Change the story", "Read faster"],
+      "correct": 1,
+      "explanation": "To predict means to make a good guess about what might happen next based on what you know."
+    },
+    {
+      "question": "What does the author of a book do?",
+      "options": ["Draws the pictures", "Writes the story", "Sells the book", "Reads the book"],
+      "correct": 1,
+      "explanation": "The author writes the story."
+    }
+  ], 10)
+};
+        // Quiz state variables
+        let currentQuestion = 0;
+        let points = 0;
+        let questionAnswered = false;
+
+        // DOM Elements
+        const questionEl = document.getElementById('question');
+        const optionsEl = document.getElementById('options');
+        const submitBtn = document.getElementById('submit-btn');
+        const nextBtn = document.getElementById('next-btn');
+        const feedbackEl = document.getElementById('feedback');
+        const pointsDisplayEl = document.getElementById('points-display');
+
+        // Function to load a question
+        function loadQuestion() {
+            // Reset for new question
+            questionAnswered = false;
+            submitBtn.disabled = true;
+            nextBtn.style.display = 'none';
+            feedbackEl.textContent = '';
+
+            // Get current question
+            const question = quizData.questions[currentQuestion];
+            
+            // Display question text
+            questionEl.textContent = question.question;
+
+            // Clear previous options
+            optionsEl.innerHTML = '';
+
+            // Create option buttons
+            question.options.forEach((option, index) => {
+                const optionEl = document.createElement('div');
+                optionEl.classList.add('option');
+                optionEl.textContent = option;
+                optionEl.addEventListener('click', () => selectOption(optionEl, index));
+                optionsEl.appendChild(optionEl);
+            });
+        }
+
+        // Function to handle option selection
+        function selectOption(optionEl, optionIndex) {
+            if (questionAnswered) return;
+
+            // Remove previous selection
+            const previousSelected = optionsEl.querySelector('.selected');
+            if (previousSelected) {
+                previousSelected.classList.remove('selected');
+            }
+
+            // Select current option
+            optionEl.classList.add('selected');
+            submitBtn.disabled = false;
+        }
+
+        // Function to submit and evaluate answer
+        function submitAnswer() {
+            if (questionAnswered) return;
+
+            questionAnswered = true;
+            submitBtn.disabled = true;
+
+            const selectedOption = optionsEl.querySelector('.selected');
+            const selectedIndex = Array.from(optionsEl.children).indexOf(selectedOption);
+            const currentQuestionData = quizData.questions[currentQuestion];
+
+            // Highlight correct and incorrect options
+            optionsEl.children[currentQuestionData.correct].classList.add('correct');
+            
+            if (selectedIndex === currentQuestionData.correct) {
+                // Correct answer
+                points++;
+                pointsDisplayEl.textContent = `Points: ${points}`;
+                feedbackEl.textContent = 'Correct! ' + currentQuestionData.explanation;
+            } else {
+                // Incorrect answer
+                if (selectedOption) {
+                    selectedOption.classList.add('incorrect');
+                }
+                feedbackEl.textContent = 'Oops! ' + currentQuestionData.explanation;
+            }
+
+            // Show next button
+            nextBtn.style.display = 'block';
+        }
+
+        // Function to move to next question
+        function nextQuestion() {
+            currentQuestion++;
+
+            if (currentQuestion < quizData.questions.length) {
+                // Load next question
+                loadQuestion();
+            } else {
+                // Quiz finished
+                finishQuiz();
+            }
+        }
+
+        // Function to finish the quiz
+        function finishQuiz() {
+            // Hide question container
+            questionEl.textContent = 'Quiz Completed!';
+            optionsEl.innerHTML = '';
+            submitBtn.style.display = 'none';
+            nextBtn.style.display = 'none';
+
+            // Calculate percentage
+            const percentage = Math.round((points / quizData.questions.length) * 100);
+
+            // Display final message
+            let finalMessage = `You scored ${points} out of ${quizData.questions.length} questions!\n`;
+            
+            if (percentage >= 80) {
+                finalMessage += "Excellent job! You're a superstar learner!";
+            } else if (percentage >= 60) {
+                finalMessage += "Good work! Keep practicing and you'll get even better!";
+            } else {
+                finalMessage += "Don't worry! Every quiz is a chance to learn something new.";
+            }
+
+            feedbackEl.textContent = finalMessage;
+        }
+
+        // Event Listeners
+        submitBtn.addEventListener('click', submitAnswer);
+        nextBtn.addEventListener('click', nextQuestion);
+
+        // Start the quiz
+        loadQuestion();
+    </script>
+</body>
+</html>
