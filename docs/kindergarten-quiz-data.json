@@ -8958,6 +8958,2759 @@
             "options": ["11", "12", "13", "14"],
             "correct": 1,
             "explanation": "The pattern is counting by 2s, so after 10 comes 12."
+          },
+          {
+            "question": "What number comes after 20?",
+            "options": ["19", "20", "21", "22"],
+            "correct": 2,
+            "explanation": "When counting up, 21 comes right after 20."
+          },
+          {
+            "question": "What number comes before 4?",
+            "options": ["2", "3", "4", "5"],
+            "correct": 1,
+            "explanation": "When counting up, 3 comes right before 4."
+          },
+          {
+            "question": "What is 5 + 7?",
+            "options": ["10", "11", "12", "13"],
+            "correct": 2,
+            "explanation": "5 + 7 = 12. When you add 5 and 7, you get 12."
+          },
+          {
+            "question": "What is 9 - 6?",
+            "options": ["2", "3", "4", "5"],
+            "correct": 1,
+            "explanation": "9 - 6 = 3. When you take away 6 from 9, you have 3 left."
+          },
+          {
+            "question": "Which number is greater: 10 or 15?",
+            "options": ["10", "15", "They are the same", "Cannot tell"],
+            "correct": 1,
+            "explanation": "15 is greater than 10 because it represents more objects."
+          },
+          {
+            "question": "Which number is less: 19 or 13?",
+            "options": ["13", "19", "They are the same", "Cannot tell"],
+            "correct": 0,
+            "explanation": "13 is less than 19 because it represents fewer objects."
+          },
+          {
+            "question": "If you have 14 pencils and break 5, how many unbroken pencils do you have left?",
+            "options": ["5", "9", "14", "19"],
+            "correct": 1,
+            "explanation": "14 - 5 = 9. If you have 14 pencils and break 5, you have 9 unbroken pencils left."
+          },
+          {
+            "question": "If you have 7 toy cars and your friend gives you 9 more, how many toy cars do you have altogether?",
+            "options": ["9", "14", "16", "17"],
+            "correct": 2,
+            "explanation": "7 + 9 = 16. If you have 7 toy cars and get 9 more, you have 16 toy cars altogether."
+          },
+          {
+            "question": "What is 12 + 5?",
+            "options": ["15", "16", "17", "18"],
+            "correct": 2,
+            "explanation": "12 + 5 = 17. When you add 12 and 5, you get 17."
+          },
+          {
+            "question": "What is 16 - 8?",
+            "options": ["6", "7", "8", "9"],
+            "correct": 2,
+            "explanation": "16 - 8 = 8. When you take away 8 from 16, you have 8 left."
+          },
+          {
+            "question": "What number is between 11 and 13?",
+            "options": ["10", "11", "12", "14"],
+            "correct": 2,
+            "explanation": "12 is between 11 and 13."
+          },
+          {
+            "question": "How many edges does a cube have?",
+            "options": ["6", "8", "12", "16"],
+            "correct": 2,
+            "explanation": "A cube has 12 edges (straight lines where faces meet)."
+          },
+          {
+            "question": "How many faces does a sphere have?",
+            "options": ["0", "1", "2", "6"],
+            "correct": 0,
+            "explanation": "A sphere has 0 faces - it has a curved surface with no flat faces."
+          },
+          {
+            "question": "Which shape has exactly 4 equal sides?",
+            "options": ["Rectangle", "Circle", "Triangle", "Square"],
+            "correct": 3,
+            "explanation": "A square has exactly 4 equal sides."
+          },
+          {
+            "question": "Which 3D shape has circular ends and a curved side?",
+            "options": ["Cube", "Cone", "Cylinder", "Sphere"],
+            "correct": 2,
+            "explanation": "A cylinder has circular ends and a curved side, like a can."
+          },
+          {
+            "question": "If you have 8 red blocks and 8 blue blocks, how many blocks do you have in all?",
+            "options": ["8", "15", "16", "17"],
+            "correct": 2,
+            "explanation": "8 + 8 = 16. If you have 8 red blocks and 8 blue blocks, you have 16 blocks in all."
+          },
+          {
+            "question": "What is 13 + 4?",
+            "options": ["15", "16", "17", "18"],
+            "correct": 2,
+            "explanation": "13 + 4 = 17. When you add 13 and 4, you get 17."
+          },
+          {
+            "question": "What is 17 - 10?",
+            "options": ["5", "6", "7", "8"],
+            "correct": 2,
+            "explanation": "17 - 10 = 7. When you take away 10 from 17, you have 7 left."
+          },
+          {
+            "question": "Which is fewer: 20 crayons or 15 crayons?",
+            "options": ["20 crayons", "15 crayons", "They are the same", "Cannot tell"],
+            "correct": 1,
+            "explanation": "15 crayons is fewer than 20 crayons."
+          },
+          {
+            "question": "Which group has more squares: ■■■ or ■■■■?",
+            "options": ["■■■", "■■■■", "They have the same", "Cannot tell"],
+            "correct": 1,
+            "explanation": "■■■■ has a 4 squares, which is more than the 3 squares in ■■■."
+          },
+          {
+            "question": "What is 6 + 0?",
+            "options": ["0", "5", "6", "7"],
+            "correct": 2,
+            "explanation": "6 + 0 = 6. When you add 0 to any number, the number stays the same."
+          },
+          {
+            "question": "What is 8 - 0?",
+            "options": ["0", "7", "8", "9"],
+            "correct": 2,
+            "explanation": "8 - 0 = 8. When you subtract 0 from any number, the number stays the same."
+          },
+          {
+            "question": "If there are 18 children on a playground and 9 leave, how many children are still on the playground?",
+            "options": ["9", "18", "27", "36"],
+            "correct": 0,
+            "explanation": "18 - 9 = 9. If there are 18 children and 9 leave, there are 9 children still on the playground."
+          },
+          {
+            "question": "What is 10 + 8?",
+            "options": ["16", "17", "18", "19"],
+            "correct": 2,
+            "explanation": "10 + 8 = 18. When you add 10 and 8, you get 18."
+          },
+          {
+            "question": "What number is 1 more than 11?",
+            "options": ["10", "11", "12", "13"],
+            "correct": 2,
+            "explanation": "12 is 1 more than 11. When you add 1 to 11, you get 12."
+          },
+          {
+            "question": "What number is 1 less than 20?",
+            "options": ["18", "19", "20", "21"],
+            "correct": 1,
+            "explanation": "19 is 1 less than 20. When you subtract 1 from 20, you get 19."
+          },
+          {
+            "question": "What 3D shape is like a soda can?",
+            "options": ["Cube", "Sphere", "Cylinder", "Cone"],
+            "correct": 2,
+            "explanation": "A soda can is shaped like a cylinder - it has circular ends and a curved side."
+          },
+          {
+            "question": "What 3D shape is like a building block?",
+            "options": ["Sphere", "Cone", "Cylinder", "Cube"],
+            "correct": 3,
+            "explanation": "A building block is typically shaped like a cube - it has square faces."
+          },
+          {
+            "question": "What is 14 + 2?",
+            "options": ["14", "15", "16", "17"],
+            "correct": 2,
+            "explanation": "14 + 2 = 16. When you add 14 and 2, you get 16."
+          },
+          {
+            "question": "What is 12 - 7?",
+            "options": ["3", "4", "5", "6"],
+            "correct": 2,
+            "explanation": "12 - 7 = 5. When you take away 7 from 12, you have 5 left."
+          },
+          {
+            "question": "If you have 10 apples and your friend gives you 7 more, how many apples do you have now?",
+            "options": ["10", "7", "17", "20"],
+            "correct": 2,
+            "explanation": "10 + 7 = 17. If you have 10 apples and get 7 more, you now have 17 apples."
+          },
+          {
+            "question": "If there are 19 books on a shelf and you take 6, how many books are left on the shelf?",
+            "options": ["6", "11", "13", "19"],
+            "correct": 2,
+            "explanation": "19 - 6 = 13. If there are 19 books and you take 6, there are 13 books left."
+          },
+          {
+            "question": "What number comes between 13 and 15?",
+            "options": ["12", "13", "14", "16"],
+            "correct": 2,
+            "explanation": "14 comes between 13 and 15."
+          },
+          {
+            "question": "How many corners does a cylinder have?",
+            "options": ["0", "2", "4", "8"],
+            "correct": 0,
+            "explanation": "A cylinder has 0 corners - it has curved edges with no corners."
+          },
+          {
+            "question": "Which is longer: a crayon or a marker?",
+            "options": ["Crayon", "Marker", "They are the same length", "Cannot tell"],
+            "correct": 1,
+            "explanation": "A marker is typically longer than a crayon."
+          },
+          {
+            "question": "What is 15 + 5?",
+            "options": ["15", "18", "20", "25"],
+            "correct": 2,
+            "explanation": "15 + 5 = 20. When you add 15 and 5, you get 20."
+          },
+          {
+            "question": "What is 20 - 12?",
+            "options": ["6", "7", "8", "9"],
+            "correct": 2,
+            "explanation": "20 - 12 = 8. When you take away 12 from 20, you have 8 left."
+          },
+          {
+            "question": "Which number is larger: 18 or 16?",
+            "options": ["16", "18", "They are the same", "Cannot tell"],
+            "correct": 1,
+            "explanation": "18 is larger than 16."
+          },
+          {
+            "question": "If you have 17 stickers and use 8, how many stickers do you have left?",
+            "options": ["8", "9", "17", "25"],
+            "correct": 1,
+            "explanation": "17 - 8 = 9. If you have 17 stickers and use 8, you have 9 stickers left."
+          },
+          {
+            "question": "Which shape has no sides: a square, a triangle, or a circle?",
+            "options": ["Square", "Triangle", "Circle", "They all have sides"],
+            "correct": 2,
+            "explanation": "A circle has no sides - it is curved all the way around."
+          },
+          {
+            "question": "What is 8 + 9?",
+            "options": ["15", "16", "17", "18"],
+            "correct": 2,
+            "explanation": "8 + 9 = 17. When you add 8 and 9, you get 17."
+          },
+          {
+            "question": "What is 14 - 6?",
+            "options": ["6", "7", "8", "9"],
+            "correct": 2,
+            "explanation": "14 - 6 = 8. When you take away 6 from 14, you have 8 left."
+          },
+          {
+            "question": "Which holds more liquid: a glass or a pitcher?",
+            "options": ["Glass", "Pitcher", "They hold the same amount", "Cannot tell"],
+            "correct": 1,
+            "explanation": "A pitcher typically holds more liquid than a glass."
+          },
+          {
+            "question": "If you have 5 triangles and 7 rectangles, how many shapes do you have altogether?",
+            "options": ["5", "7", "12", "14"],
+            "correct": 2,
+            "explanation": "5 + 7 = 12. If you have 5 triangles and 7 rectangles, you have 12 shapes altogether."
+          },
+          {
+            "question": "What number is 2 more than 14?",
+            "options": ["12", "14", "15", "16"],
+            "correct": 3,
+            "explanation": "16 is 2 more than 14. When you add 2 to 14, you get 16."
+          },
+          {
+            "question": "What number is 2 less than 9?",
+            "options": ["6", "7", "8", "11"],
+            "correct": 1,
+            "explanation": "7 is 2 less than 9. When you subtract 2 from 9, you get 7."
+          },
+          {
+            "question": "What is 12 + 8?",
+            "options": ["18", "19", "20", "21"],
+            "correct": 2,
+            "explanation": "12 + 8 = 20. When you add 12 and 8, you get 20."
+          },
+          {
+            "question": "What is 19 - 11?",
+            "options": ["6", "7", "8", "9"],
+            "correct": 2,
+            "explanation": "19 - 11 = 8. When you take away 11 from 19, you have 8 left."
+          },
+          {
+            "question": "What comes next in this pattern: 5, 10, 15, 20, ___?",
+            "options": ["21", "23", "25", "30"],
+            "correct": 2,
+            "explanation": "The pattern is counting by 5s, so after 20 comes 25."
+          },
+          {
+            "question": "What comes next in this pattern: 2, 5, 8, 11, ___?",
+            "options": ["12", "13", "14", "15"],
+            "correct": 2,
+            "explanation": "The pattern is adding 3 each time, so after 11 comes 14."
+          },
+          {
+            "question": "What number comes after 3?",
+            "options": ["2", "3", "4", "5"],
+            "correct": 2,
+            "explanation": "When counting up, 4 comes right after 3."
+          },
+          {
+            "question": "What number comes before 6?",
+            "options": ["4", "5", "6", "7"],
+            "correct": 1,
+            "explanation": "When counting up, 5 comes right before 6."
+          },
+          {
+            "question": "What is 2 + 3?",
+            "options": ["3", "4", "5", "6"],
+            "correct": 2,
+            "explanation": "2 + 3 = 5. When you add 2 and 3, you get 5."
+          },
+          {
+            "question": "What is 5 - 2?",
+            "options": ["2", "3", "5", "7"],
+            "correct": 1,
+            "explanation": "5 - 2 = 3. When you take away 2 from 5, you have 3 left."
+          },
+          {
+            "question": "Which number is greater: 7 or 3?",
+            "options": ["3", "7", "They are the same", "Cannot tell"],
+            "correct": 1,
+            "explanation": "7 is greater than 3 because it represents more objects."
+          },
+          {
+            "question": "Which number is less: 9 or 4?",
+            "options": ["4", "9", "They are the same", "Cannot tell"],
+            "correct": 0,
+            "explanation": "4 is less than 9 because it represents fewer objects."
+          },
+          {
+            "question": "If you have 6 cookies and eat 3, how many cookies do you have left?",
+            "options": ["3", "6", "9", "12"],
+            "correct": 0,
+            "explanation": "6 - 3 = 3. If you have 6 cookies and eat 3, you have 3 cookies left."
+          },
+          {
+            "question": "If you have 2 apples and find 3 more, how many apples do you have altogether?",
+            "options": ["2", "3", "5", "6"],
+            "correct": 2,
+            "explanation": "2 + 3 = 5. If you have 2 apples and find 3 more, you have 5 apples altogether."
+          },
+          {
+            "question": "What is 4 + 5?",
+            "options": ["7", "8", "9", "10"],
+            "correct": 2,
+            "explanation": "4 + 5 = 9. When you add 4 and 5, you get 9."
+          },
+          {
+            "question": "What is 7 - 4?",
+            "options": ["2", "3", "4", "7"],
+            "correct": 1,
+            "explanation": "7 - 4 = 3. When you take away 4 from 7, you have 3 left."
+          },
+          {
+            "question": "What number is between 6 and 8?",
+            "options": ["5", "6", "7", "9"],
+            "correct": 2,
+            "explanation": "7 is between 6 and 8."
+          },
+          {
+            "question": "How many sides does a rectangle have?",
+            "options": ["2", "3", "4", "5"],
+            "correct": 2,
+            "explanation": "A rectangle has 4 sides."
+          },
+          {
+            "question": "How many corners does a circle have?",
+            "options": ["0", "1", "2", "4"],
+            "correct": 0,
+            "explanation": "A circle has 0 corners - it is curved all the way around with no corners."
+          },
+          {
+            "question": "Which shape has 3 sides?",
+            "options": ["Square", "Circle", "Triangle", "Rectangle"],
+            "correct": 2,
+            "explanation": "A triangle has 3 sides."
+          },
+          {
+            "question": "Which shape has 4 equal sides?",
+            "options": ["Rectangle", "Circle", "Triangle", "Square"],
+            "correct": 3,
+            "explanation": "A square has 4 equal sides."
+          },
+          {
+            "question": "If you have 2 red crayons and 5 blue crayons, how many crayons do you have in all?",
+            "options": ["5", "6", "7", "8"],
+            "correct": 2,
+            "explanation": "2 + 5 = 7. If you have 2 red crayons and 5 blue crayons, you have 7 crayons in all."
+          },
+          {
+            "question": "What is 3 + 6?",
+            "options": ["8", "9", "10", "11"],
+            "correct": 1,
+            "explanation": "3 + 6 = 9. When you add 3 and 6, you get 9."
+          },
+          {
+            "question": "What is 8 - 3?",
+            "options": ["3", "4", "5", "8"],
+            "correct": 2,
+            "explanation": "8 - 3 = 5. When you take away 3 from 8, you have 5 left."
+          },
+          {
+            "question": "Which is more: 6 pennies or 9 pennies?",
+            "options": ["6 pennies", "9 pennies", "They are the same", "Cannot tell"],
+            "correct": 1,
+            "explanation": "9 pennies is more than 6 pennies."
+          },
+          {
+            "question": "Which group has fewer dots: •••••• or •••?",
+            "options": ["••••••", "•••", "They have the same", "Cannot tell"],
+            "correct": 1,
+            "explanation": "••• has 3 dots, which is fewer than the 6 dots in ••••••."
+          },
+          {
+            "question": "What is 5 + 0?",
+            "options": ["0", "4", "5", "6"],
+            "correct": 2,
+            "explanation": "5 + 0 = 5. When you add 0 to any number, the number stays the same."
+          },
+          {
+            "question": "What is 4 - 0?",
+            "options": ["0", "3", "4", "5"],
+            "correct": 2,
+            "explanation": "4 - 0 = 4. When you subtract 0 from any number, the number stays the same."
+          },
+          {
+            "question": "If there are 9 birds in a tree and 4 fly away, how many birds are left in the tree?",
+            "options": ["4", "5", "9", "13"],
+            "correct": 1,
+            "explanation": "9 - 4 = 5. If there are 9 birds and 4 fly away, there are 5 birds left."
+          },
+          {
+            "question": "What is 2 + 8?",
+            "options": ["8", "9", "10", "12"],
+            "correct": 2,
+            "explanation": "2 + 8 = 10. When you add 2 and 8, you get 10."
+          },
+          {
+            "question": "What number is 1 more than 4?",
+            "options": ["3", "4", "5", "6"],
+            "correct": 2,
+            "explanation": "5 is 1 more than 4. When you add 1 to 4, you get 5."
+          },
+          {
+            "question": "What number is 1 less than 8?",
+            "options": ["6", "7", "8", "9"],
+            "correct": 1,
+            "explanation": "7 is 1 less than 8. When you subtract 1 from 8, you get 7."
+          },
+          {
+            "question": "What 3D shape is like a ball?",
+            "options": ["Cube", "Cylinder", "Sphere", "Cone"],
+            "correct": 2,
+            "explanation": "A sphere is like a ball - it is perfectly round in all directions."
+          },
+          {
+            "question": "What 3D shape is like a box?",
+            "options": ["Sphere", "Cube", "Cylinder", "Cone"],
+            "correct": 1,
+            "explanation": "A cube is like a box - it has square faces."
+          },
+          {
+            "question": "What is 1 + 7?",
+            "options": ["7", "8", "9", "10"],
+            "correct": 1,
+            "explanation": "1 + 7 = 8. When you add 1 and 7, you get 8."
+          },
+          {
+            "question": "What is 9 - 5?",
+            "options": ["3", "4", "5", "6"],
+            "correct": 1,
+            "explanation": "9 - 5 = 4. When you take away 5 from 9, you have 4 left."
+          },
+          {
+            "question": "If you have 3 toy cars and your friend gives you 4 more, how many toy cars do you have now?",
+            "options": ["3", "4", "7", "8"],
+            "correct": 2,
+            "explanation": "3 + 4 = 7. If you have 3 toy cars and get 4 more, you now have 7 toy cars."
+          },
+          {
+            "question": "If there are 8 cupcakes and 3 are eaten, how many cupcakes are left?",
+            "options": ["3", "5", "8", "11"],
+            "correct": 1,
+            "explanation": "8 - 3 = 5. If there are 8 cupcakes and 3 are eaten, there are 5 cupcakes left."
+          },
+          {
+            "question": "What number comes between 2 and 4?",
+            "options": ["1", "2", "3", "5"],
+            "correct": 2,
+            "explanation": "3 comes between 2 and 4."
+          },
+          {
+            "question": "How many corners does a square have?",
+            "options": ["2", "3", "4", "5"],
+            "correct": 2,
+            "explanation": "A square has 4 corners (vertices)."
+          },
+          {
+            "question": "Which is heavier: a feather or a rock?",
+            "options": ["Feather", "Rock", "They weigh the same", "Cannot tell"],
+            "correct": 1,
+            "explanation": "A rock is typically heavier than a feather."
+          },
+          {
+            "question": "What is 6 + 2?",
+            "options": ["6", "7", "8", "9"],
+            "correct": 2,
+            "explanation": "6 + 2 = 8. When you add 6 and 2, you get 8."
+          },
+          {
+            "question": "What is 10 - 6?",
+            "options": ["3", "4", "5", "6"],
+            "correct": 1,
+            "explanation": "10 - 6 = 4. When you take away 6 from 10, you have 4 left."
+          },
+          {
+            "question": "Which number is smaller: 8 or 5?",
+            "options": ["5", "8", "They are the same", "Cannot tell"],
+            "correct": 0,
+            "explanation": "5 is smaller than 8."
+          },
+          {
+            "question": "If you have 7 stickers and give 3 to your friend, how many stickers do you have left?",
+            "options": ["3", "4", "7", "10"],
+            "correct": 1,
+            "explanation": "7 - 3 = 4. If you have 7 stickers and give away 3, you have 4 stickers left."
+          },
+          {
+            "question": "Which shape has the most sides: a triangle, a square, or a rectangle?",
+            "options": ["Triangle", "Square", "Rectangle", "Square and rectangle tie"],
+            "correct": 3,
+            "explanation": "A square and rectangle both have 4 sides, which is more than a triangle (3 sides)."
+          },
+          {
+            "question": "What is 4 + 3?",
+            "options": ["5", "6", "7", "8"],
+            "correct": 2,
+            "explanation": "4 + 3 = 7. When you add 4 and 3, you get 7."
+          },
+          {
+            "question": "What is 6 - 3?",
+            "options": ["2", "3", "6", "9"],
+            "correct": 1,
+            "explanation": "6 - 3 = 3. When you take away 3 from 6, you have 3 left."
+          },
+          {
+            "question": "Which is longer: a pencil or a paperclip?",
+            "options": ["Pencil", "Paperclip", "They are the same length", "Cannot tell"],
+            "correct": 0,
+            "explanation": "A pencil is typically longer than a paperclip."
+          },
+          {
+            "question": "If you have 1 triangle and 1 square, how many shapes do you have altogether?",
+            "options": ["1", "2", "3", "4"],
+            "correct": 1,
+            "explanation": "1 + 1 = 2. If you have 1 triangle and 1 square, you have 2 shapes altogether."
+          },
+          {
+            "question": "What number is 2 more than 3?",
+            "options": ["2", "3", "4", "5"],
+            "correct": 3,
+            "explanation": "5 is 2 more than 3. When you add 2 to 3, you get 5."
+          },
+          {
+            "question": "What number is 2 less than 5?",
+            "options": ["2", "3", "5", "7"],
+            "correct": 1,
+            "explanation": "3 is 2 less than 5. When you subtract 2 from 5, you get 3."
+          },
+          {
+            "question": "What is 3 + 4?",
+            "options": ["5", "6", "7", "8"],
+            "correct": 2,
+            "explanation": "3 + 4 = 7. When you add 3 and 4, you get 7."
+          },
+          {
+            "question": "What is 7 - 2?",
+            "options": ["3", "4", "5", "7"],
+            "correct": 2,
+            "explanation": "7 - 2 = 5. When you take away 2 from 7, you have 5 left."
+          },
+          {
+            "question": "What comes next in this pattern: 2, 4, 6, ___?",
+            "options": ["7", "8", "9", "10"],
+            "correct": 1,
+            "explanation": "The pattern is counting by 2s, so after 6 comes 8."
+          },
+          {
+            "question": "What comes next in this pattern: 5, 10, 15, ___?",
+            "options": ["16", "18", "20", "25"],
+            "correct": 2,
+            "explanation": "The pattern is counting by 5s, so after 15 comes 20."
+          },
+          {
+            "question": "If the teacher says, 'Put your pencil on your desk,' what should you do?",
+            "options": ["Put your pencil in your backpack", "Put your pencil on the floor", "Put your pencil on your desk", "Keep your pencil in your hand"],
+            "correct": 2,
+            "explanation": "You should follow the instruction exactly and put your pencil on your desk."
+          },
+          {
+            "question": "In the story, Cinderella lost her glass slipper at what time of night?",
+            "options": ["Morning", "Afternoon", "Midnight", "Lunchtime"],
+            "correct": 2,
+            "explanation": "In the Cinderella story, she had to leave the ball at midnight, which is when she lost her glass slipper."
+          },
+          {
+            "question": "If the directions say, 'First color the circle red, then color the square blue,' what should you color first?",
+            "options": ["The square", "The circle", "The triangle", "Nothing"],
+            "correct": 1,
+            "explanation": "The directions say to color the circle first, so you should color the circle red first."
+          },
+          {
+            "question": "In 'The Three Little Pigs,' what did the first pig use to build his house?",
+            "options": ["Straw", "Sticks", "Bricks", "Stones"],
+            "correct": 0,
+            "explanation": "In the story, the first little pig built his house out of straw."
+          },
+          {
+            "question": "If the teacher says, 'Stand up, clap three times, then sit down,' what do you do after standing up?",
+            "options": ["Jump", "Clap three times", "Sit down", "Raise your hand"],
+            "correct": 1,
+            "explanation": "After standing up, you should clap three times according to the instructions."
+          },
+          {
+            "question": "In 'Little Red Riding Hood,' who was waiting at Grandmother's house?",
+            "options": ["Grandmother", "Mother", "The wolf", "The hunter"],
+            "correct": 2,
+            "explanation": "In the story, the wolf was waiting at Grandmother's house disguised as the grandmother."
+          },
+          {
+            "question": "If you are told to 'Touch your nose, then your ears, then your knees,' what should you touch last?",
+            "options": ["Nose", "Ears", "Knees", "Toes"],
+            "correct": 2,
+            "explanation": "According to the instruction, you should touch your knees last."
+          },
+          {
+            "question": "In 'Goldilocks and the Three Bears,' which bear's chair did Goldilocks break?",
+            "options": ["Papa Bear's", "Mama Bear's", "Baby Bear's", "Grandma Bear's"],
+            "correct": 2,
+            "explanation": "In the story, Goldilocks broke Baby Bear's chair because it was 'just right' but too small for her."
+          },
+          {
+            "question": "If you hear, 'Draw a circle and put a dot in the middle,' what shape should you draw first?",
+            "options": ["Square", "Circle", "Dot", "Triangle"],
+            "correct": 1,
+            "explanation": "You should draw a circle first, then put a dot in the middle of it."
+          },
+          {
+            "question": "In 'Jack and the Beanstalk,' what did Jack trade for magic beans?",
+            "options": ["His toys", "His cow", "His house", "His shoes"],
+            "correct": 1,
+            "explanation": "In the story, Jack traded his cow for the magic beans."
+          },
+          {
+            "question": "If the instructions say, 'Raise your right hand,' which hand should you raise?",
+            "options": ["Left hand", "Right hand", "Both hands", "No hands"],
+            "correct": 1,
+            "explanation": "You should raise your right hand according to the instruction."
+          },
+          {
+            "question": "In the story 'The Tortoise and the Hare,' who won the race?",
+            "options": ["The tortoise", "The hare", "Both tied", "Neither won"],
+            "correct": 0,
+            "explanation": "In the story, the tortoise won the race because he kept going steadily while the hare took a nap."
+          },
+          {
+            "question": "If you're told to 'Sit down, cross your legs, and put your hands in your lap,' what should you do with your hands?",
+            "options": ["Raise them up", "Put them on your desk", "Put them in your lap", "Wave them"],
+            "correct": 2,
+            "explanation": "According to the instruction, you should put your hands in your lap."
+          },
+          {
+            "question": "In 'The Gingerbread Man,' who caught the Gingerbread Man in the end?",
+            "options": ["The old woman", "The old man", "The fox", "The bear"],
+            "correct": 2,
+            "explanation": "In the story, the fox caught and ate the Gingerbread Man when he offered to help him cross the river."
+          },
+          {
+            "question": "If you hear, 'Line up by the door,' where should you go?",
+            "options": ["To your seat", "By the window", "By the door", "To the playground"],
+            "correct": 2,
+            "explanation": "You should go line up by the door as instructed."
+          },
+          {
+            "question": "In 'Snow White,' what poisoned Snow White?",
+            "options": ["A cookie", "An apple", "A cake", "A drink"],
+            "correct": 1,
+            "explanation": "In the story, Snow White was poisoned by biting into an apple given to her by the disguised queen."
+          },
+          {
+            "question": "If the teacher says, 'Open your book to page 5,' what page should you turn to?",
+            "options": ["Page 3", "Page 4", "Page 5", "Page 6"],
+            "correct": 2,
+            "explanation": "You should open your book to page 5 as instructed."
+          },
+          {
+            "question": "In 'The Three Billy Goats Gruff,' who crossed the bridge first?",
+            "options": ["The biggest goat", "The middle-sized goat", "The smallest goat", "The troll"],
+            "correct": 2,
+            "explanation": "In the story, the smallest (littlest) billy goat crossed the bridge first."
+          },
+          {
+            "question": "If you're told to 'Put your crayons in the box and close the lid,' what should you do first?",
+            "options": ["Close the lid", "Put crayons in the box", "Open the box", "Color a picture"],
+            "correct": 1,
+            "explanation": "You should first put your crayons in the box, then close the lid."
+          },
+          {
+            "question": "In 'The Ugly Duckling,' what did the ugly duckling grow up to be?",
+            "options": ["A duck", "A swan", "A goose", "A chicken"],
+            "correct": 1,
+            "explanation": "In the story, the ugly duckling grew up to be a beautiful swan."
+          },
+          {
+            "question": "If the instruction says, 'Point to the ceiling, then point to the floor,' where do you point first?",
+            "options": ["The wall", "The floor", "The ceiling", "The door"],
+            "correct": 2,
+            "explanation": "You should point to the ceiling first, then to the floor."
+          },
+          {
+            "question": "In 'Hansel and Gretel,' what was the witch's house made of?",
+            "options": ["Candy and cake", "Wood and stone", "Gold and silver", "Ice and snow"],
+            "correct": 0,
+            "explanation": "In the story, the witch's house was made of candy, cakes, and other sweets."
+          },
+          {
+            "question": "If the teacher says, 'Walk to the trash can and throw away your paper,' what should you throw away?",
+            "options": ["Your pencil", "Your paper", "Your book", "Nothing"],
+            "correct": 1,
+            "explanation": "According to the instruction, you should throw away your paper."
+          },
+          {
+            "question": "In 'The Lion and the Mouse,' how did the mouse help the lion?",
+            "options": ["By bringing food", "By finding water", "By gnawing the net", "By scaring away hunters"],
+            "correct": 2,
+            "explanation": "In the story, the mouse helped the lion by gnawing through the net/rope that trapped the lion."
+          },
+          {
+            "question": "If you hear, 'Push in your chair when you get up,' when should you push in your chair?",
+            "options": ["Before sitting down", "While sitting", "When you get up", "Never"],
+            "correct": 2,
+            "explanation": "You should push in your chair when you get up, as the instruction states."
+          },
+          {
+            "question": "In 'Rapunzel,' what did Rapunzel let down from her tower window?",
+            "options": ["A rope", "A ladder", "Her hair", "A scarf"],
+            "correct": 2,
+            "explanation": "In the story, Rapunzel let down her very long hair from the tower window."
+          },
+          {
+            "question": "If the directions say, 'Draw a star at the top of your paper,' where should you draw the star?",
+            "options": ["At the bottom", "In the middle", "At the top", "On both sides"],
+            "correct": 2,
+            "explanation": "You should draw the star at the top of your paper as directed."
+          },
+          {
+            "question": "In 'The Emperor's New Clothes,' what was the emperor actually wearing?",
+            "options": ["A golden robe", "Nothing at all", "A silver crown", "A blue suit"],
+            "correct": 1,
+            "explanation": "In the story, the emperor was actually wearing nothing at all, though he thought he was wearing special clothes."
+          },
+          {
+            "question": "If you're told to 'Wait your turn,' what should you do?",
+            "options": ["Go first", "Push ahead", "Be patient and wait", "Leave the line"],
+            "correct": 2,
+            "explanation": "You should be patient and wait for your turn as instructed."
+          },
+          {
+            "question": "In 'The Princess and the Pea,' what did the princess feel under all the mattresses?",
+            "options": ["A rock", "A pea", "A coin", "A button"],
+            "correct": 1,
+            "explanation": "In the story, the princess felt the pea under all the mattresses, proving she was a real princess."
+          },
+          {
+            "question": "If the teacher says, 'Write your name at the top of the page,' what should you write?",
+            "options": ["The date", "Your name", "The title", "Nothing"],
+            "correct": 1,
+            "explanation": "You should write your name at the top of the page as instructed."
+          },
+          {
+            "question": "In 'The Little Mermaid,' what did the mermaid want more than anything?",
+            "options": ["To live underwater", "To have legs", "To be rich", "To be invisible"],
+            "correct": 1,
+            "explanation": "In the story, the little mermaid wanted to have legs and live on land more than anything."
+          },
+          {
+            "question": "If you hear, 'Raise your hand if you know the answer,' when should you raise your hand?",
+            "options": ["Any time", "If you know the answer", "If you don't know the answer", "Never"],
+            "correct": 1,
+            "explanation": "You should raise your hand only if you know the answer, as the instruction states."
+          },
+          {
+            "question": "In 'Little Red Riding Hood,' what was Red Riding Hood bringing to her grandmother?",
+            "options": ["Flowers", "A basket of food", "Medicine", "A new cloak"],
+            "correct": 1,
+            "explanation": "In the story, Little Red Riding Hood was bringing a basket of food (often bread and wine or cake) to her sick grandmother."
+          },
+          {
+            "question": "If the directions say, 'Circle the answer, then put your pencil down,' what should you do after circling the answer?",
+            "options": ["Erase your answer", "Put your pencil down", "Raise your hand", "Continue writing"],
+            "correct": 1,
+            "explanation": "After circling the answer, you should put your pencil down as directed."
+          },
+          {
+            "question": "In 'The Boy Who Cried Wolf,' why didn't the villagers come to help when a real wolf appeared?",
+            "options": ["They were too busy", "They were afraid", "They didn't believe the boy anymore", "They didn't hear him"],
+            "correct": 2,
+            "explanation": "The villagers didn't come to help because the boy had lied so many times before, they didn't believe him anymore."
+          },
+          {
+            "question": "If you're told to 'Stand in a straight line,' how should you stand?",
+            "options": ["In a circle", "In a straight line", "In a zigzag", "However you want"],
+            "correct": 1,
+            "explanation": "You should stand in a straight line as instructed."
+          },
+          {
+            "question": "In 'Goldilocks and the Three Bears,' whose porridge did Goldilocks eat?",
+            "options": ["Papa Bear's", "Mama Bear's", "Baby Bear's", "All three bowls"],
+            "correct": 2,
+            "explanation": "Goldilocks ate Baby Bear's porridge because it was 'just right' - not too hot or too cold."
+          },
+          {
+            "question": "If the teacher says, 'Wash your hands before snack time,' when should you wash your hands?",
+            "options": ["After snack time", "During snack time", "Before snack time", "Never"],
+            "correct": 2,
+            "explanation": "You should wash your hands before snack time as instructed."
+          },
+          {
+            "question": "In 'Jack and the Beanstalk,' what did Jack find at the top of the beanstalk?",
+            "options": ["A castle", "A forest", "A village", "Another beanstalk"],
+            "correct": 0,
+            "explanation": "Jack found a castle at the top of the beanstalk where the giant lived."
+          },
+          {
+            "question": "If you hear, 'Listen carefully to the story,' what should you do?",
+            "options": ["Talk to your friend", "Draw a picture", "Play with toys", "Pay attention to the story"],
+            "correct": 3,
+            "explanation": "You should pay attention to the story when told to listen carefully."
+          },
+          {
+            "question": "In 'The Three Billy Goats Gruff,' what was under the bridge?",
+            "options": ["A fish", "A troll", "A river", "Another goat"],
+            "correct": 1,
+            "explanation": "In the story, a mean troll lived under the bridge and threatened to eat the goats."
+          },
+          {
+            "question": "If the instructions say, 'Color the sun yellow,' what color should you use?",
+            "options": ["Red", "Blue", "Yellow", "Green"],
+            "correct": 2,
+            "explanation": "You should use yellow to color the sun as instructed."
+          },
+          {
+            "question": "In 'Cinderella,' what time did Cinderella have to leave the ball?",
+            "options": ["9 o'clock", "10 o'clock", "11 o'clock", "Midnight"],
+            "correct": 3,
+            "explanation": "In the story, Cinderella had to leave the ball at midnight when the magic would end."
+          },
+          {
+            "question": "If the teacher says, 'Walk, don't run,' how should you move?",
+            "options": ["Run quickly", "Skip", "Walk", "Crawl"],
+            "correct": 2,
+            "explanation": "You should walk, not run, as instructed by the teacher."
+          },
+          {
+            "question": "In 'The Gingerbread Man,' what did the Gingerbread Man say as he ran away?",
+            "options": ["'Catch me if you can!'", "'I'm the fastest!'", "'Run, run as fast as you can! You can't catch me, I'm the Gingerbread Man!'", "'I'll be back!'"],
+            "correct": 2,
+            "explanation": "The Gingerbread Man said, 'Run, run as fast as you can! You can't catch me, I'm the Gingerbread Man!'"
+          },
+          {
+            "question": "If you're told to 'Share your crayons with your neighbor,' what should you do?",
+            "options": ["Keep all your crayons", "Hide your crayons", "Let your neighbor use some of your crayons", "Give away all your crayons"],
+            "correct": 2,
+            "explanation": "You should let your neighbor use some of your crayons, which means sharing them."
+          },
+          {
+            "question": "In 'The Tortoise and the Hare,' why did the hare lose the race?",
+            "options": ["He was too slow", "He took a nap during the race", "He got lost", "He hurt his foot"],
+            "correct": 1,
+            "explanation": "The hare lost the race because he was overconfident and took a nap during the race, allowing the slower tortoise to pass him and win."
+          },
+          {
+            "question": "If the directions say, 'Cut along the dotted line,' where should you cut?",
+            "options": ["Along the solid line", "Along the dotted line", "Anywhere you want", "Don't cut at all"],
+            "correct": 1,
+            "explanation": "You should cut along the dotted line as directed."
+          },
+          {
+            "question": "In 'Sleeping Beauty,' how long did the princess sleep?",
+            "options": ["One night", "One week", "One year", "One hundred years"],
+            "correct": 3,
+            "explanation": "In the story, Sleeping Beauty slept for one hundred years before being awakened by a prince's kiss."
+          },
+          {
+            "question": "If you hear, 'Put your name on your paper,' what should you write on your paper?",
+            "options": ["The date", "The title", "Your name", "Nothing"],
+            "correct": 2,
+            "explanation": "You should write your name on your paper as instructed."
+          },
+          {
+            "question": "If the teacher says, 'Raise your hand before speaking,' what should you do when you want to say something?",
+            "options": ["Just start talking", "Raise your hand first", "Whisper to a friend", "Leave your seat"],
+            "correct": 1,
+            "explanation": "You should raise your hand first and wait to be called on before speaking."
+          },
+          {
+            "question": "In 'The Three Little Pigs,' what did the wolf do to the first two houses?",
+            "options": ["Built them stronger", "Painted them", "Blew them down", "Lived in them"],
+            "correct": 2,
+            "explanation": "In the story, the wolf blew down the houses made of straw and sticks."
+          },
+          {
+            "question": "If the directions say, 'Sit criss-cross applesauce,' how should you sit?",
+            "options": ["With legs straight out", "With legs crossed", "Standing up", "On your knees"],
+            "correct": 1,
+            "explanation": "Sitting 'criss-cross applesauce' means sitting with your legs crossed in front of you."
+          },
+          {
+            "question": "In 'Goldilocks and the Three Bears,' why did the bears go for a walk?",
+            "options": ["To visit friends", "To go shopping", "To wait for their porridge to cool", "To find Goldilocks"],
+            "correct": 2,
+            "explanation": "The bears went for a walk to wait for their porridge to cool down before eating it."
+          },
+          {
+            "question": "If you're told to 'Hold hands with your partner,' who should you hold hands with?",
+            "options": ["No one", "Your teacher", "Your partner", "Everyone"],
+            "correct": 2,
+            "explanation": "You should hold hands with your assigned partner as instructed."
+          },
+          {
+            "question": "In 'Jack and the Beanstalk,' what magical item laid golden eggs?",
+            "options": ["The beanstalk", "The cow", "The hen", "The harp"],
+            "correct": 2,
+            "explanation": "In the story, the hen laid golden eggs, which made the giant rich."
+          },
+          {
+            "question": "If the teacher says, 'Trace over the dotted letters,' what should you do?",
+            "options": ["Draw new letters", "Color the letters", "Follow the dots with your pencil", "Erase the letters"],
+            "correct": 2,
+            "explanation": "You should follow the dotted lines with your pencil to trace over the letters."
+          },
+          {
+            "question": "In 'Little Red Riding Hood,' where was Grandmother?",
+            "options": ["At the market", "At Red Riding Hood's house", "In bed at her own house", "In the forest"],
+            "correct": 2,
+            "explanation": "In the story, Grandmother was in bed at her own house because she was sick."
+          },
+          {
+            "question": "If you hear, 'Please clean up your area before lunch,' when should you clean up?",
+            "options": ["After lunch", "During lunch", "Before lunch", "The next day"],
+            "correct": 2,
+            "explanation": "You should clean up your area before lunch as instructed."
+          },
+          {
+            "question": "In 'The Ugly Duckling,' why did the other ducks tease the duckling?",
+            "options": ["Because he couldn't swim", "Because he looked different", "Because he was too small", "Because he ate too much"],
+            "correct": 1,
+            "explanation": "The other ducks teased the duckling because he looked different from them (he was actually a swan)."
+          },
+          {
+            "question": "If the directions say, 'Stand in a circle,' what shape should you and your classmates form?",
+            "options": ["A straight line", "A square", "A circle", "A triangle"],
+            "correct": 2,
+            "explanation": "You and your classmates should form a circle shape as directed."
+          },
+          {
+            "question": "In 'The Gingerbread Man,' who finally caught the Gingerbread Man?",
+            "options": ["The old woman", "The old man", "The fox", "The bear"],
+            "correct": 2,
+            "explanation": "The fox caught the Gingerbread Man by offering to carry him across the river."
+          },
+          {
+            "question": "If you're told to 'Use an inside voice,' how should you speak?",
+            "options": ["Loudly", "Quietly", "Not at all", "In a silly voice"],
+            "correct": 1,
+            "explanation": "Using an inside voice means speaking quietly and not shouting."
+          },
+          {
+            "question": "In 'Cinderella,' what did Cinderella lose as she ran from the ball?",
+            "options": ["Her necklace", "Her glass slipper", "Her purse", "Her crown"],
+            "correct": 1,
+            "explanation": "Cinderella lost her glass slipper as she ran from the ball at midnight."
+          },
+          {
+            "question": "If the teacher says, 'Put your books away,' where should you put your book?",
+            "options": ["On the floor", "In your desk or bookshelf", "On your chair", "Take it home"],
+            "correct": 1,
+            "explanation": "You should put your book in its proper place, like in your desk or on the bookshelf."
+          },
+          {
+            "question": "In 'The Three Billy Goats Gruff,' where did the goats want to go?",
+            "options": ["To the mountain", "To the forest", "To the village", "To the beach"],
+            "correct": 0,
+            "explanation": "The three billy goats wanted to go up to the hillside/mountain to eat the green grass."
+          },
+          {
+            "question": "If you hear, 'Form a line at the door,' where should you go?",
+            "options": ["Stay at your desk", "Stand by the window", "Form a line at the door", "Go to the playground"],
+            "correct": 2,
+            "explanation": "You should go to the door and form a line with your classmates as instructed."
+          },
+          {
+            "question": "In 'Snow White,' how many dwarfs were there?",
+            "options": ["Five", "Six", "Seven", "Eight"],
+            "correct": 2,
+            "explanation": "In the story of Snow White, there were seven dwarfs."
+          },
+          {
+            "question": "If the directions say, 'First write your name, then draw a picture,' what should you do first?",
+            "options": ["Draw a picture", "Color the picture", "Write your name", "Ask a friend"],
+            "correct": 2,
+            "explanation": "You should first write your name, then draw a picture as directed."
+          },
+          {
+            "question": "In 'Hansel and Gretel,' what did they use to find their way home the first time?",
+            "options": ["A map", "Breadcrumbs", "White pebbles", "A string"],
+            "correct": 2,
+            "explanation": "The first time, Hansel used white pebbles that shone in the moonlight to find their way home."
+          },
+          {
+            "question": "If you're told to 'Hang up your coat,' what should you do with your coat?",
+            "options": ["Leave it on", "Put it on your chair", "Put it in your backpack", "Hang it on a hook or hanger"],
+            "correct": 3,
+            "explanation": "You should hang your coat on a hook or hanger as instructed."
+          },
+          {
+            "question": "In 'The Lion and the Mouse,' why did the lion let the mouse go?",
+            "options": ["The mouse was too small to eat", "The mouse promised to help the lion someday", "The mouse gave the lion food", "The mouse ran too fast"],
+            "correct": 1,
+            "explanation": "The lion let the mouse go because the mouse promised to help the lion someday (which later happened)."
+          },
+          {
+            "question": "If the teacher says, 'Raise your hand if you need help,' what should you do if you're confused?",
+            "options": ["Ask your friend", "Do nothing", "Raise your hand", "Leave your seat"],
+            "correct": 2,
+            "explanation": "If you're confused and need help, you should raise your hand as instructed."
+          },
+          {
+            "question": "In 'The Tortoise and the Hare,' who was faster?",
+            "options": ["The tortoise", "The hare", "They were equally fast", "Neither was fast"],
+            "correct": 1,
+            "explanation": "In the story, the hare was much faster than the tortoise, but he lost the race because he took a nap."
+          },
+          {
+            "question": "If you hear, 'Pass the papers to the person behind you,' who should you give the papers to?",
+            "options": ["The person in front of you", "The person beside you", "The person behind you", "Keep the papers"],
+            "correct": 2,
+            "explanation": "You should give the papers to the person sitting behind you as instructed."
+          },
+          {
+            "question": "In 'Little Red Riding Hood,' what big feature did Red Riding Hood notice about the wolf disguised as her grandmother?",
+            "options": ["Big ears", "Big nose", "Big eyes", "Big teeth"],
+            "correct": 3,
+            "explanation": "The famous line is 'What big teeth you have, Grandmother!' right before the wolf tries to eat her."
+          },
+          {
+            "question": "If the directions say, 'Color only the animals,' what should you color?",
+            "options": ["Everything on the page", "Just the plants", "Just the animals", "Nothing"],
+            "correct": 2,
+            "explanation": "You should color only the animals as directed, not the other pictures."
+          },
+          {
+            "question": "In 'Jack and the Beanstalk,' what did Jack's mother do when she saw the beans?",
+            "options": ["She cooked them", "She planted them", "She threw them out the window", "She sold them"],
+            "correct": 2,
+            "explanation": "Jack's mother was angry and threw the 'worthless' beans out the window, where they grew into the beanstalk overnight."
+          },
+          {
+            "question": "If you're told to 'Wait until everyone is served before eating,' when should you start eating?",
+            "options": ["Right away", "When you're hungry", "After everyone has food", "When half the class has food"],
+            "correct": 2,
+            "explanation": "You should wait until everyone has been served food before you start eating."
+          },
+          {
+            "question": "In 'Goldilocks and the Three Bears,' whose bed did Goldilocks sleep in?",
+            "options": ["Papa Bear's", "Mama Bear's", "Baby Bear's", "All three beds"],
+            "correct": 2,
+            "explanation": "Goldilocks slept in Baby Bear's bed because it was 'just right' - not too hard or too soft."
+          },
+          {
+            "question": "If the teacher says, 'Put your scissors in the blue bin,' where should you put your scissors?",
+            "options": ["In your desk", "On the table", "In the blue bin", "In the red bin"],
+            "correct": 2,
+            "explanation": "You should put your scissors in the blue bin as instructed."
+          },
+          {
+            "question": "In 'The Three Little Pigs,' which pig built the strongest house?",
+            "options": ["The first pig", "The second pig", "The third pig", "The wolf"],
+            "correct": 2,
+            "explanation": "The third pig built the strongest house made of bricks that the wolf couldn't blow down."
+          },
+          {
+            "question": "If you hear, 'Listen to the story without talking,' what should you do?",
+            "options": ["Ask questions during the story", "Talk to your neighbor", "Be quiet and listen", "Tell your own story"],
+            "correct": 2,
+            "explanation": "You should be quiet and listen to the story without talking, as instructed."
+          },
+          {
+            "question": "In 'Rapunzel,' what was special about Rapunzel?",
+            "options": ["Her singing voice", "Her very long hair", "Her cooking skills", "Her running speed"],
+            "correct": 1,
+            "explanation": "Rapunzel had very long hair that she let down from the tower for people to climb up."
+          },
+          {
+            "question": "If the directions say, 'Draw a circle around the letter A,' what should you draw around the letter A?",
+            "options": ["A square", "A circle", "A triangle", "A heart"],
+            "correct": 1,
+            "explanation": "You should draw a circle around the letter A as directed."
+          },
+          {
+            "question": "In 'The Boy Who Cried Wolf,' what job did the boy have?",
+            "options": ["Baker", "Shepherd", "Teacher", "Farmer"],
+            "correct": 1,
+            "explanation": "The boy was a shepherd who watched over the sheep and was supposed to alert the village if a wolf came."
+          },
+          {
+            "question": "If you're told to 'Walk quietly in the hallway,' how should you move?",
+            "options": ["Run quickly", "Walk quietly", "Skip", "Dance"],
+            "correct": 1,
+            "explanation": "You should walk quietly in the hallway as instructed, not run, skip, or make loud noises."
+          },
+          {
+            "question": "In 'Sleeping Beauty,' what caused the princess to fall asleep?",
+            "options": ["A magic potion", "Touching a spinning wheel", "A magic spell", "Being very tired"],
+            "correct": 1,
+            "explanation": "The princess fell asleep after pricking her finger on a spinning wheel, fulfilling the evil fairy's curse."
+          },
+          {
+            "question": "If the teacher says, 'Put your pencil down and look at me,' what should you do first?",
+            "options": ["Look at the teacher", "Keep writing", "Put your pencil down", "Raise your hand"],
+            "correct": 2,
+            "explanation": "You should first put your pencil down, then look at the teacher."
+          },
+          {
+            "question": "In 'The Ugly Duckling,' what was the ugly duckling really?",
+            "options": ["A duck", "A swan", "A chicken", "A goose"],
+            "correct": 1,
+            "explanation": "The ugly duckling was actually a baby swan who had hatched in a duck's nest, which is why he looked different."
+          },
+          {
+            "question": "If you hear, 'Throw your trash in the garbage can,' where should you put your trash?",
+            "options": ["On the floor", "In your desk", "In your pocket", "In the garbage can"],
+            "correct": 3,
+            "explanation": "You should put your trash in the garbage can as instructed."
+          },
+          {
+            "question": "In 'Cinderella,' what did the Fairy Godmother turn into a coach?",
+            "options": ["A horse", "A mouse", "A pumpkin", "A frog"],
+            "correct": 2,
+            "explanation": "The Fairy Godmother turned a pumpkin into a beautiful coach for Cinderella."
+          },
+          {
+            "question": "If the directions say, 'Fold your paper in half,' how should you fold it?",
+            "options": ["In quarters", "In half", "In thirds", "Don't fold it"],
+            "correct": 1,
+            "explanation": "You should fold your paper in half as directed."
+          },
+          {
+            "question": "In 'Snow White,' where did Snow White find shelter?",
+            "options": ["In a cave", "In a castle", "In a cottage with seven dwarfs", "In a tree house"],
+            "correct": 2,
+            "explanation": "Snow White found shelter in a small cottage in the forest where seven dwarfs lived."
+          },
+          {
+            "question": "If you're told to 'Freeze when the music stops,' what should you do when the music is no longer playing?",
+            "options": ["Keep dancing", "Sit down", "Run around", "Stop moving completely"],
+            "correct": 3,
+            "explanation": "When the music stops, you should freeze (stop moving completely) as instructed."
+          },
+          {
+            "question": "In 'The Gingerbread Man,' what happened when the Gingerbread Man reached the river?",
+            "options": ["He swam across", "He used a bridge", "The fox offered to carry him", "He turned back"],
+            "correct": 2,
+            "explanation": "When the Gingerbread Man reached the river, the fox offered to carry him across on his tail/back."
+          },
+          {
+            "question": "If the teacher says, 'Everyone point to the calendar,' where should you point?",
+            "options": ["To the door", "To the calendar", "To the clock", "To the board"],
+            "correct": 1,
+            "explanation": "You should point to the calendar as instructed."
+          },
+          {
+            "question": "In 'Jack and the Beanstalk,' what did Jack steal from the giant?",
+            "options": ["A golden hen, gold coins, and a magic harp", "A magic wand", "A bag of beans", "The giant's castle"],
+            "correct": 0,
+            "explanation": "Jack stole a hen that laid golden eggs, gold coins, and a magic singing harp from the giant."
+          },
+          {
+            "question": "If you hear, 'Push in your chair when you're done,' what should you do with your chair when you finish?",
+            "options": ["Leave it pulled out", "Take it with you", "Push it under the table", "Sit on it"],
+            "correct": 2,
+            "explanation": "When you're done, you should push your chair under the table as instructed."
+          },
+          {
+            "question": "In 'Hansel and Gretel,' who lived in the candy house?",
+            "options": ["A friendly old man", "A wicked witch", "A giant", "A fairy"],
+            "correct": 1,
+            "explanation": "A wicked witch lived in the candy house and tried to fatten up the children to eat them."
+          },
+          {
+            "question": "If the directions say, 'Raise your hand before speaking,' what should you do before you ask a question?",
+            "options": ["Stand up", "Start talking", "Clap your hands", "Raise your hand"],
+            "correct": 3,
+            "explanation": "Before asking a question or speaking, you should raise your hand and wait to be called on."
+          },
+          {
+            "question": "In 'Little Red Riding Hood,' who rescued Little Red Riding Hood and her grandmother?",
+            "options": ["The wolf", "The hunter/woodcutter", "Her mother", "The three little pigs"],
+            "correct": 1,
+            "explanation": "A hunter or woodcutter rescued Little Red Riding Hood and her grandmother by cutting open the wolf's stomach (in the original version)."
+          },
+          {
+            "question": "If the teacher says, 'Line up tallest to shortest,' who should be at the front of the line?",
+            "options": ["The shortest student", "The tallest student", "The oldest student", "The youngest student"],
+            "correct": 1,
+            "explanation": "If lining up tallest to shortest, the tallest student should be at the front of the line."
+          },
+          {
+            "question": "In 'The Three Bears,' who sat in Baby Bear's chair first?",
+            "options": ["Mama Bear", "Papa Bear", "Goldilocks", "The wolf"],
+            "correct": 2,
+            "explanation": "In the story, Goldilocks sat in Baby Bear's chair first and broke it because it was too small."
+          },
+          {
+            "question": "If you're told to 'Put the blue crayon in the box and the red crayon on the table,' where does the red crayon go?",
+            "options": ["In your desk", "In the box", "On the table", "In your hand"],
+            "correct": 2,
+            "explanation": "According to the instructions, the red crayon should go on the table."
+          },
+          {
+            "question": "In 'Cinderella,' what did the Fairy Godmother turn into horses?",
+            "options": ["Cats", "Mice", "Lizards", "Birds"],
+            "correct": 1,
+            "explanation": "In the story, the Fairy Godmother turned mice into horses to pull Cinderella's coach."
+          },
+          {
+            "question": "If the directions say, 'Clap three times, then stomp your feet,' how many times should you clap?",
+            "options": ["One time", "Two times", "Three times", "Four times"],
+            "correct": 2,
+            "explanation": "You should clap exactly three times as directed."
+          },
+          {
+            "question": "In 'The Gingerbread Man,' who made the Gingerbread Man?",
+            "options": ["A baker", "A witch", "A little old woman", "A little old man"],
+            "correct": 2,
+            "explanation": "In the story, a little old woman baked the Gingerbread Man who then ran away."
+          },
+          {
+            "question": "If you hear, 'Put your worksheet in the green folder,' where should you put your worksheet?",
+            "options": ["In your desk", "In the blue folder", "In the green folder", "In the trash"],
+            "correct": 2,
+            "explanation": "You should put your worksheet in the green folder as instructed."
+          },
+          {
+            "question": "In 'Snow White,' what was poisoned?",
+            "options": ["A drink", "An apple", "A cake", "A pie"],
+            "correct": 1,
+            "explanation": "In the story, the evil queen poisoned an apple and gave it to Snow White."
+          },
+          {
+            "question": "If the teacher says, 'Put your name in the top right corner,' where should you write your name?",
+            "options": ["Bottom left corner", "Top left corner", "Bottom right corner", "Top right corner"],
+            "correct": 3,
+            "explanation": "You should write your name in the top right corner of the paper as instructed."
+          },
+          {
+            "question": "In 'Jack and the Beanstalk,' how did Jack get down from the giant's castle the last time?",
+            "options": ["He used a ladder", "He climbed down the beanstalk", "The giant carried him", "He jumped"],
+            "correct": 1,
+            "explanation": "Jack climbed down the beanstalk to escape from the giant who was chasing him."
+          },
+          {
+            "question": "If you're told to 'Stand up, turn around, and sit back down,' what should you do second?",
+            "options": ["Stand up", "Turn around", "Sit back down", "Jump up and down"],
+            "correct": 1,
+            "explanation": "After standing up first, you should turn around second, then sit back down third."
+          },
+          {
+            "question": "In 'Little Red Riding Hood,' what did Little Red Riding Hood bring to her grandmother?",
+            "options": ["Flowers", "A cake and wine", "A new dress", "Medicine"],
+            "correct": 1,
+            "explanation": "Little Red Riding Hood brought a cake and a bottle of wine to her sick grandmother."
+          },
+          {
+            "question": "If the directions say, 'Color the square red and the circle blue,' what color should the circle be?",
+            "options": ["Red", "Green", "Yellow", "Blue"],
+            "correct": 3,
+            "explanation": "According to the directions, the circle should be colored blue."
+          },
+          {
+            "question": "In 'The Ugly Duckling,' when did the duckling realize he was actually a swan?",
+            "options": ["When he was born", "When other ducks told him", "When he saw his reflection", "When he grew up"],
+            "correct": 3,
+            "explanation": "The duckling realized he was a swan when he grew up and saw his reflection in the water."
+          },
+          {
+            "question": "If you hear, 'Close your eyes and count to ten,' what number should you stop at?",
+            "options": ["Five", "Eight", "Ten", "Twenty"],
+            "correct": 2,
+            "explanation": "You should count to ten and stop at that number as instructed."
+          },
+          {
+            "question": "In 'The Three Little Pigs,' what did the third pig use to build his house?",
+            "options": ["Straw", "Sticks", "Bricks", "Mud"],
+            "correct": 2,
+            "explanation": "The third pig built his house out of bricks, which was the strongest material."
+          },
+          {
+            "question": "If the teacher says, 'Trace over the dashed line with your pencil,' what tool should you use?",
+            "options": ["Crayon", "Marker", "Chalk", "Pencil"],
+            "correct": 3,
+            "explanation": "You should use a pencil to trace over the dashed line as instructed."
+          },
+          {
+            "question": "In 'Goldilocks and the Three Bears,' what was too hot for Goldilocks?",
+            "options": ["Papa Bear's porridge", "Mama Bear's porridge", "Baby Bear's porridge", "All three bowls"],
+            "correct": 0,
+            "explanation": "Papa Bear's porridge was too hot for Goldilocks to eat."
+          },
+          {
+            "question": "If you're told to 'Pass the paper to the person on your right,' who gets the paper?",
+            "options": ["The person on your left", "The person on your right", "The person in front of you", "The person behind you"],
+            "correct": 1,
+            "explanation": "You should pass the paper to the person sitting on your right as instructed."
+          },
+          {
+            "question": "In 'The Boy Who Cried Wolf,' what happened when a real wolf appeared?",
+            "options": ["The boy caught the wolf", "The villagers came right away", "No one believed the boy's cries for help", "The sheep chased the wolf away"],
+            "correct": 2,
+            "explanation": "When a real wolf appeared, no one believed the boy's cries for help because he had lied so many times before."
+          },
+          {
+            "question": "If the directions say, 'Draw a small circle inside a big square,' what should you draw first?",
+            "options": ["Nothing", "A small circle", "A big square", "A big circle"],
+            "correct": 2,
+            "explanation": "You should first draw a big square, then draw a small circle inside it."
+          },
+          {
+            "question": "In 'Hansel and Gretel,' what did the children use to find their way home the second time?",
+            "options": ["A map", "Breadcrumbs", "White pebbles", "String"],
+            "correct": 1,
+            "explanation": "The second time, they used breadcrumbs to mark their trail, but birds ate them so they couldn't find their way home."
+          },
+          {
+            "question": "If you hear, 'Touch your toes, then touch your nose,' what should you touch first?",
+            "options": ["Your head", "Your nose", "Your toes", "Your knees"],
+            "correct": 2,
+            "explanation": "You should touch your toes first, then touch your nose second."
+          },
+          {
+            "question": "In 'The Tortoise and the Hare,' what was the hare doing while the tortoise kept moving?",
+            "options": ["Eating", "Sleeping", "Running fast", "Swimming"],
+            "correct": 1,
+            "explanation": "The hare was taking a nap/sleeping while the tortoise kept moving slowly but steadily."
+          },
+          {
+            "question": "If the teacher says, 'Raise both hands high,' how many hands should you raise?",
+            "options": ["One hand", "Two hands", "No hands", "Three hands"],
+            "correct": 1,
+            "explanation": "You should raise both hands (two hands) high as instructed."
+          },
+          {
+            "question": "In 'Rapunzel,' how did the witch discover that the prince was visiting Rapunzel?",
+            "options": ["She saw him climbing up", "Rapunzel told her by accident", "The prince told her", "A bird told her"],
+            "correct": 1,
+            "explanation": "Rapunzel accidentally mentioned the prince to the witch by asking why her dress was getting tight (she was pregnant)."
+          },
+          {
+            "question": "If you're told to 'Stand behind your chair,' where should you be in relation to your chair?",
+            "options": ["In front of it", "Sitting on it", "Behind it", "Beside it"],
+            "correct": 2,
+            "explanation": "You should position yourself behind your chair as instructed."
+          },
+          {
+            "question": "In 'Jack and the Beanstalk,' what did Jack's mother want him to sell at the market?",
+            "options": ["The beanstalk", "The cow", "Some eggs", "His toys"],
+            "correct": 1,
+            "explanation": "Jack's mother sent him to the market to sell their cow because they needed money."
+          },
+          {
+            "question": "If the directions say, 'Wait for your turn,' when should you go?",
+            "options": ["Right away", "When the person before you is done", "Any time you want", "Never"],
+            "correct": 1,
+            "explanation": "You should wait until the person before you is done, and then it's your turn to go."
+          },
+          {
+            "question": "In 'The Three Billy Goats Gruff,' which goat crossed the bridge last?",
+            "options": ["The smallest goat", "The middle-sized goat", "The biggest goat", "All crossed together"],
+            "correct": 2,
+            "explanation": "The biggest billy goat crossed the bridge last and defeated the troll."
+          },
+          {
+            "question": "If you hear, 'Put the red block on top of the blue block,' where should the blue block be?",
+            "options": ["On top", "On the bottom", "To the side", "In your hand"],
+            "correct": 1,
+            "explanation": "The blue block should be on the bottom with the red block placed on top of it."
+          },
+          {
+            "question": "In 'Sleeping Beauty,' what pricked the princess's finger?",
+            "options": ["A needle", "A thorn", "A spindle", "A pin"],
+            "correct": 2,
+            "explanation": "The princess pricked her finger on a spindle of a spinning wheel, fulfilling the evil fairy's curse."
+          },
+          {
+            "question": "If the teacher says, 'Open your book to the page with the elephant picture,' how do you know which page to open to?",
+            "options": ["Look for page numbers", "Look for the elephant picture", "Ask a friend", "Choose any page"],
+            "correct": 1,
+            "explanation": "You should look through the book for the page that has an elephant picture on it."
+          },
+          {
+            "question": "In 'The Lion and the Mouse,' what happened to the lion?",
+            "options": ["He got lost", "He was caught in a hunter's net", "He fell in a hole", "He was hurt by another animal"],
+            "correct": 1,
+            "explanation": "The lion got caught in a hunter's net/trap, and the mouse helped free him by gnawing through the ropes."
+          },
+          {
+            "question": "If you're told to 'Color inside the lines,' how should you color the picture?",
+            "options": ["Color outside the lines", "Color over the lines", "Keep your crayon inside the lines", "Don't color at all"],
+            "correct": 2,
+            "explanation": "You should keep your crayon inside the lines of the picture when coloring."
+          },
+          {
+            "question": "In 'Cinderella,' what happens at midnight?",
+            "options": ["The prince arrives", "The spell wears off", "Cinderella meets the Fairy Godmother", "The glass slipper breaks"],
+            "correct": 1,
+            "explanation": "At midnight, the Fairy Godmother's spell wears off and everything turns back to its original state."
+          },
+          {
+            "question": "If the directions say, 'Draw a house and color the roof brown,' what color should the roof be?",
+            "options": ["Red", "Green", "Blue", "Brown"],
+            "correct": 3,
+            "explanation": "According to the directions, you should color the roof of the house brown."
+          },
+          {
+            "question": "In 'The Gingerbread Man,' who chased the Gingerbread Man first?",
+            "options": ["The fox", "The old woman", "The old man", "The children"],
+            "correct": 1,
+            "explanation": "The little old woman who baked him was the first to chase the Gingerbread Man when he ran away."
+          },
+          {
+            "question": "If you hear, 'Throw the ball gently to your partner,' how should you throw the ball?",
+            "options": ["Hard and fast", "Gently", "Not at all", "Up in the air"],
+            "correct": 1,
+            "explanation": "You should throw the ball gently to your partner as instructed, not hard or fast."
+          },
+          {
+            "question": "In 'Snow White,' where did Snow White live before going to the dwarfs' cottage?",
+            "options": ["In the forest", "In a castle", "In a village", "In a cave"],
+            "correct": 1,
+            "explanation": "Snow White lived in a castle with her father and stepmother (the evil queen) before running away to the forest."
+          },
+          {
+            "question": "If the teacher says, 'Raise your hand if you know the answer, but don't shout it out,' what should you do if you know the answer?",
+            "options": ["Shout out the answer", "Tell your neighbor", "Raise your hand and wait", "Do nothing"],
+            "correct": 2,
+            "explanation": "If you know the answer, you should raise your hand and wait to be called on, without shouting out."
+          },
+          {
+            "question": "In 'Little Red Riding Hood,' how did the wolf know where Grandmother lived?",
+            "options": ["He followed Little Red Riding Hood", "Little Red Riding Hood told him", "He already knew", "The hunter told him"],
+            "correct": 1,
+            "explanation": "Little Red Riding Hood told the wolf where her grandmother lived when he asked her in the forest."
+          },
+          {
+            "question": "If you're told to 'Put the blue marker in the cup and the red marker in the bin,' where does the blue marker go?",
+            "options": ["In the bin", "In the cup", "In your desk", "On the table"],
+            "correct": 1,
+            "explanation": "According to the instructions, the blue marker should go in the cup."
+          },
+          {
+            "question": "In 'The Ugly Duckling,' why did the other animals make fun of the duckling?",
+            "options": ["Because he couldn't swim", "Because he was too loud", "Because he looked different", "Because he was too small"],
+            "correct": 2,
+            "explanation": "The other animals made fun of the duckling because he looked different from the other ducklings (he was actually a swan)."
+          },
+          {
+            "question": "If the directions say, 'Draw a flower with five petals,' how many petals should your flower have?",
+            "options": ["Three", "Four", "Five", "Six"],
+            "correct": 2,
+            "explanation": "Your flower should have exactly five petals as directed."
+          },
+          {
+            "question": "In 'The Three Little Pigs,' what did the wolf say he would do to the pigs' houses?",
+            "options": ["Paint them", "Fix them", "Blow them down", "Live in them"],
+            "correct": 2,
+            "explanation": "The wolf said, 'I'll huff and I'll puff and I'll blow your house down!'"
+          },
+          {
+            "question": "If you hear, 'Make a circle with your arms,' what shape should you make with your arms?",
+            "options": ["A square", "A triangle", "A circle", "A star"],
+            "correct": 2,
+            "explanation": "You should make a circle shape with your arms as instructed."
+          },
+          {
+            "question": "In 'Goldilocks and the Three Bears,' why did Goldilocks run away?",
+            "options": ["She was tired", "She was scared when the bears came home", "She didn't like the porridge", "She wanted to go home"],
+            "correct": 1,
+            "explanation": "Goldilocks ran away because she was scared when the three bears came home and found her sleeping in Baby Bear's bed."
+          },
+          {
+            "question": "If the teacher says, 'Everyone find a partner,' what should you do?",
+            "options": ["Work by yourself", "Join a group of three", "Find one other person to work with", "Ask the teacher to be your partner"],
+            "correct": 2,
+            "explanation": "You should find one other person to be your partner as instructed."
+          },
+          {
+            "question": "In 'Jack and the Beanstalk,' what did Jack's mother do with the beanstalk at the end of the story?",
+            "options": ["Cut it down", "Planted more beans", "Climbed it herself", "Sold it"],
+            "correct": 0,
+            "explanation": "At the end of the story, Jack's mother cut down the beanstalk so the giant couldn't climb down after Jack."
+          },{
+            "question": "If the teacher says, 'Draw a tree with three apples,' how many apples should you draw?",
+            "options": ["One", "Two", "Three", "Four"],
+            "correct": 2,
+            "explanation": "You should draw exactly three apples on the tree as instructed."
+          },
+          {
+            "question": "In 'The Three Little Pigs,' why couldn't the wolf blow down the third pig's house?",
+            "options": ["The wolf was too tired", "The house was made of bricks", "The pig was too strong", "The house was too big"],
+            "correct": 1,
+            "explanation": "The wolf couldn't blow down the third pig's house because it was made of strong bricks, not straw or sticks."
+          },
+          {
+            "question": "If you're told to 'Sit beside your friend, not behind them,' where should you sit?",
+            "options": ["In front of your friend", "Behind your friend", "Beside your friend", "Far away from your friend"],
+            "correct": 2,
+            "explanation": "You should sit beside (next to) your friend, not behind them, as instructed."
+          },
+          {
+            "question": "In 'Jack and the Beanstalk,' what did Jack find at the top of the beanstalk?",
+            "options": ["A treasure chest", "A giant's castle", "Another bean", "A fairy"],
+            "correct": 1,
+            "explanation": "Jack found a giant's castle at the top of the beanstalk."
+          },
+          {
+            "question": "If the directions say, 'Draw a circle, then a triangle inside it,' what shape goes inside the circle?",
+            "options": ["Square", "Rectangle", "Triangle", "Another circle"],
+            "correct": 2,
+            "explanation": "According to the directions, you should draw a triangle inside the circle."
+          },
+          {
+            "question": "In 'Goldilocks and the Three Bears,' why was Baby Bear upset?",
+            "options": ["His porridge was too hot", "Goldilocks ate his porridge, broke his chair, and slept in his bed", "His mother yelled at him", "He lost his toy"],
+            "correct": 1,
+            "explanation": "Baby Bear was upset because Goldilocks ate all his porridge, broke his chair, and slept in his bed."
+          },
+          {
+            "question": "If you hear, 'Put your pencil down and close your book,' what should you do first?",
+            "options": ["Close your book", "Put your pencil down", "Raise your hand", "Stand up"],
+            "correct": 1,
+            "explanation": "You should first put your pencil down, then close your book, following the order given."
+          },
+          {
+            "question": "In 'Little Red Riding Hood,' why did Little Red Riding Hood think the wolf was her grandmother?",
+            "options": ["She couldn't see well", "The wolf was wearing grandmother's clothes", "She was just pretending", "She knew it was the wolf"],
+            "correct": 1,
+            "explanation": "Little Red Riding Hood thought the wolf was her grandmother because the wolf was wearing grandmother's clothes and lying in her bed."
+          },
+          {
+            "question": "If the teacher says, 'Write the numbers 1, 2, and 3,' which number should you write first?",
+            "options": ["3", "2", "1", "Any number"],
+            "correct": 2,
+            "explanation": "You should write the numbers in order, starting with 1, then 2, then 3."
+          },
+          {
+            "question": "In 'The Tortoise and the Hare,' why did the tortoise win the race?",
+            "options": ["He was faster than the hare", "He took a shortcut", "He kept going steadily while the hare took a nap", "The hare let him win"],
+            "correct": 2,
+            "explanation": "The tortoise won the race because he kept moving steadily and never stopped, while the overconfident hare took a nap."
+          },
+          {
+            "question": "If you're told to 'Stand in a straight line with your hands at your sides,' where should your hands be?",
+            "options": ["Above your head", "On your hips", "In your pockets", "At your sides"],
+            "correct": 3,
+            "explanation": "Your hands should be at your sides as instructed."
+          },
+          {
+            "question": "In 'Snow White,' what job did Snow White do in the dwarfs' cottage?",
+            "options": ["She slept all day", "She cooked and cleaned for them", "She worked in the mines", "She taught them to read"],
+            "correct": 1,
+            "explanation": "Snow White cooked and cleaned for the seven dwarfs in exchange for letting her stay in their cottage."
+          },
+          {
+            "question": "If the directions say, 'Color the biggest shape blue,' which shape should be blue?",
+            "options": ["The smallest shape", "The middle-sized shape", "The biggest shape", "All shapes"],
+            "correct": 2,
+            "explanation": "According to the directions, you should color the biggest shape blue."
+          },
+          {
+            "question": "In 'Hansel and Gretel,' how did the children know the witch was bad?",
+            "options": ["She told them", "She tried to cook them in her oven", "They read her mind", "Their father warned them"],
+            "correct": 1,
+            "explanation": "The children realized the witch was bad when she locked Hansel in a cage and tried to cook him in her oven."
+          },
+          {
+            "question": "If you hear, 'Touch your head, shoulders, knees, and toes in that order,' what should you touch third?",
+            "options": ["Head", "Shoulders", "Knees", "Toes"],
+            "correct": 2,
+            "explanation": "Following the order given, you should touch your knees third, after head and shoulders."
+          },
+          {
+            "question": "In 'The Gingerbread Man,' how did the fox trick the Gingerbread Man?",
+            "options": ["By offering him candy", "By pretending to be his friend", "By offering to carry him across the river", "By racing him"],
+            "correct": 2,
+            "explanation": "The fox tricked the Gingerbread Man by offering to carry him across the river on his tail/back, then eating him."
+          },
+          {
+            "question": "If the teacher says, 'First raise your hand, then wait to be called on,' what should you do before speaking?",
+            "options": ["Just start talking", "Raise your hand and wait to be called on", "Whisper to a friend", "Stand up"],
+            "correct": 1,
+            "explanation": "Before speaking, you should raise your hand and wait for the teacher to call on you."
+          },
+          {
+            "question": "In 'Cinderella,' what did the prince use to find Cinderella?",
+            "options": ["A map", "A glass slipper", "A magic wand", "A letter"],
+            "correct": 1,
+            "explanation": "The prince used the glass slipper that Cinderella lost to find her, by having every young woman in the kingdom try it on."
+          },
+          {
+            "question": "If you're told to 'Draw a square on the left side of your paper and a circle on the right,' where should you draw the circle?",
+            "options": ["On the left side", "In the middle", "On the right side", "Anywhere you want"],
+            "correct": 2,
+            "explanation": "You should draw the circle on the right side of your paper as instructed."
+          },
+          {
+            "question": "In 'The Ugly Duckling,' what happened to the duckling at the end of the story?",
+            "options": ["He turned into a beautiful swan", "He became a duck", "He ran away forever", "He made friends with the other ducks"],
+            "correct": 0,
+            "explanation": "At the end of the story, the ugly duckling grew up and discovered he was actually a beautiful swan, not a duck at all."
+          },
+          {
+            "question": "If the directions say, 'Hop three times, then spin in a circle,' what should you do first?",
+            "options": ["Spin in a circle", "Clap your hands", "Hop three times", "Run in place"],
+            "correct": 2,
+            "explanation": "You should hop three times first, then spin in a circle."
+          },
+          {
+            "question": "In 'The Boy Who Cried Wolf,' what was the boy supposed to do?",
+            "options": ["Hunt wolves", "Take care of sheep", "Cut wood", "Cook dinner"],
+            "correct": 1,
+            "explanation": "The boy was supposed to take care of the sheep (be a shepherd) and alert the village if a wolf came."
+          },
+          {
+            "question": "If you hear, 'When I count to three, start cleaning up,' when should you start cleaning?",
+            "options": ["Right away", "After the count of three", "When your work is done", "Never"],
+            "correct": 1,
+            "explanation": "You should wait until the teacher counts to three, then start cleaning up."
+          },
+          {
+            "question": "In 'Rapunzel,' how did the prince find Rapunzel in the tower?",
+            "options": ["He used a map", "He used a ladder", "He followed the witch", "He heard Rapunzel singing"],
+            "correct": 3,
+            "explanation": "The prince found Rapunzel because he heard her beautiful singing voice while riding through the forest."
+          },
+          {
+            "question": "If the teacher says, 'Write your first name on the top line and your last name on the bottom line,' where does your last name go?",
+            "options": ["On the top line", "In the middle", "On the bottom line", "Nowhere"],
+            "correct": 2,
+            "explanation": "According to the instructions, your last name should go on the bottom line."
+          },
+          {
+            "question": "In 'The Three Billy Goats Gruff,' where did the goats want to go?",
+            "options": ["Home", "To the hillside to eat grass", "To the village", "To visit their grandmother"],
+            "correct": 1,
+            "explanation": "The three billy goats wanted to cross the bridge to go to the hillside/meadow to eat the green grass."
+          },
+          {
+            "question": "If you're told to 'Take off your jacket and hang it up,' what should you do first?",
+            "options": ["Hang up your jacket", "Sit down", "Take off your jacket", "Ask for help"],
+            "correct": 2,
+            "explanation": "You should first take off your jacket, then hang it up."
+          },
+          {
+            "question": "In 'Jack and the Beanstalk,' how did Jack's mother react when she saw the magic beans?",
+            "options": ["She was happy", "She was curious", "She was proud", "She was angry"],
+            "correct": 3,
+            "explanation": "Jack's mother was angry because Jack had traded their valuable cow for 'worthless' beans."
+          },
+          {
+            "question": "If the directions say, 'Underline the title and circle the date,' what should you underline?",
+            "options": ["Your name", "The title", "The date", "The whole page"],
+            "correct": 1,
+            "explanation": "According to the directions, you should underline the title."
+          },
+          {
+            "question": "In 'Little Red Riding Hood,' why did the wolf want to eat Little Red Riding Hood?",
+            "options": ["He was angry at her", "He was hungry", "She was in his house", "She stole his food"],
+            "correct": 1,
+            "explanation": "The wolf wanted to eat Little Red Riding Hood because he was hungry."
+          },
+          {
+            "question": "If you hear, 'After you finish your work, put it in the blue basket,' where should you put your work?",
+            "options": ["On your desk", "In your backpack", "In the blue basket", "Give it to the teacher"],
+            "correct": 2,
+            "explanation": "After finishing your work, you should put it in the blue basket as instructed."
+          },
+          {
+            "question": "In 'Goldilocks and the Three Bears,' what did Goldilocks do when the bears found her?",
+            "options": ["She said sorry", "She ran away", "She cried", "She fell asleep again"],
+            "correct": 1,
+            "explanation": "When the three bears found Goldilocks sleeping in Baby Bear's bed, she woke up frightened and ran away."
+          },
+          {
+            "question": "If the teacher says, 'Put a star next to your best answer,' what should you draw?",
+            "options": ["A heart", "A circle", "A star", "A square"],
+            "correct": 2,
+            "explanation": "You should draw a star next to your best answer as instructed."
+          },
+          {
+            "question": "In 'The Tortoise and the Hare,' what did the hare do during the race?",
+            "options": ["He stopped to take a nap", "He ran as fast as he could", "He helped the tortoise", "He got lost"],
+            "correct": 0,
+            "explanation": "During the race, the hare was so confident he would win that he stopped to take a nap while the tortoise kept moving."
+          },
+          {
+            "question": "If you're told to 'Slide your chair in quietly,' how should you move your chair?",
+            "options": ["Pick it up and carry it", "Push it loudly", "Slide it quietly", "Leave it where it is"],
+            "correct": 2,
+            "explanation": "You should slide your chair in quietly, without making noise, as instructed."
+          },
+          {
+            "question": "In 'Snow White,' who gave Snow White the poisoned apple?",
+            "options": ["The prince", "The seven dwarfs", "The queen disguised as an old woman", "Her father"],
+            "correct": 2,
+            "explanation": "The evil queen, disguised as an old woman, gave Snow White the poisoned apple."
+          },
+          {
+            "question": "If the directions say, 'Draw a sun in the sky and grass on the ground,' where should you draw the grass?",
+            "options": ["In the sky", "In the middle", "On the ground", "Nowhere"],
+            "correct": 2,
+            "explanation": "According to the directions, you should draw the grass on the ground."
+          },
+          {
+            "question": "In 'The Gingerbread Man,' who could NOT catch the Gingerbread Man?",
+            "options": ["The old woman", "The fox", "The old man", "All of them except the fox"],
+            "correct": 3,
+            "explanation": "Everyone who chased the Gingerbread Man (the old woman, old man, various animals) could not catch him, except for the fox who tricked him."
+          },
+          {
+            "question": "If you hear, 'Show me a thumbs up if you agree,' what should you do if you agree?",
+            "options": ["Raise your hand", "Nod your head", "Show a thumbs up", "Say 'yes'"],
+            "correct": 2,
+            "explanation": "If you agree, you should show a thumbs up (point your thumb upward) as instructed."
+          },
+          {
+            "question": "In 'Cinderella,' what happened to Cinderella's coach at midnight?",
+            "options": ["It disappeared", "It turned back into a pumpkin", "It broke down", "The prince took it"],
+            "correct": 1,
+            "explanation": "At midnight, the magic wore off and Cinderella's coach turned back into a pumpkin."
+          },
+          {
+            "question": "If the teacher says, 'Form groups of three,' how many students should be in each group?",
+            "options": ["Two", "Three", "Four", "Five"],
+            "correct": 1,
+            "explanation": "There should be three students in each group as instructed."
+          },
+          {
+            "question": "In 'The Ugly Duckling,' why did the duckling leave his family?",
+            "options": ["He wanted adventures", "He was looking for food", "Everyone was mean to him", "He was lost"],
+            "correct": 2,
+            "explanation": "The duckling left because everyone was mean to him and teased him for looking different from the other ducklings."
+          },
+          {
+            "question": "If you're told to 'Finish your drawing, then put your crayons away,' what should you do first?",
+            "options": ["Put your crayons away", "Start a new drawing", "Finish your drawing", "Show the teacher"],
+            "correct": 2,
+            "explanation": "You should first finish your drawing, then put your crayons away."
+          },
+          {
+            "question": "In 'Hansel and Gretel,' why did their father and stepmother leave them in the forest?",
+            "options": ["They were lost", "They were playing hide and seek", "They were too poor to feed them", "The children wanted to live there"],
+            "correct": 2,
+            "explanation": "Their father and stepmother left them in the forest because they were too poor to feed them (the stepmother's idea in most versions)."
+          },
+          {
+            "question": "If the directions say, 'Cut on the solid line, not on the dotted line,' which line should you cut on?",
+            "options": ["The dotted line", "The solid line", "Both lines", "Neither line"],
+            "correct": 1,
+            "explanation": "You should cut only on the solid line, not on the dotted line, as directed."
+          },
+          {
+            "question": "In 'The Lion and the Mouse,' what did the mouse do to help the lion?",
+            "options": ["Scared away other animals", "Found food for the lion", "Gnawed through the ropes/net", "Pulled a thorn from the lion's paw"],
+            "correct": 2,
+            "explanation": "The mouse helped the lion by gnawing through the ropes or net that trapped the lion."
+          },
+          {
+            "question": "If you hear, 'When the music stops, freeze like a statue,' what should you do when the music stops?",
+            "options": ["Keep dancing", "Sit down", "Freeze in place", "Run around"],
+            "correct": 2,
+            "explanation": "When the music stops, you should freeze in place like a statue, not moving at all."
+          },
+          {
+            "question": "In 'The Boy Who Cried Wolf,' what happened at the end of the story?",
+            "options": ["The boy caught the wolf", "No one believed the boy when a real wolf came", "The boy moved to the city", "The sheep chased away the wolf"],
+            "correct": 1,
+            "explanation": "At the end of the story, when a real wolf came, no one believed the boy's cries for help because he had lied so many times before."
+          },
+          {
+            "question": "If the teacher says, 'Put the red paper on top and the blue paper on the bottom,' where should the blue paper go?",
+            "options": ["On top", "In the middle", "On the bottom", "Nowhere"],
+            "correct": 2,
+            "explanation": "According to the instructions, the blue paper should go on the bottom with the red paper on top of it."
+          },
+          {
+            "question": "In 'Jack and the Beanstalk,' what noise woke up the giant?",
+            "options": ["Jack's singing", "The golden hen squawking", "The harp playing music", "Jack falling down"],
+            "correct": 2,
+            "explanation": "The magic harp that Jack was stealing began to play music and call out to the giant, which woke him up."
+          },
+          {
+            "question": "If you're told to 'Place your book inside your desk,' where should your book go?",
+            "options": ["On top of your desk", "Inside your desk", "Under your chair", "In your backpack"],
+            "correct": 1,
+            "explanation": "You should place your book inside your desk as instructed."
+          },
+          {
+            "question": "If the teacher says, 'Put your pencil in your desk and your book on the shelf,' where should your book go?",
+            "options": ["In your desk", "In your backpack", "On the shelf", "On the floor"],
+            "correct": 2,
+            "explanation": "According to the instructions, your book should go on the shelf."
+          },
+          {
+            "question": "In 'The Three Little Pigs,' what did the first pig use to build his house?",
+            "options": ["Sticks", "Straw", "Bricks", "Mud"],
+            "correct": 1,
+            "explanation": "The first little pig built his house out of straw, which the wolf easily blew down."
+          },
+          {
+            "question": "If you're told to 'Put on your coat, then line up at the door,' what should you do first?",
+            "options": ["Line up at the door", "Put on your coat", "Sit down", "Go outside"],
+            "correct": 1,
+            "explanation": "You should first put on your coat, then line up at the door."
+          },
+          {
+            "question": "In 'Goldilocks and the Three Bears,' why was Papa Bear's porridge too hot for Goldilocks?",
+            "options": ["He had just cooked it", "He liked it that way", "He had a fire in his bowl", "The story doesn't say why"],
+            "correct": 1,
+            "explanation": "Papa Bear liked his porridge very hot, which is why it was too hot for Goldilocks to eat."
+          },
+          {
+            "question": "If the directions say, 'Draw a triangle above the square,' what should be on top?",
+            "options": ["The circle", "The square", "The triangle", "Nothing"],
+            "correct": 2,
+            "explanation": "According to the directions, the triangle should be above (on top of) the square."
+          },
+          {
+            "question": "In 'Little Red Riding Hood,' why did Little Red Riding Hood go to her grandmother's house?",
+            "options": ["To play games", "To help clean", "To bring food because her grandmother was sick", "To run away from the wolf"],
+            "correct": 2,
+            "explanation": "Little Red Riding Hood went to her grandmother's house to bring her food because her grandmother was sick."
+          },
+          {
+            "question": "If you hear, 'Close your eyes and count to five,' what number should you count to?",
+            "options": ["Three", "Four", "Five", "Ten"],
+            "correct": 2,
+            "explanation": "You should count to five as instructed."
+          },
+          {
+            "question": "In 'Jack and the Beanstalk,' why did Jack climb the beanstalk?",
+            "options": ["To escape his mother", "To find his father", "To see what was at the top", "To pick beans"],
+            "correct": 2,
+            "explanation": "Jack climbed the beanstalk because he was curious to see what was at the top."
+          },
+          {
+            "question": "If the teacher says, 'Raise your right hand if you agree,' which hand should you raise if you agree?",
+            "options": ["Left hand", "Right hand", "Both hands", "Neither hand"],
+            "correct": 1,
+            "explanation": "If you agree, you should raise your right hand as instructed."
+          },
+          {
+            "question": "In 'The Tortoise and the Hare,' what lesson does the story teach?",
+            "options": ["Be the fastest", "Never take a nap", "Slow and steady wins the race", "Don't make friends with tortoises"],
+            "correct": 2,
+            "explanation": "The story teaches that 'slow and steady wins the race' - being consistent and persistent is more important than being fast but careless."
+          },
+          {
+            "question": "If you're told to 'Write your name at the top of the page and the date at the bottom,' where should the date go?",
+            "options": ["At the top", "In the middle", "At the bottom", "Anywhere you want"],
+            "correct": 2,
+            "explanation": "According to the instructions, the date should go at the bottom of the page."
+          },
+          {
+            "question": "In 'Snow White,' what job did the seven dwarfs have?",
+            "options": ["They were farmers", "They were miners", "They were hunters", "They were bakers"],
+            "correct": 1,
+            "explanation": "The seven dwarfs were miners who worked digging in a mine."
+          },
+          {
+            "question": "If the directions say, 'Color the sun yellow and the grass green,' what color should the sun be?",
+            "options": ["Blue", "Red", "Green", "Yellow"],
+            "correct": 3,
+            "explanation": "According to the directions, the sun should be colored yellow."
+          },
+          {
+            "question": "In 'The Gingerbread Man,' why couldn't the old woman catch the Gingerbread Man?",
+            "options": ["She was too tired", "She wasn't fast enough", "She wasn't interested", "She was too kind"],
+            "correct": 1,
+            "explanation": "The old woman couldn't catch the Gingerbread Man because he ran too fast and she wasn't fast enough."
+          },
+          {
+            "question": "If you hear, 'First sit down, then fold your hands,' what should you do second?",
+            "options": ["Stand up", "Sit down", "Fold your hands", "Raise your hand"],
+            "correct": 2,
+            "explanation": "After sitting down first, you should fold your hands second."
+          },
+          {
+            "question": "In 'Cinderella,' who helped Cinderella go to the ball?",
+            "options": ["Her stepmother", "Her stepsisters", "The prince", "Her Fairy Godmother"],
+            "correct": 3,
+            "explanation": "Cinderella's Fairy Godmother helped her go to the ball by using magic to give her a dress, coach, and glass slippers."
+          },
+          {
+            "question": "If the teacher says, 'Walk to the water fountain, get a drink, and come back to your seat,' what should you do last?",
+            "options": ["Walk to the water fountain", "Get a drink", "Come back to your seat", "Raise your hand"],
+            "correct": 2,
+            "explanation": "According to the instructions, you should come back to your seat last, after walking to the fountain and getting a drink."
+          },
+          {
+            "question": "In 'The Ugly Duckling,' what happened when winter came?",
+            "options": ["The duckling was happy", "The duckling was cold and nearly froze", "The duckling found his family", "The duckling turned into a swan"],
+            "correct": 1,
+            "explanation": "When winter came, the ugly duckling was cold, hungry, and nearly froze to death in the ice."
+          },
+          {
+            "question": "If you're told to 'Draw a circle in the corner of your paper,' where should you draw the circle?",
+            "options": ["In the middle", "In any corner", "On the back", "Anywhere you want"],
+            "correct": 1,
+            "explanation": "You should draw the circle in one of the corners of your paper as instructed."
+          },
+          {
+            "question": "In 'Hansel and Gretel,' what did the children find in the forest?",
+            "options": ["A castle", "A cottage made of candy", "A treasure chest", "A friendly bear"],
+            "correct": 1,
+            "explanation": "Hansel and Gretel found a cottage made of bread, cake, and sugar (candy) in the forest."
+          },
+          {
+            "question": "If the directions say, 'Trace the dotted line with your finger,' what should you use to trace?",
+            "options": ["Your pencil", "Your eraser", "Your finger", "A crayon"],
+            "correct": 2,
+            "explanation": "According to the directions, you should use your finger to trace the dotted line."
+          },
+          {
+            "question": "In 'The Three Billy Goats Gruff,' who went across the bridge first?",
+            "options": ["The big billy goat", "The medium billy goat", "The little billy goat", "The troll"],
+            "correct": 2,
+            "explanation": "The little (smallest) billy goat went across the bridge first."
+          },
+          {
+            "question": "If you hear, 'Put your trash in the garbage can before going outside,' when should you throw away your trash?",
+            "options": ["After going outside", "While outside", "Before going outside", "When you come back inside"],
+            "correct": 2,
+            "explanation": "You should put your trash in the garbage can before going outside, as instructed."
+          },
+          {
+            "question": "In 'Rapunzel,' how did the prince climb up to Rapunzel's tower?",
+            "options": ["He used a ladder", "He climbed up her long hair", "He used a rope", "He flew up"],
+            "correct": 1,
+            "explanation": "The prince climbed up to Rapunzel's tower by climbing up her very long hair, which she let down for him."
+          },
+          {
+            "question": "If the teacher says, 'When I clap my hands, stop what you're doing and look at me,' when should you stop?",
+            "options": ["Right now", "When the teacher claps", "When you finish your work", "When your friend stops"],
+            "correct": 1,
+            "explanation": "You should stop what you're doing when the teacher claps their hands."
+          },
+          {
+            "question": "In 'The Boy Who Cried Wolf,' what did the boy do wrong?",
+            "options": ["He was mean to the sheep", "He lied about seeing a wolf", "He ran away from home", "He fell asleep on the job"],
+            "correct": 1,
+            "explanation": "The boy lied about seeing a wolf several times when there wasn't one, as a joke or to get attention."
+          },
+          {
+            "question": "If you're told to 'Underline the words you don't know,' what should you mark?",
+            "options": ["All the words", "No words", "Words you know", "Words you don't know"],
+            "correct": 3,
+            "explanation": "You should underline only the words you don't know, as instructed."
+          },
+          {
+            "question": "In 'The Lion and the Mouse,' why did the lion let the mouse go?",
+            "options": ["The mouse gave him food", "The mouse promised to help him someday", "The mouse was his friend", "The mouse hurt him"],
+            "correct": 1,
+            "explanation": "The lion let the mouse go because the mouse promised to help him someday, which later happened when the lion was caught in a trap."
+          },
+          {
+            "question": "If the directions say, 'Paint the sky blue and the sun yellow,' what color should the sky be?",
+            "options": ["Yellow", "Green", "Blue", "Red"],
+            "correct": 2,
+            "explanation": "According to the directions, the sky should be painted blue."
+          },
+          {
+            "question": "In 'Jack and the Beanstalk,' what did Jack's mother do with the beans at first?",
+            "options": ["She cooked them", "She planted them", "She threw them out the window", "She sold them"],
+            "correct": 2,
+            "explanation": "Jack's mother was angry and threw the beans out the window, where they grew into the giant beanstalk overnight."
+          },
+          {
+            "question": "If you hear, 'Stand behind your chair,' where should you stand?",
+            "options": ["In front of your chair", "Next to your chair", "Behind your chair", "On your chair"],
+            "correct": 2,
+            "explanation": "You should stand behind your chair as instructed."
+          },
+          {
+            "question": "In 'Goldilocks and the Three Bears,' whose chair did Goldilocks break?",
+            "options": ["Papa Bear's", "Mama Bear's", "Baby Bear's", "She didn't break any chairs"],
+            "correct": 2,
+            "explanation": "Goldilocks broke Baby Bear's chair because it was small (just right for her) but not strong enough to hold her."
+          },
+          {
+            "question": "If the teacher says, 'Write your answer on the line,' where should you write your answer?",
+            "options": ["Anywhere on the page", "On the line", "In the margin", "On the back of the paper"],
+            "correct": 1,
+            "explanation": "You should write your answer on the line as instructed."
+          },
+          {
+            "question": "In 'Little Red Riding Hood,' what did the wolf do after he saw Little Red Riding Hood?",
+            "options": ["He ran away scared", "He helped her pick flowers", "He ran ahead to Grandmother's house", "He fell asleep"],
+            "correct": 2,
+            "explanation": "After seeing Little Red Riding Hood, the wolf ran ahead to Grandmother's house to get there before her."
+          },
+          {
+            "question": "If you're told to 'Find a partner and sit together,' how many students should be in your group?",
+            "options": ["Just you", "Two", "Three", "The whole class"],
+            "correct": 1,
+            "explanation": "If you find a partner and sit together, there should be two students (you and your partner)."
+          },
+          {
+            "question": "In 'The Tortoise and the Hare,' who was overconfident?",
+            "options": ["The tortoise", "The hare", "Both animals", "Neither animal"],
+            "correct": 1,
+            "explanation": "The hare was overconfident and thought he would easily win the race because he was so much faster than the tortoise."
+          },
+          {
+            "question": "If the directions say, 'Draw a bird in the tree,' where should you draw the bird?",
+            "options": ["On the ground", "In the water", "In the tree", "In the sky"],
+            "correct": 2,
+            "explanation": "According to the directions, you should draw the bird in the tree."
+          },
+          {
+            "question": "In 'Snow White,' what happened when Snow White ate the poisoned apple?",
+            "options": ["She became a princess", "She fell into a deep sleep", "She turned into a frog", "She ran away"],
+            "correct": 1,
+            "explanation": "When Snow White ate the poisoned apple, she fell into a deep sleep that looked like death."
+          },
+          {
+            "question": "If you hear, 'Cut out the shape and glue it to your paper,' what should you do first?",
+            "options": ["Glue the shape", "Draw a shape", "Cut out the shape", "Color the shape"],
+            "correct": 2,
+            "explanation": "You should first cut out the shape, then glue it to your paper."
+          },
+          {
+            "question": "In 'The Gingerbread Man,' what did the Gingerbread Man say as he ran?",
+            "options": ["'I'm the best!'", "'Catch me if you can!'", "'Run, run as fast as you can! You can't catch me, I'm the Gingerbread Man!'", "'I'm going to get away!'"],
+            "correct": 2,
+            "explanation": "As he ran, the Gingerbread Man said, 'Run, run as fast as you can! You can't catch me, I'm the Gingerbread Man!'"
+          },
+          {
+            "question": "If the teacher says, 'Raise your hand if you need help,' what should you do if you're confused?",
+            "options": ["Ask your friend", "Keep trying by yourself", "Raise your hand", "Stop working"],
+            "correct": 2,
+            "explanation": "If you're confused and need help, you should raise your hand as instructed."
+          },
+          {
+            "question": "In 'Cinderella,' what did Cinderella lose at the ball?",
+            "options": ["Her necklace", "Her purse", "Her glass slipper", "Her crown"],
+            "correct": 2,
+            "explanation": "Cinderella lost her glass slipper as she was rushing to leave the ball at midnight."
+          },
+          {
+            "question": "If you're told to 'Hang up your coat and take a seat,' what should you do first?",
+            "options": ["Take a seat", "Raise your hand", "Hang up your coat", "Ask a question"],
+            "correct": 2,
+            "explanation": "You should first hang up your coat, then take a seat."
+          },
+          {
+            "question": "In 'The Ugly Duckling,' why was the duckling called 'ugly'?",
+            "options": ["He was mean to others", "He looked different from the other ducklings", "He couldn't swim well", "He had no feathers"],
+            "correct": 1,
+            "explanation": "The duckling was called 'ugly' because he looked different from the other ducklings (since he was actually a swan, not a duck)."
+          },
+          {
+            "question": "If the directions say, 'Draw a star in the top right corner,' where should you draw the star?",
+            "options": ["Top left corner", "Bottom right corner", "Top right corner", "Bottom left corner"],
+            "correct": 2,
+            "explanation": "According to the directions, you should draw the star in the top right corner of the paper."
+          },
+          {
+            "question": "In 'Hansel and Gretel,' why did Hansel drop pebbles in the forest?",
+            "options": ["To feed the birds", "To mark the path so they could find their way home", "To count them", "To make the witch angry"],
+            "correct": 1,
+            "explanation": "Hansel dropped white pebbles to mark the path so that he and Gretel could find their way back home."
+          },
+          {
+            "question": "If you hear, 'Close your book when you finish reading,' when should you close your book?",
+            "options": ["Right now", "When the teacher tells you", "When you finish reading", "When your friend does"],
+            "correct": 2,
+            "explanation": "You should close your book when you finish reading, as instructed."
+          },
+          {
+            "question": "In 'The Three Little Pigs,' what happened to the pig who built a house of straw?",
+            "options": ["He lived happily ever after", "The wolf couldn't find him", "The wolf blew his house down", "He moved in with his brother"],
+            "correct": 2,
+            "explanation": "The wolf blew down the house made of straw, and the pig had to run to his brother's house."
+          },
+          {
+            "question": "If the teacher says, 'Share the crayons with your group,' what should you do with the crayons?",
+            "options": ["Keep them all for yourself", "Give them all away", "Let everyone in your group use them", "Hide them"],
+            "correct": 2,
+            "explanation": "You should let everyone in your group use the crayons, which means sharing them."
+          },
+          {
+            "question": "In 'Jack and the Beanstalk,' what did the giant say when he smelled Jack?",
+            "options": ["'Who's been eating my porridge?'", "'Fe, fi, fo, fum! I smell the blood of an Englishman!'", "'Let down your hair!'", "'I'll huff and I'll puff!'"],
+            "correct": 1,
+            "explanation": "The giant said, 'Fe, fi, fo, fum! I smell the blood of an Englishman!' when he sensed Jack was in his castle."
+          },
+          {
+            "question": "If you're told to 'Draw a face with two eyes, a nose, and a smile,' how many features should the face have?",
+            "options": ["Two features", "Three features", "Four features", "Five features"],
+            "correct": 2,
+            "explanation": "The face should have four features: two eyes (counting as two features), a nose, and a smile."
+          },
+          {
+            "question": "In 'Rapunzel,' what happened to the witch at the end of the story?",
+            "options": ["She became good", "She became young again", "She lost her powers", "She was never seen again"],
+            "correct": 3,
+            "explanation": "In most versions of the story, the witch was defeated and was never seen again after the prince rescued Rapunzel."
+          },
+          {
+            "question": "If the teacher says, 'Stand up, push in your chair, and line up at the door,' what should you do second?",
+            "options": ["Stand up", "Push in your chair", "Line up at the door", "Sit down"],
+            "correct": 1,
+            "explanation": "After standing up first, you should push in your chair second, then line up at the door third."
+          },
+          {
+            "question": "In 'The Three Little Pigs,' what did the second pig use to build his house?",
+            "options": ["Straw", "Sticks", "Bricks", "Stones"],
+            "correct": 1,
+            "explanation": "The second little pig built his house out of sticks, which the wolf also blew down."
+          },
+          {
+            "question": "If you're told to 'Draw a fish and color it blue,' what should you do first?",
+            "options": ["Color something blue", "Draw a fish", "Find a blue crayon", "Draw a different animal"],
+            "correct": 1,
+            "explanation": "You should first draw a fish, then color it blue."
+          },
+          {
+            "question": "In 'Little Red Riding Hood,' where was Little Red Riding Hood going?",
+            "options": ["To school", "To the village", "To her grandmother's house", "To the forest"],
+            "correct": 2,
+            "explanation": "Little Red Riding Hood was going to her grandmother's house to bring her food because she was sick."
+          },
+          {
+            "question": "If the directions say, 'Draw a square, then draw a circle inside it,' what shape should be inside the square?",
+            "options": ["Another square", "A triangle", "A rectangle", "A circle"],
+            "correct": 3,
+            "explanation": "According to the directions, a circle should be drawn inside the square."
+          },
+          {
+            "question": "In 'Goldilocks and the Three Bears,' why did the bears go for a walk?",
+            "options": ["To look for honey", "To visit friends", "To let their porridge cool", "To find Goldilocks"],
+            "correct": 2,
+            "explanation": "The bears went for a walk to let their porridge cool down before eating it."
+          },
+          {
+            "question": "If you hear, 'Touch your head, then your shoulders, then your knees,' what should you touch last?",
+            "options": ["Your head", "Your shoulders", "Your knees", "Your toes"],
+            "correct": 2,
+            "explanation": "Following the order given, you should touch your knees last after touching your head and shoulders."
+          },
+          {
+            "question": "In 'Jack and the Beanstalk,' why did Jack's mother sell their cow?",
+            "options": ["To buy food because they were poor", "Because the cow was old", "To buy Jack new clothes", "Because Jack wanted her to"],
+            "correct": 0,
+            "explanation": "Jack's mother wanted to sell their cow because they were poor and needed money to buy food."
+          },
+          {
+            "question": "If the teacher says, 'Write your name on the top line and the date on the bottom line,' where should you write the date?",
+            "options": ["On the top line", "In the middle of the page", "On the bottom line", "On both lines"],
+            "correct": 2,
+            "explanation": "According to the instructions, you should write the date on the bottom line."
+          },
+          {
+            "question": "In 'The Tortoise and the Hare,' why did the tortoise win the race?",
+            "options": ["He was faster than the hare", "He took a shortcut", "He kept going steadily while the hare took a nap", "The hare got lost"],
+            "correct": 2,
+            "explanation": "The tortoise won because he kept moving slowly but steadily, while the overconfident hare took a nap and didn't wake up in time."
+          },
+          {
+            "question": "If you're told to 'Color the apple red and the banana yellow,' what color should the banana be?",
+            "options": ["Red", "Green", "Blue", "Yellow"],
+            "correct": 3,
+            "explanation": "According to the instructions, the banana should be colored yellow."
+          },
+          {
+            "question": "In 'Cinderella,' what happened at midnight?",
+            "options": ["The prince arrived", "Cinderella met the prince", "The fairy godmother appeared", "The magic spell ended"],
+            "correct": 3,
+            "explanation": "At midnight, the magic spell cast by the Fairy Godmother ended, and everything turned back to its original state."
+          },
+          {
+            "question": "If the directions say, 'Cut out the square and paste it on your paper,' what should you do first?",
+            "options": ["Paste the square", "Draw a square", "Cut out the square", "Fold the paper"],
+            "correct": 2,
+            "explanation": "You should first cut out the square, then paste it on your paper."
+          },
+          {
+            "question": "In 'Snow White,' who was jealous of Snow White?",
+            "options": ["The prince", "The seven dwarfs", "The queen", "The king"],
+            "correct": 2,
+            "explanation": "The queen (Snow White's stepmother) was jealous of Snow White because of her beauty."
+          },
+          {
+            "question": "If you hear, 'Raise your hand before you speak,' what should you do when you want to answer a question?",
+            "options": ["Just start talking", "Whisper to a friend", "Raise your hand first", "Stay quiet"],
+            "correct": 2,
+            "explanation": "When you want to answer a question, you should raise your hand first and wait to be called on before speaking."
+          },
+          {
+            "question": "In 'The Gingerbread Man,' how did the fox trick the Gingerbread Man?",
+            "options": ["By offering him candy", "By offering to carry him across the river", "By disguising himself", "By running faster"],
+            "correct": 1,
+            "explanation": "The fox tricked the Gingerbread Man by offering to carry him across the river on his back/tail, then eating him."
+          },
+          {
+            "question": "If the teacher says, 'Put your homework in the blue folder,' where should your homework go?",
+            "options": ["In your desk", "In the red folder", "In the blue folder", "In your backpack"],
+            "correct": 2,
+            "explanation": "Your homework should go in the blue folder as instructed."
+          },
+          {
+            "question": "In 'The Ugly Duckling,' what happened to the ugly duckling at the end of the story?",
+            "options": ["He stayed ugly", "He became a beautiful swan", "He made friends with the ducks", "He found his real mother"],
+            "correct": 1,
+            "explanation": "At the end of the story, the ugly duckling grew up and discovered he was actually a beautiful swan, not a duck at all."
+          },
+          {
+            "question": "If you're told to 'Put your pencil down and close your book,' what should you do last?",
+            "options": ["Put your pencil down", "Pick up your pencil", "Close your book", "Open your book"],
+            "correct": 2,
+            "explanation": "According to the instructions, you should close your book last, after putting your pencil down."
+          },
+          {
+            "question": "In 'Hansel and Gretel,' who lived in the candy house?",
+            "options": ["A friendly old man", "A giant", "A witch", "A fairy"],
+            "correct": 2,
+            "explanation": "A witch lived in the candy house and tried to fatten up the children to eat them."
+          },
+          {
+            "question": "If the directions say, 'Trace over the dotted letters,' how should you write the letters?",
+            "options": ["By making up your own letters", "By drawing next to the dotted letters", "By following along the dotted lines", "By erasing the dotted letters"],
+            "correct": 2,
+            "explanation": "You should follow along the dotted lines with your pencil to trace over the letters."
+          },
+          {
+            "question": "In 'The Three Billy Goats Gruff,' what was under the bridge?",
+            "options": ["A river", "A troll", "Another goat", "Nothing"],
+            "correct": 1,
+            "explanation": "A mean, scary troll lived under the bridge and threatened to eat anyone who crossed."
+          },
+          {
+            "question": "If you hear, 'Wait until everyone is served before eating,' when should you start eating?",
+            "options": ["Right away", "When you get your food", "After everyone has their food", "When half the class has food"],
+            "correct": 2,
+            "explanation": "You should wait until everyone has been served their food before you start eating."
+          },
+          {
+            "question": "In 'Rapunzel,' how did the witch get into the tower?",
+            "options": ["She used a key", "She climbed the wall", "She called out for Rapunzel to let down her hair", "She used magic"],
+            "correct": 2,
+            "explanation": "The witch would call out, 'Rapunzel, Rapunzel, let down your hair,' and Rapunzel would let down her long hair for the witch to climb up."
+          },
+          {
+            "question": "If the teacher says, 'Make groups of four students,' how many students should be in each group?",
+            "options": ["Two", "Three", "Four", "Five"],
+            "correct": 2,
+            "explanation": "Each group should have exactly four students as instructed."
+          },
+          {
+            "question": "In 'The Boy Who Cried Wolf,' what job did the boy have?",
+            "options": ["Farmer", "Shepherd", "Hunter", "Baker"],
+            "correct": 1,
+            "explanation": "The boy was a shepherd whose job was to watch over the sheep and warn the villagers if a wolf came."
+          },
+          {
+            "question": "If you're told to 'Hang up your coat and put your lunch in your cubby,' what should you do with your lunch?",
+            "options": ["Eat it now", "Keep it with you", "Put it in your cubby", "Give it to a friend"],
+            "correct": 2,
+            "explanation": "You should put your lunch in your cubby as instructed."
+          },
+          {
+            "question": "In 'The Lion and the Mouse,' how did the mouse help the lion?",
+            "options": ["By scaring away other animals", "By bringing food", "By gnawing through the ropes that trapped the lion", "By getting help"],
+            "correct": 2,
+            "explanation": "The mouse helped the lion by gnawing through the ropes/net that trapped the lion, setting him free."
+          },
+          {
+            "question": "If the directions say, 'Draw a happy face on the left side of your paper,' what kind of face should you draw?",
+            "options": ["A sad face", "An angry face", "A happy face", "A surprised face"],
+            "correct": 2,
+            "explanation": "According to the directions, you should draw a happy face (smiling)."
+          },
+          {
+            "question": "In 'Jack and the Beanstalk,' why was the giant angry at Jack?",
+            "options": ["Jack was making noise", "Jack was stealing his things", "Jack knocked on his door", "Jack hurt the giant's wife"],
+            "correct": 1,
+            "explanation": "The giant was angry at Jack because Jack was stealing his treasures (golden hen, gold coins, magic harp)."
+          },
+          {
+            "question": "If you hear, 'When the bell rings, clean up and line up,' what should you do after the bell rings?",
+            "options": ["Continue working", "Line up immediately", "Clean up first, then line up", "Go to lunch"],
+            "correct": 2,
+            "explanation": "After the bell rings, you should clean up first, then line up, following the order of the instructions."
+          },
+          {
+            "question": "In 'Goldilocks and the Three Bears,' what was too cold for Goldilocks?",
+            "options": ["Papa Bear's porridge", "Mama Bear's porridge", "Baby Bear's porridge", "The weather outside"],
+            "correct": 1,
+            "explanation": "Mama Bear's porridge was too cold for Goldilocks to eat."
+          },
+          {
+            "question": "If the teacher says, 'If you need help, raise your hand,' what should you do if you're stuck on a problem?",
+            "options": ["Ask your neighbor", "Keep trying by yourself", "Give up", "Raise your hand"],
+            "correct": 3,
+            "explanation": "If you're stuck on a problem and need help, you should raise your hand as instructed."
+          },
+          {
+            "question": "In 'Little Red Riding Hood,' what did the wolf do to Grandmother?",
+            "options": ["He scared her away", "He ate her", "He locked her in a closet", "He became friends with her"],
+            "correct": 1,
+            "explanation": "In the traditional story, the wolf ate Grandmother (though in some versions he just locks her away)."
+          },
+          {
+            "question": "If you're told to 'Sit criss-cross applesauce,' how should your legs be positioned?",
+            "options": ["Straight out in front", "Hanging down", "Crossed in front of you", "Standing up"],
+            "correct": 2,
+            "explanation": "Sitting 'criss-cross applesauce' means sitting with your legs crossed in front of you."
+          },
+          {
+            "question": "In 'The Tortoise and the Hare,' what made the hare lose the race?",
+            "options": ["He was too slow", "He got tired", "His overconfidence made him stop for a nap", "He got lost"],
+            "correct": 2,
+            "explanation": "The hare lost the race because he was overconfident and stopped for a nap, thinking he had plenty of time to catch up."
+          },
+          {
+            "question": "If the directions say, 'Draw a blue bird and a green tree,' what color should the bird be?",
+            "options": ["Red", "Green", "Yellow", "Blue"],
+            "correct": 3,
+            "explanation": "According to the directions, the bird should be colored blue."
+          },
+          {
+            "question": "In 'Snow White,' what job did Snow White do for the seven dwarfs?",
+            "options": ["She told them stories", "She cooked and cleaned for them", "She helped them in the mine", "She taught them to read"],
+            "correct": 1,
+            "explanation": "Snow White cooked and cleaned for the seven dwarfs in exchange for letting her stay in their cottage."
+          },
+          {
+            "question": "If you hear, 'Put the red blocks in the bucket and the blue blocks on the shelf,' where should the blue blocks go?",
+            "options": ["In the bucket", "Under the table", "On the shelf", "In your desk"],
+            "correct": 2,
+            "explanation": "According to the instructions, the blue blocks should go on the shelf."
+          },
+          {
+            "question": "In 'The Gingerbread Man,' why couldn't the old man catch the Gingerbread Man?",
+            "options": ["He was too tired", "The Gingerbread Man ran too fast", "He didn't want to", "He was busy"],
+            "correct": 1,
+            "explanation": "The old man couldn't catch the Gingerbread Man because the Gingerbread Man ran too fast."
+          },
+          {
+            "question": "If the teacher says, 'Point to the ceiling, then point to the floor,' where should you point first?",
+            "options": ["To the walls", "To the ceiling", "To the floor", "To the windows"],
+            "correct": 1,
+            "explanation": "You should point to the ceiling first, then to the floor."
+          },
+          {
+            "question": "In 'Cinderella,' why did Cinderella have to leave the ball quickly?",
+            "options": ["She was tired", "She was hungry", "The magic would end at midnight", "The prince asked her to leave"],
+            "correct": 2,
+            "explanation": "Cinderella had to leave the ball quickly because the Fairy Godmother's magic spell would end at midnight."
+          },
+          {
+            "question": "If you're told to 'Draw a circle, color it red, and cut it out,' what should you do second?",
+            "options": ["Draw a circle", "Color it red", "Cut it out", "Show the teacher"],
+            "correct": 1,
+            "explanation": "After drawing a circle first, you should color it red second, then cut it out third."
+          },
+          {
+            "question": "In 'The Ugly Duckling,' why didn't the duckling fit in with the other ducklings?",
+            "options": ["He was mean to them", "He couldn't swim", "He was actually a swan, not a duck", "He was too small"],
+            "correct": 2,
+            "explanation": "The duckling didn't fit in because he was actually a swan who had hatched from an egg in the duck's nest, so he looked different."
+          },
+          {
+            "question": "If the directions say, 'Put your name in the top right corner,' where should your name go?",
+            "options": ["Top left corner", "Bottom right corner", "Top right corner", "Bottom left corner"],
+            "correct": 2,
+            "explanation": "According to the directions, your name should go in the top right corner of the paper."
+          },
+          {
+            "question": "In 'Hansel and Gretel,' how did Hansel and Gretel escape from the witch?",
+            "options": ["They ran away while she slept", "They pushed her into her own oven", "They found the key and unlocked the door", "A woodcutter rescued them"],
+            "correct": 1,
+            "explanation": "Hansel and Gretel escaped by pushing the witch into her own oven when she tried to cook them."
+          },
+          {
+            "question": "If you hear, 'Stand in a line from shortest to tallest,' who should be at the front of the line?",
+            "options": ["The tallest student", "The shortest student", "The oldest student", "The youngest student"],
+            "correct": 1,
+            "explanation": "If lining up from shortest to tallest, the shortest student should be at the front of the line."
+          },
+          {
+            "question": "In 'The Three Little Pigs,' who was the smartest pig?",
+            "options": ["The first pig", "The second pig", "The third pig", "The wolf"],
+            "correct": 2,
+            "explanation": "The third pig was the smartest because he built his house out of strong bricks that the wolf couldn't blow down."
+          },
+          {
+            "question": "If the teacher says, 'Put your pencil in the cup and your paper in the basket,' where should your paper go?",
+            "options": ["In the cup", "On your desk", "In your hand", "In the basket"],
+            "correct": 3,
+            "explanation": "According to the instructions, your paper should go in the basket."
+          },
+          {
+            "question": "In 'Rapunzel,' what was special about Rapunzel?",
+            "options": ["She could fly", "She had magical powers", "She had very long hair", "She could talk to animals"],
+            "correct": 2,
+            "explanation": "Rapunzel had extremely long hair that people could climb up to reach her tower window."
+          },
+          {
+            "question": "If you're told to 'Skip to the playground,' how should you move?",
+            "options": ["Run", "Walk", "Skip", "Crawl"],
+            "correct": 2,
+            "explanation": "You should skip (alternating hops on each foot) to the playground as instructed."
+          },
+          {
+            "question": "If the teacher says, 'Put your pencil in your desk and your book on the shelf,' what should you do with your book?",
+            "options": ["Put it in your desk", "Put it in your backpack", "Put it on the shelf", "Keep it on your desk"],
+            "correct": 2,
+            "explanation": "Following the instructions, you should put your book on the shelf."
+          },
+          {
+            "question": "In 'Jack and the Beanstalk,' what did Jack trade to get the magic beans?",
+            "options": ["His toys", "His cow", "His shoes", "His lunch"],
+            "correct": 1,
+            "explanation": "Jack traded his cow for the magic beans, which his mother thought was a foolish trade."
+          },
+          {
+            "question": "If you're told to 'Clap your hands twice, then stomp your feet once,' how many times should you stomp?",
+            "options": ["Zero times", "One time", "Two times", "Three times"],
+            "correct": 1,
+            "explanation": "According to the instructions, you should stomp your feet once, after clapping twice."
+          },
+          {
+            "question": "In 'The Three Bears,' whose porridge did Goldilocks eat?",
+            "options": ["Papa Bear's", "Mama Bear's", "Baby Bear's", "She didn't eat any porridge"],
+            "correct": 2,
+            "explanation": "Goldilocks ate Baby Bear's porridge because it was 'just right' - not too hot or too cold."
+          },
+          {
+            "question": "If the directions say, 'Color the smallest shape red,' which shape should be red?",
+            "options": ["The biggest shape", "The smallest shape", "The middle-sized shape", "All shapes"],
+            "correct": 1,
+            "explanation": "According to the directions, you should color the smallest shape red."
+          },
+          {
+            "question": "In 'Little Red Riding Hood,' what did the wolf disguise himself as?",
+            "options": ["A hunter", "A tree", "Little Red Riding Hood's grandmother", "Another wolf"],
+            "correct": 2,
+            "explanation": "The wolf disguised himself as Little Red Riding Hood's grandmother by putting on her clothes and getting in her bed."
+          },
+          {
+            "question": "If you hear, 'Touch your nose, then your ears, then your knees,' what should you touch second?",
+            "options": ["Your nose", "Your ears", "Your knees", "Your toes"],
+            "correct": 1,
+            "explanation": "Following the order given, you should touch your ears second, after touching your nose first."
+          },
+          {
+            "question": "In 'The Gingerbread Man,' who finally caught the Gingerbread Man?",
+            "options": ["The old woman", "The farmer", "The fox", "The bear"],
+            "correct": 2,
+            "explanation": "The fox finally caught the Gingerbread Man by offering to help him cross the river."
+          },
+          {
+            "question": "If the teacher says, 'Draw a circle and write your name inside it,' what should be inside the circle?",
+            "options": ["A square", "Your name", "Nothing", "Another circle"],
+            "correct": 1,
+            "explanation": "According to the instructions, your name should be written inside the circle."
+          },
+          {
+            "question": "In 'Snow White,' what did the queen ask her magic mirror?",
+            "options": ["How to make a poison apple", "Where Snow White was hiding", "Who was the fairest of all", "How to become queen"],
+            "correct": 2,
+            "explanation": "The queen would ask her magic mirror, 'Mirror, mirror on the wall, who is the fairest one of all?'"
+          },
+          {
+            "question": "If you're told to 'Sit on the carpet and cross your legs,' how should your legs be positioned?",
+            "options": ["Straight out in front", "Standing up", "Crossed", "Hanging down"],
+            "correct": 2,
+            "explanation": "Your legs should be crossed as instructed, while sitting on the carpet."
+          },
+          {
+            "question": "In 'Cinderella,' what did the Fairy Godmother use to make the coach?",
+            "options": ["A carrot", "An apple", "A pumpkin", "A watermelon"],
+            "correct": 2,
+            "explanation": "The Fairy Godmother transformed a pumpkin into a beautiful coach for Cinderella."
+          },
+          {
+            "question": "If the directions say, 'Draw a line from the dog to the bone,' what should you connect with your line?",
+            "options": ["The cat and the dog", "The dog and the bone", "The bone and the cat", "The dog and the house"],
+            "correct": 1,
+            "explanation": "According to the directions, you should draw a line connecting the dog to the bone."
+          },
+          {
+            "question": "In 'The Tortoise and the Hare,' what did the hare do during the race that made him lose?",
+            "options": ["He ran backward", "He stopped to take a nap", "He helped the tortoise", "He got lost"],
+            "correct": 1,
+            "explanation": "The hare was so confident he would win that he stopped to take a nap during the race, allowing the tortoise to pass him."
+          },
+          {
+            "question": "If you hear, 'Stand behind your chair when the bell rings,' when should you stand up?",
+            "options": ["Right now", "When the teacher tells you", "When the bell rings", "When you finish your work"],
+            "correct": 2,
+            "explanation": "You should stand up when the bell rings, as instructed."
+          },
+          {
+            "question": "In 'The Ugly Duckling,' what happens to the duckling at the end of the story?",
+            "options": ["He stays an ugly duckling", "He becomes a beautiful duck", "He becomes a beautiful swan", "He runs away forever"],
+            "correct": 2,
+            "explanation": "At the end of the story, the ugly duckling discovers he is actually a beautiful swan, not a duck at all."
+          },
+          {
+            "question": "If the teacher says, 'First write your name, then draw a picture,' what should you do first?",
+            "options": ["Draw a picture", "Write your name", "Ask for help", "Find a pencil"],
+            "correct": 1,
+            "explanation": "According to the instructions, you should first write your name, then draw a picture."
+          },
+          {
+            "question": "In 'Hansel and Gretel,' why did the witch want to fatten up Hansel?",
+            "options": ["So he would be healthier", "So he could work for her", "So she could eat him", "So he would be happier"],
+            "correct": 2,
+            "explanation": "The witch wanted to fatten up Hansel because she wanted to eat him; she was planning to cook him in her oven."
+          },
+          {
+            "question": "If you're told to 'Pick up the blue crayon and draw a fish,' what color crayon should you use?",
+            "options": ["Red", "Green", "Yellow", "Blue"],
+            "correct": 3,
+            "explanation": "You should use the blue crayon as instructed."
+          },
+          {
+            "question": "In 'The Three Billy Goats Gruff,' why did the goats want to cross the bridge?",
+            "options": ["To escape the troll", "To get to the sweet grass on the hillside", "To find their family", "To go home"],
+            "correct": 1,
+            "explanation": "The billy goats wanted to cross the bridge to reach the sweet grass on the hillside, where they could eat and grow fat."
+          },
+          {
+            "question": "If the directions say, 'Put your name at the top and today's date at the bottom,' where should the date go?",
+            "options": ["At the top", "In the middle", "At the bottom", "Next to your name"],
+            "correct": 2,
+            "explanation": "According to the directions, today's date should go at the bottom of the page."
+          },
+          {
+            "question": "In 'Rapunzel,' how did the prince find Rapunzel?",
+            "options": ["He saw her from a distance", "He followed a map", "He heard her singing", "He asked for directions"],
+            "correct": 2,
+            "explanation": "The prince found Rapunzel because he heard her beautiful singing voice while he was riding through the forest."
+          },
+          {
+            "question": "If you hear, 'Line up boy-girl-boy-girl,' who should stand next to a boy?",
+            "options": ["Another boy", "A girl", "The teacher", "It doesn't matter"],
+            "correct": 1,
+            "explanation": "In a boy-girl-boy-girl pattern, a girl should stand next to a boy."
+          },
+          {
+            "question": "In 'The Boy Who Cried Wolf,' what happened when a real wolf appeared?",
+            "options": ["The boy scared it away", "The villagers came to help", "No one believed the boy's cries for help", "The sheep chased the wolf away"],
+            "correct": 2,
+            "explanation": "When a real wolf finally appeared, no one came to help because they had learned not to believe the boy's false alarms."
+          },
+          {
+            "question": "If the teacher says, 'When I say go, start working on your math problems,' when should you start working?",
+            "options": ["Right now", "When the teacher says 'go'", "After everyone else starts", "When you feel like it"],
+            "correct": 1,
+            "explanation": "You should start working on your math problems when the teacher says 'go'."
+          },
+          {
+            "question": "In 'The Lion and the Mouse,' why did the lion let the mouse go?",
+            "options": ["The mouse was too small to eat", "The mouse promised to help the lion someday", "The lion was not hungry", "The lion was afraid of the mouse"],
+            "correct": 1,
+            "explanation": "The lion let the mouse go because the mouse promised to help the lion someday, which later happened when the lion was caught in a hunter's net."
+          },
+          {
+            "question": "If you're told to 'Draw a rectangle and color it green,' what shape should you draw?",
+            "options": ["Circle", "Triangle", "Rectangle", "Square"],
+            "correct": 2,
+            "explanation": "You should draw a rectangle as instructed, then color it green."
+          },
+          {
+            "question": "In 'Goldilocks and the Three Bears,' why did Goldilocks run away?",
+            "options": ["She was tired", "She saw the three bears coming home", "She didn't like the porridge", "She got lost"],
+            "correct": 1,
+            "explanation": "Goldilocks ran away because she was frightened when the three bears came home and found her sleeping in Baby Bear's bed."
+          },
+          {
+            "question": "If the directions say, 'Draw a cat with whiskers,' what should your cat have?",
+            "options": ["A hat", "A tail", "Whiskers", "Wings"],
+            "correct": 2,
+            "explanation": "According to the directions, your cat drawing should include whiskers."
+          },
+          {
+            "question": "In 'Jack and the Beanstalk,' what did Jack find at the top of the beanstalk?",
+            "options": ["A fairy", "A giant's castle", "A treasure chest", "Another bean"],
+            "correct": 1,
+            "explanation": "Jack found a giant's castle at the top of the beanstalk."
+          },
+          {
+            "question": "If you hear, 'Wait for your turn,' when should you go?",
+            "options": ["Right away", "When your turn comes", "When your friend goes", "Never"],
+            "correct": 1,
+            "explanation": "You should wait until it's your turn before going."
+          },
+          {
+            "question": "In 'Little Red Riding Hood,' what did the wolf say when Little Red Riding Hood commented on his big teeth?",
+            "options": ["'The better to run away from you'", "'The better to eat you with'", "'The better to smile at you'", "'The better to chew food'"],
+            "correct": 1,
+            "explanation": "The wolf said, 'The better to eat you with, my dear!' right before he tried to eat Little Red Riding Hood."
+          },
+          {
+            "question": "If the teacher says, 'Open your book to page 5,' what page should you turn to?",
+            "options": ["Page 3", "Page 4", "Page 5", "Page 6"],
+            "correct": 2,
+            "explanation": "You should open your book to page 5 as instructed."
+          },
+          {
+            "question": "In 'Snow White,' what job did the seven dwarfs have?",
+            "options": ["Farmers", "Miners", "Carpenters", "Bakers"],
+            "correct": 1,
+            "explanation": "The seven dwarfs were miners who worked digging in a mine for jewels and ore."
+          },
+          {
+            "question": "If you're told to 'Put your lunch in your cubby and wash your hands,' what should you do after putting your lunch away?",
+            "options": ["Go outside", "Eat your lunch", "Wash your hands", "Take a nap"],
+            "correct": 2,
+            "explanation": "After putting your lunch in your cubby, you should wash your hands."
+          },
+          {
+            "question": "In 'The Gingerbread Man,' what did the Gingerbread Man say as he ran?",
+            "options": ["'Catch me if you can!'", "'I'll be back!'", "'Run, run as fast as you can! You can't catch me, I'm the Gingerbread Man!'", "'See you later!'"],
+            "correct": 2,
+            "explanation": "As he ran, the Gingerbread Man said, 'Run, run as fast as you can! You can't catch me, I'm the Gingerbread Man!'"
+          },
+          {
+            "question": "If the directions say, 'Draw a triangle on top of a square,' which shape should be on top?",
+            "options": ["Circle", "Square", "Triangle", "Rectangle"],
+            "correct": 2,
+            "explanation": "According to the directions, the triangle should be drawn on top of the square."
+          },
+          {
+            "question": "In 'Cinderella,' what did the prince use to find Cinderella?",
+            "options": ["Her necklace", "Her glass slipper", "Her dress", "Her photograph"],
+            "correct": 1,
+            "explanation": "The prince used the glass slipper that Cinderella left behind to find her, trying it on every young woman in the kingdom."
+          },
+          {
+            "question": "If you hear, 'Raise your hand if you know the answer, but don't shout it out,' what should you do if you know the answer?",
+            "options": ["Shout out the answer", "Tell your neighbor", "Raise your hand", "Run to the teacher"],
+            "correct": 2,
+            "explanation": "If you know the answer, you should raise your hand and wait to be called on, without shouting out."
+          },
+          {
+            "question": "In 'The Tortoise and the Hare,' who won the race?",
+            "options": ["The tortoise", "The hare", "Both tied", "Neither won"],
+            "correct": 0,
+            "explanation": "The tortoise won the race by moving slowly but steadily, while the overconfident hare took a nap and didn't wake up in time."
+          },
+          {
+            "question": "If the teacher says, 'Put the yellow blocks in the bin and the red blocks on the shelf,' where should the yellow blocks go?",
+            "options": ["On the floor", "In the bin", "On the shelf", "In your desk"],
+            "correct": 1,
+            "explanation": "According to the instructions, the yellow blocks should go in the bin."
+          },
+          {
+            "question": "In 'The Ugly Duckling,' why did the other animals make fun of the duckling?",
+            "options": ["Because he was mean", "Because he was lazy", "Because he looked different", "Because he couldn't swim"],
+            "correct": 2,
+            "explanation": "The other animals made fun of the duckling because he looked different from the other ducklings (since he was actually a swan, not a duck)."
+          },
+          {
+            "question": "If you're told to 'Close your eyes and count to ten,' what number should you say last?",
+            "options": ["Five", "Eight", "Ten", "Twenty"],
+            "correct": 2,
+            "explanation": "You should count from one to ten, so the last number you say would be ten."
+          },
+          {
+            "question": "In 'Hansel and Gretel,' how did Hansel try to find his way home the first time?",
+            "options": ["With a map", "By dropping breadcrumbs", "By dropping white pebbles", "By following the moon"],
+            "correct": 2,
+            "explanation": "The first time, Hansel dropped white pebbles that shone in the moonlight, which helped them find their way home."
+          },
+          {
+            "question": "If the directions say, 'Find a partner and sit together,' how many people should be in your group?",
+            "options": ["One person", "Two people", "Three people", "Four people"],
+            "correct": 1,
+            "explanation": "If you find a partner and sit together, there should be two people in your group (you and your partner)."
+          },
+          {
+            "question": "In 'The Three Little Pigs,' what happened to the pig who built a house of sticks?",
+            "options": ["He stayed safe in his house", "The wolf blew his house down", "He moved to the brick house right away", "He helped build the brick house"],
+            "correct": 1,
+            "explanation": "The wolf blew down the second pig's house made of sticks, just as he had blown down the first pig's house made of straw."
+          },
+          {
+            "question": "If you hear, 'Color the sun yellow and the clouds white,' what color should the clouds be?",
+            "options": ["Yellow", "Blue", "Gray", "White"],
+            "correct": 3,
+            "explanation": "According to the instructions, the clouds should be colored white."
+          },
+          {
+            "question": "In 'Rapunzel,' how did the witch find out about the prince visiting Rapunzel?",
+            "options": ["She saw him climbing the tower", "Rapunzel told her by accident", "The prince confessed", "A bird told her"],
+            "correct": 1,
+            "explanation": "Rapunzel accidentally told the witch about the prince when she asked why her clothes were getting tight (implying she was pregnant in the original story)."
+          },
+          {
+            "question": "If the teacher says, 'Push in your chair before leaving the room,' when should you push in your chair?",
+            "options": ["When you enter the room", "While you're sitting", "Before leaving the room", "After leaving the room"],
+            "correct": 2,
+            "explanation": "You should push in your chair before leaving the room, as instructed."
+          },
+          {
+            "question": "In 'The Lion and the Mouse,' what happened to the lion?",
+            "options": ["He got lost", "He was caught in a hunter's net", "He became king of the jungle", "He befriended all the animals"],
+            "correct": 1,
+            "explanation": "The lion got caught in a hunter's net/trap, and the mouse helped free him by gnawing through the ropes."
+          },
+          {
+            "question": "If you're told to 'Draw a star at the top of your page,' where should the star go?",
+            "options": ["At the bottom", "In the middle", "At the top", "On both sides"],
+            "correct": 2,
+            "explanation": "You should draw the star at the top of your page as directed."
+          },
+          {
+            "question": "In 'Goldilocks and the Three Bears,' where did Goldilocks fall asleep?",
+            "options": ["In Papa Bear's bed", "In Mama Bear's bed", "In Baby Bear's bed", "On the floor"],
+            "correct": 2,
+            "explanation": "Goldilocks fell asleep in Baby Bear's bed because it was 'just right' - not too hard or too soft."
           }
         ]
       }
