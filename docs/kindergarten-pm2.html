@@ -111,6 +111,9 @@
 
         // Function to select random elements from an array
         function selectRandomElements(array, n = 20) {
+            // Log what we received to help debug
+            console.log("Selecting random elements from:", array);
+            
             // Handle edge cases
             if (!Array.isArray(array)) {
                 throw new TypeError('Input must be an array');
@@ -142,17 +145,33 @@
 
         // Function to load quiz data from JSON file
         function loadQuizData() {
+            // Using the full URL
             fetch('https://adiel2012.github.io/kid-education-quiz/kindergarten-quiz-data.json')
                 .then(response => {
                     if (!response.ok) {
-                        throw new Error('Network response was not ok');
+                        throw new Error('Network response was not ok: ' + response.status);
                     }
                     return response.json();
                 })
                 .then(data => {
-                    // Select random questions from the data
-                    const randomQuestions = selectRandomElements(data.questions, 10);
-                    quizData = { questions: randomQuestions };
+                    // Log the data to check its structure
+                    console.log("Loaded data:", data);
+                    
+                    // Check if data.questions exists and is an array
+                    if (!data || !data.questions || !Array.isArray(data.questions)) {
+                        // If data.questions isn't found or isn't an array, check if data itself is an array
+                        if (Array.isArray(data)) {
+                            // Use data directly if it's an array of questions
+                            const randomQuestions = selectRandomElements(data, 10);
+                            quizData = { questions: randomQuestions };
+                        } else {
+                            throw new Error('Invalid data format: questions array not found');
+                        }
+                    } else {
+                        // Normal case - data.questions is an array
+                        const randomQuestions = selectRandomElements(data.questions, 10);
+                        quizData = { questions: randomQuestions };
+                    }
                     
                     // Hide loading message and show quiz
                     loadingEl.style.display = 'none';
@@ -164,7 +183,7 @@
                 })
                 .catch(error => {
                     console.error('Error loading quiz data:', error);
-                    loadingEl.textContent = 'Error loading quiz. Please refresh the page or try again later.';
+                    loadingEl.textContent = 'Error loading quiz: ' + error.message + '. Please refresh the page or try again later.';
                 });
         }
 
