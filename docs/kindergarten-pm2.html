@@ -142,7 +142,7 @@
 
         // Function to load quiz data from JSON file
         function loadQuizData() {
-            fetch('kindergarten-quiz-data.json')
+            fetch('./kindergarten-quiz-data.json')
                 .then(response => {
                     if (!response.ok) {
                         throw new Error('Network response was not ok');
