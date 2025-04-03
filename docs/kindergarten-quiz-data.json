@@ -3880,5 +3880,2697 @@
       "options": ["Feet", "Teeth", "Hair", "Eyes"],
       "correct": 1,
       "explanation": "A dentist helps take care of teeth."
-    }
+    },
+    {
+        "question": "Which word rhymes with 'look'?",
+        "options": ["like", "lock", "book", "bike"],
+        "correct": 2,
+        "explanation": "Book rhymes with look because they both end with the 'ook' sound."
+      },
+      {
+        "question": "What sound does the word 'zebra' start with?",
+        "options": ["/s/", "/z/", "/b/", "/r/"],
+        "correct": 1,
+        "explanation": "Zebra starts with the /z/ sound."
+      },
+      {
+        "question": "Which word has the long 'o' sound?",
+        "options": ["hot", "not", "got", "boat"],
+        "correct": 3,
+        "explanation": "The word 'boat' has the long 'o' sound, like in 'note'."
+      },
+      {
+        "question": "What word do you make if you change the 'd' in 'day' to 'w'?",
+        "options": ["say", "way", "pay", "may"],
+        "correct": 1,
+        "explanation": "Changing the 'd' in 'day' to 'w' makes the word 'way'."
+      },
+      {
+        "question": "How many syllables are in the word 'alligator'?",
+        "options": ["2", "3", "4", "5"],
+        "correct": 2,
+        "explanation": "The word 'alligator' has 4 syllables: al-li-ga-tor."
+      },
+      {
+        "question": "Which word has the short 'i' sound?",
+        "options": ["ice", "pike", "sit", "time"],
+        "correct": 2,
+        "explanation": "The word 'sit' has the short 'i' sound, like in 'hit'."
+      },
+      {
+        "question": "What is the last sound in the word 'bath'?",
+        "options": ["/b/", "/a/", "/t/", "/th/"],
+        "correct": 3,
+        "explanation": "The last sound in 'bath' is /th/."
+      },
+      {
+        "question": "Which word begins with a blend?",
+        "options": ["fat", "bat", "play", "tap"],
+        "correct": 2,
+        "explanation": "Play begins with the consonant blend 'pl'."
+      },
+      {
+        "question": "If you take the 's' away from 'snack', what word do you have?",
+        "options": ["sack", "nack", "smack", "back"],
+        "correct": 1,
+        "explanation": "If you take the 's' away from 'snack', you have 'nack'."
+      },
+      {
+        "question": "Which word has the same ending sound as 'pen'?",
+        "options": ["pet", "ten", "peg", "pit"],
+        "correct": 1,
+        "explanation": "Ten ends with the same 'en' sound as pen."
+      },
+      {
+        "question": "What do we call the first part of a story that introduces the characters?",
+        "options": ["Middle", "End", "Beginning", "Resolution"],
+        "correct": 2,
+        "explanation": "The first part of a story that introduces the characters is called the beginning."
+      },
+      {
+        "question": "What is the main character in a story?",
+        "options": ["The least important person", "The most important person", "The setting", "The title"],
+        "correct": 1,
+        "explanation": "The main character is the most important person or animal in a story."
+      },
+      {
+        "question": "What is a title?",
+        "options": ["The name of a book or story", "The pictures in a book", "The person who wrote the book", "The first page of a book"],
+        "correct": 0,
+        "explanation": "The title is the name of a book or story."
+      },
+      {
+        "question": "What mark do you put at the end of a question?",
+        "options": ["Period (.)", "Question mark (?)", "Exclamation point (!)", "Comma (,)"],
+        "correct": 1,
+        "explanation": "You put a question mark (?) at the end of a question."
+      },
+      {
+        "question": "What is a sentence that tells someone to do something?",
+        "options": ["A question", "A statement", "A command", "An exclamation"],
+        "correct": 2,
+        "explanation": "A sentence that tells someone to do something is called a command."
+      },
+      {
+        "question": "What is the difference between real and make-believe in stories?",
+        "options": ["Real stories have words, make-believe stories have pictures", "Real stories could happen, make-believe stories couldn't really happen", "Real stories are short, make-believe stories are long", "Real stories are for children, make-believe stories are for adults"],
+        "correct": 1,
+        "explanation": "Real stories could actually happen in real life, while make-believe stories have elements that couldn't really happen, like talking animals or magic."
+      },
+      {
+        "question": "What is 8 + 1?",
+        "options": ["7", "8", "9", "10"],
+        "correct": 2,
+        "explanation": "8 + 1 = 9. When you add 1 to 8, you get 9."
+      },
+      {
+        "question": "What is 5 - 1?",
+        "options": ["3", "4", "5", "6"],
+        "correct": 1,
+        "explanation": "5 - 1 = 4. When you take 1 away from 5, you have 4 left."
+      },
+      {
+        "question": "Which of these numbers is the largest?",
+        "options": ["5", "3", "9", "7"],
+        "correct": 2,
+        "explanation": "9 is the largest number in this list."
+      },
+      {
+        "question": "If you have 7 candies and give 3 to a friend, how many candies do you have left?",
+        "options": ["3", "4", "7", "10"],
+        "correct": 1,
+        "explanation": "7 - 3 = 4. If you have 7 candies and give away 3, you have 4 candies left."
+      },
+      {
+        "question": "Which shape rolls?",
+        "options": ["Square", "Triangle", "Circle", "Rectangle"],
+        "correct": 2,
+        "explanation": "A circle can roll because it is round all the way around."
+      },
+      {
+        "question": "How many corners does a rectangle have?",
+        "options": ["2", "3", "4", "5"],
+        "correct": 2,
+        "explanation": "A rectangle has 4 corners."
+      },
+      {
+        "question": "What day is between Tuesday and Thursday?",
+        "options": ["Monday", "Wednesday", "Friday", "Sunday"],
+        "correct": 1,
+        "explanation": "Wednesday comes between Tuesday and Thursday."
+      },
+      {
+        "question": "How many months are in a year?",
+        "options": ["10", "11", "12", "14"],
+        "correct": 2,
+        "explanation": "There are 12 months in a year."
+      },
+      {
+        "question": "If there are 10 children in a class and 2 are absent, how many children are present?",
+        "options": ["8", "10", "12", "2"],
+        "correct": 0,
+        "explanation": "10 - 2 = 8. If there are 10 children and 2 are absent, 8 children are present."
+      },
+      {
+        "question": "Which would you use to measure temperature?",
+        "options": ["Scale", "Ruler", "Clock", "Thermometer"],
+        "correct": 3,
+        "explanation": "You would use a thermometer to measure temperature."
+      },
+      {
+        "question": "What do we call the weather that brings both sun and rain?",
+        "options": ["Cloudy", "Windy", "Stormy", "Partly cloudy"],
+        "correct": 3,
+        "explanation": "Weather that brings both sun and rain might be called partly cloudy."
+      },
+      {
+        "question": "How should you behave in the school hallway?",
+        "options": ["Run quickly", "Yell to friends", "Walk quietly", "Push others out of the way"],
+        "correct": 2,
+        "explanation": "In the school hallway, you should walk quietly."
+      },
+      {
+        "question": "What should you do when you're finished with your toys?",
+        "options": ["Leave them on the floor", "Put them away", "Give them to a friend", "Throw them away"],
+        "correct": 1,
+        "explanation": "When you're finished with your toys, you should put them away."
+      },
+      {
+        "question": "What should you do when two people want the same toy?",
+        "options": ["Take it and run", "Hit the other person", "Take turns with the toy", "Cry until you get it"],
+        "correct": 2,
+        "explanation": "When two people want the same toy, they should take turns with it."
+      },
+      {
+        "question": "What should you do if you don't understand something in class?",
+        "options": ["Give up", "Ask for help", "Ignore it", "Go home"],
+        "correct": 1,
+        "explanation": "If you don't understand something in class, you should ask for help."
+      },
+      {
+        "question": "How can you be a good friend?",
+        "options": ["Always getting your way", "Sharing and being kind", "Never talking", "Taking things without asking"],
+        "correct": 1,
+        "explanation": "You can be a good friend by sharing and being kind to others."
+      },
+      {
+        "question": "Which of these tells about shape?",
+        "options": ["Loud", "Round", "Fast", "Heavy"],
+        "correct": 1,
+        "explanation": "'Round' tells about shape."
+      },
+      {
+        "question": "Which word describes how something tastes?",
+        "options": ["Silent", "Green", "Sweet", "Small"],
+        "correct": 2,
+        "explanation": "'Sweet' describes how something tastes."
+      },
+      {
+        "question": "Which word means the same as 'tiny'?",
+        "options": ["Big", "Hot", "Cold", "Small"],
+        "correct": 3,
+        "explanation": "'Small' means the same as 'tiny'."
+      },
+      {
+        "question": "Which is the opposite of 'high'?",
+        "options": ["Low", "Up", "Tall", "Short"],
+        "correct": 0,
+        "explanation": "'Low' is the opposite of 'high'."
+      },
+      {
+        "question": "Which of these would you find at a playground?",
+        "options": ["Oven", "Swing", "Refrigerator", "Bed"],
+        "correct": 1,
+        "explanation": "You would find a swing at a playground."
+      },
+      {
+        "question": "What do you need to bake cookies?",
+        "options": ["Hammer", "Pencil", "Book", "Oven"],
+        "correct": 3,
+        "explanation": "You need an oven to bake cookies."
+      },
+      {
+        "question": "What protects us from rain?",
+        "options": ["Hat", "Umbrella", "Shoes", "Gloves"],
+        "correct": 1,
+        "explanation": "An umbrella protects us from rain."
+      },
+      {
+        "question": "Which of these is a tool for writing?",
+        "options": ["Ball", "Pencil", "Cup", "Chair"],
+        "correct": 1,
+        "explanation": "A pencil is a tool for writing."
+      },
+      {
+        "question": "Which animal has wings?",
+        "options": ["Fish", "Dog", "Bird", "Snake"],
+        "correct": 2,
+        "explanation": "Birds have wings that help them fly."
+      },
+      {
+        "question": "What do plants need to make their own food?",
+        "options": ["Books", "Cars", "Sunlight", "Computers"],
+        "correct": 2,
+        "explanation": "Plants need sunlight to make their own food through photosynthesis."
+      },
+      {
+        "question": "What do we call it when water falls from clouds?",
+        "options": ["Snow", "Fog", "Wind", "Rain"],
+        "correct": 3,
+        "explanation": "When water falls from clouds, we call it rain."
+      },
+      {
+        "question": "What keeps our food cold?",
+        "options": ["Oven", "Refrigerator", "Stove", "Microwave"],
+        "correct": 1,
+        "explanation": "A refrigerator keeps our food cold."
+      },
+      {
+        "question": "Which animal makes honey?",
+        "options": ["Ant", "Bee", "Fly", "Spider"],
+        "correct": 1,
+        "explanation": "Bees make honey."
+      },
+      {
+        "question": "What do we call people who take care of sick animals?",
+        "options": ["Doctors", "Teachers", "Veterinarians", "Farmers"],
+        "correct": 2,
+        "explanation": "Veterinarians take care of sick animals."
+      },
+      {
+        "question": "What do you use to dry yourself after a bath?",
+        "options": ["Plate", "Towel", "Fork", "Chair"],
+        "correct": 1,
+        "explanation": "You use a towel to dry yourself after a bath."
+      },
+      {
+        "question": "Which sense do you use with your eyes?",
+        "options": ["Hearing", "Taste", "Smell", "Sight"],
+        "correct": 3,
+        "explanation": "You use your sense of sight with your eyes."
+      },
+      {
+        "question": "What nursery rhyme is about a spider going up a waterspout?",
+        "options": ["Jack and Jill", "Humpty Dumpty", "Itsy Bitsy Spider", "Little Bo Peep"],
+        "correct": 2,
+        "explanation": "The 'Itsy Bitsy Spider' is about a spider going up a waterspout."
+      },
+      {
+        "question": "Which word rhymes with 'bear'?",
+        "options": ["bird", "car", "chair", "hear"],
+        "correct": 3,
+        "explanation": "Hear rhymes with bear because they both end with the 'ear' sound."
+      },
+      {
+        "question": "What is the first sound in the word 'turtle'?",
+        "options": ["/r/", "/t/", "/u/", "/l/"],
+        "correct": 1,
+        "explanation": "The first sound in 'turtle' is /t/."
+      },
+      {
+        "question": "Which word has the same vowel sound as 'hot'?",
+        "options": ["hat", "hit", "pot", "pet"],
+        "correct": 2,
+        "explanation": "Pot has the same short 'o' vowel sound as hot."
+      },
+      {
+        "question": "What happens when you put 'p' at the beginning of 'ink'?",
+        "options": ["kink", "link", "sink", "pink"],
+        "correct": 3,
+        "explanation": "When you put 'p' at the beginning of 'ink', you get the word 'pink'."
+      },
+      {
+        "question": "How many syllables are in the word 'television'?",
+        "options": ["2", "3", "4", "5"],
+        "correct": 2,
+        "explanation": "The word 'television' has 4 syllables: te-le-vi-sion."
+      },
+      {
+        "question": "Which word has the short 'a' sound?",
+        "options": ["ape", "ate", "cat", "cake"],
+        "correct": 2,
+        "explanation": "The word 'cat' has the short 'a' sound, like in 'hat'."
+      },
+      {
+        "question": "What is the middle sound in the word 'pen'?",
+        "options": ["/p/", "/e/", "/n/", "/t/"],
+        "correct": 1,
+        "explanation": "The middle sound in 'pen' is the short /e/ sound."
+      },
+      {
+        "question": "Which word begins with the same sound as 'chair'?",
+        "options": ["cat", "shoe", "kitchen", "kite"],
+        "correct": 0,
+        "explanation": "Cat begins with the hard /k/ sound, just like chair (which starts with the /ch/ sound, which is different)."
+      },
+      {
+        "question": "If you remove the 'l' from 'lamp', what word do you get?",
+        "options": ["am", "amp", "lap", "map"],
+        "correct": 1,
+        "explanation": "Removing the 'l' from 'lamp' gives you 'amp'."
+      },
+      {
+        "question": "Which word has the same beginning sound as 'bike'?",
+        "options": ["dog", "cat", "ball", "fish"],
+        "correct": 2,
+        "explanation": "Ball begins with the /b/ sound, just like bike."
+      },
+      {
+        "question": "What is a fiction book?",
+        "options": ["A book about real things", "A made-up story", "A book with no pictures", "A book for adults"],
+        "correct": 1,
+        "explanation": "A fiction book contains a made-up or imaginary story."
+      },
+      {
+        "question": "What is a nonfiction book?",
+        "options": ["A book about real things", "A made-up story", "A book with pictures", "A book for children"],
+        "correct": 0,
+        "explanation": "A nonfiction book is about real things, people, places, or events."
+      },
+      {
+        "question": "What is the climax of a story?",
+        "options": ["The beginning", "The most exciting part", "The end", "The setting"],
+        "correct": 1,
+        "explanation": "The climax is the most exciting part of a story, often when the problem reaches its peak."
+      },
+      {
+        "question": "What is a synonym?",
+        "options": ["A word that means the opposite", "A word that means the same", "A question word", "A proper noun"],
+        "correct": 1,
+        "explanation": "A synonym is a word that means the same or nearly the same as another word."
+      },
+      {
+        "question": "What are words that show how something is done called?",
+        "options": ["Nouns", "Verbs", "Adjectives", "Adverbs"],
+        "correct": 3,
+        "explanation": "Words that show how something is done are called adverbs, like 'quickly' or 'quietly'."
+      },
+      {
+        "question": "What is a folktale?",
+        "options": ["A story about the future", "A story about real events", "A traditional story passed down through generations", "A poem"],
+        "correct": 2,
+        "explanation": "A folktale is a traditional story that has been passed down through generations."
+      },
+      {
+        "question": "What is 9 + 2?",
+        "options": ["7", "9", "11", "12"],
+        "correct": 2,
+        "explanation": "9 + 2 = 11. When you add 9 and 2 together, you get 11."
+      },
+      {
+        "question": "What is 8 - 3?",
+        "options": ["3", "4", "5", "11"],
+        "correct": 2,
+        "explanation": "8 - 3 = 5. When you take 3 away from 8, you have 5 left."
+      },
+      {
+        "question": "Which number comes after 19?",
+        "options": ["18", "20", "21", "22"],
+        "correct": 1,
+        "explanation": "20 comes after 19 in the number sequence."
+      },
+      {
+        "question": "If you have 4 apples and find 6 more, how many apples do you have altogether?",
+        "options": ["4", "6", "10", "12"],
+        "correct": 2,
+        "explanation": "4 + 6 = 10. If you have 4 apples and find 6 more, you have 10 apples altogether."
+      },
+      {
+        "question": "What shape has 3 sides and 3 corners?",
+        "options": ["Circle", "Square", "Triangle", "Rectangle"],
+        "correct": 2,
+        "explanation": "A triangle has 3 sides and 3 corners (vertices)."
+      },
+      {
+        "question": "What 3D shape is like a ball?",
+        "options": ["Cube", "Cylinder", "Cone", "Sphere"],
+        "correct": 3,
+        "explanation": "A sphere is a 3D shape that is like a ball."
+      },
+      {
+        "question": "What day comes after Monday?",
+        "options": ["Sunday", "Tuesday", "Wednesday", "Thursday"],
+        "correct": 1,
+        "explanation": "Tuesday comes after Monday in the days of the week."
+      },
+      {
+        "question": "In which season do leaves fall from trees?",
+        "options": ["Spring", "Summer", "Fall", "Winter"],
+        "correct": 2,
+        "explanation": "Leaves fall from trees during the fall season."
+      },
+      {
+        "question": "If you have 9 stickers and give 4 to your friend, how many stickers do you have now?",
+        "options": ["4", "5", "9", "13"],
+        "correct": 1,
+        "explanation": "9 - 4 = 5. If you have 9 stickers and give away 4, you have 5 stickers left."
+      },
+      {
+        "question": "Which would you use to measure how hot or cold it is outside?",
+        "options": ["Ruler", "Clock", "Thermometer", "Scale"],
+        "correct": 2,
+        "explanation": "You would use a thermometer to measure how hot or cold it is outside."
+      },
+      {
+        "question": "What is the name for frozen water falling from clouds?",
+        "options": ["Rain", "Fog", "Snow", "Wind"],
+        "correct": 2,
+        "explanation": "Frozen water falling from clouds is called snow."
+      },
+      {
+        "question": "What should you do when the bell rings at the end of recess?",
+        "options": ["Keep playing", "Run inside quickly", "Line up", "Go home"],
+        "correct": 2,
+        "explanation": "When the bell rings at the end of recess, you should line up and wait for your teacher."
+      },
+      {
+        "question": "What is the right thing to do if you accidentally break something?",
+        "options": ["Hide it", "Blame someone else", "Tell an adult", "Throw it away"],
+        "correct": 2,
+        "explanation": "If you accidentally break something, the right thing to do is tell an adult."
+      },
+      {
+        "question": "How should you greet someone when you first see them in the morning?",
+        "options": ["Say nothing", "Say 'good night'", "Say 'good morning'", "Walk away"],
+        "correct": 2,
+        "explanation": "When you first see someone in the morning, you should greet them by saying 'good morning'."
+      },
+      {
+        "question": "What should you say when someone gives you a compliment?",
+        "options": ["Nothing", "Go away", "Thank you", "I don't like it"],
+        "correct": 2,
+        "explanation": "When someone gives you a compliment, you should say 'thank you'."
+      },
+      {
+        "question": "Why should you wash your hands before eating?",
+        "options": ["To make them cold", "To make them wet", "To get rid of germs", "To make them smell good"],
+        "correct": 2,
+        "explanation": "You should wash your hands before eating to get rid of germs and stay healthy."
+      },
+      {
+        "question": "Which of these tells how something smells?",
+        "options": ["Loud", "Blue", "Stinky", "Soft"],
+        "correct": 2,
+        "explanation": "'Stinky' tells how something smells."
+      },
+      {
+        "question": "Which of these is a color?",
+        "options": ["Fast", "Small", "Red", "Soft"],
+        "correct": 2,
+        "explanation": "'Red' is a color."
+      },
+      {
+        "question": "Which word means the same as 'loud'?",
+        "options": ["Quiet", "Soft", "Small", "Noisy"],
+        "correct": 3,
+        "explanation": "'Noisy' means the same as 'loud'."
+      },
+      {
+        "question": "Which is the opposite of 'empty'?",
+        "options": ["Full", "Half", "Some", "None"],
+        "correct": 0,
+        "explanation": "'Full' is the opposite of 'empty'."
+      },
+      {
+        "question": "Which of these objects can float in water?",
+        "options": ["Rock", "Cork", "Penny", "Paper clip"],
+        "correct": 1,
+        "explanation": "A cork can float in water."
+      },
+      {
+        "question": "What room is for cooking food?",
+        "options": ["Bedroom", "Bathroom", "Kitchen", "Living room"],
+        "correct": 2,
+        "explanation": "The kitchen is the room for cooking food."
+      },
+      {
+        "question": "What do you wear on your feet?",
+        "options": ["Hat", "Shirt", "Shoes", "Gloves"],
+        "correct": 2,
+        "explanation": "You wear shoes on your feet."
+      },
+      {
+        "question": "Which of these tells the time?",
+        "options": ["Calendar", "Clock", "Book", "Telephone"],
+        "correct": 1,
+        "explanation": "A clock tells the time."
+      },
+      {
+        "question": "Which animal can fly?",
+        "options": ["Fish", "Frog", "Bird", "Cat"],
+        "correct": 2,
+        "explanation": "Birds can fly using their wings."
+      },
+      {
+        "question": "What do we call the place where flowers grow in a garden?",
+        "options": ["Flower pot", "Flower bed", "Flower house", "Flower room"],
+        "correct": 1,
+        "explanation": "The place where flowers grow in a garden is called a flower bed."
+      },
+      {
+        "question": "What is the job of a doctor?",
+        "options": ["To teach students", "To help sick people", "To fix cars", "To grow food"],
+        "correct": 1,
+        "explanation": "A doctor's job is to help sick people get better."
+      },
+      {
+        "question": "What is the opposite of day?",
+        "options": ["Morning", "Afternoon", "Evening", "Night"],
+        "correct": 3,
+        "explanation": "Night is the opposite of day."
+      },
+      {
+        "question": "What gives us light at night?",
+        "options": ["Sun", "Moon", "Stars", "Both Moon and Stars"],
+        "correct": 3,
+        "explanation": "Both the moon and stars give us light at night."
+      },
+      {
+        "question": "What do we use our teeth for?",
+        "options": ["To see", "To hear", "To chew food", "To smell"],
+        "correct": 2,
+        "explanation": "We use our teeth to chew food."
+      },
+      {
+        "question": "Which of these is a vegetable?",
+        "options": ["Apple", "Orange", "Carrot", "Banana"],
+        "correct": 2,
+        "explanation": "A carrot is a vegetable."
+      },
+      {
+        "question": "What does a baker make?",
+        "options": ["Toys", "Clothes", "Bread", "Houses"],
+        "correct": 2,
+        "explanation": "A baker makes bread, cakes, and other baked goods."
+      },
+      {
+        "question": "Where do we go to borrow books?",
+        "options": ["School", "Library", "Store", "Park"],
+        "correct": 1,
+        "explanation": "We go to a library to borrow books."
+      },
+      {
+        "question": "What do farmers grow?",
+        "options": ["Cars", "Toys", "Food", "Houses"],
+        "correct": 2,
+        "explanation": "Farmers grow food like fruits, vegetables, and grains."
+      },
+      {
+        "question": "Which word rhymes with 'sun'?",
+        "options": ["soon", "son", "run", "sang"],
+        "correct": 2,
+        "explanation": "Run rhymes with sun because they both end with the 'un' sound."
+      },
+      {
+        "question": "What is the last sound in the word 'log'?",
+        "options": ["/l/", "/o/", "/g/", "/d/"],
+        "correct": 2,
+        "explanation": "The last sound in 'log' is /g/."
+      },
+      {
+        "question": "Which word begins with the same sound as 'kite'?",
+        "options": ["cat", "gate", "sun", "hat"],
+        "correct": 0,
+        "explanation": "Cat begins with the /k/ sound, just like kite."
+      },
+      {
+        "question": "What happens when you change the 'm' in 'mat' to 'c'?",
+        "options": ["pat", "cat", "rat", "bat"],
+        "correct": 1,
+        "explanation": "When you change the 'm' in 'mat' to 'c', you get the word 'cat'."
+      },
+      {
+        "question": "How many syllables are in the word 'caterpillar'?",
+        "options": ["2", "3", "4", "5"],
+        "correct": 2,
+        "explanation": "The word 'caterpillar' has 4 syllables: cat-er-pil-lar."
+      },
+      {
+        "question": "Which word has the long 'e' sound?",
+        "options": ["bed", "hen", "get", "me"],
+        "correct": 3,
+        "explanation": "The word 'me' has the long 'e' sound, like in 'we'."
+      },
+      {
+        "question": "What are the consonants in the word 'pin'?",
+        "options": ["p and n", "i", "p, i, and n", "p and i"],
+        "correct": 0,
+        "explanation": "The consonants in the word 'pin' are 'p' and 'n'. The letter 'i' is a vowel."
+      },
+      {
+        "question": "What sound does the 'sh' make in 'ship'?",
+        "options": ["/s/ and /h/ separately", "/sh/ as in 'shoe'", "/ch/ as in 'chip'", "/th/ as in 'think'"],
+        "correct": 1,
+        "explanation": "The 'sh' in 'ship' makes the /sh/ sound, as in 'shoe'."
+      },
+      {
+        "question": "What word is made by changing the 'r' in 'run' to 's'?",
+        "options": ["sun", "fun", "rub", "rut"],
+        "correct": 0,
+        "explanation": "Changing the 'r' in 'run' to 's' makes the word 'sun'."
+      },
+      {
+        "question": "Which word ends with the same sound as 'top'?",
+        "options": ["tap", "tot", "toy", "hop"],
+        "correct": 3,
+        "explanation": "Hop ends with the same /p/ sound as top."
+      },
+      {
+        "question": "Who is the person who writes a book?",
+        "options": ["Author", "Reader", "Teacher", "Illustrator"],
+        "correct": 0,
+        "explanation": "The person who writes a book is called the author."
+      },
+      {
+        "question": "What is the back cover of a book?",
+        "options": ["The first page", "The front of the book", "The outside back part", "The title page"],
+        "correct": 2,
+        "explanation": "The back cover is the outside back part of a book."
+      },
+      {
+        "question": "What is the theme of a story?",
+        "options": ["The main character", "The big message or lesson", "The title", "The setting"],
+        "correct": 1,
+        "explanation": "The theme is the big message or lesson of a story."
+      },
+      {
+        "question": "What is a capital letter?",
+        "options": ["A letter at the end of a sentence", "A big letter", "A small letter", "A letter in the middle of a word"],
+        "correct": 1,
+        "explanation": "A capital letter is a big letter used at the beginning of sentences and for names."
+      },
+      {
+        "question": "What do we call the action words in a sentence?",
+        "options": ["Nouns", "Verbs", "Adjectives", "Pronouns"],
+        "correct": 1,
+        "explanation": "Action words in a sentence are called verbs."
+      },
+      {
+        "question": "What is a biography?",
+        "options": ["A made-up story", "A true story about a person's life", "A poem", "A book of facts"],
+        "correct": 1,
+        "explanation": "A biography is a true story about a person's life."
+      },
+      {
+        "question": "What is 2 + 8?",
+        "options": ["6", "8", "10", "12"],
+        "correct": 2,
+        "explanation": "2 + 8 = 10. When you add 2 and 8 together, you get 10."
+      },
+      {
+        "question": "What is 10 - 4?",
+        "options": ["4", "6", "8", "14"],
+        "correct": 1,
+        "explanation": "10 - 4 = 6. When you take 4 away from 10, you have 6 left."
+      },
+      {
+        "question": "Which number is less: 3 or 7?",
+        "options": ["3", "7", "They are the same", "Cannot tell"],
+        "correct": 0,
+        "explanation": "3 is less than 7 because it represents fewer objects."
+      },
+      {
+        "question": "If you have 6 crayons and find 5 more, how many crayons do you have in all?",
+        "options": ["5", "6", "11", "15"],
+        "correct": 2,
+        "explanation": "6 + 5 = 11. If you have 6 crayons and find 5 more, you have 11 crayons in all."
+      },
+      {
+        "question": "What shape is a pizza slice most like?",
+        "options": ["Circle", "Square", "Triangle", "Rectangle"],
+        "correct": 2,
+        "explanation": "A pizza slice is most like a triangle in shape."
+      },
+      {
+        "question": "How many sides does an octagon have?",
+        "options": ["5", "6", "7", "8"],
+        "correct": 3,
+        "explanation": "An octagon has 8 sides."
+      },
+      {
+        "question": "What day comes before Saturday?",
+        "options": ["Thursday", "Wednesday", "Sunday", "Friday"],
+        "correct": 3,
+        "explanation": "Friday comes before Saturday."
+      },
+      {
+        "question": "What season comes after winter?",
+        "options": ["Fall", "Summer", "Spring", "Another winter"],
+        "correct": 2,
+        "explanation": "Spring comes after winter."
+      },
+      {
+        "question": "If you have 8 buttons and lose 3, how many buttons do you have left?",
+        "options": ["3", "5", "8", "11"],
+        "correct": 1,
+        "explanation": "8 - 3 = 5. If you have 8 buttons and lose 3, you have 5 buttons left."
+      },
+      {
+        "question": "Which would you use to measure how much liquid is in a container?",
+        "options": ["Ruler", "Scale", "Measuring cup", "Clock"],
+        "correct": 2,
+        "explanation": "You would use a measuring cup to measure how much liquid is in a container."
+      },
+      {
+        "question": "What might you need on a very sunny day?",
+        "options": ["Umbrella", "Sunglasses", "Scarf", "Raincoat"],
+        "correct": 1,
+        "explanation": "On a very sunny day, you might need sunglasses to protect your eyes."
+      },
+      {
+        "question": "What do we call it when we walk in line, one behind the other?",
+        "options": ["A circle", "A single file", "A group", "A crowd"],
+        "correct": 1,
+        "explanation": "When we walk in line, one behind the other, it's called single file."
+      },
+      {
+        "question": "How should you talk in a library?",
+        "options": ["Loudly", "In a whisper", "By shouting", "By singing"],
+        "correct": 1,
+        "explanation": "In a library, you should talk in a whisper or quietly."
+      },
+      {
+        "question": "What should you do when someone is talking to the class?",
+        "options": ["Talk to your friend", "Play with toys", "Listen carefully", "Draw pictures"],
+        "correct": 2,
+        "explanation": "When someone is talking to the class, you should listen carefully."
+      },
+      {
+        "question": "What does it mean to be patient?",
+        "options": ["To be angry", "To wait calmly", "To run fast", "To be loud"],
+        "correct": 1,
+        "explanation": "Being patient means to wait calmly without getting upset."
+      },
+      {
+        "question": "What should you do if you see someone being bullied?",
+        "options": ["Join in", "Ignore it", "Tell an adult", "Leave school"],
+        "correct": 2,
+        "explanation": "If you see someone being bullied, you should tell an adult who can help."
+      },
+      {
+        "question": "Which of these describes how something feels to touch?",
+        "options": ["Loud", "Bright", "Red", "Rough"],
+        "correct": 3,
+        "explanation": "'Rough' describes how something feels to touch."
+      },
+      {
+        "question": "Which of these is a number word?",
+        "options": ["Fast", "Big", "Seven", "Blue"],
+        "correct": 2,
+        "explanation": "'Seven' is a number word."
+      },
+      {
+        "question": "Which word means the same as 'hot'?",
+        "options": ["Cold", "Cool", "Warm", "Chilly"],
+        "correct": 2,
+        "explanation": "'Warm' means nearly the same as 'hot', though not as extreme."
+      },
+      {
+        "question": "Which is the opposite of 'on'?",
+        "options": ["In", "Out", "Off", "Under"],
+        "correct": 2,
+        "explanation": "'Off' is the opposite of 'on'."
+      },
+      {
+        "question": "Which of these is a wild animal?",
+        "options": ["Dog", "Cat", "Hamster", "Tiger"],
+        "correct": 3,
+        "explanation": "A tiger is a wild animal. Dogs, cats, and hamsters are typically domesticated pets."
+      },
+      {
+        "question": "What do you use to brush your teeth?",
+        "options": ["Comb", "Toothbrush", "Hairbrush", "Spoon"],
+        "correct": 1,
+        "explanation": "You use a toothbrush to brush your teeth."
+      },
+      {
+        "question": "Which of these helps keep us warm?",
+        "options": ["Ice cream", "Shorts", "Blanket", "Fan"],
+        "correct": 2,
+        "explanation": "A blanket helps keep us warm."
+      },
+      {
+        "question": "What do you use to write on a chalkboard?",
+        "options": ["Pen", "Pencil", "Marker", "Chalk"],
+        "correct": 3,
+        "explanation": "You use chalk to write on a chalkboard."
+      },
+      {
+        "question": "Which animal lives in water?",
+        "options": ["Snake", "Cat", "Fish", "Bird"],
+        "correct": 2,
+        "explanation": "Fish live in water."
+      },
+      {
+        "question": "What do plants drink?",
+        "options": ["Milk", "Soda", "Juice", "Water"],
+        "correct": 3,
+        "explanation": "Plants drink water to survive and grow."
+      },
+      {
+        "question": "What is the job of a police officer?",
+        "options": ["To grow food", "To teach children", "To help keep people safe", "To fix broken things"],
+        "correct": 2,
+        "explanation": "A police officer's job is to help keep people safe and enforce laws."
+      },
+      {
+        "question": "Which vehicle travels on water?",
+        "options": ["Car", "Train", "Boat", "Bus"],
+        "correct": 2,
+        "explanation": "A boat travels on water."
+      },
+      {
+        "question": "What makes shadows?",
+        "options": ["Wind", "Rain", "Light", "Sound"],
+        "correct": 2,
+        "explanation": "Shadows are made when light is blocked by an object."
+      },
+      {
+        "question": "What part of the plant usually grows underground?",
+        "options": ["Flower", "Stem", "Leaf", "Root"],
+        "correct": 3,
+        "explanation": "The root of a plant usually grows underground."
+      },
+      {
+        "question": "Which of these is a fruit?",
+        "options": ["Broccoli", "Carrot", "Potato", "Strawberry"],
+        "correct": 3,
+        "explanation": "A strawberry is a fruit."
+      },
+      {
+        "question": "What do birds use to make nests?",
+        "options": ["Plastic", "Metal", "Twigs", "Bricks"],
+        "correct": 2,
+        "explanation": "Birds use twigs, grass, and other natural materials to build their nests."
+      },
+      {
+        "question": "What comes out at night to light up the sky?",
+        "options": ["Sun", "Moon and stars", "Clouds", "Rain"],
+        "correct": 1,
+        "explanation": "The moon and stars come out at night to light up the sky."
+      },
+      {
+        "question": "Which animal gives us wool for making clothes?",
+        "options": ["Pig", "Chicken", "Sheep", "Horse"],
+        "correct": 2,
+        "explanation": "Sheep give us wool for making clothes."
+      },
+      {
+        "question": "Which word rhymes with 'dog'?",
+        "options": ["dig", "duck", "log", "day"],
+        "correct": 2,
+        "explanation": "Log rhymes with dog because they both end with the 'og' sound."
+      },
+      {
+        "question": "What is the beginning sound in the word 'panda'?",
+        "options": ["/a/", "/n/", "/d/", "/p/"],
+        "correct": 3,
+        "explanation": "The beginning sound in 'panda' is /p/."
+      },
+      {
+        "question": "Which word has the long 'i' sound?",
+        "options": ["hit", "sit", "bit", "kite"],
+        "correct": 3,
+        "explanation": "The word 'kite' has the long 'i' sound, like in 'ride'."
+      },
+      {
+        "question": "What happens when you add 'b' to the beginning of 'all'?",
+        "options": ["call", "tall", "ball", "fall"],
+        "correct": 2,
+        "explanation": "When you add 'b' to the beginning of 'all', you get the word 'ball'."
+      },
+      {
+        "question": "How many syllables are in the word 'February'?",
+        "options": ["2", "3", "4", "5"],
+        "correct": 1,
+        "explanation": "The word 'February' has 3 syllables: Feb-ru-ar-y."
+      },
+      {
+        "question": "Which word has the short 'o' sound?",
+        "options": ["go", "no", "hot", "so"],
+        "correct": 2,
+        "explanation": "The word 'hot' has the short 'o' sound, like in 'pot'."
+      },
+      {
+        "question": "What is the last sound in the word 'bus'?",
+        "options": ["/b/", "/u/", "/s/", "/z/"],
+        "correct": 2,
+        "explanation": "The last sound in 'bus' is /s/."
+      },
+      {
+        "question": "Which letter is a vowel?",
+        "options": ["b", "c", "d", "e"],
+        "correct": 3,
+        "explanation": "The letter 'e' is a vowel. The vowels are a, e, i, o, u, and sometimes y."
+      },
+      {
+        "question": "What word is made by changing the 'h' in 'hat' to 'c'?",
+        "options": ["bat", "cat", "mat", "fat"],
+        "correct": 1,
+        "explanation": "Changing the 'h' in 'hat' to 'c' makes the word 'cat'."
+      },
+      {
+        "question": "Which word has the same beginning sound as 'whale'?",
+        "options": ["walk", "talk", "call", "mall"],
+        "correct": 0,
+        "explanation": "Walk begins with the /w/ sound, just like whale."
+      },
+      {
+        "question": "What is the purpose of a table of contents in a book?",
+        "options": ["To show pictures", "To tell what's in each part of the book and where to find it", "To list the characters", "To show the cover"],
+        "correct": 1,
+        "explanation": "A table of contents tells what's in each part of the book and where to find it."
+      },
+      {
+        "question": "What is a character trait?",
+        "options": ["What a character looks like", "How a character acts or feels", "What a character says", "Where a character lives"],
+        "correct": 1,
+        "explanation": "A character trait describes how a character acts or feels, like being kind or brave."
+      },
+      {
+        "question": "What is the setting of a story?",
+        "options": ["The title", "The characters", "The place and time where it happens", "The author"],
+        "correct": 2,
+        "explanation": "The setting is the place and time where a story happens."
+      },
+      {
+        "question": "What is the difference between uppercase and lowercase letters?",
+        "options": ["Uppercase letters are at the beginning of a sentence, lowercase letters are everywhere else", "Uppercase letters are bigger, lowercase letters are smaller", "Uppercase letters are for names, lowercase letters are for other words", "All of these are correct"],
+        "correct": 3,
+        "explanation": "All of these are correct. Uppercase (capital) letters are bigger and are used at the beginning of sentences and for names. Lowercase letters are smaller and used everywhere else."
+      },
+      {
+        "question": "What is a compound word?",
+        "options": ["A very long word", "A word made from two smaller words put together", "A word that rhymes", "A word that begins with a vowel"],
+        "correct": 1,
+        "explanation": "A compound word is made from two smaller words put together, like 'sunshine' (sun + shine)."
+      },
+      {
+        "question": "What is a sequence in a story?",
+        "options": ["The main character", "The order of events", "The problem", "The setting"],
+        "correct": 1,
+        "explanation": "A sequence is the order of events or steps in a story, telling what happens first, next, and last."
+      },
+      {
+        "question": "What is 3 + 7?",
+        "options": ["7", "9", "10", "12"],
+        "correct": 2,
+        "explanation": "3 + 7 = 10. When you add 3 and 7 together, you get 10."
+      },
+      {
+        "question": "What is 9 - 5?",
+        "options": ["3", "4", "5", "14"],
+        "correct": 1,
+        "explanation": "9 - 5 = 4. When you take 5 away from 9, you have 4 left."
+      },
+      {
+        "question": "Which is more: 2 or 6?",
+        "options": ["2", "6", "They are the same", "Cannot tell"],
+        "correct": 1,
+        "explanation": "6 is more than 2 because it represents more objects."
+      },
+      {
+        "question": "If you have 3 toys and your friend gives you 2 more, how many toys do you have now?",
+        "options": ["2", "3", "5", "6"],
+        "correct": 2,
+        "explanation": "3 + 2 = 5. If you have 3 toys and get 2 more, you now have 5 toys."
+      },
+      {
+        "question": "What shape has all equal sides and 4 corners?",
+        "options": ["Rectangle", "Circle", "Triangle", "Square"],
+        "correct": 3,
+        "explanation": "A square has all equal sides and 4 corners."
+      },
+      {
+        "question": "What is the name of a shape with 5 sides?",
+        "options": ["Triangle", "Square", "Pentagon", "Hexagon"],
+        "correct": 2,
+        "explanation": "A shape with 5 sides is called a pentagon."
+      },
+      {
+        "question": "What day comes after Tuesday?",
+        "options": ["Monday", "Wednesday", "Thursday", "Friday"],
+        "correct": 1,
+        "explanation": "Wednesday comes after Tuesday."
+      },
+      {
+        "question": "What month comes after June?",
+        "options": ["May", "August", "July", "September"],
+        "correct": 2,
+        "explanation": "July comes after June in the calendar."
+      },
+      {
+        "question": "If you have 10 pencils and give 4 to your friends, how many pencils do you have left?",
+        "options": ["4", "6", "10", "14"],
+        "correct": 1,
+        "explanation": "10 - 4 = 6. If you have 10 pencils and give away 4, you have 6 pencils left."
+      },
+      {
+        "question": "What tool do we use to measure weight?",
+        "options": ["Ruler", "Scale", "Clock", "Thermometer"],
+        "correct": 1,
+        "explanation": "We use a scale to measure weight."
+      },
+      {
+        "question": "What type of weather might you see in winter?",
+        "options": ["Very hot and sunny", "Snow", "Tornadoes", "Hurricanes"],
+        "correct": 1,
+        "explanation": "In winter, you might see snow in many places."
+      },
+      {
+        "question": "What is the correct way to sit during story time?",
+        "options": ["Running around", "Lying down", "Talking to friends", "Sitting quietly"],
+        "correct": 3,
+        "explanation": "During story time, the correct way to sit is quietly and paying attention."
+      },
+      {
+        "question": "What should you do if you want to share your idea in class?",
+        "options": ["Call out", "Raise your hand", "Start talking", "Leave your seat"],
+        "correct": 1,
+        "explanation": "If you want to share your idea in class, you should raise your hand and wait to be called on."
+      },
+      {
+        "question": "What should you do when the teacher gives directions?",
+        "options": ["Talk to your friend", "Ignore them", "Listen carefully", "Start working right away"],
+        "correct": 2,
+        "explanation": "When the teacher gives directions, you should listen carefully."
+      },
+      {
+        "question": "Why should you walk, not run, in the hallway?",
+        "options": ["To take longer to get there", "To stay safe", "Because running is never good", "To make noise"],
+        "correct": 1,
+        "explanation": "You should walk, not run, in the hallway to stay safe and prevent accidents."
+      },
+      {
+        "question": "What does it mean to cooperate?",
+        "options": ["To argue", "To work alone", "To work together", "To quit"],
+        "correct": 2,
+        "explanation": "To cooperate means to work together with others to get something done."
+      },
+      {
+        "question": "Which of these describes how big something is?",
+        "options": ["Loud", "Green", "Fast", "Huge"],
+        "correct": 3,
+        "explanation": "'Huge' describes how big something is - it means very large."
+      },
+      {
+        "question": "Which of these tells where something is?",
+        "options": ["Under", "Cold", "Yellow", "Slow"],
+        "correct": 0,
+        "explanation": "'Under' tells where something is - it's a position word."
+      },
+      {
+        "question": "Which word means the same as 'sad'?",
+        "options": ["Happy", "Angry", "Unhappy", "Excited"],
+        "correct": 2,
+        "explanation": "'Unhappy' means the same as 'sad'."
+      },
+      {
+        "question": "Which is the opposite of 'wet'?",
+        "options": ["Damp", "Moist", "Dry", "Cold"],
+        "correct": 2,
+        "explanation": "'Dry' is the opposite of 'wet'."
+      },
+      {
+        "question": "Which of these is something we wear?",
+        "options": ["Table", "Chair", "Shirt", "Tree"],
+        "correct": 2,
+        "explanation": "A shirt is something we wear."
+      },
+      {
+        "question": "What do we do in a bedroom?",
+        "options": ["Cook", "Sleep", "Swim", "Eat"],
+        "correct": 1,
+        "explanation": "We sleep in a bedroom."
+      },
+      {
+        "question": "What might keep us dry in the rain?",
+        "options": ["Sunglasses", "Umbrella", "Fan", "Book"],
+        "correct": 1,
+        "explanation": "An umbrella might keep us dry in the rain."
+      },
+      {
+        "question": "Which of these do we use to tell time?",
+        "options": ["Book", "Clock", "Shoe", "Cup"],
+        "correct": 1,
+        "explanation": "We use a clock to tell time."
+      },
+      {
+        "question": "Which animal says 'woof'?",
+        "options": ["Cat", "Duck", "Dog", "Cow"],
+        "correct": 2,
+        "explanation": "A dog says 'woof'."
+      },
+      {
+        "question": "What grows on trees?",
+        "options": ["Cars", "Houses", "Apples", "Books"],
+        "correct": 2,
+        "explanation": "Apples grow on trees."
+      },
+      {
+        "question": "What do firefighters use to put out fires?",
+        "options": ["Water", "Paper", "Rocks", "Sticks"],
+        "correct": 0,
+        "explanation": "Firefighters use water to put out fires."
+      },
+      {
+        "question": "Which vehicle can fly in the sky?",
+        "options": ["Car", "Train", "Airplane", "Boat"],
+        "correct": 2,
+        "explanation": "An airplane can fly in the sky."
+      },
+      {
+        "question": "What do we use to see things that are very small?",
+        "options": ["Telescope", "Microscope", "Binoculars", "Magnifying glass"],
+        "correct": 3,
+        "explanation": "We use a magnifying glass to see things that are very small."
+      },
+      {
+        "question": "What body part do we use to hear?",
+        "options": ["Eyes", "Nose", "Ears", "Hands"],
+        "correct": 2,
+        "explanation": "We use our ears to hear."
+      },
+      {
+        "question": "Which of these keeps us warm in winter?",
+        "options": ["Shorts", "Swimsuit", "T-shirt", "Coat"],
+        "correct": 3,
+        "explanation": "A coat keeps us warm in winter."
+      },
+      {
+        "question": "What do we use to cut paper?",
+        "options": ["Tape", "Glue", "Scissors", "Stapler"],
+        "correct": 2,
+        "explanation": "We use scissors to cut paper."
+      },
+      {
+        "question": "Where can you see a giraffe?",
+        "options": ["Ocean", "Desert", "Zoo", "North Pole"],
+        "correct": 2,
+        "explanation": "You can see a giraffe at the zoo or in Africa where they live naturally."
+      },
+      {
+        "question": "What comes after spring?",
+        "options": ["Winter", "Fall", "Summer", "Another spring"],
+        "correct": 2,
+        "explanation": "Summer comes after spring."
+      },
+      {
+        "question": "Which word rhymes with 'goat'?",
+        "options": ["got", "great", "boat", "good"],
+        "correct": 2,
+        "explanation": "Boat rhymes with goat because they both end with the 'oat' sound."
+      },
+      {
+        "question": "What is the middle sound in the word 'bat'?",
+        "options": ["/b/", "/a/", "/t/", "/p/"],
+        "correct": 1,
+        "explanation": "The middle sound in 'bat' is the short /a/ sound."
+      },
+      {
+        "question": "Which word begins with the same sound as 'van'?",
+        "options": ["fan", "can", "very", "thin"],
+        "correct": 2,
+        "explanation": "Very begins with the /v/ sound, just like van."
+      },
+      {
+        "question": "What word do you make if you remove the 'p' from 'play'?",
+        "options": ["pay", "say", "may", "lay"],
+        "correct": 3,
+        "explanation": "If you remove the 'p' from 'play', you're left with 'lay'."
+      },
+      {
+        "question": "How many syllables are in the word 'basketball'?",
+        "options": ["2", "3", "4", "5"],
+        "correct": 1,
+        "explanation": "The word 'basketball' has 3 syllables: bas-ket-ball."
+      },
+      {
+        "question": "Which word has the same vowel sound as 'make'?",
+        "options": ["cat", "care", "cake", "cup"],
+        "correct": 2,
+        "explanation": "Cake has the same long 'a' vowel sound as make."
+      },
+      {
+        "question": "What is the first sound in the word 'jump'?",
+        "options": ["/j/", "/u/", "/m/", "/p/"],
+        "correct": 0,
+        "explanation": "The first sound in 'jump' is /j/."
+      },
+      {
+        "question": "Which word starts with a blend?",
+        "options": ["ball", "drum", "pink", "sun"],
+        "correct": 1,
+        "explanation": "Drum starts with the consonant blend 'dr'."
+      },
+      {
+        "question": "What happens when you change the 's' in 'sit' to 'b'?",
+        "options": ["bit", "hit", "fit", "kit"],
+        "correct": 0,
+        "explanation": "Changing the 's' in 'sit' to 'b' makes the word 'bit'."
+      },
+      {
+        "question": "Which word has the same ending sound as 'bike'?",
+        "options": ["pick", "big", "hike", "bit"],
+        "correct": 2,
+        "explanation": "Hike ends with the same sound as bike."
+      },
+      {
+        "question": "What is a retelling of a story?",
+        "options": ["Making up a new story", "Telling the story again in your own words", "Drawing a picture", "Writing a letter"],
+        "correct": 1,
+        "explanation": "A retelling is telling the story again in your own words."
+      },
+      {
+        "question": "What is the problem in a story?",
+        "options": ["The happy ending", "The difficulty that needs to be solved", "The beginning", "The title"],
+        "correct": 1,
+        "explanation": "The problem in a story is the difficulty that needs to be solved."
+      },
+      {
+        "question": "What is the moral of a story?",
+        "options": ["The setting", "The characters", "The lesson", "The title"],
+        "correct": 2,
+        "explanation": "The moral is the lesson that the story teaches."
+      },
+      {
+        "question": "What is a vowel?",
+        "options": ["Any letter in the alphabet", "The letters a, e, i, o, u (and sometimes y)", "The last letter of a word", "A capital letter"],
+        "correct": 1,
+        "explanation": "Vowels are the letters a, e, i, o, u, and sometimes y."
+      },
+      {
+        "question": "What is a story's plot?",
+        "options": ["The characters", "The setting", "The sequence of events", "The title"],
+        "correct": 2,
+        "explanation": "The plot is the sequence of events that happen in a story."
+      },
+      {
+        "question": "What is the difference between poetry and prose?",
+        "options": ["Poetry has rhythm and sometimes rhymes, prose does not", "Poetry is for children, prose is for adults", "Poetry has pictures, prose does not", "Poetry is short, prose is long"],
+        "correct": 0,
+        "explanation": "Poetry often has rhythm and sometimes rhymes, while prose (regular writing) does not."
+      },
+      {
+        "question": "What is 4 + 5?",
+        "options": ["7", "8", "9", "10"],
+        "correct": 2,
+        "explanation": "4 + 5 = 9. When you add 4 and 5 together, you get 9."
+      },
+      {
+        "question": "What is 7 - 2?",
+        "options": ["3", "4", "5", "9"],
+        "correct": 2,
+        "explanation": "7 - 2 = 5. When you take 2 away from 7, you have 5 left."
+      },
+      {
+        "question": "Which number is greater: 4 or 1?",
+        "options": ["1", "4", "They are the same", "Cannot tell"],
+        "correct": 1,
+        "explanation": "4 is greater than 1 because it represents more objects."
+      },
+      {
+        "question": "If you have 2 apples and get 3 more, how many apples do you have?",
+        "options": ["2", "3", "5", "6"],
+        "correct": 2,
+        "explanation": "2 + 3 = 5. If you have 2 apples and get 3 more, you have 5 apples."
+      },
+      {
+        "question": "What shape rolls and has no corners?",
+        "options": ["Square", "Triangle", "Circle", "Rectangle"],
+        "correct": 2,
+        "explanation": "A circle rolls and has no corners."
+      },
+      {
+        "question": "How many corners does a rectangle have?",
+        "options": ["2", "3", "4", "6"],
+        "correct": 2,
+        "explanation": "A rectangle has 4 corners."
+      },
+      {
+        "question": "What day comes before Wednesday?",
+        "options": ["Monday", "Tuesday", "Thursday", "Friday"],
+        "correct": 1,
+        "explanation": "Tuesday comes before Wednesday."
+      },
+      {
+        "question": "Which season has the shortest days?",
+        "options": ["Spring", "Summer", "Fall", "Winter"],
+        "correct": 3,
+        "explanation": "Winter has the shortest days of the year."
+      },
+      {
+        "question": "If you have 6 stickers and use 3, how many stickers do you have left?",
+        "options": ["2", "3", "6", "9"],
+        "correct": 1,
+        "explanation": "6 - 3 = 3. If you have 6 stickers and use 3, you have 3 stickers left."
+      },
+      {
+        "question": "What tool would you use to measure length?",
+        "options": ["Scale", "Clock", "Ruler", "Thermometer"],
+        "correct": 2,
+        "explanation": "You would use a ruler to measure length."
+      },
+      {
+        "question": "What would you wear on a cold, snowy day?",
+        "options": ["Swimsuit", "T-shirt and shorts", "Winter coat and boots", "Rain coat"],
+        "correct": 2,
+        "explanation": "On a cold, snowy day, you would wear a winter coat and boots to stay warm."
+      },
+      {
+        "question": "What does it mean to share?",
+        "options": ["To keep everything for yourself", "To let others use your things", "To throw things away", "To buy new things"],
+        "correct": 1,
+        "explanation": "Sharing means letting others use your things or take turns."
+      },
+      {
+        "question": "What should you do if you need to use the bathroom during class?",
+        "options": ["Just leave", "Wait until recess", "Raise your hand and ask permission", "Tell your friend"],
+        "correct": 2,
+        "explanation": "If you need to use the bathroom during class, you should raise your hand and ask permission."
+      },
+      {
+        "question": "Why is it important to wash your hands?",
+        "options": ["To get them wet", "To waste time", "To get rid of germs", "To make them smell good"],
+        "correct": 2,
+        "explanation": "It's important to wash your hands to get rid of germs and prevent illness."
+      },
+      {
+        "question": "What should you do when someone is talking to you?",
+        "options": ["Ignore them", "Talk to someone else", "Look at them and listen", "Walk away"],
+        "correct": 2,
+        "explanation": "When someone is talking to you, you should look at them and listen carefully."
+      },
+      {
+        "question": "What does it mean to be respectful?",
+        "options": ["To be mean", "To show that you care about others' feelings", "To always get your way", "To ignore rules"],
+        "correct": 1,
+        "explanation": "Being respectful means showing that you care about others' feelings and treating them kindly."
+      },
+      {
+        "question": "Which of these describes how something sounds?",
+        "options": ["Round", "Blue", "Quiet", "Tall"],
+        "correct": 2,
+        "explanation": "'Quiet' describes how something sounds - it means making little or no noise."
+      },
+      {
+        "question": "Which word tells when something happens?",
+        "options": ["Over", "Soon", "Slowly", "Big"],
+        "correct": 1,
+        "explanation": "'Soon' tells when something happens - it's a time word."
+      },
+      {
+        "question": "Which word means the same as 'big'?",
+        "options": ["Small", "Tiny", "Large", "Little"],
+        "correct": 2,
+        "explanation": "'Large' means the same as 'big'."
+      },
+      {
+        "question": "Which is the opposite of 'hot'?",
+        "options": ["Warm", "Cool", "Cold", "Freezing"],
+        "correct": 2,
+        "explanation": "'Cold' is the opposite of 'hot'."
+      },
+      {
+        "question": "Which of these can you eat?",
+        "options": ["Rock", "Book", "Apple", "Chair"],
+        "correct": 2,
+        "explanation": "An apple is something you can eat."
+      },
+      {
+        "question": "What room is for cooking?",
+        "options": ["Bedroom", "Bathroom", "Kitchen", "Living room"],
+        "correct": 2,
+        "explanation": "The kitchen is the room for cooking."
+      },
+      {
+        "question": "What do you wear on a rainy day?",
+        "options": ["Sunglasses", "Raincoat", "Swimsuit", "Pajamas"],
+        "correct": 1,
+        "explanation": "On a rainy day, you would wear a raincoat to stay dry."
+      },
+      {
+        "question": "Which of these do we write with?",
+        "options": ["Fork", "Pencil", "Plate", "Shoe"],
+        "correct": 1,
+        "explanation": "We write with a pencil."
+      },
+      {
+        "question": "Which animal can swim underwater?",
+        "options": ["Bird", "Cat", "Fish", "Snake"],
+        "correct": 2,
+        "explanation": "Fish can swim underwater."
+      },
+      {
+        "question": "What do plants need to grow besides water?",
+        "options": ["Toys", "Sunlight", "Cars", "Books"],
+        "correct": 1,
+        "explanation": "Plants need sunlight to grow, along with water and soil."
+      },
+      {
+        "question": "What does a chef do?",
+        "options": ["Fixes cars", "Teaches children", "Cooks food", "Builds houses"],
+        "correct": 2,
+        "explanation": "A chef cooks food."
+      },
+      {
+        "question": "Which vehicle runs on tracks?",
+        "options": ["Car", "Boat", "Train", "Bicycle"],
+        "correct": 2,
+        "explanation": "A train runs on tracks."
+      },
+      {
+        "question": "What is the sun?",
+        "options": ["A planet", "A star", "A moon", "A cloud"],
+        "correct": 1,
+        "explanation": "The sun is a star."
+      },
+      {
+        "question": "What helps a bird fly?",
+        "options": ["Fur", "Scales", "Feathers", "Leaves"],
+        "correct": 2,
+        "explanation": "Feathers help a bird fly."
+      },
+      {
+        "question": "Where do most plants grow from?",
+        "options": ["Eggs", "Seeds", "Rocks", "Water"],
+        "correct": 1,
+        "explanation": "Most plants grow from seeds."
+      },
+      {
+        "question": "What is a thermometer used for?",
+        "options": ["Measuring time", "Measuring temperature", "Measuring weight", "Measuring length"],
+        "correct": 1,
+        "explanation": "A thermometer is used for measuring temperature."
+      },
+      {
+        "question": "Which animal has spots?",
+        "options": ["Zebra", "Leopard", "Pig", "Horse"],
+        "correct": 1,
+        "explanation": "A leopard has spots on its fur."
+      },
+      {
+        "question": "What is recycling?",
+        "options": ["Throwing everything away", "Using old things to make new things", "Buying new things", "Breaking things"],
+        "correct": 1,
+        "explanation": "Recycling means using old things to make new things instead of throwing them away."
+      },
+      {
+        "question": "Which word rhymes with 'red'?",
+        "options": ["ride", "read", "road", "bed"],
+        "correct": 3,
+        "explanation": "Bed rhymes with red because they both end with the 'ed' sound."
+      },
+      {
+        "question": "What is the first sound in the word 'fish'?",
+        "options": ["/f/", "/i/", "/sh/", "/s/"],
+        "correct": 0,
+        "explanation": "The first sound in 'fish' is /f/."
+      },
+      {
+        "question": "Which word has the short 'u' sound?",
+        "options": ["use", "cube", "cut", "cute"],
+        "correct": 2,
+        "explanation": "The word 'cut' has the short 'u' sound, like in 'sun'."
+      },
+      {
+        "question": "What happens when you add 's' to the end of 'dog'?",
+        "options": ["You get 'dogs'", "You get 'doge'", "You get 'dogg'", "Nothing changes"],
+        "correct": 0,
+        "explanation": "When you add 's' to the end of 'dog', you get 'dogs', which means more than one dog."
+      },
+      {
+        "question": "How many syllables are in the word 'hippopotamus'?",
+        "options": ["3", "4", "5", "6"],
+        "correct": 2,
+        "explanation": "The word 'hippopotamus' has 5 syllables: hip-po-pot-a-mus."
+      },
+      {
+        "question": "Which word begins with the same sound as 'tape'?",
+        "options": ["cup", "top", "dog", "time"],
+        "correct": 3,
+        "explanation": "Time begins with the /t/ sound, just like tape."
+      },
+      {
+        "question": "What is the last sound in the word 'pig'?",
+        "options": ["/p/", "/i/", "/g/", "/j/"],
+        "correct": 2,
+        "explanation": "The last sound in 'pig' is /g/."
+      },
+      {
+        "question": "Which word has a blend at the beginning?",
+        "options": ["pig", "dog", "snake", "cat"],
+        "correct": 2,
+        "explanation": "Snake starts with the consonant blend 'sn'."
+      },
+      {
+        "question": "What word do you get if you change the 'n' in 'nest' to 'b'?",
+        "options": ["best", "test", "rest", "vest"],
+        "correct": 0,
+        "explanation": "If you change the 'n' in 'nest' to 'b', you get 'best'."
+      },
+      {
+        "question": "Which word has the same vowel sound as 'beak'?",
+        "options": ["back", "book", "beat", "box"],
+        "correct": 2,
+        "explanation": "Beat has the same long 'e' vowel sound as beak."
+      },
+      {
+        "question": "What is a detail in a story?",
+        "options": ["The title", "A small piece of information", "The main character", "The ending"],
+        "correct": 1,
+        "explanation": "A detail is a small piece of information that helps us understand the story better."
+      },
+      {
+        "question": "What is the difference between the main idea and supporting details?",
+        "options": ["They are the same thing", "The main idea is the most important point, details support it", "Details are more important than the main idea", "Main ideas are only in nonfiction"],
+        "correct": 1,
+        "explanation": "The main idea is the most important point of a text, while supporting details give more information about the main idea."
+      },
+      {
+        "question": "What is a character's motivation?",
+        "options": ["What they look like", "Where they live", "Why they do something", "Who their friends are"],
+        "correct": 2,
+        "explanation": "A character's motivation is the reason why they do something in the story."
+      },
+      {
+        "question": "What is a contraction?",
+        "options": ["A very long word", "A shortened form of two words put together with an apostrophe", "A rhyming word", "A word with many syllables"],
+        "correct": 1,
+        "explanation": "A contraction is a shortened form of two words put together with an apostrophe, like 'don't' for 'do not'."
+      },
+      {
+        "question": "What is a narrative text?",
+        "options": ["A story that tells about events and characters", "A book about facts", "A poem", "A book with only pictures"],
+        "correct": 0,
+        "explanation": "A narrative text is a story that tells about events and characters."
+      },
+      {
+        "question": "What is an informational text?",
+        "options": ["A make-believe story", "A fairy tale", "A text that gives facts and information", "A poem about feelings"],
+        "correct": 2,
+        "explanation": "An informational text gives facts and information about real things."
+      },
+      {
+        "question": "What is 5 + 3?",
+        "options": ["3", "5", "7", "8"],
+        "correct": 3,
+        "explanation": "5 + 3 = A. When you add 5 and 3 together, you get 8."
+      },
+      {
+        "question": "What is 6 - 4?",
+        "options": ["1", "2", "3", "10"],
+        "correct": 1,
+        "explanation": "6 - 4 = 2. When you take 4 away from 6, you have 2 left."
+      },
+      {
+        "question": "Which number comes between 6 and 8?",
+        "options": ["5", "7", "9", "10"],
+        "correct": 1,
+        "explanation": "7 comes between 6 and 8 in the number sequence."
+      },
+      {
+        "question": "If you have 4 cookies and your friend gives you 4 more, how many cookies do you have now?",
+        "options": ["4", "6", "8", "12"],
+        "correct": 2,
+        "explanation": "4 + 4 = 8. If you have 4 cookies and get 4 more, you now have 8 cookies."
+      },
+      {
+        "question": "What 3D shape is shaped like a can?",
+        "options": ["Cube", "Sphere", "Cylinder", "Cone"],
+        "correct": 2,
+        "explanation": "A cylinder is shaped like a can."
+      },
+      {
+        "question": "What shape is a yield traffic sign?",
+        "options": ["Circle", "Square", "Rectangle", "Triangle"],
+        "correct": 3,
+        "explanation": "A yield traffic sign is shaped like a triangle."
+      },
+      {
+        "question": "What day comes after Sunday?",
+        "options": ["Friday", "Monday", "Saturday", "Tuesday"],
+        "correct": 1,
+        "explanation": "Monday comes after Sunday in the days of the week."
+      },
+      {
+        "question": "Which month comes after September?",
+        "options": ["August", "November", "October", "December"],
+        "correct": 2,
+        "explanation": "October comes after September in the calendar."
+      },
+      {
+        "question": "If you start with 7 marbles and lose 2, how many do you have left?",
+        "options": ["2", "5", "7", "9"],
+        "correct": 1,
+        "explanation": "7 - 2 = 5. If you start with 7 marbles and lose 2, you have 5 marbles left."
+      },
+      {
+        "question": "Which is used to measure temperature?",
+        "options": ["Scale", "Ruler", "Thermometer", "Clock"],
+        "correct": 2,
+        "explanation": "A thermometer is used to measure temperature, how hot or cold something is."
+      },
+      {
+        "question": "What happens to water when it freezes?",
+        "options": ["It turns to steam", "It turns to ice", "It disappears", "It turns to dirt"],
+        "correct": 1,
+        "explanation": "When water freezes, it turns to ice."
+      },
+      {
+        "question": "What should you do before eating food with your hands?",
+        "options": ["Take a nap", "Read a book", "Wash your hands", "Go outside"],
+        "correct": 2,
+        "explanation": "Before eating food with your hands, you should wash your hands to remove germs."
+      },
+      {
+        "question": "How should you speak in a library?",
+        "options": ["Very loudly", "In a quiet voice", "By shouting", "By singing"],
+        "correct": 1,
+        "explanation": "In a library, you should speak in a quiet voice to not disturb others who are reading."
+      },
+      {
+        "question": "What should you do if you accidentally hurt someone's feelings?",
+        "options": ["Laugh", "Ignore them", "Say you're sorry", "Run away"],
+        "correct": 2,
+        "explanation": "If you accidentally hurt someone's feelings, you should say you're sorry (apologize)."
+      },
+      {
+        "question": "What is the right thing to do when you borrow something?",
+        "options": ["Keep it forever", "Break it", "Give it back", "Lose it"],
+        "correct": 2,
+        "explanation": "When you borrow something, the right thing to do is give it back when you're done with it."
+      },
+      {
+        "question": "Why should you raise your hand in class?",
+        "options": ["To stretch", "To get permission to speak", "To touch the ceiling", "To wave at friends"],
+        "correct": 1,
+        "explanation": "You should raise your hand in class to get permission to speak or ask a question."
+      },
+      {
+        "question": "Which word describes how something feels to touch?",
+        "options": ["Loud", "Red", "Smooth", "Fast"],
+        "correct": 2,
+        "explanation": "'Smooth' describes how something feels to touch."
+      },
+      {
+        "question": "Which of these is a shape word?",
+        "options": ["Round", "Yesterday", "Loudly", "Five"],
+        "correct": 0,
+        "explanation": "'Round' is a shape word."
+      },
+      {
+        "question": "Which word means the same as 'fast'?",
+        "options": ["Slow", "Quick", "Late", "Early"],
+        "correct": 1,
+        "explanation": "'Quick' means the same as 'fast'."
+      },
+      {
+        "question": "Which is the opposite of 'over'?",
+        "options": ["Above", "Under", "On", "Up"],
+        "correct": 1,
+        "explanation": "'Under' is the opposite of 'over'."
+      },
+      {
+        "question": "Which of these can you drink?",
+        "options": ["Rock", "Water", "Book", "Chair"],
+        "correct": 1,
+        "explanation": "Water is something you can drink."
+      },
+      {
+        "question": "What do you need to make a sandwich?",
+        "options": ["Bread", "Pencil", "Book", "Shoe"],
+        "correct": 0,
+        "explanation": "You need bread to make a sandwich."
+      },
+      {
+        "question": "What do we use to see at night?",
+        "options": ["Flashlight", "Pillow", "Spoon", "Book"],
+        "correct": 0,
+        "explanation": "We use a flashlight to see at night in the dark."
+      },
+      {
+        "question": "Which of these is something you write with?",
+        "options": ["Cup", "Plate", "Crayon", "Shoe"],
+        "correct": 2,
+        "explanation": "A crayon is something you write with."
+      },
+      {
+        "question": "Which animal says 'meow'?",
+        "options": ["Dog", "Cat", "Cow", "Pig"],
+        "correct": 1,
+        "explanation": "A cat says 'meow'."
+      },
+      {
+        "question": "What do you use to cut food?",
+        "options": ["Fork", "Knife", "Spoon", "Plate"],
+        "correct": 1,
+        "explanation": "You use a knife to cut food."
+      },
+      {
+        "question": "What do we call a baby cow?",
+        "options": ["Puppy", "Kitten", "Calf", "Chick"],
+        "correct": 2,
+        "explanation": "A baby cow is called a calf."
+      },
+      {
+        "question": "Which vehicle can go in water?",
+        "options": ["Car", "Bicycle", "Boat", "Airplane"],
+        "correct": 2,
+        "explanation": "A boat can go in water."
+      },
+      {
+        "question": "What do we call the bright object in the sky during the day?",
+        "options": ["Moon", "Star", "Sun", "Cloud"],
+        "correct": 2,
+        "explanation": "The bright object in the sky during the day is called the sun."
+      },
+      {
+        "question": "Which animal has a shell?",
+        "options": ["Fish", "Turtle", "Bird", "Rabbit"],
+        "correct": 1,
+        "explanation": "A turtle has a shell that protects its body."
+      },
+      {
+        "question": "Where does mail come from?",
+        "options": ["Doctor", "Teacher", "Mail carrier", "Principal"],
+        "correct": 2,
+        "explanation": "Mail comes from the mail carrier (or postal worker)."
+      },
+      {
+        "question": "What keeps birds warm?",
+        "options": ["Fur", "Scales", "Feathers", "Leaves"],
+        "correct": 2,
+        "explanation": "Feathers keep birds warm."
+      },
+      {
+        "question": "What is the largest animal on Earth?",
+        "options": ["Elephant", "Giraffe", "Blue whale", "Lion"],
+        "correct": 2,
+        "explanation": "The blue whale is the largest animal on Earth."
+      },
+      {
+        "questions": [
+          {
+            "question": "Which word rhymes with 'wide'?",
+            "options": ["kid", "hid", "ride", "lid"],
+            "correct": 2,
+            "explanation": "Ride rhymes with wide because they both end with the 'ide' sound."
+          },
+          {
+            "question": "What is the last sound in the word 'jam'?",
+            "options": ["/j/", "/a/", "/m/", "/n/"],
+            "correct": 2,
+            "explanation": "The last sound in 'jam' is /m/."
+          },
+          {
+            "question": "Which word begins with the same sound as 'sock'?",
+            "options": ["cent", "city", "sun", "fan"],
+            "correct": 2,
+            "explanation": "Sun begins with the /s/ sound, just like sock."
+          },
+          {
+            "question": "What happens when you change the 'h' in 'hat' to 'b'?",
+            "options": ["bat", "cat", "rat", "fat"],
+            "correct": 0,
+            "explanation": "When you change the 'h' in 'hat' to 'b', you get the word 'bat'."
+          },
+          {
+            "question": "How many syllables are in the word 'helicopter'?",
+            "options": ["2", "3", "4", "5"],
+            "correct": 2,
+            "explanation": "The word 'helicopter' has 4 syllables: hel-i-cop-ter."
+          },
+          {
+            "question": "Which word has the short 'e' sound?",
+            "options": ["me", "see", "pet", "bee"],
+            "correct": 2,
+            "explanation": "The word 'pet' has the short 'e' sound, like in 'get'."
+          },
+          {
+            "question": "What is the middle sound in the word 'dog'?",
+            "options": ["/d/", "/o/", "/g/", "/p/"],
+            "correct": 1,
+            "explanation": "The middle sound in 'dog' is the short /o/ sound."
+          },
+          {
+            "question": "Which word ends with a consonant blend?",
+            "options": ["bug", "bat", "can", "hand"],
+            "correct": 3,
+            "explanation": "Hand ends with the consonant blend 'nd'."
+          },
+          {
+            "question": "What word do you make by adding 't' to the beginning of 'rain'?",
+            "options": ["train", "brain", "drain", "pain"],
+            "correct": 0,
+            "explanation": "Adding 't' to the beginning of 'rain' makes the word 'train'."
+          },
+          {
+            "question": "Which word has the same beginning sound as 'cheese'?",
+            "options": ["cake", "chair", "kiss", "cook"],
+            "correct": 1,
+            "explanation": "Chair begins with the /ch/ sound, just like cheese."
+          },
+          {
+            "question": "What is the main idea of a text?",
+            "options": ["The first sentence", "The most important point", "The title", "The characters"],
+            "correct": 1,
+            "explanation": "The main idea is the most important point or message of a text."
+          },
+          {
+            "question": "What does an author do?",
+            "options": ["Draws the pictures", "Writes the words", "Makes the book cover", "Sells the book"],
+            "correct": 1,
+            "explanation": "An author writes the words in a book or story."
+          },
+          {
+            "question": "What is a sentence?",
+            "options": ["A single word", "A group of words that makes complete sense", "A letter", "A picture"],
+            "correct": 1,
+            "explanation": "A sentence is a group of words that makes complete sense and usually has a subject and a verb."
+          },
+          {
+            "question": "What is the difference between a letter and a word?",
+            "options": ["They are the same thing", "A letter is part of the alphabet, a word is made up of letters", "A word is shorter than a letter", "Letters are only in books"],
+            "correct": 1,
+            "explanation": "A letter is a single character in the alphabet (like 'a' or 'b'), while a word is made up of one or more letters (like 'cat' or 'dog')."
+          },
+          {
+            "question": "What is a noun?",
+            "options": ["An action word", "A describing word", "A name of a person, place, or thing", "A connecting word"],
+            "correct": 2,
+            "explanation": "A noun is a word that names a person, place, or thing."
+          },
+          {
+            "question": "What is the purpose of punctuation?",
+            "options": ["To make words longer", "To show where to pause or stop in writing", "To make words look pretty", "To confuse readers"],
+            "correct": 1,
+            "explanation": "Punctuation marks (like periods and commas) show where to pause or stop in writing."
+          },
+          {
+            "question": "What is 6 + 3?",
+            "options": ["3", "6", "9", "12"],
+            "correct": 2,
+            "explanation": "6 + 3 = 9. When you add 6 and 3 together, you get 9."
+          },
+          {
+            "question": "What is 8 - 5?",
+            "options": ["2", "3", "4", "13"],
+            "correct": 1,
+            "explanation": "8 - 5 = 3. When you take 5 away from 8, you have 3 left."
+          },
+          {
+            "question": "Which number is less: 9 or 4?",
+            "options": ["4", "9", "They are the same", "Cannot tell"],
+            "correct": 0,
+            "explanation": "4 is less than 9 because it represents fewer objects."
+          },
+          {
+            "question": "If you have 3 marbles and find 4 more, how many marbles do you have altogether?",
+            "options": ["3", "4", "7", "8"],
+            "correct": 2,
+            "explanation": "3 + 4 = 7. If you have 3 marbles and find 4 more, you have 7 marbles altogether."
+          },
+          {
+            "question": "What 3D shape is like a ball?",
+            "options": ["Cube", "Cylinder", "Cone", "Sphere"],
+            "correct": 3,
+            "explanation": "A sphere is a 3D shape that is like a ball."
+          },
+          {
+            "question": "How many sides does a triangle have?",
+            "options": ["1", "2", "3", "4"],
+            "correct": 2,
+            "explanation": "A triangle has 3 sides."
+          },
+          {
+            "question": "What day comes after Friday?",
+            "options": ["Thursday", "Saturday", "Sunday", "Monday"],
+            "correct": 1,
+            "explanation": "Saturday comes after Friday in the days of the week."
+          },
+          {
+            "question": "Which season comes after fall?",
+            "options": ["Spring", "Summer", "Winter", "Another fall"],
+            "correct": 2,
+            "explanation": "Winter comes after fall in the seasons of the year."
+          },
+          {
+            "question": "If you start with 9 blocks and give away 3, how many blocks do you have left?",
+            "options": ["3", "6", "9", "12"],
+            "correct": 1,
+            "explanation": "9 - 3 = 6. If you start with 9 blocks and give away 3, you have 6 blocks left."
+          },
+          {
+            "question": "Which tool measures weight?",
+            "options": ["Ruler", "Scale", "Clock", "Thermometer"],
+            "correct": 1,
+            "explanation": "A scale measures weight - how heavy or light something is."
+          },
+          {
+            "question": "What happens to puddles in the hot sun?",
+            "options": ["They get bigger", "They turn into ice", "They dry up", "They turn into rain"],
+            "correct": 2,
+            "explanation": "Puddles dry up in the hot sun as the water evaporates."
+          },
+          {
+            "question": "What should you do before going to sleep?",
+            "options": ["Play outside", "Brush your teeth", "Watch TV", "Run around"],
+            "correct": 1,
+            "explanation": "Before going to sleep, you should brush your teeth to keep them healthy."
+          },
+          {
+            "question": "What should you say when someone helps you?",
+            "options": ["I don't care", "Go away", "Thank you", "Leave me alone"],
+            "correct": 2,
+            "explanation": "When someone helps you, you should say 'thank you' to show appreciation."
+          },
+          {
+            "question": "What is the quiet way to get the teacher's attention?",
+            "options": ["Shout the teacher's name", "Tap other students", "Raise your hand", "Run to the teacher"],
+            "correct": 2,
+            "explanation": "The quiet way to get the teacher's attention is to raise your hand and wait to be called on."
+          },
+          {
+            "question": "How should you treat classroom books?",
+            "options": ["Tear pages out", "Draw in them", "Handle them carefully", "Throw them"],
+            "correct": 2,
+            "explanation": "You should handle classroom books carefully so they stay nice for everyone to use."
+          },
+          {
+            "question": "What should you do if you need help with your work?",
+            "options": ["Cry", "Give up", "Ask for help", "Copy from a friend"],
+            "correct": 2,
+            "explanation": "If you need help with your work, you should ask for help from your teacher or another adult."
+          },
+          {
+            "question": "Which word describes a color?",
+            "options": ["Big", "Happy", "Green", "Fast"],
+            "correct": 2,
+            "explanation": "'Green' describes a color."
+          },
+          {
+            "question": "Which word tells how many?",
+            "options": ["Happy", "Three", "Loud", "Pretty"],
+            "correct": 1,
+            "explanation": "'Three' tells how many - it's a number word."
+          },
+          {
+            "question": "Which word means the same as 'sleepy'?",
+            "options": ["Awake", "Tired", "Happy", "Hungry"],
+            "correct": 1,
+            "explanation": "'Tired' means the same as 'sleepy'."
+          },
+          {
+            "question": "Which is the opposite of 'happy'?",
+            "options": ["Glad", "Sad", "Joyful", "Pleased"],
+            "correct": 1,
+            "explanation": "'Sad' is the opposite of 'happy'."
+          },
+          {
+            "question": "Which of these do you wear on your head?",
+            "options": ["Socks", "Shoes", "Hat", "Pants"],
+            "correct": 2,
+            "explanation": "You wear a hat on your head."
+          },
+          {
+            "question": "What is used to sleep on?",
+            "options": ["Table", "Chair", "Bed", "Desk"],
+            "correct": 2,
+            "explanation": "A bed is used to sleep on."
+          },
+          {
+            "question": "Which of these is used in rainy weather?",
+            "options": ["Sunglasses", "Umbrella", "Fan", "Sandals"],
+            "correct": 1,
+            "explanation": "An umbrella is used in rainy weather to keep you dry."
+          },
+          {
+            "question": "What do you use to tell the time?",
+            "options": ["Book", "Chair", "Pen", "Clock"],
+            "correct": 3,
+            "explanation": "You use a clock to tell the time."
+          },
+          {
+            "question": "Which animal gives us milk?",
+            "options": ["Pig", "Horse", "Cow", "Chicken"],
+            "correct": 2,
+            "explanation": "A cow gives us milk."
+          },
+          {
+            "question": "What do we breathe?",
+            "options": ["Water", "Food", "Air", "Dirt"],
+            "correct": 2,
+            "explanation": "We breathe air to stay alive."
+          },
+          {
+            "question": "What job does a teacher have?",
+            "options": ["Helps sick people", "Puts out fires", "Helps children learn", "Builds houses"],
+            "correct": 2,
+            "explanation": "A teacher's job is to help children learn."
+          },
+          {
+            "question": "Which of these has wheels?",
+            "options": ["Table", "Chair", "Bicycle", "Tree"],
+            "correct": 2,
+            "explanation": "A bicycle has wheels."
+          },
+          {
+            "question": "What part of a plant do we often eat as vegetables?",
+            "options": ["Stems", "Leaves", "Roots", "All of these"],
+            "correct": 3,
+            "explanation": "We eat all of these parts of plants as vegetables: stems (like celery), leaves (like lettuce), and roots (like carrots)."
+          },
+          {
+            "question": "Which animal lays eggs?",
+            "options": ["Dog", "Cat", "Chicken", "Cow"],
+            "correct": 2,
+            "explanation": "A chicken lays eggs."
+          },
+          {
+            "question": "What do you need to dig a hole?",
+            "options": ["Hammer", "Shovel", "Scissors", "Key"],
+            "correct": 1,
+            "explanation": "You need a shovel to dig a hole."
+          },
+          {
+            "question": "What sense do you use with your eyes?",
+            "options": ["Hearing", "Taste", "Smell", "Sight"],
+            "correct": 3,
+            "explanation": "You use your sense of sight with your eyes."
+          },
+          {
+            "question": "Which fruit grows on trees?",
+            "options": ["Carrots", "Potatoes", "Apples", "Beans"],
+            "correct": 2,
+            "explanation": "Apples grow on trees."
+          },
+          {
+            "question": "What makes a shadow?",
+            "options": ["Wind", "Light", "Water", "Sound"],
+            "correct": 1,
+            "explanation": "Shadows are made when light is blocked by an object."
+          },
+          {
+            "question": "Which word rhymes with 'wide'?",
+            "options": ["kid", "hid", "ride", "lid"],
+            "correct": 2,
+            "explanation": "Ride rhymes with wide because they both end with the 'ide' sound."
+          },
+          {
+            "question": "What is the last sound in the word 'jam'?",
+            "options": ["/j/", "/a/", "/m/", "/n/"],
+            "correct": 2,
+            "explanation": "The last sound in 'jam' is /m/."
+          },
+          {
+            "question": "Which word begins with the same sound as 'sock'?",
+            "options": ["cent", "city", "sun", "fan"],
+            "correct": 2,
+            "explanation": "Sun begins with the /s/ sound, just like sock."
+          },
+          {
+            "question": "What happens when you change the 'h' in 'hat' to 'b'?",
+            "options": ["bat", "cat", "rat", "fat"],
+            "correct": 0,
+            "explanation": "When you change the 'h' in 'hat' to 'b', you get the word 'bat'."
+          },
+          {
+            "question": "How many syllables are in the word 'helicopter'?",
+            "options": ["2", "3", "4", "5"],
+            "correct": 2,
+            "explanation": "The word 'helicopter' has 4 syllables: hel-i-cop-ter."
+          },
+          {
+            "question": "Which word has the short 'e' sound?",
+            "options": ["me", "see", "pet", "bee"],
+            "correct": 2,
+            "explanation": "The word 'pet' has the short 'e' sound, like in 'get'."
+          },
+          {
+            "question": "What is the middle sound in the word 'dog'?",
+            "options": ["/d/", "/o/", "/g/", "/p/"],
+            "correct": 1,
+            "explanation": "The middle sound in 'dog' is the short /o/ sound."
+          },
+          {
+            "question": "Which word ends with a consonant blend?",
+            "options": ["bug", "bat", "can", "hand"],
+            "correct": 3,
+            "explanation": "Hand ends with the consonant blend 'nd'."
+          },
+          {
+            "question": "What word do you make by adding 't' to the beginning of 'rain'?",
+            "options": ["train", "brain", "drain", "pain"],
+            "correct": 0,
+            "explanation": "Adding 't' to the beginning of 'rain' makes the word 'train'."
+          },
+          {
+            "question": "Which word has the same beginning sound as 'cheese'?",
+            "options": ["cake", "chair", "kiss", "cook"],
+            "correct": 1,
+            "explanation": "Chair begins with the /ch/ sound, just like cheese."
+          },
+          {
+            "question": "What is the main idea of a text?",
+            "options": ["The first sentence", "The most important point", "The title", "The characters"],
+            "correct": 1,
+            "explanation": "The main idea is the most important point or message of a text."
+          },
+          {
+            "question": "What does an author do?",
+            "options": ["Draws the pictures", "Writes the words", "Makes the book cover", "Sells the book"],
+            "correct": 1,
+            "explanation": "An author writes the words in a book or story."
+          },
+          {
+            "question": "What is a sentence?",
+            "options": ["A single word", "A group of words that makes complete sense", "A letter", "A picture"],
+            "correct": 1,
+            "explanation": "A sentence is a group of words that makes complete sense and usually has a subject and a verb."
+          },
+          {
+            "question": "What is the difference between a letter and a word?",
+            "options": ["They are the same thing", "A letter is part of the alphabet, a word is made up of letters", "A word is shorter than a letter", "Letters are only in books"],
+            "correct": 1,
+            "explanation": "A letter is a single character in the alphabet (like 'a' or 'b'), while a word is made up of one or more letters (like 'cat' or 'dog')."
+          },
+          {
+            "question": "What is a noun?",
+            "options": ["An action word", "A describing word", "A name of a person, place, or thing", "A connecting word"],
+            "correct": 2,
+            "explanation": "A noun is a word that names a person, place, or thing."
+          },
+          {
+            "question": "What is the purpose of punctuation?",
+            "options": ["To make words longer", "To show where to pause or stop in writing", "To make words look pretty", "To confuse readers"],
+            "correct": 1,
+            "explanation": "Punctuation marks (like periods and commas) show where to pause or stop in writing."
+          },
+          {
+            "question": "What is 6 + 3?",
+            "options": ["3", "6", "9", "12"],
+            "correct": 2,
+            "explanation": "6 + 3 = 9. When you add 6 and 3 together, you get 9."
+          },
+          {
+            "question": "What is 8 - 5?",
+            "options": ["2", "3", "4", "13"],
+            "correct": 1,
+            "explanation": "8 - 5 = 3. When you take 5 away from 8, you have 3 left."
+          },
+          {
+            "question": "Which number is less: 9 or 4?",
+            "options": ["4", "9", "They are the same", "Cannot tell"],
+            "correct": 0,
+            "explanation": "4 is less than 9 because it represents fewer objects."
+          },
+          {
+            "question": "If you have 3 marbles and find 4 more, how many marbles do you have altogether?",
+            "options": ["3", "4", "7", "8"],
+            "correct": 2,
+            "explanation": "3 + 4 = 7. If you have 3 marbles and find 4 more, you have 7 marbles altogether."
+          },
+          {
+            "question": "What 3D shape is like a ball?",
+            "options": ["Cube", "Cylinder", "Cone", "Sphere"],
+            "correct": 3,
+            "explanation": "A sphere is a 3D shape that is like a ball."
+          },
+          {
+            "question": "How many sides does a triangle have?",
+            "options": ["1", "2", "3", "4"],
+            "correct": 2,
+            "explanation": "A triangle has 3 sides."
+          },
+          {
+            "question": "What day comes after Friday?",
+            "options": ["Thursday", "Saturday", "Sunday", "Monday"],
+            "correct": 1,
+            "explanation": "Saturday comes after Friday in the days of the week."
+          },
+          {
+            "question": "Which season comes after fall?",
+            "options": ["Spring", "Summer", "Winter", "Another fall"],
+            "correct": 2,
+            "explanation": "Winter comes after fall in the seasons of the year."
+          },
+          {
+            "question": "If you start with 9 blocks and give away 3, how many blocks do you have left?",
+            "options": ["3", "6", "9", "12"],
+            "correct": 1,
+            "explanation": "9 - 3 = 6. If you start with 9 blocks and give away 3, you have 6 blocks left."
+          },
+          {
+            "question": "Which tool measures weight?",
+            "options": ["Ruler", "Scale", "Clock", "Thermometer"],
+            "correct": 1,
+            "explanation": "A scale measures weight - how heavy or light something is."
+          },
+          {
+            "question": "What happens to puddles in the hot sun?",
+            "options": ["They get bigger", "They turn into ice", "They dry up", "They turn into rain"],
+            "correct": 2,
+            "explanation": "Puddles dry up in the hot sun as the water evaporates."
+          },
+          {
+            "question": "What should you do before going to sleep?",
+            "options": ["Play outside", "Brush your teeth", "Watch TV", "Run around"],
+            "correct": 1,
+            "explanation": "Before going to sleep, you should brush your teeth to keep them healthy."
+          },
+          {
+            "question": "What should you say when someone helps you?",
+            "options": ["I don't care", "Go away", "Thank you", "Leave me alone"],
+            "correct": 2,
+            "explanation": "When someone helps you, you should say 'thank you' to show appreciation."
+          },
+          {
+            "question": "What is the quiet way to get the teacher's attention?",
+            "options": ["Shout the teacher's name", "Tap other students", "Raise your hand", "Run to the teacher"],
+            "correct": 2,
+            "explanation": "The quiet way to get the teacher's attention is to raise your hand and wait to be called on."
+          },
+          {
+            "question": "How should you treat classroom books?",
+            "options": ["Tear pages out", "Draw in them", "Handle them carefully", "Throw them"],
+            "correct": 2,
+            "explanation": "You should handle classroom books carefully so they stay nice for everyone to use."
+          },
+          {
+            "question": "What should you do if you need help with your work?",
+            "options": ["Cry", "Give up", "Ask for help", "Copy from a friend"],
+            "correct": 2,
+            "explanation": "If you need help with your work, you should ask for help from your teacher or another adult."
+          },
+          {
+            "question": "Which word describes a color?",
+            "options": ["Big", "Happy", "Green", "Fast"],
+            "correct": 2,
+            "explanation": "'Green' describes a color."
+          },
+          {
+            "question": "Which word tells how many?",
+            "options": ["Happy", "Three", "Loud", "Pretty"],
+            "correct": 1,
+            "explanation": "'Three' tells how many - it's a number word."
+          },
+          {
+            "question": "Which word means the same as 'sleepy'?",
+            "options": ["Awake", "Tired", "Happy", "Hungry"],
+            "correct": 1,
+            "explanation": "'Tired' means the same as 'sleepy'."
+          },
+          {
+            "question": "Which is the opposite of 'happy'?",
+            "options": ["Glad", "Sad", "Joyful", "Pleased"],
+            "correct": 1,
+            "explanation": "'Sad' is the opposite of 'happy'."
+          },
+          {
+            "question": "Which of these do you wear on your head?",
+            "options": ["Socks", "Shoes", "Hat", "Pants"],
+            "correct": 2,
+            "explanation": "You wear a hat on your head."
+          },
+          {
+            "question": "What is used to sleep on?",
+            "options": ["Table", "Chair", "Bed", "Desk"],
+            "correct": 2,
+            "explanation": "A bed is used to sleep on."
+          },
+          {
+            "question": "Which of these is used in rainy weather?",
+            "options": ["Sunglasses", "Umbrella", "Fan", "Sandals"],
+            "correct": 1,
+            "explanation": "An umbrella is used in rainy weather to keep you dry."
+          },
+          {
+            "question": "What do you use to tell the time?",
+            "options": ["Book", "Chair", "Pen", "Clock"],
+            "correct": 3,
+            "explanation": "You use a clock to tell the time."
+          },
+          {
+            "question": "Which animal gives us milk?",
+            "options": ["Pig", "Horse", "Cow", "Chicken"],
+            "correct": 2,
+            "explanation": "A cow gives us milk."
+          },
+          {
+            "question": "What do we breathe?",
+            "options": ["Water", "Food", "Air", "Dirt"],
+            "correct": 2,
+            "explanation": "We breathe air to stay alive."
+          },
+          {
+            "question": "What job does a teacher have?",
+            "options": ["Helps sick people", "Puts out fires", "Helps children learn", "Builds houses"],
+            "correct": 2,
+            "explanation": "A teacher's job is to help children learn."
+          },
+          {
+            "question": "Which of these has wheels?",
+            "options": ["Table", "Chair", "Bicycle", "Tree"],
+            "correct": 2,
+            "explanation": "A bicycle has wheels."
+          },
+          {
+            "question": "What part of a plant do we often eat as vegetables?",
+            "options": ["Stems", "Leaves", "Roots", "All of these"],
+            "correct": 3,
+            "explanation": "We eat all of these parts of plants as vegetables: stems (like celery), leaves (like lettuce), and roots (like carrots)."
+          },
+          {
+            "question": "Which animal lays eggs?",
+            "options": ["Dog", "Cat", "Chicken", "Cow"],
+            "correct": 2,
+            "explanation": "A chicken lays eggs."
+          },
+          {
+            "question": "What do you need to dig a hole?",
+            "options": ["Hammer", "Shovel", "Scissors", "Key"],
+            "correct": 1,
+            "explanation": "You need a shovel to dig a hole."
+          },
+          {
+            "question": "What sense do you use with your eyes?",
+            "options": ["Hearing", "Taste", "Smell", "Sight"],
+            "correct": 3,
+            "explanation": "You use your sense of sight with your eyes."
+          },
+          {
+            "question": "Which fruit grows on trees?",
+            "options": ["Carrots", "Potatoes", "Apples", "Beans"],
+            "correct": 2,
+            "explanation": "Apples grow on trees."
+          },
+          {
+            "question": "What makes a shadow?",
+            "options": ["Wind", "Light", "Water", "Sound"],
+            "correct": 1,
+            "explanation": "Shadows are made when light is blocked by an object."
+          },
+          {
+            "question": "Which word rhymes with 'king'?",
+            "options": ["kick", "kind", "ring", "knife"],
+            "correct": 2,
+            "explanation": "Ring rhymes with king because they both end with the 'ing' sound."
+          },
+          {
+            "question": "What is the first sound in the word 'yellow'?",
+            "options": ["/y/", "/e/", "/l/", "/o/"],
+            "correct": 0,
+            "explanation": "The first sound in 'yellow' is /y/."
+          },
+          {
+            "question": "Which word has the long 'a' sound?",
+            "options": ["apple", "cat", "cake", "ant"],
+            "correct": 2,
+            "explanation": "The word 'cake' has the long 'a' sound, like in 'rake'."
+          },
+          {
+            "question": "What happens when you take the 'c' away from 'cat'?",
+            "options": ["You get 'at'", "You get 'ac'", "You get 'a'", "You get 'ct'"],
+            "correct": 0,
+            "explanation": "When you take the 'c' away from 'cat', you're left with 'at'."
+          },
+          {
+            "question": "How many syllables are in the word 'crocodile'?",
+            "options": ["2", "3", "4", "5"],
+            "correct": 1,
+            "explanation": "The word 'crocodile' has 3 syllables: croc-o-dile."
+          },
+          {
+            "question": "Which word ends with the sound /p/?",
+            "options": ["cat", "dog", "jump", "run"],
+            "correct": 2,
+            "explanation": "The word 'jump' ends with the /p/ sound."
+          },
+          {
+            "question": "What is the vowel in the word 'frog'?",
+            "options": ["f", "r", "o", "g"],
+            "correct": 2,
+            "explanation": "The letter 'o' is the vowel in the word 'frog'."
+          },
+          {
+            "question": "Which word has a digraph (two letters making one sound)?",
+            "options": ["cat", "ship", "big", "run"],
+            "correct": 1,
+            "explanation": "Ship has the digraph 'sh', where two letters make one sound."
+          },
+          {
+            "question": "What word is made by changing the 'p' in 'pot' to 'h'?",
+            "options": ["hot", "hit", "hat", "hop"],
+            "correct": 0,
+            "explanation": "Changing the 'p' in 'pot' to 'h' makes the word 'hot'."
+          },
+          {
+            "question": "Which word has the same beginning sound as 'phone'?",
+            "options": ["pen", "fox", "fish", "pig"],
+            "correct": 2,
+            "explanation": "Fish begins with the /f/ sound, just like phone."
+          },
+          {
+            "question": "What does 'predict' mean when reading a story?",
+            "options": ["To read backwards", "To guess what will happen next", "To find mistakes", "To count the words"],
+            "correct": 1,
+            "explanation": "To predict when reading means to make a good guess about what will happen next based on clues in the story."
+          },
+          {
+            "question": "What is a character in a story?",
+            "options": ["A letter", "A person or animal in the story", "The title", "The pages"],
+            "correct": 1,
+            "explanation": "A character is a person or animal in a story."
+          },
+          {
+            "question": "What does it mean to retell a story?",
+            "options": ["To read it out loud", "To tell it again in your own words", "To write it down", "To draw pictures of it"],
+            "correct": 1,
+            "explanation": "To retell a story means to tell it again in your own words."
+          },
+          {
+            "question": "What is a period (.)?",
+            "options": ["Something that goes at the beginning of a sentence", "A mark that shows the end of a sentence", "A letter of the alphabet", "A word"],
+            "correct": 1,
+            "explanation": "A period (.) is a punctuation mark that shows the end of a sentence."
+          },
+          {
+            "question": "What is a verb?",
+            "options": ["A name word", "An action word", "A connecting word", "A number word"],
+            "correct": 1,
+            "explanation": "A verb is an action word that tells what someone or something does, like 'run', 'jump', or 'eat'."
+          },
+          {
+            "question": "What is the setting of a story?",
+            "options": ["The time and place where it happens", "The title", "The author", "The characters"],
+            "correct": 0,
+            "explanation": "The setting is the time and place where a story happens."
+          },
+          {
+            "question": "What is 2 + 6?",
+            "options": ["4", "6", "8", "10"],
+            "correct": 2,
+            "explanation": "2 + 6 = 8. When you add 2 and 6 together, you get 8."
+          },
+          {
+            "question": "What is 10 - 7?",
+            "options": ["2", "3", "7", "17"],
+            "correct": 1,
+            "explanation": "10 - 7 = 3. When you take 7 away from 10, you have 3 left."
+          },
+          {
+            "question": "Which number is greater: 2 or 8?",
+            "options": ["2", "8", "They are the same", "Cannot tell"],
+            "correct": 1,
+            "explanation": "8 is greater than 2 because it represents more objects."
+          },
+          {
+            "question": "If you have 7 buttons and find 1 more, how many buttons do you have now?",
+            "options": ["1", "7", "8", "9"],
+            "correct": 2,
+            "explanation": "7 + 1 = 8. If you have 7 buttons and find 1 more, you now have 8 buttons."
+          },
+          {
+            "question": "What shape has 4 equal sides?",
+            "options": ["Rectangle", "Triangle", "Circle", "Square"],
+            "correct": 3,
+            "explanation": "A square has 4 equal sides."
+          },
+          {
+            "question": "How many corners does a rectangle have?",
+            "options": ["2", "3", "4", "5"],
+            "correct": 2,
+            "explanation": "A rectangle has 4 corners."
+          },
+          {
+            "question": "What day comes before Thursday?",
+            "options": ["Tuesday", "Wednesday", "Friday", "Monday"],
+            "correct": 1,
+            "explanation": "Wednesday comes before Thursday in the days of the week."
+          },
+          {
+            "question": "What comes after 16 when counting?",
+            "options": ["15", "16", "17", "18"],
+            "correct": 2,
+            "explanation": "17 comes after 16 when counting forward."
+          },
+          {
+            "question": "If you have 5 flowers and you pick 2 more, how many flowers do you have?",
+            "options": ["2", "3", "5", "7"],
+            "correct": 3,
+            "explanation": "5 + 2 = 7. If you have 5 flowers and pick 2 more, you have 7 flowers."
+          },
+          {
+            "question": "Which would you use to measure how long a pencil is?",
+            "options": ["Clock", "Scale", "Ruler", "Thermometer"],
+            "correct": 2,
+            "explanation": "You would use a ruler to measure how long a pencil is."
+          },
+          {
+            "question": "What do we call the season when leaves change color and fall from trees?",
+            "options": ["Winter", "Spring", "Summer", "Fall"],
+            "correct": 3,
+            "explanation": "Fall (or autumn) is the season when leaves change color and fall from trees."
+          },
+          {
+            "question": "What is the right way to ask for a turn with a toy?",
+            "options": ["Grab it", "Say 'That's mine!'", "Say 'May I have a turn, please?'", "Cry until you get it"],
+            "correct": 2,
+            "explanation": "The right way to ask for a turn with a toy is to say 'May I have a turn, please?' politely."
+          },
+          {
+            "question": "How should you walk in the hallway at school?",
+            "options": ["Run fast", "Skip", "Walk quietly", "Jump up and down"],
+            "correct": 2,
+            "explanation": "You should walk quietly in the hallway at school."
+          },
+          {
+            "question": "What should you do if you make a mess?",
+            "options": ["Leave it for someone else", "Hide it", "Clean it up", "Make a bigger mess"],
+            "correct": 2,
+            "explanation": "If you make a mess, you should clean it up."
+          },
+          {
+            "question": "What does it mean to be honest?",
+            "options": ["To be mean", "To tell the truth", "To be lazy", "To be loud"],
+            "correct": 1,
+            "explanation": "Being honest means telling the truth, even when it's hard."
+          },
+          {
+            "question": "Why is it important to say 'please' and 'thank you'?",
+            "options": ["To get in trouble", "To show you're being polite", "To waste time", "Because they are long words"],
+            "correct": 1,
+            "explanation": "It's important to say 'please' and 'thank you' to show you're being polite and respectful."
+          },
+          {
+            "question": "Which word describes something you can see?",
+            "options": ["Loud", "Bright", "Stinky", "Rough"],
+            "correct": 1,
+            "explanation": "'Bright' describes something you can see - it means very light or shiny."
+          },
+          {
+            "question": "Which of these is a position word?",
+            "options": ["Happy", "Above", "Quick", "Purple"],
+            "correct": 1,
+            "explanation": "'Above' is a position word that tells where something is located."
+          },
+          {
+            "question": "Which word means the same as 'little'?",
+            "options": ["Big", "Small", "Tall", "Wide"],
+            "correct": 1,
+            "explanation": "'Small' means the same as 'little'."
+          },
+          {
+            "question": "Which is the opposite of 'light'?",
+            "options": ["Heavy", "Bright", "Up", "On"],
+            "correct": 0,
+            "explanation": "'Heavy' is the opposite of 'light' when talking about weight."
+          },
+          {
+            "question": "Which of these would you find in a bathroom?",
+            "options": ["Stove", "Bathtub", "Couch", "Refrigerator"],
+            "correct": 1,
+            "explanation": "You would find a bathtub in a bathroom."
+          },
+          {
+            "question": "What do we use to brush our teeth?",
+            "options": ["Toothbrush", "Fork", "Pencil", "Scissors"],
+            "correct": 0,
+            "explanation": "We use a toothbrush to brush our teeth."
+          },
+          {
+            "question": "What keeps us dry when it rains?",
+            "options": ["Swimsuit", "Sandals", "Raincoat", "T-shirt"],
+            "correct": 2,
+            "explanation": "A raincoat keeps us dry when it rains."
+          },
+          {
+            "question": "Which of these do we use to eat soup?",
+            "options": ["Fork", "Knife", "Spoon", "Plate"],
+            "correct": 2,
+            "explanation": "We use a spoon to eat soup."
+          },
+          {
+            "question": "Which animal lives in the ocean?",
+            "options": ["Elephant", "Fish", "Lion", "Bear"],
+            "correct": 1,
+            "explanation": "Fish live in the ocean."
+          },
+          {
+            "question": "What color is grass usually?",
+            "options": ["Blue", "Red", "Green", "Yellow"],
+            "correct": 2,
+            "explanation": "Grass is usually green."
+          },
+          {
+            "question": "What vehicle flies in the sky?",
+            "options": ["Boat", "Car", "Train", "Airplane"],
+            "correct": 3,
+            "explanation": "An airplane flies in the sky."
+          },
+          {
+            "question": "Where do apples grow?",
+            "options": ["Underground", "On trees", "In water", "On bushes"],
+            "correct": 1,
+            "explanation": "Apples grow on trees."
+          },
+          {
+            "question": "What does a doctor use to listen to your heart?",
+            "options": ["Telescope", "Microscope", "Stethoscope", "Periscope"],
+            "correct": 2,
+            "explanation": "A doctor uses a stethoscope to listen to your heart."
+          },
+          {
+            "question": "What do we call a baby dog?",
+            "options": ["Kitten", "Calf", "Puppy", "Chick"],
+            "correct": 2,
+            "explanation": "A baby dog is called a puppy."
+          },
+          {
+            "question": "What do you use to call someone who is far away?",
+            "options": ["Letter", "Phone", "Book", "Shoe"],
+            "correct": 1,
+            "explanation": "You use a phone to call someone who is far away."
+          },
+          {
+            "question": "What do bees make?",
+            "options": ["Milk", "Juice", "Honey", "Ice cream"],
+            "correct": 2,
+            "explanation": "Bees make honey."
+          },
+          {
+            "question": "What do farmers grow?",
+            "options": ["Houses", "Cars", "Food", "Toys"],
+            "correct": 2,
+            "explanation": "Farmers grow food like fruits, vegetables, and grains."
+          },
+          {
+            "question": "What kind of clothes do you wear when it's hot?",
+            "options": ["Shorts", "Coat", "Boots", "Scarf"],
+            "correct": 0,
+            "explanation": "When it's hot, you wear light clothing like shorts to stay cool."
+          }
+        ]
+      }
   ]
