@@ -37,19 +37,19 @@
             width: 100%;
             max-width: 728px;
             margin: 20px auto;
-            overflow: hidden;
             clear: both;
+            min-height: 90px; /* Ensure there's space for the ad */
         }
         
-        /* Optional: add a subtle label above ads */
-        .ad-container::before {
+        /* Remove the "Advertisement" label that was showing up */
+        /* .ad-container::before {
             content: "Advertisement";
             display: block;
             text-align: center;
             font-size: 10px;
             color: #999;
             margin-bottom: 5px;
-        }
+        } */
     </style>
 
     <script src="./common.js"></script>
@@ -62,12 +62,28 @@
         <ins class="adsbygoogle"
              style="display:block"
              data-ad-client="ca-pub-3707459856258432"
-             data-ad-slot="YOUR_AD_SLOT_ID"
+             data-ad-slot="1234567890" <!-- Replace with your actual ad slot ID -->
              data-ad-format="auto"
              data-full-width-responsive="true"></ins>
         <script>
             (adsbygoogle = window.adsbygoogle || []).push({});
         </script>
     </div>
+    
+    <!-- For debugging -->
+    <script>
+        window.addEventListener('load', function() {
+            // Check if ad is loaded
+            setTimeout(function() {
+                const adContainer = document.querySelector('.ad-container');
+                const adIns = adContainer.querySelector('ins');
+                
+                // If AdSense doesn't render anything, this might help with debugging
+                if (adIns.getAttribute('data-ad-status') === 'unfilled') {
+                    console.log('Ad not filled. Check AdSense console for issues.');
+                }
+            }, 2000); // Check after 2 seconds
+        });
+    </script>
 </body>
 </html>
