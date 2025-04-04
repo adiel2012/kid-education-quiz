@@ -49,7 +49,7 @@
  }
 
  // Function to load quiz data from JSON file
- function loadQuizData(jsonFile) {
+ function loadQuizData(jsonFile, numQuestions = 20) {
      // Using the full URL
      fetch(jsonFile)
          .then(response => {
@@ -67,14 +67,14 @@
                  // If data.questions isn't found or isn't an array, check if data itself is an array
                  if (Array.isArray(data)) {
                      // Use data directly if it's an array of questions
-                     const randomQuestions = selectRandomElements(data, 10);
+                     const randomQuestions = selectRandomElements(data, numQuestions);
                      quizData = { questions: randomQuestions };
                  } else {
                      throw new Error('Invalid data format: questions array not found');
                  }
              } else {
                  // Normal case - data.questions is an array
-                 const randomQuestions = selectRandomElements(data.questions, 10);
+                 const randomQuestions = selectRandomElements(data.questions, numQuestions);
                  quizData = { questions: randomQuestions };
              }
              
