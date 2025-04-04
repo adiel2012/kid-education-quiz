@@ -8,10 +8,17 @@
     
     <!-- Google AdSense script - place in the head section -->
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3707459856258432" crossorigin="anonymous"></script>
+    
+    <style>
+        .ad-container {
+            width: 100%;
+            max-width: 728px;
+            margin: 20px auto;
+            min-height: 90px;
+        }
+    </style>
 </head>
 <body>
-    <!-- Ad placement removed from top -->
-
     <div id="quiz-container">
         <div id="points-display">Points: 0</div>
         <div id="loading" style="display: none;">Loading quiz questions...</div>
@@ -29,61 +36,25 @@
         <div id="feedback"></div>
     </div>
 
-    <!-- Middle ad placement removed -->
-
-    <!-- Add some CSS to style the ad containers -->
-    <style>
-        .ad-container {
-            width: 100%;
-            max-width: 728px;
-            margin: 20px auto;
-            clear: both;
-            min-height: 90px; /* Ensure there's space for the ad */
-        }
-        
-        /* Remove the "Advertisement" label that was showing up */
-        /* .ad-container::before {
-            content: "Advertisement";
-            display: block;
-            text-align: center;
-            font-size: 10px;
-            color: #999;
-            margin-bottom: 5px;
-        } */
-    </style>
-
     <script src="./common.js"></script>
     <script>
        loadQuizData('./kindergarten-quiz-data.json', 20);
     </script>
 
-    <!-- Bottom ad placement -->
+    <!-- Bottom ad placement - simplified implementation -->
     <div class="ad-container">
+        <!-- AdSense ad unit -->
         <ins class="adsbygoogle"
              style="display:block"
              data-ad-client="ca-pub-3707459856258432"
-             data-ad-slot="1234567890" <!-- Replace with your actual ad slot ID -->
+             data-ad-slot="1234567890"
              data-ad-format="auto"
              data-full-width-responsive="true"></ins>
-        <script>
-            (adsbygoogle = window.adsbygoogle || []).push({});
-        </script>
     </div>
     
-    <!-- For debugging -->
+    <!-- Important: This script must come AFTER the ins element -->
     <script>
-        window.addEventListener('load', function() {
-            // Check if ad is loaded
-            setTimeout(function() {
-                const adContainer = document.querySelector('.ad-container');
-                const adIns = adContainer.querySelector('ins');
-                
-                // If AdSense doesn't render anything, this might help with debugging
-                if (adIns.getAttribute('data-ad-status') === 'unfilled') {
-                    console.log('Ad not filled. Check AdSense console for issues.');
-                }
-            }, 2000); // Check after 2 seconds
-        });
+        (adsbygoogle = window.adsbygoogle || []).push({});
     </script>
 </body>
 </html>
