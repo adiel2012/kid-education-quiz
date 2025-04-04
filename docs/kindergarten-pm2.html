@@ -5,25 +5,91 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kindergarten Learning Quiz</title>
     <link rel="stylesheet" type="text/css" href="./common.css">
+    
+    <!-- Google AdSense script - place in the head section -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3707459856258432" crossorigin="anonymous"></script>
 </head>
 <body>
+    <!-- Top ad placement -->
+    <div class="ad-container">
+        <ins class="adsbygoogle"
+             style="display:block"
+             data-ad-client="ca-pub-3707459856258432"
+             data-ad-slot="YOUR_AD_SLOT_ID"
+             data-ad-format="auto"
+             data-full-width-responsive="true"></ins>
+        <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+    </div>
+
     <div id="quiz-container">
         <div id="points-display">Points: 0</div>
-        <div id="loading">Loading quiz questions...</div>
-        <div id="question-container" style="display: none;">
-            <div id="question"></div>
-            <div id="options" class="options"></div>
+        <div id="loading" style="display: none;">Loading quiz questions...</div>
+        <div id="question-container" style="display: block;">
+            <div id="question">Which animal hibernates in winter?</div>
+            <div id="options" class="options">
+                <div class="option">Dog</div>
+                <div class="option">Cat</div>
+                <div class="option">Bear</div>
+                <div class="option">Lion</div>
+            </div>
         </div>
-        <button id="submit-btn" style="display: none;">Submit Answer</button>
+        <button id="submit-btn" style="display: block;" disabled="">Submit Answer</button>
         <button id="next-btn" style="display: none;">Next Question</button>
         <div id="feedback"></div>
     </div>
+
+    <!-- Middle ad placement - between questions or after a certain number of questions -->
+    <div class="ad-container">
+        <ins class="adsbygoogle"
+             style="display:block"
+             data-ad-client="ca-pub-3707459856258432"
+             data-ad-slot="YOUR_SECOND_AD_SLOT_ID"
+             data-ad-format="auto"
+             data-full-width-responsive="true"></ins>
+        <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+    </div>
+
+    <!-- Add some CSS to style the ad containers -->
+    <style>
+        .ad-container {
+            width: 100%;
+            max-width: 728px;
+            margin: 20px auto;
+            overflow: hidden;
+            clear: both;
+        }
+        
+        /* Optional: add a subtle label above ads */
+        .ad-container::before {
+            content: "Advertisement";
+            display: block;
+            text-align: center;
+            font-size: 10px;
+            color: #999;
+            margin-bottom: 5px;
+        }
+    </style>
 
     <script src="./common.js"></script>
     <script>
        loadQuizData('./kindergarten-quiz-data.json', 20);
     </script>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3707459856258432"
-     crossorigin="anonymous"></script>
+
+    <!-- Bottom ad placement -->
+    <div class="ad-container">
+        <ins class="adsbygoogle"
+             style="display:block"
+             data-ad-client="ca-pub-3707459856258432"
+             data-ad-slot="YOUR_THIRD_AD_SLOT_ID"
+             data-ad-format="auto"
+             data-full-width-responsive="true"></ins>
+        <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+    </div>
 </body>
 </html>
